@@ -1,0 +1,6 @@
+#+TITILE: blog
+Org mode entries for blog at pxaka.tokyo. The blog is built by [[https://ox-hugo.scripter.co/][ox-hugo]]!
+
+The current theme for my Hugo blog is modified [[https://github.com/Vimux/Mainroad/][Mainroad]] theme. The modified theme could be checked at https://github.com/takaxp/Mainroad/.
+
+Visit my blog: https://pxaka.tokyo/blog :)
