@@ -1,0 +1,179 @@
+#+hugo_section: 2018
+#+hugo_base_dir: ../
+#+STARTUP: content
+#+macro: latex @@html:<span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>@@
+
+* 2018
+** DONE ox-hugo テスト                                                :@hugo:
+   CLOSED: [2018-08-20 Mon 18:23]
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-test-of-ox-hugo
+:END:
+
+=hugo= と =ox-hugo= を利用したブログ執筆の試験です．
+
+*** Heading1
+**** Heading 2
+
+  コンテンツ
+
+**** Heading 3
+    - [ ] a
+    - [X] b
+
+**** Source blocks
+
+    - elisp
+
+      #+BEGIN_SRC emacs-lisp
+      (message "Hello! World")
+      #+END_SRC
+
+    - Centered
+
+      #+BEGIN_CENTER
+      Centered text
+      #+END_CENTER
+
+    - cpp
+
+      #+BEGIN_SRC cpp
+      #include <iostream>
+      using namespace std;
+
+      int main(){
+        cout << "Hello, World!" << endl;
+        return 1;
+      }
+      #+END_SRC
+
+***** Heading 4
+
+  $H(z)$
+
+*** 表
+
+  #+CAPTION: てーぶる
+  | 1 | 3 |
+  |---+---|
+  | 2 | 4 |
+
+*** 装飾
+
+  *太字* , _下線_ , /イタリック/
+
+*** リンク
+
+  [[http://google.co.jp]]， [[http://google.com/][ぐーぐる．こむ]]
+
+*** タスク
+**** TODO タスク
+     DEADLINE: <2017-03-01 Wed>
+**** COMMENT コメント
+
+  =hoge=, =foo=
+** DONE twitter 組み込みテスト                                        :@hugo:
+   CLOSED: [2018-08-20 Mon 20:10]
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-test-of-twitter-card
+:END:
+
+Twitter を組み込めるのかを試験します．
+
+{{< tweet 1031404732470898689 >}}
+
+*** References
+ - https://gohugo.io/content-management/shortcodes/#example-tweet-input
+
+** DONE YouTube 組み込みテスト                                        :@hugo:
+   CLOSED: [2018-08-20 Mon 20:28]
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-test-of-youtube
+:END:
+
+YouTube の動画を組み込めるのかを試験します．
+
+{{< youtube kaw75f11fPU >}}
+
+*** References
+ - https://gohugo.io/content-management/shortcodes/#example-youtube-input
+
+** DONE 数式の展開テスト                                              :@hugo:
+   CLOSED: [2018-08-21 Tue 02:05]
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-mathjax-text
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :mathjax true
+:CREATED:  [2018-08-21 Tue 02:04]
+:END:
+*** inline
+An inline equation $f(x)$.
+
+*** stand alone without numbering
+A standalone equation:
+$$ E = mc^{2} $$
+
+*** full equation with numbering
+
++*うまくいかない* 通常のHTML出力では正しく式番号がレンダリングされる．+
+
+=ox-hugo= の設定では，
+
+#+begin_quote
+https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+#+end_quote
+
+だが，通常のHTML出力では，
+
+#+begin_quote
+https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML
+#+end_quote
+
+である．
+
+And a full {{{latex}}} equation will be displayed as
+
+\begin{equation}
+\label{eq:1}
+C = W\log_{2} (1+\mathrm{SNR})
+\end{equation}
+
+, and could be referenced by (\ref{eq:1}).
+
+最終的に，リファレンスに示された =mathjax-config.js= を利用すればOK．
+
+導入は， =./static/js/mathjax-config.js= として [[https://ox-hugo.scripter.co/js/mathjax-config.js][mathjax-config.js]] を保存し，テーマの中で =mathjax= のスクリプトを記述している箇所に，以下を追加する．
+
+#+begin_src javascript
+<!--
+ https://github.com/mathjax/MathJax/issues/1988#issuecomment-384978927
+ Use plain Javascript to prevent the use of window.eval(). Then
+ 'unsafe-eval' won't be needed to be added to script-src CSP.
+ Also move the mathjax config to a separate file from the inline script so
+ that 'unsafe-inline can also be removed from script-src CSP.
+-->
+<script src="{{ "js/mathjax-config.js" | absURL }}"></script>
+#+end_src
+
+これで式番号と =\ref= が効くようになる．
+
+=ox-hugo= の設定は，以下（本来の値）でOKだった．
+
+#+begin_quote
+https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+#+end_quote
+
+*** References
+ - https://github.com/kaushalmodi/hugo-bare-min-theme/blob/master/layouts/partials/mathjax.html
+ - https://ox-hugo.scripter.co/js/mathjax-config.js
+** DONE 今週のパスタ                                               :@cooking:
+   CLOSED: [2018-08-21 Tue 10:53]
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-test-of-cooking-report-with-twitter
+:CREATED:  [2018-08-21 Tue 10:52]
+:END:
+
+こんな感じで調理しています．
+
+{{< tweet 1031028246769426433 >}}
+
+{{< tweet 1028952922116173825 >}}

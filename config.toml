@@ -1,0 +1,181 @@
+##############################################################################
+# Standard setting
+# see https://gohugo.io/getting-started/configuration
+##############################################################################
+archetypeDir = "archetypes"
+assetDir = "assets"
+# hostname (and path) to the root, e.g. http://spf13.com/
+baseURL = "https://pxaka.tokyo/blog/"
+buildDrafts  = false	# include content marked as draft
+buildExpired = false	# include content already expired
+buildFuture  = false	# include content with publishdate in the future
+# enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
+relativeURLs = false
+canonifyURLs = false
+# config file (default is path/config.yaml|json|toml)
+config     = "config.toml"
+contentDir = "content"
+dataDir    = "data"
+defaultExtension = "html"
+defaultLayout    = "post"
+# Missing translations will default to this content language
+defaultContentLanguage = "en"
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = false
+disableLiveReload = false
+disableRSS        = false # Do not build RSS files
+disableSitemap    = false # Do not build Sitemap file
+enableGitInfo     = false # Enable GitInfo feature
+enableRobotsTXT   = false # Build robots.txt file
+disable404        = false # Do not render 404 page
+# Do not inject generator meta tag on homepage
+disableHugoGeneratorInject = false
+editor = "" # edit new content with this editor, if provided
+# Enable Emoji emoticons support for page content.
+# See www.emoji-cheat-sheet.com, and www.webfx.com/tools/emoji-cheat-sheet
+enableEmoji = true
+# Show a placeholder instead of the default value or an empty string if a translation is missing
+enableMissingTranslationPlaceholders = false
+footnoteAnchorPrefix       = ""
+footnoteReturnLinkContents = ""
+googleAnalytics            = "UA-351995-5" # google analytics tracking id
+languageCode               = "ja-jp"
+layoutDir                  = "layouts"
+log                        = false # Enable Logging
+# Log File path (if set, logging enabled automatically)
+logFile                    = ""
+metaDataFormat             = "toml" # "yaml", "toml", "json"
+newContentEditor           = ""
+noChmod                    = false # Don't sync permission mode of files
+noTimes                    = false # Don't sync modification time of files
+paginate                   = 10
+paginatePath               = "page"
+# permalinks                 = ""
+# Pluralize titles in lists using inflect
+pluralizeListTitles        = true
+# Preserve special characters in taxonomy names ("Gérard Depardieu" vs "Gerard Depardieu")
+preserveTaxonomyNames      = false
+# filesystem path to write files to
+publishDir                 = "public"
+# enables syntax guessing for code fences without specified language
+pygmentsCodeFencesGuessSyntax = false
+# color-codes for highlighting derived from this style
+# pygmentsStyle              = "native" # "monokai"
+# https://xyproto.github.io/splash/docs/
+# https://gohugo.io/content-management/syntax-highlighting/
+# true= use pygments-css or false= color-codes directly
+pygmentsUseClasses         = true
+pygmentsCodeFences         = true
+# default sitemap configuration map
+# sitemap                    = "" # see below
+# filesystem path to read files relative from
+source                     = ""
+staticDir                  = "static"
+# display memory and timing of different steps of the program
+stepAnalysis               = false
+# theme to use (located by default in /themes/THEMENAME/)
+themesDir                  = "themes"
+theme                      = "Mainroad"
+title                      = "imadenale"
+# if true, use /filename.html instead of /filename/
+uglyURLs                   = false
+# Do not make the url/path to lowercase
+disablePathToLower         = false
+# if true, auto-detect Chinese/Japanese/Korean Languages in the content. (.Summary and .WordCount can work properly in CJKLanguage)
+hasCJKLanguage             = true
+verbose                    = false # verbose output
+verboseLog                 = false # verbose logging
+# watch filesystem for changes and recreate as needed
+watch                      = true
+
+###############################################################################
+# Options
+###############################################################################
+#  site_name_jp = "居間で寝入る"
+copyright = "Code released under the Apache 2.0 license."
+disqusShortname = "pxaka-blog"
+
+[Author]
+  name = "Takaaki Ishikawa (@takaxp)"
+  bio  = "An Orger"
+  avatar = "https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg"
+
+[Taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# [permalinks]
+#   post = "/:year/:month/:day/:filename/"
+
+###############################################################################
+# Params for Mainroad
+###############################################################################
+
+[Params]
+  subtitle = "たか＠いまでねーる"
+  description = "Takaaki Ishikawa's blog"
+  opengraph = true
+  twitter_cards = true
+  readmore = true
+  homeLayout = "content + sidebar"
+  listLayout = "content + sidebar" # Configure layout for list pages
+  singleLayout = "content + sidebar"
+  authorbox = true
+  post_navigation = true
+  postSections = ["post", "2016", "2017", "2018"]
+#  toc = true
+  mathjax = true
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
+#  mathjaxConfig = "TeX-AMS_HTML" # Specify MathJax config
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+
+[Params.widgets]
+  search = true
+  recent_articles = true
+  recent_articles_num = 5
+  categories = false
+  tags = true
+  tags_counter = true
+
+  social_github = "takaxp"
+  social_twitter = "takaxp"
+
+  external_links = true
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Cooking"
+  url = "/categories/cooking/"
+  weight = 2
+
+[[menu.main]]
+  name = "Emacs"
+  url = "/categories/Emacs/"
+  weight = 3
+
+[[menu.main]]
+  name = "Hugo"
+  url = "/categories/Hugo/"
+  weight = 4
+
+# [[menu.main]]
+#   name = "init.el"
+#   url = "https://takaxp.github.io/init.html"
+#   weight = 2
+
+# [[menu.main]]
+#   name = "wiki"
+#   url = "https://pxaka.tokyo/wiki"
+#   weight = 2
+
+
+##############################################################################

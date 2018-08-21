@@ -1,0 +1,41 @@
+#+hugo_section: 2016
+#+hugo_base_dir: ../
+
+* 2016
+** はじめてのHugo                                             :go:blog:@hugo:
+:PROPERTIES:
+:EXPORT_FILE_NAME: init-entry-by-hugo
+:EXPORT_DATE: 2016-08-21T00:56:32+09:00
+:END:
+
+Now, a new blog is up by Hugo!
+
+** タスクの整理は心の整理                                          :lifehack:
+:PROPERTIES:
+:EXPORT_FILE_NAME: task-and-mind
+:EXPORT_DATE: 2016-08-23T15:44:21+09:00
+:END:
+
+抱えているタスクをきちんと整理できていないと，気が重い仕事が手に付かなかったり，効率が低下したりする．それは結局のところ心が定まっていないから．つまり，タスクをちゃんと整理すれば，心が整理されてストレスが軽減されて迷わなくなる．結果的に前に進めるようになる．まずは片付けから着手しよう．
+** 食材レポート                                                     :cooking:
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-cooking-report
+:EXPORT_DATE: 2016-09-05T12:40:13+09:00
+:END:
+
+*** 昼食
+- トマト（半分）
+- 肉入り麻婆豆腐
+- ご飯
+*** 残り物
+- トマト（半分）
+- 肉入り麻婆豆腐（1.5人前）
+- ご飯（1人前）
+*** 食材
+- マッシュルーム（3個）
+- 玉ねぎ（半分）
+- レタス（1パック）
+- きゅうり（1本）
+- 蒸しどり（1パック）
+- 鶏もも肉（1パック） *期限*
+
