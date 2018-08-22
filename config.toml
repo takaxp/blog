@@ -25,8 +25,8 @@ defaultContentLanguageInSubdir = false
 disableLiveReload = false
 disableRSS        = false # Do not build RSS files
 disableSitemap    = false # Do not build Sitemap file
-enableGitInfo     = false # Enable GitInfo feature
-enableRobotsTXT   = false # Build robots.txt file
+enableGitInfo     = true # Enable GitInfo feature
+enableRobotsTXT   = true # Build robots.txt file
 disable404        = false # Do not render 404 page
 # Do not inject generator meta tag on homepage
 disableHugoGeneratorInject = false
