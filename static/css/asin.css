@@ -1,0 +1,20 @@
+.asin-box {
+  width: 600px;
+  padding: 10px;
+  margin: 0px;
+}
+.asin-title {
+  float: right;
+  width: 480px;
+  padding: 10px;
+  margin: 0px;
+}
+.asin-image {
+  float: left;
+  width: 80px;
+  padding: 10px;
+  margin: 0px;
+}
+.asin-metadata {
+  clear: both;
+}
