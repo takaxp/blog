@@ -3,7 +3,6 @@
 #+STARTUP: content
 #+macro: latex @@html:<span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>@@
 #+OPTIONS: ^:{}
-#+LINK: images ~/devel/src/
 
 * 2018
 ** DONE ox-hugo テスト                                                :@hugo:
@@ -185,6 +184,8 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-gist
 :END:
+
+ビルトインの shorcodes を使って簡単にできます．
 
 {{< gist takaxp 8f83f07d3fc4b711d2d18f5f82767524 >}}
 
