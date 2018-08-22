@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2018-08-23 Thu 02:15 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Takaaki ISHIKAWA" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgfd266c5">1. 2018</a>
+<ul>
+<li><a href="#org7082d30">1.1. <span class="done DONE">DONE</span> ox-hugo テスト&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_hugo">@hugo</span></span></a>
+<ul>
+<li><a href="#org1013a74">1.1.1. Heading1</a></li>
+<li><a href="#org340124a">1.1.2. 表</a></li>
+<li><a href="#org0da3eff">1.1.3. 装飾</a></li>
+<li><a href="#orge03f88e">1.1.4. リンク</a></li>
+<li><a href="#org38e3727">1.1.5. タスク</a></li>
+</ul>
+</li>
+<li><a href="#org2eba1db">1.2. <span class="done DONE">DONE</span> twitter 組み込みテスト&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_hugo">@hugo</span></span></a>
+<ul>
+<li><a href="#orga5d8c4a">1.2.1. References</a></li>
+</ul>
+</li>
+<li><a href="#orgc8d9812">1.3. <span class="done DONE">DONE</span> YouTube 組み込みテスト&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_hugo">@hugo</span></span></a>
+<ul>
+<li><a href="#orge0a919a">1.3.1. References</a></li>
+</ul>
+</li>
+<li><a href="#orge30f38b">1.4. <span class="done DONE">DONE</span> 数式の展開テスト&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_hugo">@hugo</span></span></a>
+<ul>
+<li><a href="#orga7a919a">1.4.1. inline</a></li>
+<li><a href="#org8310fd7">1.4.2. stand alone without numbering</a></li>
+<li><a href="#orgf0a65ee">1.4.3. full equation with numbering</a></li>
+<li><a href="#org0b83f07">1.4.4. References</a></li>
+</ul>
+</li>
+<li><a href="#orgcea7da0">1.5. <span class="done DONE">DONE</span> 今週のパスタ&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_cooking">@cooking</span></span></a></li>
+<li><a href="#org1f24ff4">1.6. <span class="done DONE">DONE</span> Gistの展開テスト&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_hugo">@hugo</span></span></a></li>
+<li><a href="#org3ebfa23">1.7. <span class="done DONE">DONE</span> アマゾンアフィリエイトコードの展開テスト&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_hugo">@hugo</span></span></a>
+<ul>
+<li><a href="#org5f78085">1.7.1. References</a></li>
+<li><a href="#org0b11a38">1.7.2. additional test</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgfd266c5" class="outline-2">
+<h2 id="orgfd266c5"><span class="section-number-2">1</span> 2018</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org7082d30" class="outline-3">
+<h3 id="org7082d30"><span class="section-number-3">1.1</span> <span class="done DONE">DONE</span> ox-hugo テスト&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_hugo">@hugo</span></span></h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+<code>hugo</code> と <code>ox-hugo</code> を利用したブログ執筆の試験です．<br />
+</p>
+</div>
+
+<div id="outline-container-org1013a74" class="outline-4">
+<h4 id="org1013a74"><span class="section-number-4">1.1.1</span> Heading1</h4>
+<div class="outline-text-4" id="text-1-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="orga4e839b"></a>Heading 2<br />
+<div class="outline-text-5" id="text-1-1-1-1">
+<p>
+コンテンツ<br />
+</p>
+</div>
+</li>
+
+<li><a id="orgf3c2d30"></a>Heading 3<br />
+<div class="outline-text-5" id="text-1-1-1-2">
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> a<br /></li>
+<li class="on"><code>[X]</code> b<br /></li>
+</ul>
+</div>
+</li>
+
+<li><a id="orge7c942c"></a>Source blocks<br />
+<div class="outline-text-5" id="text-1-1-1-3">
+<ul class="org-ul">
+<li><p>
+elisp<br />
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(message <span style="color: #98c379;">"Hello! World"</span>)
+</pre>
+</div></li>
+
+<li><p>
+Centered<br />
+</p>
+
+<div class="org-center">
+<p>
+Centered text<br />
+</p>
+</div></li>
+
+<li><p>
+cpp<br />
+</p>
+
+<div class="org-src-container">
+<pre class="src src-cpp"><span style="color: #8996A8;">#include</span> <span style="color: #98c379;">&lt;iostream&gt;</span>
+<span style="color: #c678dd;">using</span> <span style="color: #c678dd;">namespace</span> <span style="color: #d19a66;">std</span>;
+
+<span style="color: #CFCB90;">int</span> <span style="color: #61afef;">main</span>(){
+  cout &lt;&lt; <span style="color: #98c379;">"Hello, World!"</span> &lt;&lt; endl;
+  <span style="color: #c678dd;">return</span> 1;
+}
+</pre>
+</div></li>
+</ul>
+</div>
+
+<ol class="org-ol">
+<li><a id="org2a062ab"></a>Heading 4<br />
+<div class="outline-text-6" id="text-1-1-1-3-1">
+<p>
+\(H(z)\)<br />
+</p>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-org340124a" class="outline-4">
+<h4 id="org340124a"><span class="section-number-4">1.1.2</span> 表</h4>
+<div class="outline-text-4" id="text-1-1-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 1:</span> てーぶる</caption>
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">1</th>
+<th scope="col" class="org-right">3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">2</td>
+<td class="org-right">4</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org0da3eff" class="outline-4">
+<h4 id="org0da3eff"><span class="section-number-4">1.1.3</span> 装飾</h4>
+<div class="outline-text-4" id="text-1-1-3">
+<p>
+<b>太字</b> , <span class="underline">下線</span> , <i>イタリック</i><br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge03f88e" class="outline-4">
+<h4 id="orge03f88e"><span class="section-number-4">1.1.4</span> リンク</h4>
+<div class="outline-text-4" id="text-1-1-4">
+<p>
+<a href="http://google.co.jp">http://google.co.jp</a>， <a href="http://google.com/">ぐーぐる．こむ</a><br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org38e3727" class="outline-4">
+<h4 id="org38e3727"><span class="section-number-4">1.1.5</span> タスク</h4>
+<div class="outline-text-4" id="text-1-1-5">
+</div>
+<ol class="org-ol">
+<li><a id="org2124114"></a><span class="todo TODO">TODO</span> タスク<br />
+<div class="outline-text-5" id="text-1-1-5-1">
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org2eba1db" class="outline-3">
+<h3 id="org2eba1db"><span class="section-number-3">1.2</span> <span class="done DONE">DONE</span> twitter 組み込みテスト&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_hugo">@hugo</span></span></h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+Twitter を組み込めるのかを試験します．<br />
+</p>
+
+<p>
+{{&lt; tweet 1031404732470898689 &gt;}}<br />
+</p>
+</div>
+
+<div id="outline-container-orga5d8c4a" class="outline-4">
+<h4 id="orga5d8c4a"><span class="section-number-4">1.2.1</span> References</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<ul class="org-ul">
+<li><a href="https://gohugo.io/content-management/shortcodes/#example-tweet-input">https://gohugo.io/content-management/shortcodes/#example-tweet-input</a><br /></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc8d9812" class="outline-3">
+<h3 id="orgc8d9812"><span class="section-number-3">1.3</span> <span class="done DONE">DONE</span> YouTube 組み込みテスト&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_hugo">@hugo</span></span></h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+YouTube の動画を組み込めるのかを試験します．<br />
+</p>
+
+<p>
+{{&lt; youtube kaw75f11fPU &gt;}}<br />
+</p>
+</div>
+
+<div id="outline-container-orge0a919a" class="outline-4">
+<h4 id="orge0a919a"><span class="section-number-4">1.3.1</span> References</h4>
+<div class="outline-text-4" id="text-1-3-1">
+<ul class="org-ul">
+<li><a href="https://gohugo.io/content-management/shortcodes/#example-youtube-input">https://gohugo.io/content-management/shortcodes/#example-youtube-input</a><br /></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge30f38b" class="outline-3">
+<h3 id="orge30f38b"><span class="section-number-3">1.4</span> <span class="done DONE">DONE</span> 数式の展開テスト&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_hugo">@hugo</span></span></h3>
+<div class="outline-text-3" id="text-1-4">
+</div>
+<div id="outline-container-orga7a919a" class="outline-4">
+<h4 id="orga7a919a"><span class="section-number-4">1.4.1</span> inline</h4>
+<div class="outline-text-4" id="text-1-4-1">
+<p>
+An inline equation \(f(x)\).<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8310fd7" class="outline-4">
+<h4 id="org8310fd7"><span class="section-number-4">1.4.2</span> stand alone without numbering</h4>
+<div class="outline-text-4" id="text-1-4-2">
+<p>
+A standalone equation:<br />
+\[ E = mc^{2} \]<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf0a65ee" class="outline-4">
+<h4 id="orgf0a65ee"><span class="section-number-4">1.4.3</span> full equation with numbering</h4>
+<div class="outline-text-4" id="text-1-4-3">
+<p>
+<del><b>うまくいかない</b> 通常のHTML出力では正しく式番号がレンダリングされる．</del><br />
+</p>
+
+<p>
+<code>ox-hugo</code> の設定では，<br />
+</p>
+
+<blockquote>
+<p>
+<a href="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML</a><br />
+</p>
+</blockquote>
+
+<p>
+だが，通常のHTML出力では，<br />
+</p>
+
+<blockquote>
+<p>
+<a href="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML">https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML</a><br />
+</p>
+</blockquote>
+
+<p>
+である．<br />
+</p>
+
+<p>
+And a full <span class="latex">L<sup>A</sup>T<sub>E</sub>X</span> equation will be displayed as<br />
+</p>
+
+\begin{equation}
+\label{eq:1}
+C = W\log_{2} (1+\mathrm{SNR})
+\end{equation}
+
+<p>
+, and could be referenced by (\ref{eq:1}).<br />
+</p>
+
+<p>
+最終的に，リファレンスに示された <code>mathjax-config.js</code> を利用すればOK．<br />
+</p>
+
+<p>
+導入は， <code>./static/js/mathjax-config.js</code> として <a href="https://ox-hugo.scripter.co/js/mathjax-config.js">mathjax-config.js</a> を保存し，テーマの中で <code>mathjax</code> のスクリプトを記述している箇所に，以下を追加する．<br />
+</p>
+
+<div class="org-src-container">
+<pre class="src src-javascript">&lt;!--
+ https:<span style="color: #5C6370;">//</span><span style="color: #5C6370;">github.com/mathjax/MathJax/issues/1988#issuecomment-384978927</span>
+ Use plain Javascript to prevent the use of window.eval(). Then
+ <span style="color: #98c379;">'unsafe-eval'</span> won<span style="color: #98c379;">'t be needed to be added to script-src CSP.</span>
+<span style="color: #98c379;"> Also move the mathjax config to a separate file from the inline script so</span>
+<span style="color: #98c379;"> that '</span>unsafe-inline can also be removed from script-src CSP.
+--&gt;
+&lt;script src=<span style="color: #98c379;">"{{ "</span>js/mathjax-config.js<span style="color: #98c379;">" | absURL }}"</span>&gt;&lt;/script&gt;
+</pre>
+</div>
+
+<p>
+これで式番号と <code>\ref</code> が効くようになる．<br />
+</p>
+
+<p>
+<code>ox-hugo</code> の設定は，以下（本来の値）でOKだった．<br />
+</p>
+
+<blockquote>
+<p>
+<a href="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML</a><br />
+</p>
+</blockquote>
+</div>
+</div>
+
+<div id="outline-container-org0b83f07" class="outline-4">
+<h4 id="org0b83f07"><span class="section-number-4">1.4.4</span> References</h4>
+<div class="outline-text-4" id="text-1-4-4">
+<ul class="org-ul">
+<li><a href="https://github.com/kaushalmodi/hugo-bare-min-theme/blob/master/layouts/partials/mathjax.html">https://github.com/kaushalmodi/hugo-bare-min-theme/blob/master/layouts/partials/mathjax.html</a><br /></li>
+<li><a href="https://ox-hugo.scripter.co/js/mathjax-config.js">https://ox-hugo.scripter.co/js/mathjax-config.js</a><br /></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcea7da0" class="outline-3">
+<h3 id="orgcea7da0"><span class="section-number-3">1.5</span> <span class="done DONE">DONE</span> 今週のパスタ&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_cooking">@cooking</span></span></h3>
+<div class="outline-text-3" id="text-1-5">
+<p>
+こんな感じで調理しています．<br />
+</p>
+
+<p>
+{{&lt; tweet 1031028246769426433 &gt;}}<br />
+</p>
+
+<p>
+{{&lt; tweet 1028952922116173825 &gt;}}<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1f24ff4" class="outline-3">
+<h3 id="org1f24ff4"><span class="section-number-3">1.6</span> <span class="done DONE">DONE</span> Gistの展開テスト&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_hugo">@hugo</span></span></h3>
+<div class="outline-text-3" id="text-1-6">
+<p>
+{{&lt; gist takaxp 8f83f07d3fc4b711d2d18f5f82767524 &gt;}}<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3ebfa23" class="outline-3">
+<h3 id="org3ebfa23"><span class="section-number-3">1.7</span> <span class="done DONE">DONE</span> アマゾンアフィリエイトコードの展開テスト&#xa0;&#xa0;&#xa0;<span class="tag"><span class="_hugo">@hugo</span></span></h3>
+<div class="outline-text-3" id="text-1-7">
+<p>
+<a href="https://gohugo.io/templates/shortcode-templates/">shortcodes</a>を使って，Amazonアフィリエイトのリンクを組み込みます．<br />
+</p>
+
+<p>
+{{&lt; asin B01N3PBDGJ &gt;}}<br />
+</p>
+
+<p>
+動かすのはちょっと大変．以下は，今回のために作った shortcodes で，これ加えて，<a href="https://affiliate.amazon.co.jp/assoc_credentials/home">Product Advertising API </a>を用いたXMLデータのダウンロードスクリプト，XMLからJSON形式のデータを作り， <code>./data/asin/B01N3PBDGJ.json</code> として保存しておく必要があります．<br />
+</p>
+
+<div class="org-src-container">
+<pre class="src src-html">{{- $asin := .Get 0 -}}
+{{- $json := index .Site.Data.asin $asin -}}
+{{- $item := $json.ItemLookupResponse.Items.Item -}}
+{{- $title := $item.ItemAttributes.Title -}}
+{{- $price := $item.ItemAttributes.ListPrice -}}
+{{- $image := $item.SmallImage -}}
+&lt;<span style="color: #61afef;">div</span> <span style="color: #e5c07b;">class</span>=<span style="color: #98c379;">"asin-box"</span>&gt;
+  &lt;<span style="color: #61afef;">div</span> <span style="color: #e5c07b;">class</span>=<span style="color: #98c379;">"asin-title"</span>&gt;
+    &lt;<span style="color: #61afef;">a</span> <span style="color: #e5c07b;">href</span>=<span style="color: #98c379;">"{{ $item.DetailPageURL.value }}"</span> <span style="color: #e5c07b;">target</span>=<span style="color: #98c379;">"_blank"</span>&gt;
+      &#35069;&#21697;&#21517;: {{ $title.value }}
+    &lt;/<span style="color: #61afef;">a</span>&gt;&lt;<span style="color: #61afef;">br</span>/&gt;
+    &#20385;&#26684;: {{ $price.Amount.value }} {{ $price.CurrencyCode.value }}&lt;<span style="color: #61afef;">br</span>/&gt;
+    ASIN: {{ $asin }}
+  &lt;/<span style="color: #61afef;">div</span>&gt;
+  &lt;<span style="color: #61afef;">div</span> <span style="color: #e5c07b;">class</span>=<span style="color: #98c379;">"asin-image"</span>&gt;
+    &lt;<span style="color: #61afef;">a</span> <span style="color: #e5c07b;">href</span>=<span style="color: #98c379;">"{{ $item.DetailPageURL.value }}"</span> <span style="color: #e5c07b;">target</span>=<span style="color: #98c379;">"_blank"</span>&gt;
+      &lt;<span style="color: #61afef;">img</span> <span style="color: #e5c07b;">src</span>=<span style="color: #98c379;">"{{ $image.URL.value }}"</span> <span style="color: #e5c07b;">alt</span>=<span style="color: #98c379;">"{{ $title.value }}"</span> <span style="color: #e5c07b;">width</span>=<span style="color: #98c379;">"{{ $image.Width.value }}"</span> <span style="color: #e5c07b;">height</span>=<span style="color: #98c379;">"{{ $image.Height.value }}"</span>/&gt;
+    &lt;/<span style="color: #61afef;">a</span>&gt;
+  &lt;/<span style="color: #61afef;">div</span>&gt;
+  &lt;<span style="color: #61afef;">div</span> <span style="color: #e5c07b;">class</span>=<span style="color: #98c379;">"asin-metadata"</span>&gt;&lt;/<span style="color: #61afef;">div</span>&gt;
+&lt;/<span style="color: #61afef;">div</span>&gt;
+</pre>
+</div>
+</div>
+
+<div id="outline-container-org5f78085" class="outline-4">
+<h4 id="org5f78085"><span class="section-number-4">1.7.1</span> References</h4>
+<div class="outline-text-4" id="text-1-7-1">
+<ul class="org-ul">
+<li><a href="https://frdmtoplay.com/using-curl-with-the-amazon-product-request-api/">Using curl with the Amazon Product Request API</a><br /></li>
+<li><a href="http://associates-amazon.s3.amazonaws.com/signed-requests/helper/index.html">Signed Requests Helper - Amazon Product Advertising API</a><br /></li>
+<li><a href="https://docs.aws.amazon.com/AWSECommerceService/latest/DG/HMACSignatures.html">HMAC-SHA256 Signatures for REST Requests - Product Advertising API</a><br /></li>
+<li><a href="https://docs.aws.amazon.com/AWSECommerceService/latest/DG/rest-signature.html">Example REST Requests - Product Advertising API</a><br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org0b11a38" class="outline-4">
+<h4 id="org0b11a38"><span class="section-number-4">1.7.2</span> additional test</h4>
+<div class="outline-text-4" id="text-1-7-2">
+
+<div class="figure">
+<p><img src="file:///Users/taka/devel/src/barbara.png" alt="barbara.png" width="128px" /><br />
+</p>
+</div>
+
+<p width="128px">
+<a href="file:///Users/taka/devel/src/barbara.png" width="128px">barbara.png</a><br />
+</p>
+
+
+<div class="figure">
+<p><img src="https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg" alt="p_UbMC5Q_400x400.jpg" /><br />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg" alt="p_UbMC5Q_400x400.jpg" width="128px" /><br />
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Takaaki ISHIKAWA</p>
+<p class="date">Created: 2018-08-23 Thu 02:15</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

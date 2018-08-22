@@ -3,6 +3,7 @@
 #+STARTUP: content
 #+macro: latex @@html:<span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>@@
 #+OPTIONS: ^:{}
+#+LINK: images ~/devel/src/
 
 * 2018
 ** DONE ox-hugo テスト                                                :@hugo:
@@ -229,3 +230,19 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
  - [[http://associates-amazon.s3.amazonaws.com/signed-requests/helper/index.html][Signed Requests Helper - Amazon Product Advertising API]]
  - [[https://docs.aws.amazon.com/AWSECommerceService/latest/DG/HMACSignatures.html][HMAC-SHA256 Signatures for REST Requests - Product Advertising API]]
  - [[https://docs.aws.amazon.com/AWSECommerceService/latest/DG/rest-signature.html][Example REST Requests - Product Advertising API]]
+** TODO 画像の埋め込みテスト                                          :@hugo:
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-test-of-images
+:CREATED:  [2018-08-23 Thu 02:19]
+:END:
+
+#+attr_html: :width 128px
+[[images:barbara.png]]
+
+#+attr_html: :width 128px
+[[images:barbara.png][barbara.png]]
+
+[[https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg]]
+
+#+attr_html: :width 128px
+https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
