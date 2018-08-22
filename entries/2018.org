@@ -196,7 +196,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
 :CREATED:  [2018-08-23 Thu 00:36]
 :END:
 
-[[https://gohugo.io/templates/shortcode-templates/][shortcodes]]を使って，Amazonアフィリエイトのリンクを組み込みます．
+[[https://gohugo.io/templates/shortcode-templates/][HUGO shortcodes]]を使って，Amazonアフィリエイトのリンクを組み込みます．
 
 {{< asin B01N3PBDGJ >}}
 
