@@ -200,7 +200,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
 
 動かすのはちょっと大変．以下は，今回のために作った shortcodes で，これ加えて，[[https://affiliate.amazon.co.jp/assoc_credentials/home][Product Advertising API ]]を用いたXMLデータのダウンロードスクリプト，XMLからJSON形式のデータを作り， =./data/asin/B01N3PBDGJ.json= として保存しておく必要があります．
 
-#+begin_src javascript
+#+begin_src html
 {{- $asin := .Get 0 -}}
 {{- $json := index .Site.Data.asin $asin -}}
 {{- $item := $json.ItemLookupResponse.Items.Item -}}
