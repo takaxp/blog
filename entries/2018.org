@@ -238,12 +238,26 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
 :END:
 
 #+attr_html: :width 128px
-[[images:barbara.png]]
+[[~/devel/src/barbara.png]]
 
 #+attr_html: :width 128px
-[[images:barbara.png][barbara.png]]
+[[file:~/devel/src/barbara.png]]
+
+#+attr_html: :width 128px
+[[file:~/devel/src/barbara.png][/devel/src/barbara.png]]
+
+#+attr_html: :width 128px
+[[~/devel/src/barbara.png][barbara.png]]
 
 [[https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg]]
 
 #+attr_html: :width 128px
 https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
+
+#+attr_html: :width 128px
+[[https://pxaka.tokyo/owncloud/index.php/s/sf1CNSc3oLfKfuq]]
+
+{{< asin 4799106023 >}}
+
+{{< asin 4883998304 >}}
+
