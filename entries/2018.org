@@ -280,6 +280,12 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
 
 万が一ローカルが肥大化したら， =./static/files= を削除して，サーバにだけコンテンツを置く，或いは， =./static/files= はシンボリックリンクで飛ばしてもよい．
 
+最終的には，
+1. D&Dサーバ上の所定のディレクトリにサーバアップロード
+2. アップロード時にサムネイルを同時作成
+3. shortcodes のリンク生成を改良して，リンク先は大きな画像，表示は小さな画像を使う
+とするのが目標．その他のファイル（PDFとかExcelとか）はアップロード時にサムネイル作成ってのも良い．
+
 以下，適当に実験．
 
 #+attr_html: :width 128px
