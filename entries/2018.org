@@ -332,11 +332,14 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 次のように =org-capture= を準備して， =C-c r B= 押下すると，テンプレートが立ち上がる．カーソルはタイトル行に置かれる． =C-c C-c= を押してそのまま保存でも良いが， =C-u C-c C-c= として保存先のサブツリーに移動してから編集する方が，それなりの文章を書くならば適切といえる．
 
 #+begin_src emacs-lisp
-(setq org-capture-templates
-      `(("B" "Create new post for imadenale blog (UUID)" entry
-         (file+headline ,org-capture-blog-file "2018")
-         "** TODO %?\n:PROPERTIES:\n:EXPORT_FILE_NAME: %(uuid-string)\n:END:\n")
-        ("b" "Create new post for imadenale blog" entry
-         (file+headline ,org-capture-blog-file "2018")
-         "** TODO \n:PROPERTIES:\n:EXPORT_FILE_NAME: %?\n:END:\n")))
+(with-eval-after-load "org-capture"
+  (defvar org-capture-blog-file
+    (concat org-directory "blog/entries/2018.org"))
+  (setq org-capture-templates
+        `(("B" "Create new post for imadenale blog (UUID)" entry
+           (file+headline ,org-capture-blog-file "2018")
+           "** TODO %?\n:PROPERTIES:\n:EXPORT_FILE_NAME: %(uuid-string)\n:END:\n")
+          ("b" "Create new post for imadenale blog" entry
+           (file+headline ,org-capture-blog-file "2018")
+           "** TODO \n:PROPERTIES:\n:EXPORT_FILE_NAME: %?\n:END:\n"))))
 #+end_src
