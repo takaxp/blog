@@ -267,7 +267,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
 後は，通常のリンク記述で =files:= を使えばパスを簡略記入できる．
 
 #+begin_src org
-[[files:twitter.jp]]
+[[files:twitter.jpg]]
 #+end_src
 
 この記述は，
