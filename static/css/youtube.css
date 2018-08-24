@@ -1,4 +1,4 @@
-.post__youtube {
+.my-yt {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
@@ -6,7 +6,7 @@
   margin: 0px 0px 10px;
 }
 
-.post__youtube iframe {
+.my-yt iframe {
   position:absolute;
   top:0;
   left:0;

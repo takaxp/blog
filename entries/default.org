@@ -361,7 +361,7 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 
 さて，Hugoさん， =data= 以下にいわゆるプロセッシング対象のデータを =json= 形式で配置すると，[[https://gohugo.io/content-management/shortcodes/][shortcodes]] で色々と楽しめるのね．これって，ちょっと工夫すればレシピ管理に使えるという話かなと．なお保存方法は =json= 以外に， =yaml=, =toml= もOK．
 
-{{< youtube id="FyPgSuwIMWQ" class="post__youtube" >}}
+{{< youtube id="FyPgSuwIMWQ" class="my-yt" >}}
 
 で，Go, Json, SQLite でざっくり調べると，なかなに面白い情報があって，これはテンション上がる．
 
