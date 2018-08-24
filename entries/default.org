@@ -1,4 +1,3 @@
-#+hugo_section: 2018
 #+hugo_base_dir: ../
 #+STARTUP: content
 #+macro: latex @@html:<span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>@@
@@ -6,6 +5,9 @@
 #+LINK: files https://pxaka.tokyo/blog/files/2018/
 
 * 2018
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: 2018
+:END:
 ** DONE ox-hugo テスト                                                :@hugo:
    CLOSED: [2018-08-20 Mon 18:23]
 :PROPERTIES:
@@ -334,12 +336,16 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 #+begin_src emacs-lisp
 (with-eval-after-load "org-capture"
   (defvar org-capture-blog-file
-    (concat org-directory "blog/entries/2018.org"))
+    (concat org-directory "blog/entries/default.org"))
   (setq org-capture-templates
         `(("B" "Create new post for imadenale blog (UUID)" entry
-           (file+headline ,org-capture-blog-file "2018")
+           (file+headline ,org-capture-blog-file ,(format-time-string "%Y"))
            "** TODO %?\n:PROPERTIES:\n:EXPORT_FILE_NAME: %(uuid-string)\n:END:\n")
           ("b" "Create new post for imadenale blog" entry
-           (file+headline ,org-capture-blog-file "2018")
+           (file+headline ,org-capture-blog-file ,(format-time-string "%Y"))
            "** TODO \n:PROPERTIES:\n:EXPORT_FILE_NAME: %?\n:END:\n"))))
 #+end_src
+* 2019
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: 2019
+:END:
