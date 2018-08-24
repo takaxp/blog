@@ -322,4 +322,21 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 
 *** References
  - [[https://github.com/gohugoio/hugo/issues/4562][Figure shortcode with baseURL · Issue #4562 · gohugoio/hugo]]
+** DONE ファイル名をUUIDで自動生成するテスト                          :@hugo:
+   CLOSED: [2018-08-24 Fri 19:44]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 44febe88-04a5-9bc4-6bfb-678a8477a0ed
+:CREATED:  [2018-08-24 Fri 19:39]
+:END:
 
+次のように =org-capture= を準備して， =C-c r B= 押下すると，テンプレートが立ち上がる．カーソルはタイトル行に置かれる． =C-c C-c= を押してそのまま保存でも良いが， =C-u C-c C-c= として保存先のサブツリーに移動してから編集する方が，それなりの文章を書くならば適切といえる．
+
+#+begin_src emacs-lisp
+(setq org-capture-templates
+      `(("B" "Create new post for imadenale blog (UUID)" entry
+         (file+headline ,org-capture-blog-file "2018")
+         "** TODO %?\n:PROPERTIES:\n:EXPORT_FILE_NAME: %(uuid-string)\n:END:\n")
+        ("b" "Create new post for imadenale blog" entry
+         (file+headline ,org-capture-blog-file "2018")
+         "** TODO \n:PROPERTIES:\n:EXPORT_FILE_NAME: %?\n:END:\n")))
+#+end_src
