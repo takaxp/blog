@@ -195,7 +195,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
 ** DONE アマゾンアフィリエイトコードの展開テスト                      :@hugo:
    CLOSED: [2018-08-23 Thu 00:37]
 :PROPERTIES:
-:EXPORT_FILE_NAME: a-test-of-asni-shortcode
+:EXPORT_FILE_NAME: a-test-of-asin-shortcode
 :CREATED:  [2018-08-23 Thu 00:36]
 :END:
 
@@ -361,9 +361,9 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 
 さて，Hugoさん， =data= 以下にいわゆるプロセッシング対象のデータを =json= 形式で配置すると，[[https://gohugo.io/content-management/shortcodes/][shortcodes]] で色々と楽しめるのね．これって，ちょっと工夫すればレシピ管理に使えるという話かなと．なお保存方法は =json= 以外に， =yaml=, =toml= もOK．
 
-{{< youtube FyPgSuwIMWQ >}}
+{{< youtube id="FyPgSuwIMWQ" class="post__youtube" >}}
 
-Go, Json, SQLite でざっくり調べると，なかなに面白い情報があって，これはテンション上がる．
+で，Go, Json, SQLite でざっくり調べると，なかなに面白い情報があって，これはテンション上がる．
 
 *** References
  - [[https://gohugo.io/templates/data-templates/][Data Templates | Hugo]]
