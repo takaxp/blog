@@ -112,6 +112,14 @@ disqusShortname = "pxaka-blog"
 # [permalinks]
 #   post = "/:year/:month/:day/:filename/"
 
+[outputs]
+home = [ "HTML", "RSS", "CSS", "JSON" ]
+
+[outputFormats]
+[outputFormats.RSS]
+mediatype = "application/rss"
+baseName = "feed"
+
 ###############################################################################
 # Params for Mainroad
 ###############################################################################
