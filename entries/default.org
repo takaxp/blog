@@ -1,8 +1,8 @@
 #+hugo_base_dir: ../
 #+STARTUP: content
 #+macro: latex @@html:<span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>@@
-#+OPTIONS: ^:{}
-#+LINK: files https://pxaka.tokyo/blog/files/2018/
+#+options: ^:{}
+#+link: files https://pxaka.tokyo/blog/files/2018/
 
 * 2018
 :PROPERTIES:
@@ -257,12 +257,12 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
 
 1. =static/files/2018= を作成して，2018年のコンテンツをここに置く
 2. サーバに同期する
-3. org ファイルでは =#+LINK= を使ってURLを短縮化
+3. org ファイルでは =#+link= を使ってURLを短縮化
 4. org ファイルには短縮名で画像を指定する
 
 短縮名設定は，org バッファの先頭で，
 #+begin_src org
-#+LINK: files https://pxaka.tokyo/blog/files/2018/
+#+link: files https://pxaka.tokyo/blog/files/2018/
 #+end_src
 と記述して，同行上で =C-c C-c= で忘れずに有効化する．
 
@@ -278,7 +278,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
 [[https://pxaka.tokyo/blog/files/2018/twitter.jpg]]
 #+end_src
 
-に展開されるので，サーバにファイルが置かれていれば，確実に画像を埋め込むことができる．将来ファイルパスやドメインを変えたとしても， =#+LINK= 側の値を変えれば良い．
+に展開されるので，サーバにファイルが置かれていれば，確実に画像を埋め込むことができる．将来ファイルパスやドメインを変えたとしても， =#+link= 側の値を変えれば良い．
 
 万が一ローカルが肥大化したら， =./static/files= を削除して，サーバにだけコンテンツを置く，或いは， =./static/files= はシンボリックリンクで飛ばしてもよい．
 
@@ -315,7 +315,7 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 #+attr_html: :width 100px
 [[files:twitter.jpg]]
 
-=#+LINK= に非依存で正しく表示される．インライン不可．
+=#+link= に非依存で正しく表示される．インライン不可．
 
 [[/files/2018/twitter.jpg]]
 
