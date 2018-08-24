@@ -345,6 +345,30 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
            (file+headline ,org-capture-blog-file ,(format-time-string "%Y"))
            "** TODO \n:PROPERTIES:\n:EXPORT_FILE_NAME: %?\n:END:\n"))))
 #+end_src
+** DONE Hugo の data ディレクトリ                                     :@hugo:
+   CLOSED: [2018-08-25 Sat 04:11]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 62d73d4b-439b-cf74-1bf3-ecae75bd7bd2
+:CREATED:  [2018-08-25 Sat 03:54]
+:END:
+
+ほぼ環境構築が完了．基本的な処理フローは？と言えば，「書いて，デプロイ」のホント2ステップだけ．
+
+1. Emacs Org Mode でメモを取るように書く（org-capture経由もOK）
+2. deploy スクリプトを走らせる（サーバにrsyncしたり，githubにpush）
+
+以上，楽すぎた．ありがとう [[https://orgmode.org][Org Mode]]，[[https://gohugo.io/][Hugo]]，[[https://ox-hugo.scripter.co/][ox-hugo]] たち！
+
+さて，Hugoさん， =data= 以下にいわゆるプロセッシング対象のデータを =json= 形式で配置すると，[[https://gohugo.io/content-management/shortcodes/][shortcodes]] で色々と楽しめるのね．これって，ちょっと工夫すればレシピ管理に使えるという話かなと．なお保存方法は =json= 以外に， =yaml=, =toml= もOK．
+
+{{< youtube FyPgSuwIMWQ >}}
+
+Go, Json, SQLite でざっくり調べると，なかなに面白い情報があって，これはテンション上がる．
+
+*** References
+ - [[https://gohugo.io/templates/data-templates/][Data Templates | Hugo]]
+ - [[https://stackoverflow.com/questions/48534992/json-fields-from-sqlite3-in-golang][sqlite - JSON fields from sqlite3 in golang - Stack Overflow]]
+
 * 2019
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: 2019
