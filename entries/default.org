@@ -352,14 +352,14 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 :CREATED:  [2018-08-25 Sat 03:54]
 :END:
 
-ほぼ環境構築が完了．基本的な処理フローは？と言えば，「書いて，デプロイ」のホント2ステップだけ．
+環境構築がほぼ完了．基本的な処理フローは？と言えば，「書いて，デプロイ」のホント2ステップだけ．
 
 1. Emacs Org Mode でメモを取るように書く（org-capture経由もOK）
 2. deploy スクリプトを走らせる（サーバにrsyncしたり，githubにpush）
 
 以上，楽すぎた．ありがとう [[https://orgmode.org][Org Mode]]，[[https://gohugo.io/][Hugo]]，[[https://ox-hugo.scripter.co/][ox-hugo]] たち！
 
-さて，Hugoさん， =data= 以下にいわゆるプロセッシング対象のデータを =json= 形式で配置すると，[[https://gohugo.io/content-management/shortcodes/][shortcodes]] で色々と楽しめるのね．これって，ちょっと工夫すればレシピ管理に使えるという話かなと．なお保存方法は =json= 以外に， =yaml=, =toml= もOK．
+さて，Hugoさん， =data= 以下にいわゆるプロセッシング対象のデータを =json= 形式で配置すると，[[https://gohugo.io/content-management/shortcodes/][shortcodes]] で色々と楽しめるのね．これって，ちょっと工夫すれば，料理のレシピ管理に使えるよという話かなと．なお保存方法は =json= 以外に， =yaml=, =toml= もOK．
 
 {{< youtube id="FyPgSuwIMWQ" class="my-yt" >}}
 
@@ -368,6 +368,28 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 *** References
  - [[https://gohugo.io/templates/data-templates/][Data Templates | Hugo]]
  - [[https://stackoverflow.com/questions/48534992/json-fields-from-sqlite3-in-golang][sqlite - JSON fields from sqlite3 in golang - Stack Overflow]]
+** DONE 完熟あらごしトマトを使ってみた                             :@cooking:
+   CLOSED: [2018-08-28 Tue 02:57]
+:PROPERTIES:
+:EXPORT_FILE_NAME: pasta-with-new-tomato-source
+:CREATED:  [2018-08-28 Tue 02:40]
+:END:
+
+近所のスーパーで試したことのないトマトソースを見つけたので使ってみた．味付けされていないプレーンなソースなので，玉ねぎをソテーして混ぜて使う．
+
+{{< asin B015FIJYZ8 >}}
+
+価格は1つのパックあたり100円ちょっとで，缶で売られているプレーンなトマトソースよりも少し安めの印象．
+
+{{< tweet 1033555146364440576 >}}
+
+今回は，アンチョビ・ケイパーを使ってプッタネスカ風のベースを作って，牛乳を少し加えてみた．分量で言えば，80[cc]程度（二皿用）．いわゆるトマトクリーム的な味わいを期待したけど，やはりちょっと牛乳を加えたくらいでは中途半端になり，しかも生クリームより水分が多いので，ソースを詰めようとする間に風味が飛んでしまうことがわかった．クリームソースには普通に生クリームを使うのが良さそうね．太るよね．
+
+{{< tweet 1033571011898163200 >}}
+
+実は玉ねぎを炒める時，若干火を入れすぎてしまい，トマトソースはとても濃い色に．牛乳を加えることで，ソースの色が落ち着いた感じになった．味はまぁまぁ．
+
+ごちそうさまでした．
 
 * 2019
 :PROPERTIES:
