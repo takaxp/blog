@@ -146,7 +146,7 @@ baseName = "feed"
   search = true
   recent_articles = true
   recent_articles_num = 5
-  categories = false
+  categories = true
   tags = true
   tags_counter = true
 
