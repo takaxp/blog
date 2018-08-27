@@ -372,6 +372,7 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
    CLOSED: [2018-08-28 Tue 02:57]
 :PROPERTIES:
 :EXPORT_FILE_NAME: pasta-with-new-tomato-source
+:EXPORT_HUGO_TAGS: pasta tomato
 :CREATED:  [2018-08-28 Tue 02:40]
 :END:
 
