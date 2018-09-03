@@ -473,7 +473,8 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 ごちそうさまでした．
 
 {{{srclink}}}
-** TODO 記事の Org file にリンクを貼る                                :@hugo:
+** DONE 記事の Org file にリンクを貼る                                :@hugo:
+   CLOSED: [2018-09-03 Mon 17:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-link-to-the-original-org-source-file
 :EXPORT_HUGO_TAGS: 
