@@ -1,0 +1,11 @@
+#+title: file base export
+#+hugo_base_dir: ../
+#+hugo_section: 2018
+#+date: [2018-08-31 Fri 19:11]
+#+hugo_lastmod: 2018-09-01
+#+hugo_draft: false
+
+hoge 5
+
+`#+hugo_export_lastmod: 2018-09-01`
+`#+hugo_auto_set_lastmod: t`
