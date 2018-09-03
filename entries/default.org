@@ -2,9 +2,7 @@
 #+STARTUP: content
 #+macro: latex @@html:<span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>@@
 #+options: ^:{}
-#+link: files https://pxaka.tokyo/blog/files/2018/
-#+link: source https://github.com/takaxp/blog/blame/master/
-#+macro: source (eval (org-hugo-get-line-number))
+#+macro: srclink (eval (org-hugo-get-link-to-orgfile "https://github.com/takaxp/blog/blame/master/" "entries"))
 
 * 2018
 :PROPERTIES:
@@ -410,6 +408,8 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 
 ごちそうさまでした．
 
+{{{srclink}}}
+
 ** DONE 和風クリームパスタに挑戦                                   :@cooking:
    CLOSED: [2018-09-02 Sun 20:47]
 :PROPERTIES:
@@ -472,7 +472,7 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 
 ごちそうさまでした．
 
-{{{source}}}
+{{{srclink}}}
 
 * 2019
 :PROPERTIES:
