@@ -2,7 +2,7 @@
 title = "(ベビー)ホタテのトマトクリームパスタ"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-08-30T13:13:00+09:00
-lastmod = 2018-09-03T16:31:24+09:00
+lastmod = 2018-09-03T16:49:47+09:00
 tags = ["pasta", "tomato", "cream"]
 categories = ["cooking"]
 draft = false
@@ -20,4 +20,4 @@ draft = false
 
 ごちそうさまでした．
 
-[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/default.org<5>#L391)
+[see source Orgfile](https://github.com/takaxp/blog/blame/master/entries/default.org#L391)
