@@ -2,7 +2,7 @@
 title = "アマゾンアフィリエイトコードの展開テスト"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-08-23T00:37:00+09:00
-lastmod = 2018-08-28T01:42:47+09:00
+lastmod = 2018-09-04T00:15:39+09:00
 categories = ["hugo"]
 draft = false
 +++
@@ -18,7 +18,7 @@ draft = false
 {{- $json := index .Site.Data.asin $asin -}}
 {{- $item := $json.ItemLookupResponse.Items.Item -}}
 {{- $title := $item.ItemAttributes.Title -}}
-{{- $price := $item.ItemAttributes.ListPrice -}}
+{{- $price := $item.OfferSummary.LowestNewPrice -}}
 {{- $image := $item.SmallImage -}}
 <div class="asin-box">
   <div class="asin-title">
@@ -42,6 +42,16 @@ draft = false
 {{< asin 4799106023 >}}
 
 {{< asin 4883998304 >}}
+
+
+## Updated (2018-09-04@00:15) {#updated--2018-09-04-00-15}
+
+参照する価格のフィールドが，ISBNで拾うアイテムと異なるため修正した．前者は定価で，後者は現在の最安値のようだ．
+
+```html
+<!-- {{- $price := $item.ItemAttributes.ListPrice -}} -->
+{{- $price := $item.OfferSummary.LowestNewPrice -}}
+```
 
 
 ## References {#references}
