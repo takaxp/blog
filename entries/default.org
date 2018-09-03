@@ -4,6 +4,7 @@
 #+options: ^:{}
 #+link: files https://pxaka.tokyo/blog/files/2018/
 #+link: source https://github.com/takaxp/blog/blame/master/
+#+macro: source (eval (org-hugo-get-line-number))
 
 * 2018
 :PROPERTIES:
@@ -74,9 +75,6 @@
 *** タスク
 **** TODO タスク
      DEADLINE: <2017-03-01 Wed>
-**** COMMENT コメント
-
-  =hoge=, =foo=
 ** DONE twitter 組み込みテスト                                        :@hugo:
    CLOSED: [2018-08-20 Mon 20:10]
 :PROPERTIES:
@@ -135,7 +133,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_H
 
 である．
 
-And a full {{{latex}}} equation will be displayed as
+And a full @@html:<span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>@@ equation will be displayed as
 
 \begin{equation}
 \label{eq:1}
@@ -474,7 +472,7 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 
 ごちそうさまでした．
 
-[[source:entries/default.org#L414][see Orgfile]]
+{{{source}}}
 
 * 2019
 :PROPERTIES:

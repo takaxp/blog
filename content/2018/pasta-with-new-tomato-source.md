@@ -2,7 +2,8 @@
 title = "完熟あらごしトマトを使ってみた"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-08-28T02:57:00+09:00
-tags = ["pasta", "tomato"]
+lastmod = 2018-09-03T14:05:36+09:00
+tags = ["pasta", "tomato", "cream"]
 categories = ["cooking"]
 draft = false
 +++
