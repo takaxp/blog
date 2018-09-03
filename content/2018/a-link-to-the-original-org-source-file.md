@@ -1,9 +1,9 @@
 +++
 title = "記事の Org file にリンクを貼る"
 author = ["Takaaki ISHIKAWA"]
-lastmod = 2018-09-03T17:01:44+09:00
+date = 2018-09-03T17:02:00+09:00
 categories = ["hugo"]
-draft = true
+draft = false
 +++
 
 せっかく [ox-hugo](https://github.com/kaushalmodi/ox-hugo) で記事を書いているので，Hugo記事のソースとなる orgfile を明示したい．
