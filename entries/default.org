@@ -489,7 +489,7 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 
 #+begin_src emacs-lisp
 (defun org-hugo-get-link-to-orgfile (uri alt)
-      "Return a formatted link to the original Org file."
+      "Return a formatted link to the original Org file in Github."
       (let ((line (save-excursion
                     (save-restriction
                       (unless (org-at-heading-p)
