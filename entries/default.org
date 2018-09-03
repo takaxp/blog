@@ -3,6 +3,7 @@
 #+macro: latex @@html:<span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>@@
 #+options: ^:{}
 #+link: files https://pxaka.tokyo/blog/files/2018/
+#+link: source https://github.com/takaxp/blog/blame/master/
 
 * 2018
 :PROPERTIES:
@@ -472,6 +473,8 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 まだまだ改良は必要だろうけども，初回にしては味も見た目も満足．
 
 ごちそうさまでした．
+
+[[source:entries/default.org#L414][see Orgfile]]
 
 * 2019
 :PROPERTIES:
