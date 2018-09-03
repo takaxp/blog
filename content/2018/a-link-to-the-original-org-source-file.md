@@ -2,6 +2,8 @@
 title = "記事の Org file にリンクを貼る"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-09-03T17:02:00+09:00
+lastmod = 2018-09-03T17:16:44+09:00
+tags = ["orgmode"]
 categories = ["hugo"]
 draft = false
 +++
@@ -17,7 +19,8 @@ draft = false
       "Return a formatted link to the original Org file."
       (let ((line (save-excursion
                     (save-restriction
-                      (org-previous-visible-heading 1)
+                      (unless (org-at-heading-p)
+                        (org-previous-visible-heading 1))
                       (line-number-at-pos)))))
         (concat "[[" uri (file-name-nondirectory (buffer-file-name))
                 "#L" (format "%d" line) "][" alt "]]")))

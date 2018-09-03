@@ -477,7 +477,7 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
    CLOSED: [2018-09-03 Mon 17:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-link-to-the-original-org-source-file
-:EXPORT_HUGO_TAGS: 
+:EXPORT_HUGO_TAGS: orgmode
 :CREATED:  [2018-09-03 Mon 16:55]
 :END:
 
@@ -492,7 +492,8 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
       "Return a formatted link to the original Org file."
       (let ((line (save-excursion
                     (save-restriction
-                      (org-previous-visible-heading 1)
+                      (unless (org-at-heading-p)
+                        (org-previous-visible-heading 1))
                       (line-number-at-pos)))))
         (concat "[[" uri (file-name-nondirectory (buffer-file-name))
                 "#L" (format "%d" line) "][" alt "]]")))
