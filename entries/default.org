@@ -528,6 +528,10 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 
 {{{srclink}}}
 
+*** Updated (2018-09-04@00:44)
+
+このアプローチだと不十分とわかった．同じファイルの別箇所を編集したときに，headingの行がズレるが，このマクロが含まれているすべての subtree を更新しなければそのズレを反映させられない．ｸﾏｯﾀ...
+
 * 2019
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: 2019

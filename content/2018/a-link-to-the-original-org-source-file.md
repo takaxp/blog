@@ -2,6 +2,7 @@
 title = "記事の Org file にリンクを貼る"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-09-03T17:02:00+09:00
+lastmod = 2018-09-04T00:45:41+09:00
 tags = ["orgmode"]
 categories = ["hugo"]
 draft = false
@@ -43,4 +44,9 @@ draft = false
 
 しばらくこれで運用してみる．
 
-[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/default.org#L476)
+[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/default.org#L485)
+
+
+## Updated (2018-09-04@00:44) {#updated--2018-09-04-00-44}
+
+このアプローチだと不十分とわかった．同じファイルの別箇所を編集したときに，headingの行がズレるが，このマクロが含まれているすべての subtree を更新しなければそのズレを反映させられない．ｸﾏｯﾀ...
