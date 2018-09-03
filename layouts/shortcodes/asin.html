@@ -1,0 +1,21 @@
+{{- $asin := .Get 0 -}}
+{{- $json := index .Site.Data.asin $asin -}}
+{{- $item := $json.ItemLookupResponse.Items.Item -}}
+{{- $title := $item.ItemAttributes.Title -}}
+{{- $price := $item.OfferSummary.LowestNewPrice -}}
+{{- $image := $item.SmallImage -}}
+<div class="asin-box">
+  <div class="asin-image">
+    <a href="{{ $item.DetailPageURL.value }}" target="_blank">
+      <img src="{{ $image.URL.value }}" alt="{{ $title.value }}" width="{{ $image.Width.value }}" height="{{ $image.Height.value }}"/>
+    </a>
+  </div>
+  <div class="asin-text">
+    品名: <a href="{{ $item.DetailPageURL.value }}" target="_blank">
+      {{ $title.value }}
+    </a><br/>
+    価格: {{ $price.Amount.value }} {{ $price.CurrencyCode.value }}<br/>
+    ASIN: {{ $asin }}
+  </div>
+  <div class="asin-metadata"></div>
+</div>

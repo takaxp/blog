@@ -1,0 +1,637 @@
+{
+	"ItemLookupResponse": {
+		"xmlns": "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
+		"OperationRequest": {
+			"HTTPHeaders": {
+				"Header": {
+					"Name": "UserAgent",
+					"Value": "curl/7.54.0"
+				}
+			},
+			"RequestId": {
+				"value": "c7512f44-8136-4363-a4a6-79a2df77c601"
+			},
+			"Arguments": {
+				"Argument": [
+					{
+						"Name": "AWSAccessKeyId",
+						"Value": "AKIAI7WGOLOCKUDEVSXA"
+					},
+					{
+						"Name": "AssociateTag",
+						"Value": "pxaka-22"
+					},
+					{
+						"Name": "ItemId",
+						"Value": "B01N3PBDGJ"
+					},
+					{
+						"Name": "Operation",
+						"Value": "ItemLookup"
+					},
+					{
+						"Name": "ResponseGroup",
+						"Value": "Medium"
+					},
+					{
+						"Name": "Service",
+						"Value": "AWSECommerceService"
+					},
+					{
+						"Name": "Timestamp",
+						"Value": "2018-08-22T14:16:51Z"
+					},
+					{
+						"Name": "Version",
+						"Value": "2013-08-01"
+					},
+					{
+						"Name": "Signature",
+						"Value": "P8Bx9jNCsH3BStO9opslLccbfLmnGmVg4YuVGwrHbuM="
+					}
+				]
+			},
+			"RequestProcessingTime": {
+				"value": "0.0160381930000000"
+			}
+		},
+		"Items": {
+			"Request": {
+				"IsValid": {
+					"value": "True"
+				},
+				"ItemLookupRequest": {
+					"IdType": {
+						"value": "ASIN"
+					},
+					"ItemId": {
+						"value": "B01N3PBDGJ"
+					},
+					"ResponseGroup": {
+						"value": "Medium"
+					},
+					"VariationPage": {
+						"value": "All"
+					}
+				}
+			},
+			"Item": {
+				"ASIN": {
+					"value": "B01N3PBDGJ"
+				},
+				"ParentASIN": {
+					"value": "B07B2V4CX9"
+				},
+				"DetailPageURL": {
+					"value": "https://www.amazon.co.jp/GARMIN-%E3%82%AC%E3%83%BC%E3%83%9F%E3%83%B3-%E3%83%A9%E3%83%B3%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81-ForeAthlete-168938/dp/B01N3PBDGJ?psc=1&SubscriptionId=AKIAI7WGOLOCKUDEVSXA&tag=pxaka-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01N3PBDGJ"
+				},
+				"ItemLinks": {
+					"ItemLink": [
+						{
+							"Description": {
+								"value": "Add To Wishlist"
+							},
+							"URL": {
+								"value": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=B01N3PBDGJ&SubscriptionId=AKIAI7WGOLOCKUDEVSXA&tag=pxaka-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B01N3PBDGJ"
+							}
+						},
+						{
+							"Description": {
+								"value": "Tell A Friend"
+							},
+							"URL": {
+								"value": "https://www.amazon.co.jp/gp/pdp/taf/B01N3PBDGJ?SubscriptionId=AKIAI7WGOLOCKUDEVSXA&tag=pxaka-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B01N3PBDGJ"
+							}
+						},
+						{
+							"Description": {
+								"value": "All Customer Reviews"
+							},
+							"URL": {
+								"value": "https://www.amazon.co.jp/review/product/B01N3PBDGJ?SubscriptionId=AKIAI7WGOLOCKUDEVSXA&tag=pxaka-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B01N3PBDGJ"
+							}
+						},
+						{
+							"Description": {
+								"value": "All Offers"
+							},
+							"URL": {
+								"value": "https://www.amazon.co.jp/gp/offer-listing/B01N3PBDGJ?SubscriptionId=AKIAI7WGOLOCKUDEVSXA&tag=pxaka-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B01N3PBDGJ"
+							}
+						}
+					]
+				},
+				"SalesRank": {
+					"value": "2604"
+				},
+				"SmallImage": {
+					"URL": {
+						"value": "https://images-fe.ssl-images-amazon.com/images/I/51mX66nU14L._SL75_.jpg"
+					},
+					"Height": {
+						"Units": "pixels",
+						"value": "75"
+					},
+					"Width": {
+						"Units": "pixels",
+						"value": "60"
+					}
+				},
+				"MediumImage": {
+					"URL": {
+						"value": "https://images-fe.ssl-images-amazon.com/images/I/51mX66nU14L._SL160_.jpg"
+					},
+					"Height": {
+						"Units": "pixels",
+						"value": "160"
+					},
+					"Width": {
+						"Units": "pixels",
+						"value": "127"
+					}
+				},
+				"LargeImage": {
+					"URL": {
+						"value": "https://images-fe.ssl-images-amazon.com/images/I/51mX66nU14L.jpg"
+					},
+					"Height": {
+						"Units": "pixels",
+						"value": "500"
+					},
+					"Width": {
+						"Units": "pixels",
+						"value": "397"
+					}
+				},
+				"ImageSets": {
+					"ImageSet": [
+						{
+							"Category": "variant",
+							"SwatchImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/519LDqWxoTL._SL30_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "30"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "18"
+								}
+							},
+							"SmallImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/519LDqWxoTL._SL75_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "75"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "45"
+								}
+							},
+							"ThumbnailImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/519LDqWxoTL._SL75_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "75"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "45"
+								}
+							},
+							"TinyImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/519LDqWxoTL._SL110_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "110"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "67"
+								}
+							},
+							"MediumImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/519LDqWxoTL._SL160_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "160"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "97"
+								}
+							},
+							"LargeImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/519LDqWxoTL.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "500"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "303"
+								}
+							},
+							"HiResImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/716lQvaAB1L.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "1500"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "909"
+								}
+							}
+						},
+						{
+							"Category": "variant",
+							"SwatchImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/51UkGffVLBL._SL30_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "30"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "27"
+								}
+							},
+							"SmallImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/51UkGffVLBL._SL75_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "75"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "68"
+								}
+							},
+							"ThumbnailImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/51UkGffVLBL._SL75_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "75"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "68"
+								}
+							},
+							"TinyImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/51UkGffVLBL._SL110_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "110"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "99"
+								}
+							},
+							"MediumImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/51UkGffVLBL._SL160_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "160"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "145"
+								}
+							},
+							"LargeImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/51UkGffVLBL.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "500"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "452"
+								}
+							},
+							"HiResImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/71cftbl4QTL.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "1500"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "1356"
+								}
+							}
+						},
+						{
+							"Category": "primary",
+							"SwatchImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/51mX66nU14L._SL30_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "30"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "24"
+								}
+							},
+							"SmallImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/51mX66nU14L._SL75_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "75"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "60"
+								}
+							},
+							"ThumbnailImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/51mX66nU14L._SL75_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "75"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "60"
+								}
+							},
+							"TinyImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/51mX66nU14L._SL110_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "110"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "87"
+								}
+							},
+							"MediumImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/51mX66nU14L._SL160_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "160"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "127"
+								}
+							},
+							"LargeImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/51mX66nU14L.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "500"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "397"
+								}
+							},
+							"HiResImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/71ZCXBwAiTL.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "1500"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "1191"
+								}
+							}
+						}
+					]
+				},
+				"ItemAttributes": {
+					"Binding": {
+						"value": "スポーツ用品"
+					},
+					"Brand": {
+						"value": "GARMIN(ガーミン)"
+					},
+					"Color": {
+						"value": "ブラック"
+					},
+					"EAN": {
+						"value": "0753759174972"
+					},
+					"EANList": {
+						"EANListElement": {
+							"value": "0753759174972"
+						}
+					},
+					"Feature": [
+						{
+							"value": "主な用途: ラン、屋内ラン、バイク、カーディオ、ウォークなど"
+						},
+						{
+							"value": "主な機能: 光学式心拍計内蔵、ライフログ機能、アプリ連携など"
+						},
+						{
+							"value": "実寸法:35.5 x 40.7 x 13.3 mm"
+						},
+						{
+							"value": "ディスプレイサイズ:  23.5 x 23.5 mm / 128 x 128 ピクセル / モノクロ"
+						},
+						{
+							"value": "重量:約 37.3g"
+						},
+						{
+							"value": "稼働時間: 時計モード 最大9日間(光学式心拍計オン+GPSオフ)/トレーニングモード 最大13時間(光学式心拍計オン+GPSオン)"
+						},
+						{
+							"value": "防水性能 :50m防水"
+						},
+						{
+							"value": "保存可能データ数: アクティビティデータ 7 件/ライフログデータ 7 日間分"
+						},
+						{
+							"value": "付属品:本体、チャージングクリップ、操作マニュアル"
+						}
+					],
+					"IsAutographed": {
+						"value": "0"
+					},
+					"IsMemorabilia": {
+						"value": "0"
+					},
+					"ItemDimensions": {
+						"Weight": {
+							"Units": "100分の1ポンド",
+							"value": "8"
+						}
+					},
+					"Label": {
+						"value": "GARMIN(ガーミン)"
+					},
+					"ListPrice": {
+						"Amount": {
+							"value": "26784"
+						},
+						"CurrencyCode": {
+							"value": "JPY"
+						},
+						"FormattedPrice": {
+							"value": "￥ 26,784"
+						}
+					},
+					"Manufacturer": {
+						"value": "GARMIN(ガーミン)"
+					},
+					"Model": {
+						"value": "168938"
+					},
+					"MPN": {
+						"value": "168938"
+					},
+					"PackageDimensions": {
+						"Height": {
+							"Units": "100分の1インチ",
+							"value": "276"
+						},
+						"Length": {
+							"Units": "100分の1インチ",
+							"value": "559"
+						},
+						"Weight": {
+							"Units": "100分の1ポンド",
+							"value": "38"
+						},
+						"Width": {
+							"Units": "100分の1インチ",
+							"value": "291"
+						}
+					},
+					"PackageQuantity": {
+						"value": "1"
+					},
+					"PartNumber": {
+						"value": "168938"
+					},
+					"ProductGroup": {
+						"value": "Sports"
+					},
+					"ProductTypeName": {
+						"value": "SPORTING_GOODS"
+					},
+					"Publisher": {
+						"value": "GARMIN(ガーミン)"
+					},
+					"ReleaseDate": {
+						"value": "2016-11-19"
+					},
+					"Studio": {
+						"value": "GARMIN(ガーミン)"
+					},
+					"Title": {
+						"value": "GARMIN(ガーミン) ランニングウォッチ GPS 心拍計 ライフログ 50m防水 ForeAthlete 35J ブラック 【日本正規品】 FA35J 168938"
+					},
+					"UPC": {
+						"value": "753759174972"
+					},
+					"UPCList": {
+						"UPCListElement": {
+							"value": "753759174972"
+						}
+					}
+				},
+				"OfferSummary": {
+					"LowestNewPrice": {
+						"Amount": {
+							"value": "22116"
+						},
+						"CurrencyCode": {
+							"value": "JPY"
+						},
+						"FormattedPrice": {
+							"value": "￥ 22,116"
+						}
+					},
+					"LowestUsedPrice": {
+						"Amount": {
+							"value": "19800"
+						},
+						"CurrencyCode": {
+							"value": "JPY"
+						},
+						"FormattedPrice": {
+							"value": "￥ 19,800"
+						}
+					},
+					"TotalNew": {
+						"value": "16"
+					},
+					"TotalUsed": {
+						"value": "1"
+					},
+					"TotalCollectible": {
+						"value": "0"
+					},
+					"TotalRefurbished": {
+						"value": "0"
+					}
+				},
+				"EditorialReviews": {
+					"EditorialReview": {
+						"Source": {
+							"value": "Product Description"
+						},
+						"Content": {
+							"value": "●【商品説明】●「GARMIN(ガーミン) Fore Athlete35J Black(日本正規品) 168938」は、シンプルなデザイン、最小限に抑えたトレーニング機能、見やすい画面とランニング初心者に最適なスポーツウォッチです。●手首で簡単に心拍が測れる光学式心拍センサー採用で、初心者にこそ重要な心拍トレーニングが手軽に始められます。●日本衛星みちびきにも対応する高感度GPS、ランニング以外にもバイク・ウオークなどのアクティビティにも対応、普段の健康管理に最適なライフログ機能や心拍モニタリング機能搭載、必要な機能を最適にチョイスした使い易いモデルです。●標準付属品:チャージングクリップ、操作マニュアル、保証書(保証期間/1年 ※要ユーザー無料登録)。●※本機とBluetooth接続するためには、スマートフォンがBluetooth Low Energy(BLE)に対応している必要があります。●【製品仕様】●サイズ:本体/35.5×40.7×13.3mm、ディスプレイ/23.5×23.5mm(128×128ピクセル:モノクロ)●重量:約37.3g●特長:みちびき・GL..."
+						},
+						"IsLinkSuppressed": {
+							"value": "0"
+						}
+					}
+				}
+			}
+		}
+	}
+}
