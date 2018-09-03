@@ -2,7 +2,6 @@
 title = "記事の Org file にリンクを貼る"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-09-03T17:02:00+09:00
-lastmod = 2018-09-03T17:16:44+09:00
 tags = ["orgmode"]
 categories = ["hugo"]
 draft = false
@@ -16,7 +15,7 @@ draft = false
 
 ```emacs-lisp
 (defun org-hugo-get-link-to-orgfile (uri alt)
-      "Return a formatted link to the original Org file."
+      "Return a formatted link to the original Org file in Github."
       (let ((line (save-excursion
                     (save-restriction
                       (unless (org-at-heading-p)
