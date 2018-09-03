@@ -2,7 +2,7 @@
 title = "和風クリームパスタに挑戦"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-09-02T20:47:00+09:00
-lastmod = 2018-09-03T16:49:53+09:00
+lastmod = 2018-09-03T16:53:06+09:00
 tags = ["pasta", "cream"]
 categories = ["cooking"]
 draft = false
@@ -63,4 +63,4 @@ draft = false
 
 ごちそうさまでした．
 
-[see source Orgfile](https://github.com/takaxp/blog/blame/master/entries/default.org#L413)
+[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/default.org#L413)
