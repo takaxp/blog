@@ -207,7 +207,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
 {{- $json := index .Site.Data.asin $asin -}}
 {{- $item := $json.ItemLookupResponse.Items.Item -}}
 {{- $title := $item.ItemAttributes.Title -}}
-{{- $price := $item.ItemAttributes.ListPrice -}}
+{{- $price := $item.OfferSummary.LowestNewPrice -}}
 {{- $image := $item.SmallImage -}}
 <div class="asin-box">
   <div class="asin-title">
@@ -231,6 +231,15 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
 {{< asin 4799106023 >}}
 
 {{< asin 4883998304 >}}
+
+*** Updated (2018-09-04@00:15)
+
+参照する価格のフィールドが，ISBNで拾うアイテムと異なるため修正した．前者は定価で，後者は現在の最安値のようだ．
+
+#+begin_src html
+<!-- {{- $price := $item.ItemAttributes.ListPrice -}} -->
+{{- $price := $item.OfferSummary.LowestNewPrice -}}
+#+end_src
 
 *** References
  - [[https://frdmtoplay.com/using-curl-with-the-amazon-product-request-api/][Using curl with the Amazon Product Request API]]
