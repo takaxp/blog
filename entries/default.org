@@ -378,7 +378,7 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
    CLOSED: [2018-08-28 Tue 02:57]
 :PROPERTIES:
 :EXPORT_FILE_NAME: pasta-with-new-tomato-source
-:EXPORT_HUGO_TAGS: pasta tomato cream
+:EXPORT_HUGO_TAGS: "pasta" "tomato" "cream"
 :CREATED:  [2018-08-28 Tue 02:40]
 :END:
 
@@ -401,7 +401,7 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
    CLOSED: [2018-08-30 Thu 13:13]
 :PROPERTIES:
 :EXPORT_FILE_NAME: pasta-tomato-fresh-cream
-:EXPORT_HUGO_TAGS: pasta tomato cream
+:EXPORT_HUGO_TAGS: "pasta" "tomato" "cream"
 :CREATED:  [2018-09-02 Sun 20:40]
 :END:
 
@@ -423,7 +423,7 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
    CLOSED: [2018-09-02 Sun 20:47]
 :PROPERTIES:
 :EXPORT_FILE_NAME: pasta-fresh-cream-jp-style
-:EXPORT_HUGO_TAGS: pasta cream
+:EXPORT_HUGO_TAGS: "pasta" "cream"
 :CREATED:  [2018-09-02 Sun 20:40]
 :END:
 
@@ -486,7 +486,7 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
    CLOSED: [2018-09-03 Mon 17:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-link-to-the-original-org-source-file
-:EXPORT_HUGO_TAGS: orgmode
+:EXPORT_HUGO_TAGS: "orgmode"
 :CREATED:  [2018-09-03 Mon 16:55]
 :END:
 
@@ -531,7 +531,6 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 *** Updated (2018-09-04@00:44)
 
 このアプローチだと不十分とわかった．同じファイルの別箇所を編集したときに，headingの行がズレるが，このマクロが含まれているすべての subtree を更新しなければそのズレを反映させられない．ｸﾏｯﾀ...
-
 * 2019
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: 2019
