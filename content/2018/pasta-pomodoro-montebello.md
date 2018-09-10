@@ -3,6 +3,7 @@ title = "頂戴したホールトマト缶でポモドーロ"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-09-11T01:02:00+09:00
 tags = ["pasta", "tomato"]
+categories = ["cooking"]
 draft = false
 +++
 
