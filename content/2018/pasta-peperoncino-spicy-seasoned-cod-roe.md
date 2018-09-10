@@ -3,6 +3,7 @@ title = "辛子明太子のペペロンチーノ"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-09-11T00:54:00+09:00
 tags = ["pasta", "salt"]
+categories = ["cooking"]
 draft = false
 +++
 
