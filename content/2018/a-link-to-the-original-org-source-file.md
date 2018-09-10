@@ -2,7 +2,7 @@
 title = "記事の Org file にリンクを貼る"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-09-03T17:02:00+09:00
-lastmod = 2018-09-04T00:45:41+09:00
+lastmod = 2018-09-10T16:04:43+09:00
 tags = ["orgmode"]
 categories = ["hugo"]
 draft = false
