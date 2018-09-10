@@ -2,7 +2,7 @@
 title = "ox-hugo テスト"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-08-20T18:23:00+09:00
-lastmod = 2018-08-28T01:42:46+09:00
+lastmod = 2018-09-11T00:54:40+09:00
 categories = ["hugo"]
 draft = false
 +++
@@ -64,7 +64,7 @@ draft = false
 ## 表 {#表}
 
 <div class="table-caption">
-  <span class="table-number">Table 1:</span>
+  <span class="table-number">Table 1</span>:
   てーぶる
 </div>
 
