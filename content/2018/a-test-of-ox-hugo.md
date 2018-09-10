@@ -2,7 +2,6 @@
 title = "ox-hugo テスト"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-08-20T18:23:00+09:00
-lastmod = 2018-09-11T00:54:40+09:00
 categories = ["hugo"]
 draft = false
 +++
