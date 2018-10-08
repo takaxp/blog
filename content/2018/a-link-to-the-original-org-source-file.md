@@ -2,7 +2,7 @@
 title = "記事の Org file にリンクを貼る"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-09-03T17:02:00+09:00
-lastmod = 2018-09-26T01:41:49+09:00
+lastmod = 2018-10-08T16:28:40+09:00
 tags = ["orgmode"]
 categories = ["hugo"]
 draft = false
@@ -44,7 +44,7 @@ draft = false
 
 しばらくこれで運用してみる．
 
-[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/imadenale.org#L485)
+[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/imadenale.org#L487)
 
 
 ## Updated (2018-09-04@00:44) {#updated--2018-09-04-00-44}

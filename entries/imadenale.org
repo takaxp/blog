@@ -417,13 +417,13 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 
 ごちそうさまでした．
 
-[[https://github.com/takaxp/blog/blame/master/entries/default.org#L400][see Orgfile]]
+{{{srclink}}}
 
 ** DONE 和風クリームパスタに挑戦                                   :@cooking:
    CLOSED: [2018-09-02 Sun 20:47]
 :PROPERTIES:
 :EXPORT_FILE_NAME: pasta-fresh-cream-jp-style
-:EXPORT_HUGO_TAGS: "pasta" "cream"
+:EXPORT_HUGO_TAGS: "pasta" "cream" "wafu"
 :CREATED:  [2018-09-02 Sun 20:40]
 :END:
 
@@ -481,7 +481,8 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 
 ごちそうさまでした．
 
-[[https://github.com/takaxp/blog/blame/master/entries/default.org#L422][see Orgfile]]
+{{{srclink}}}
+
 ** DONE 記事の Org file にリンクを貼る                                :@hugo:
    CLOSED: [2018-09-03 Mon 17:02]
 :PROPERTIES:
@@ -880,3 +881,60 @@ Emacsを使い始めて基本的な操作に慣れてくると，たくさんの
 
 {{< tweet 1049152528540028928 >}}
 
+#+caption: レシピ（材料・二皿分）
+| 材料         | 分量 | 単位 |
+|--------------+------+------|
+| 全卵         |    1 | 個   |
+| 卵黄         |    1 | 個   |
+| ペコリーノ   | 大量 |      |
+| 黒胡椒       | 適量 |      |
+| ベーコン     |   60 | [g]  |
+| オイル       |   20 | [cc] |
+| 茹で汁(1.1%) |   30 | [cc] |
+| パスタ       |  180 | [g]  |
+** DONE 最終変更日の手動設定                                          :@hugo:
+   CLOSED: [2018-10-08 Mon 22:59]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 58e5bcee-1fb9-48a4-628b-a80692983bfe
+:EXPORT_HUGO_TAGS: "orgmode"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-10-08 Mon 22:23]
+:END:
+
+=ox-hugo= を使った =Hugo= への markdown 出力では，最終更新日( =lastmod= )を設定できる．
+
+さらに次のように設定すれば，ファイル保存時に自動的に最終更新日を設定できる．
+
+#+begin_src emacs-lisp
+(setq org-hugo-auto-set-lastmod t)
+#+end_src
+
+しばらくはこの設定でうまく運用できていたが，細かい修正等で，わざわざ更新日を更新する必要がないことも多いことがわかった．
+
+そこで，この設定は =nil= にして，代わりにプロパティに =lastmod= を簡単に記録するための関数を準備した．
+
+必要に応じて，編集中にこれを呼べば良い．
+
+#+begin_src emacs-lisp
+(defun my-ox-hugo-add-lastmod ()
+      "Add `lastmod' property with the current time."
+      (interactive)
+      (org-set-property "EXPORT_HUGO_LASTMOD"
+                        (format-time-string "[%Y-%m-%d %a %H:%M]")))
+#+end_src
+
+初めて =EXPORT_HUGO_LASTMOD= を追加すると，プロパティの中の最後に追加されるため，順番が気になる人は，あらかじめ =EXPORT_HUGO_LASTMOD= を登録しておけばよい．
+
+これは， =org-capture= のテンプレートに追加するだけで簡単にできる．
+
+#+begin_src emacs-lisp
+(defvar org-capture-blog-file
+      (concat org-directory "blog/entries/imadenale.org"))
+(setq org-capture-templates
+      `(("b" "Create new post for imadenale blog" entry
+         (file+headline ,org-capture-blog-file ,(format-time-string "%Y"))
+         "** TODO \n:PROPERTIES:\n:EXPORT_FILE_NAME: %?\n:EXPORT_HUGO_TAGS: \n:EXPORT_HUGO_LASTMOD: \n:END:\n")
+        ("B" "Create new post for imadenale blog (UUID)" entry
+         (file+headline ,org-capture-blog-file ,(format-time-string "%Y"))
+         "** TODO %?\n:PROPERTIES:\n:EXPORT_FILE_NAME: %(uuid-string)\n:EXPORT_HUGO_TAGS: \n:EXPORT_HUGO_LASTMOD: \n:END:\n")))
+#+end_src
