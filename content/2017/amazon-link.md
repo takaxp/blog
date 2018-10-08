@@ -2,7 +2,7 @@
 title = "Amazon リンク"
 author = ["Takaaki ISHIKAWA"]
 date = 2017-02-06T03:08:01+09:00
-tags = ["message"]
+tags = ["announcement"]
 draft = false
 +++
 
