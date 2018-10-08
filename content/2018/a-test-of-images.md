@@ -2,7 +2,6 @@
 title = "画像の埋め込みテスト"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-08-24T14:02:00+09:00
-lastmod = 2018-08-28T01:42:47+09:00
 categories = ["hugo"]
 draft = false
 +++
@@ -58,8 +57,6 @@ draft = false
 
 [/files/2018/twitter.jpg](~/Dropbox/org/blog/static/files/2018/twitter.jpg)
 
-{{< figure src="http://localhost:1313/blog/files/2018/twitter.jpg" >}}
-
 [files/2018/twitter.jpg](../static/files/2018/twitter.jpg)
 
 {{< figure src="https://pbs.twimg.com/profile%5Fimages/892836904202149888/p%5FUbMC5Q%5F400x400.jpg" >}}
@@ -68,15 +65,9 @@ draft = false
 
 <https://pxaka.tokyo/owncloud/index.php/s/sf1CNSc3oLfKfuq>
 
-{{< figure src="https://pxaka.tokyo/blog/files/2018/%E3%81%A4%E3%81%84%E3%81%A3%E3%81%9F %E3%81%AE %E7%94%BB%E5%83%8F.jpg" width="128px" >}}
-
-{{< figure src="https://pxaka.tokyo/blog/files/2018/twitter.jpg" width="100px" >}}
-
 `#+link` に非依存で正しく表示される．インライン不可．
 
 {{< figure src="/files/2018/twitter.jpg" >}}
-
-{{< figure src="/files/2018/twitter.jpg" width="128px" link="https://pxaka.tokyo/blog/files/2018/twitter.jpg" >}}
 
 
 ## References {#references}

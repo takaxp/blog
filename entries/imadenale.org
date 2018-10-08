@@ -1,5 +1,5 @@
 #+hugo_base_dir: ../
-#+STARTUP: content
+#+startup: content
 #+macro: latex @@html:<span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>@@
 #+options: ^:{}
 #+macro: srclink (eval (org-hugo-get-link-to-orgfile "https://github.com/takaxp/blog/blame/master/entries/" "see Orgfile"))
@@ -12,6 +12,7 @@
    CLOSED: [2018-08-20 Mon 18:23]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-ox-hugo
+:EXPORT_HUGO_LASTMOD: 
 :END:
 
 =hugo= と =ox-hugo= を利用したブログ執筆の試験です．
@@ -29,19 +30,19 @@
 
     - elisp
 
-      #+BEGIN_SRC emacs-lisp
+      #+begin_src emacs-lisp
       (message "Hello! World")
-      #+END_SRC
+      #+end_src
 
     - Centered
 
-      #+BEGIN_CENTER
+      #+begin_center
       Centered text
-      #+END_CENTER
+      #+end_center
 
     - cpp
 
-      #+BEGIN_SRC cpp
+      #+begin_src cpp
       #include <iostream>
       using namespace std;
 
@@ -49,7 +50,7 @@
         cout << "Hello, World!" << endl;
         return 1;
       }
-      #+END_SRC
+      #+end_src
 
 ***** Heading 4
 
@@ -57,7 +58,7 @@
 
 *** 表
 
-  #+CAPTION: てーぶる
+  #+caption: てーぶる
   | 1 | 3 |
   |---+---|
   | 2 | 4 |
@@ -77,6 +78,7 @@
    CLOSED: [2018-08-20 Mon 20:10]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-twitter-card
+:EXPORT_HUGO_LASTMOD: 
 :END:
 
 Twitter を組み込めるのかを試験します．
@@ -90,6 +92,7 @@ Twitter を組み込めるのかを試験します．
    CLOSED: [2018-08-20 Mon 20:28]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-youtube
+:EXPORT_HUGO_LASTMOD: 
 :END:
 
 YouTube の動画を組み込めるのかを試験します．
@@ -104,6 +107,7 @@ YouTube の動画を組み込めるのかを試験します．
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-mathjax-text
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :mathjax true
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-08-21 Tue 02:04]
 :END:
 *** inline
@@ -170,6 +174,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
    CLOSED: [2018-08-21 Tue 10:53]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-cooking-report-with-twitter
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-08-21 Tue 10:52]
 :END:
 
@@ -183,6 +188,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
    CLOSED: [2018-08-21 Tue 16:25]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-gist
+:EXPORT_HUGO_LASTMOD: 
 :END:
 
 ビルトインの shorcodes を使って簡単にできます．
@@ -193,6 +199,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
    CLOSED: [2018-08-23 Thu 00:37]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-asin-shortcode
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-08-23 Thu 00:36]
 :END:
 
@@ -250,6 +257,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
    CLOSED: [2018-08-24 Fri 14:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-images
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-08-23 Thu 02:19]
 :END:
 
@@ -302,8 +310,6 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
 #+attr_html: :width 128px
 [[file:~/Dropbox/org/blog/static/files/2018/twitter.jpg][/files/2018/twitter.jpg]]
 
-http://localhost:1313/blog/files/2018/twitter.jpg
-
 #+attr_html: :width 128px
 [[../static/files/2018/twitter.jpg][files/2018/twitter.jpg]]
 
@@ -315,18 +321,9 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 #+attr_html: :width 128px
 [[https://pxaka.tokyo/owncloud/index.php/s/sf1CNSc3oLfKfuq]]
 
-#+attr_html: :width 128px
-[[files:%E3%81%A4%E3%81%84%E3%81%A3%E3%81%9F %E3%81%AE %E7%94%BB%E5%83%8F.jpg]]
-
-#+attr_html: :width 100px
-[[files:twitter.jpg]]
-
 =#+link= に非依存で正しく表示される．インライン不可．
 
 [[/files/2018/twitter.jpg]]
-
-#+attr_html: :width 128px
-[[files:twitter.jpg][file:/files/2018/twitter.jpg]]
 
 *** References
  - [[https://github.com/gohugoio/hugo/issues/4562][Figure shortcode with baseURL · Issue #4562 · gohugoio/hugo]]
@@ -334,6 +331,7 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
    CLOSED: [2018-08-24 Fri 19:44]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 44febe88-04a5-9bc4-6bfb-678a8477a0ed
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-08-24 Fri 19:39]
 :END:
 
@@ -355,6 +353,7 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
    CLOSED: [2018-08-25 Sat 04:11]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 62d73d4b-439b-cf74-1bf3-ecae75bd7bd2
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-08-25 Sat 03:54]
 :END:
 
@@ -379,6 +378,7 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 :PROPERTIES:
 :EXPORT_FILE_NAME: pasta-with-new-tomato-source
 :EXPORT_HUGO_TAGS: "pasta" "tomato" "cream"
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-08-28 Tue 02:40]
 :END:
 
@@ -402,6 +402,7 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 :PROPERTIES:
 :EXPORT_FILE_NAME: pasta-tomato-fresh-cream
 :EXPORT_HUGO_TAGS: "pasta" "tomato" "cream"
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-09-02 Sun 20:40]
 :END:
 
@@ -424,6 +425,7 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 :PROPERTIES:
 :EXPORT_FILE_NAME: pasta-fresh-cream-jp-style
 :EXPORT_HUGO_TAGS: "pasta" "cream" "wafu"
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-09-02 Sun 20:40]
 :END:
 
@@ -488,6 +490,7 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-link-to-the-original-org-source-file
 :EXPORT_HUGO_TAGS: "orgmode"
+:EXPORT_HUGO_LASTMOD: [2018-10-09 Tue 01:11]
 :CREATED:  [2018-09-03 Mon 16:55]
 :END:
 
@@ -532,11 +535,20 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 *** Updated (2018-09-04@00:44)
 
 このアプローチだと不十分とわかった．同じファイルの別箇所を編集したときに，headingの行がズレるが，このマクロが含まれているすべての subtree を更新しなければそのズレを反映させられない．ｸﾏｯﾀ...
+*** Updated (2018-10-09@01:05)
+
+基本的に新しい記事は当該文書の末尾に追加される．したがって，通常の運用であれば， =srclink= の値は変更する必要がない．新規記事の追加以外で行番号の更新がある場合は，全記事を再出力すればよい．
+
+しかし， =org-hugo-auto-set-lastmod= が有効な場合は，全記事の最終更新日が更新されることになる．これを防ぐために，このオプションは =nil= にしてから， =C-c C-e H A= を実行すればよい．
+
+それでも非効率な方法なので，継続改善が必要．
+
 ** DONE 辛子明太子のペペロンチーノ                                 :@cooking:
    CLOSED: [2018-09-11 Tue 00:54]
 :PROPERTIES:
 :EXPORT_FILE_NAME: pasta-peperoncino-spicy-seasoned-cod-roe
-:EXPORT_HUGO_TAGS: pasta salt
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-09-11 Tue 00:54]
 :END:
 
@@ -550,7 +562,8 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
    CLOSED: [2018-09-11 Tue 01:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: pasta-pomodoro-montebello
-:EXPORT_HUGO_TAGS: pasta tomato
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-09-11 Tue 01:02]
 :END:
 
@@ -602,10 +615,10 @@ Emacsを使い始めて基本的な操作に慣れてくると，たくさんの
 
 これは，設定の書き方だけに着目して高速化を目指す時の盲点です．Emacsが要求するメモリ量は，GUI利用の *フルアーマー* になると軽く 100[MB]を超えます．そして不運にも起動時にGCが働くと，起動時間が大幅に増えてしまいます．秒単位で増えますので，まずこれを防ぎます．
 
-#+BEGIN_SRC emacs-lisp :tangle yes
+#+begin_src emacs-lisp
 (setq gc-cons-threshold 134217728) ;; 128MB
 (setq garbage-collection-messages t) ;; GC実行時にメッセージを出す
-#+END_SRC
+#+end_src
 
 この例では，起動後のメモリ専有量がおおよそ 100[MB]程度になると仮定して，GCのしきい値を 128[MB]に設定しています．これで起動時にGCを起こさずに済みます．実際に起動中にGCを起こすかどうかは， =garbage-collection-messages= を設定することで，容易に確認できます．
 
@@ -734,6 +747,7 @@ Emacsを使い始めて基本的な操作に慣れてくると，たくさんの
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0915-pasta-puttanesca
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-09-25 Tue 00:35]
 :END:
 
@@ -745,6 +759,7 @@ Emacsを使い始めて基本的な操作に慣れてくると，たくさんの
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0916-pasta-amatriciana
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-09-25 Tue 00:38]
 :END:
 
@@ -756,6 +771,7 @@ Emacsを使い始めて基本的な操作に慣れてくると，たくさんの
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0917-pastap-peperoncino-shimeji
 :EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-09-25 Tue 00:42]
 :END:
 
@@ -767,6 +783,7 @@ Emacsを使い始めて基本的な操作に慣れてくると，たくさんの
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0922-pasta-arrabbiata
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-09-25 Tue 00:47]
 :END:
 
@@ -782,6 +799,7 @@ Emacsを使い始めて基本的な操作に慣れてくると，たくさんの
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0923-pasta-onion-solt
 :EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-09-25 Tue 00:52]
 :END:
 
@@ -793,6 +811,7 @@ Emacsを使い始めて基本的な操作に慣れてくると，たくさんの
 :PROPERTIES:
 :EXPORT_FILE_NAME: pasta-chicken-wafu-style
 :EXPORT_HUGO_TAGS: "pasta" "wafu"
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-10-08 Mon 14:26]
 :END:
 
@@ -807,6 +826,7 @@ Emacsを使い始めて基本的な操作に慣れてくると，たくさんの
 :PROPERTIES:
 :EXPORT_FILE_NAME: pasta-aglio-olio-e-peperoncino
 :EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: [2018-10-08 Mon 01:04]
 :CREATED:  [2018-10-08 Mon 14:38]
 :END:
 
@@ -844,6 +864,7 @@ Emacsを使い始めて基本的な操作に慣れてくると，たくさんの
 :PROPERTIES:
 :EXPORT_FILE_NAME: pasta-maitake-mushroom
 :EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-10-08 Mon 14:48]
 :END:
 
@@ -856,6 +877,7 @@ Emacsを使い始めて基本的な操作に慣れてくると，たくさんの
 :PROPERTIES:
 :EXPORT_FILE_NAME: 1007-pasta-puttanesca
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-10-08 Mon 15:15]
 :END:
 
@@ -872,6 +894,7 @@ Emacsを使い始めて基本的な操作に慣れてくると，たくさんの
 :PROPERTIES:
 :EXPORT_FILE_NAME: 1008-pasta-carbonara
 :EXPORT_HUGO_TAGS: "pasta" "cream"
+:EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-10-08 Mon 15:20]
 :END:
 
@@ -923,9 +946,9 @@ Emacsを使い始めて基本的な操作に慣れてくると，たくさんの
                         (format-time-string "[%Y-%m-%d %a %H:%M]")))
 #+end_src
 
-初めて =EXPORT_HUGO_LASTMOD= を追加すると，プロパティの中の最後に追加されるため，順番が気になる人は，あらかじめ =EXPORT_HUGO_LASTMOD= を登録しておけばよい．
+初めて =EXPORT_HUGO_LASTMOD= を追加すると，プロパティの中の最後に追加されるため，順番が気になるかもしれない．そんな人は，あらかじめ =EXPORT_HUGO_LASTMOD= をプロパティに登録しておけばよい．値が空であれば，最終更新日は出力されない．
 
-これは， =org-capture= のテンプレートに追加するだけで簡単にできる．
+="EXPORT_HUGO_LASTMOD"= の事前登録は， =org-capture= のテンプレートに追加するだけで簡単にできる．
 
 #+begin_src emacs-lisp
 (defvar org-capture-blog-file
@@ -938,3 +961,5 @@ Emacsを使い始めて基本的な操作に慣れてくると，たくさんの
          (file+headline ,org-capture-blog-file ,(format-time-string "%Y"))
          "** TODO %?\n:PROPERTIES:\n:EXPORT_FILE_NAME: %(uuid-string)\n:EXPORT_HUGO_TAGS: \n:EXPORT_HUGO_LASTMOD: \n:END:\n")))
 #+end_src
+
+=org-hugo-auto-set-lastmod= を有効にしている時のもう一つのデメリットは，複数の記事を含む orgfile で =C-c C-e H A= を実行すると，すべての記事に最終更新日が付与される，或いは，日付が更新される点にある．

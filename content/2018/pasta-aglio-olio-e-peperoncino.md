@@ -2,7 +2,7 @@
 title = "Aglio olio e peperoncino"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-09-30T14:42:00+09:00
-lastmod = 2018-10-08T15:05:21+09:00
+lastmod = 2018-10-08T01:04:00+09:00
 tags = ["pasta", "salt"]
 categories = ["cooking"]
 draft = false

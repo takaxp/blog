@@ -2,7 +2,7 @@
 title = "記事の Org file にリンクを貼る"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-09-03T17:02:00+09:00
-lastmod = 2018-10-08T16:28:40+09:00
+lastmod = 2018-10-09T01:11:00+09:00
 tags = ["orgmode"]
 categories = ["hugo"]
 draft = false
@@ -44,9 +44,18 @@ draft = false
 
 しばらくこれで運用してみる．
 
-[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/imadenale.org#L487)
+[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/imadenale.org#L7)
 
 
 ## Updated (2018-09-04@00:44) {#updated--2018-09-04-00-44}
 
 このアプローチだと不十分とわかった．同じファイルの別箇所を編集したときに，headingの行がズレるが，このマクロが含まれているすべての subtree を更新しなければそのズレを反映させられない．ｸﾏｯﾀ...
+
+
+## Updated (2018-10-09@01:05) {#updated--2018-10-09-01-05}
+
+基本的に新しい記事は当該文書の末尾に追加される．したがって，通常の運用であれば， `srclink` の値は変更する必要がない．新規記事の追加以外で行番号の更新がある場合は，全記事を再出力すればよい．
+
+しかし， `org-hugo-auto-set-lastmod` が有効な場合は，全記事の最終更新日が更新されることになる．これを防ぐために，このオプションは `nil` にしてから， `C-c C-e H A` を実行すればよい．
+
+それでも非効率な方法なので，継続改善が必要．

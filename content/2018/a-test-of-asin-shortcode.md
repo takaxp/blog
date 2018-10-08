@@ -2,7 +2,6 @@
 title = "アマゾンアフィリエイトコードの展開テスト"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-08-23T00:37:00+09:00
-lastmod = 2018-09-04T00:15:39+09:00
 categories = ["hugo"]
 draft = false
 +++
