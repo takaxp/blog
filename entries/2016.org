@@ -6,6 +6,7 @@
 :PROPERTIES:
 :EXPORT_FILE_NAME: init-entry-by-hugo
 :EXPORT_DATE: 2016-08-21T00:56:32+09:00
+:EXPORT_HUGO_LASTMOD: 
 :END:
 
 Now, a new blog is up by Hugo!
@@ -14,6 +15,7 @@ Now, a new blog is up by Hugo!
 :PROPERTIES:
 :EXPORT_FILE_NAME: task-and-mind
 :EXPORT_DATE: 2016-08-23T15:44:21+09:00
+:EXPORT_HUGO_LASTMOD: 
 :END:
 
 抱えているタスクをきちんと整理できていないと，気が重い仕事が手に付かなかったり，効率が低下したりする．それは結局のところ心が定まっていないから．つまり，タスクをちゃんと整理すれば，心が整理されてストレスが軽減されて迷わなくなる．結果的に前に進めるようになる．まずは片付けから着手しよう．
@@ -21,6 +23,7 @@ Now, a new blog is up by Hugo!
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-cooking-report
 :EXPORT_DATE: 2016-09-05T12:40:13+09:00
+:EXPORT_HUGO_LASTMOD: 
 :END:
 
 *** 昼食

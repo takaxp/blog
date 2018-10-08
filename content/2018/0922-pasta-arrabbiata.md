@@ -2,7 +2,6 @@
 title = "アラビアータ"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-09-22T00:48:00+09:00
-lastmod = 2018-09-27T16:09:53+09:00
 tags = ["pasta", "tomato"]
 categories = ["cooking"]
 draft = false

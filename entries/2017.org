@@ -6,6 +6,7 @@
 :PROPERTIES:
 :EXPORT_FILE_NAME: amazon-link
 :EXPORT_DATE: 2017-02-06T03:08:01+09:00
+:EXPORT_HUGO_LASTMOD: 
 :END:
 
 アマゾンの検索窓を埋め込んでみます．単純にスクリプトを埋め込むだけで十分です． =tracking_id= を取得して，スクリプトの変数に入れればOKです．うわさによると，日本
