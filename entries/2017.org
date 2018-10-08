@@ -2,10 +2,11 @@
 #+hugo_base_dir: ../
 
 * 2017
-** Amazon リンク                                                    :message:
+** Amazon リンク
 :PROPERTIES:
 :EXPORT_FILE_NAME: amazon-link
 :EXPORT_DATE: 2017-02-06T03:08:01+09:00
+:EXPORT_HUGO_TAGS: "announcement"
 :EXPORT_HUGO_LASTMOD: 
 :END:
 

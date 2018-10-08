@@ -2,7 +2,7 @@
 title = "食材レポート"
 author = ["Takaaki ISHIKAWA"]
 date = 2016-09-05T12:40:13+09:00
-tags = ["cooking"]
+categories = ["cooking"]
 draft = false
 +++
 
