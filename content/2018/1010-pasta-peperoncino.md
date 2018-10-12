@@ -3,6 +3,7 @@ title = "ベーコンのペペロンチーノ"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-10-10T14:10:00+09:00
 tags = ["pasta", "salt"]
+categories = ["cooking"]
 draft = false
 +++
 
@@ -21,4 +22,5 @@ draft = false
 | オイル    | 30  | [cc] |
 | 茹で汁(1.0%) | 30  | [cc] |
 | パスタ    | 180 | [g]  |
+| にんにく  | 2   | [片] |
 | 唐辛子    | 適量 |      |
