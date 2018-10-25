@@ -1042,4 +1042,31 @@ Emacsを使い始めて基本的な操作に慣れてくると，たくさんの
 | アンチョビ       |    2 | [片]   |
 | ケイパー         |    2 | 小さじ |
 | パスタ           |  180 | [g]    |
+*
+** DONE MELPAにあるテーマ一覧                                        :@emacs:
+   CLOSED: [2018-10-26 Fri 02:03]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 44c5d5dc-5ca0-4a14-b26b-6caaaea156cd
+:EXPORT_HUGO_TAGS: "MELPA"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-10-26 Fri 01:43]
+:END:
 
+MELPAから入手可能な Emacs用のテーマが一覧化されています．どのメジャーモードに対応しているかも確認できます．
+
+[[https://peach-melpa.org/][PeachMelpa | Browse Emacs themes from MELPA]]
+
+インストールは，例えば，
+
+#+begin_src emacs-lisp
+M-x package-install
+#+end_src
+
+としてから，希望のテーマ名（例： =darkokai-theme= ）を入力（選択）します．
+
+インストールが終わったら，当該のテーマ =init.el= で読み込みます．
+
+#+begin_src emacs-lisp
+(when (require 'darkokai-theme nil t)
+  (load-theme 'darkokai-theme t))
+#+end_src
