@@ -16,7 +16,7 @@ draft = false
 
 ```emacs-lisp
 (defun org-hugo-get-link-to-orgfile (uri alt)
-      "Return a formatted link to the original Org file in Github."
+      "Return a formatted link to the original Org file in GitHub."
       (let ((line (save-excursion
                     (save-restriction
                       (unless (org-at-heading-p)
@@ -44,7 +44,7 @@ draft = false
 
 しばらくこれで運用してみる．
 
-[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/imadenale.org#L7)
+[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/imadenale.org#L488)
 
 
 ## Updated (2018-09-04@00:44) {#updated--2018-09-04-00-44}
