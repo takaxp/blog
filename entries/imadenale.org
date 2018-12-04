@@ -1043,6 +1043,29 @@ Emacsを使い始めて基本的な操作に慣れてくると，たくさんの
 | ケイパー         |    2 | 小さじ |
 | パスタ           |  180 | [g]    |
 
+** DONE 有頭海老を使ったパスタ                                     :@cooking:
+   CLOSED: [2018-10-28 Sun 01:07]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1028-pasta-shrimp
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-12-05 Wed 01:03]
+:END:
+
+有頭海老を使ったパスタ．旨し．散々悩んで購入した新しいアルミ鍋もいい感じ．
+
+{{< tweet 1056374038648389632 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料         | 分量 | 単位   |
+|--------------+------+--------|
+| 有頭海老     | 数尾 |        |
+| オイル       |    3 | 大さじ |
+| バター       |   15 | [g]    |
+| 白ワイン     |    1 | 大さじ |
+| しめじ       |  1/3 | 株     |
+| 茹で汁(1.0%) |   45 | [cc]   |
+| パスタ       |  190 | [g]    |
 ** DONE MELPAにあるテーマ一覧                                        :@emacs:
    CLOSED: [2018-10-26 Fri 02:03]
 :PROPERTIES:
@@ -1127,12 +1150,104 @@ M-x package-install
          (message "%s" str)
        str)))
  #+end_src
+** DONE XO醤のアラビアータ                                         :@cooking:
+   CLOSED: [2018-11-11 Sun 01:01]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1111-pasta-arrabiata
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-12-05 Wed 00:56]
+:END:
+
+市販のトマトパウチに，XO醤を混ぜたパスタ．とても旨かった．XO醤は意外と甘いので，塩分調整が必要になった．
+
+{{< tweet 1061469460786110465 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料         | 分量 | 単位   |
+|--------------+------+--------|
+| ベビーホタテ |    4 | 個     |
+| しめじ       | 少々 |        |
+| にんにく     |    4 | [片]   |
+| ベーコン     | 少々 | [片]   |
+| オイル       |    2 | 大さじ |
+| 鷹の爪       |    1 | 本     |
+| XO醤         |    1 | 大さじ |
+| 白ワイン     |    1 | 大さじ |
+| 茹で汁(1.0%) |   15 | [cc]   |
+| トマトソース |    1 | 袋     |
+| 水           |  100 | [cc]   |
+| パスタ       |  180 | [g]    |
+** DONE 肉そぼろのパスタ                                           :@cooking:
+   CLOSED: [2018-11-17 Sat 00:55]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1117-pasta-mince
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-12-05 Wed 00:51]
+:END:
+
+台湾で購入した肉そぼろを使ってパスタを作った．XO醤が意外と甘く，ケイパーと合わせるといい感じになった．
+
+{{< tweet 1063630878671175680 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位   |
+|----------------+------+--------|
+| オリーブオイル |   30 | [cc]   |
+| にんにく       |    3 | [片]   |
+| 玉ねぎ         |  1/4 | 個     |
+| ケイパー       |    2 | 小さじ |
+| 茹で汁(1.0%)   |   30 | [cc]   |
+| XO醤           |    2 | 小さじ |
+| 肉醤           |    2 | 大さじ |
+| パスタ         |  190 | [g]    |
+
+** DONE 梅干しと生ハムのパスタ                                     :@cooking:
+   CLOSED: [2018-11-18 Sun 00:50]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1118-pasta-plum-ham
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-12-05 Wed 00:47]
+:END:
+
+梅干しを使うパスタに挑戦．仕上がりの一皿を撮影し忘れた．無念．
+
+{{< tweet 1064024526369914881 >}}
+
+{{< tweet 1064009552104849408 >}}
+
+{{< tweet 1064007709094141953 >}}
+** DONE 梅干しと生ハムのパスタ                                     :@cooking:
+   CLOSED: [2018-11-23 Fri 00:46]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1123-pasta-plum-ham
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-12-05 Wed 00:44]
+:END:
+
+梅干しがアクセントになってとても旨い．生ハムが無くても成立しそう．でも生ハムも旨い．
+
+{{< tweet 1065912951318568965 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   45 | [cc] |
+| にんにく       |    3 | 片   |
+| うめぼし       |    2 | 粒   |
+| 茹で汁(1%)     |   40 | [cc] |
+| 生ハム         | 数枚 |      |
+| 大葉           | 少々 |      |
+| パスタ         |  190 | [g]  |
 ** DONE VimConf 2018 で遊んできた話                                  :@emacs:
    CLOSED: [2018-11-25 Sun 09:07]
 :PROPERTIES:
 :EXPORT_FILE_NAME: vimconf2018
 :EXPORT_HUGO_TAGS: "editor"
-:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_LASTMOD: [2018-11-27 Tue 17:29]
 :CREATED:  [2018-11-25 Sun 08:40]
 :END:
 
@@ -1150,7 +1265,7 @@ LTの応募をしたときはもう頭がどうかしていて，すべて  [[ht
 
 {{< tweet 1047669110987837440 >}}
 
-あ，これを作ったのは[[https://gist.github.com/takaxp/ba9d33a4fafff6c86f3da26498d05711][私]]です．といっても mattn 氏の[[https://twitter.com/mattn_jp/status/1047071077556465664][投稿]]に便乗しただけですけどもね．
+あ，これを作ったのは[[https://gist.github.com/takaxp/ba9d33a4fafff6c86f3da26498d05711][私]]です．といっても mattn 氏の[[https://twitter.com/mattn_jp/status/1047071077556465664][投稿]]に便乗しただけですけどね．
 
 さて，会議の内容は？といえば，LT含めて14名が登壇し，[[https://vimconf.org/2018/#link-timetable][朝の10時から夕方5時半まで開催]]する非常に充実したものでした．各講演の詳しいところは，多くのVimユーザの方々がレポートしてくださると思いますから，ここでは自分に関係するところだけをいくつか拾っていきます．
 
@@ -1213,7 +1328,7 @@ LTの応募をしたときはもう頭がどうかしていて，すべて  [[ht
 最後に Emacs ユーザとしていくつか確認できたことをまとめます．
 
  1. Emacs はエディタとして非常に恵まれている
-    - それ Emacs で(すでに)できるよ案件が複数あった
+    - それ Emacs で(すでに)できるよ案件が複数あった（多少誤解があるかも）
       - テキストプロパティ
       - パッケージマネジメント
       - バイトコンパイル
@@ -1231,8 +1346,76 @@ LTの応募をしたときはもう頭がどうかしていて，すべて  [[ht
 
 {{{srclink}}}
 
+*** パスタ
+
+ノベルティの[[https://www.atware.co.jp/tobatware/][鮭とば]]をパスタで食べたよ．旨々．
+
+{{< tweet 1066540085917605888 >}}
+
 *** References
 
  - [[https://vim-jp.org/docs/chat.html][vim-jp » vim-jpのチャットルームについて]]
  - [[https://togetter.com/li/1291515][VimConf 2018 まとめ - Togetter]]
  - [[https://www.softantenna.com/wp/software/learning-curves-of-editors/][【ネタ】有名エディタの学習曲線 | ソフトアンテナブログ]]
+ - [[https://orgmode.org/worg/org-papers.html][White Papers Relevant to Org-mode]]
+ - [[https://www.atware.co.jp/tobatware/][とばっとうぇあ — 株式会社アットウェア]]
+** DONE ホタテと鮭とばのパスタ                                     :@cooking:
+   CLOSED: [2018-11-25 Sun 00:43]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1125-pasta-vimconf
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-12-05 Wed 00:40]
+:END:
+
+Vimconf に参加した時にいただいたノベルティに，鮭トバが入っていたのでパスタにしてみた．旨かった．
+
+{{< tweet 1066540085917605888 >}}
+
+#+caption: レシピ（材料・一皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   20 | [cc] |
+| にんにく       |    1 | 片   |
+| ベビーほたて   |    4 | 個   |
+| 鮭とば         | 少々 |      |
+| カイワレ       | 少々 |      |
+| 白ワイン       |   30 | [cc] |
+| パスタ         |  110 | [g]  |
+
+** DONE 生牡蠣のパスタ                                             :@cooking:
+   CLOSED: [2018-12-01 Sat 00:39]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1201-pasta-oyster
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-12-05 Wed 00:36]
+:END:
+
+生牡蠣を使ったパスタに挑戦．作り方はボンゴレの手順をそのまま応用した．旨い旨い．
+
+{{< tweet 1068720908443873286 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位   |
+|----------------+------+--------|
+| オリーブオイル |   40 | [cc]   |
+| にんにく       |    2 | 片     |
+| 生牡蠣         |   10 | 枚     |
+| 白ワイン       |   45 | [cc]   |
+| XO醤           |    1 | 小さじ |
+| 塩             | 少々 |        |
+| バター         |   15 | [g]    |
+| パスタ         |  190 | [g]    |
+** DONE 市販ソースのパスタ                                         :@cooking:
+   CLOSED: [2018-12-02 Sun 14:34]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1202-pasta-clam
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-12-05 Wed 00:29]
+:END:
+
+市販のパスタソースを使用．どうしても塩味が強くなるのが欠点．にんにくとシーチキンで少しだけ味を変えてみた．
+
+{{< tweet 1069084675769942016 >}}
