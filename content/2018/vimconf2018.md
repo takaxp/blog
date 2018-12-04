@@ -2,6 +2,7 @@
 title = "VimConf 2018 で遊んできた話"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-11-25T09:07:00+09:00
+lastmod = 2018-11-27T17:29:00+09:00
 tags = ["editor"]
 categories = ["emacs"]
 draft = false
@@ -21,7 +22,7 @@ LTの応募をしたときはもう頭がどうかしていて，すべて  [vim
 
 {{< tweet 1047669110987837440 >}}
 
-あ，これを作ったのは[私](https://gist.github.com/takaxp/ba9d33a4fafff6c86f3da26498d05711)です．といっても mattn 氏の[投稿](https://twitter.com/mattn%5Fjp/status/1047071077556465664)に便乗しただけですけどもね．
+あ，これを作ったのは[私](https://gist.github.com/takaxp/ba9d33a4fafff6c86f3da26498d05711)です．といっても mattn 氏の[投稿](https://twitter.com/mattn%5Fjp/status/1047071077556465664)に便乗しただけですけどね．
 
 さて，会議の内容は？といえば，LT含めて14名が登壇し，[朝の10時から夕方5時半まで開催](https://vimconf.org/2018/#link-timetable)する非常に充実したものでした．各講演の詳しいところは，多くのVimユーザの方々がレポートしてくださると思いますから，ここでは自分に関係するところだけをいくつか拾っていきます．
 
@@ -84,7 +85,7 @@ LTの応募をしたときはもう頭がどうかしていて，すべて  [vim
 最後に Emacs ユーザとしていくつか確認できたことをまとめます．
 
 1.  Emacs はエディタとして非常に恵まれている
-    -   それ Emacs で(すでに)できるよ案件が複数あった
+    -   それ Emacs で(すでに)できるよ案件が複数あった（多少誤解があるかも）
         -   テキストプロパティ
         -   パッケージマネジメント
         -   バイトコンパイル
@@ -100,7 +101,14 @@ LTの応募をしたときはもう頭がどうかしていて，すべて  [vim
 
 なお，このブログも Org Mode（のエクスポータである [ox-hugo](https://ox-hugo.scripter.co/)）の恩恵です．
 
-[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/imadenale.org#L1130)
+[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/imadenale.org#L1180)
+
+
+## パスタ {#パスタ}
+
+ノベルティの[鮭とば](https://www.atware.co.jp/tobatware/)をパスタで食べたよ．旨々．
+
+{{< tweet 1066540085917605888 >}}
 
 
 ## References {#references}
@@ -108,3 +116,5 @@ LTの応募をしたときはもう頭がどうかしていて，すべて  [vim
 -   [vim-jp » vim-jpのチャットルームについて](https://vim-jp.org/docs/chat.html)
 -   [VimConf 2018 まとめ - Togetter](https://togetter.com/li/1291515)
 -   [【ネタ】有名エディタの学習曲線 | ソフトアンテナブログ](https://www.softantenna.com/wp/software/learning-curves-of-editors/)
+-   [White Papers Relevant to Org-mode](https://orgmode.org/worg/org-papers.html)
+-   [とばっとうぇあ — 株式会社アットウェア](https://www.atware.co.jp/tobatware/)
