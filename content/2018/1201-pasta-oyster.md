@@ -1,8 +1,10 @@
 +++
 title = "生牡蠣のパスタ"
 author = ["Takaaki ISHIKAWA"]
+date = 2018-12-01T00:39:00+09:00
 tags = ["pasta", "salt"]
-draft = true
+categories = ["cooking"]
+draft = false
 +++
 
 生牡蠣を使ったパスタに挑戦．作り方はボンゴレの手順をそのまま応用した．旨い旨い．
