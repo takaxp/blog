@@ -3,6 +3,7 @@ title = "ホタテと鮭とばのパスタ"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-11-25T00:43:00+09:00
 tags = ["pasta", "salt"]
+categories = ["cooking"]
 draft = false
 +++
 

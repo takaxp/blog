@@ -3,6 +3,7 @@ title = "梅干しと生ハムのパスタ"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-11-18T00:50:00+09:00
 tags = ["pasta", "salt"]
+categories = ["cooking"]
 draft = false
 +++
 
