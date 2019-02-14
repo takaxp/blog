@@ -1,0 +1,1688 @@
+#+hugo_base_dir: ../
+#+startup: content
+#+macro: latex @@html:<span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>@@
+#+options: ^:{}
+#+macro: srclink (eval (org-hugo-get-link-to-orgfile "https://github.com/takaxp/blog/blame/master/entries/" "see Orgfile"))
+
+* 2016
+** はじめてのHugo                                             :go:blog:@hugo:
+:PROPERTIES:
+:EXPORT_FILE_NAME: init-entry-by-hugo
+:EXPORT_DATE: 2016-08-21T00:56:32+09:00
+:EXPORT_HUGO_LASTMOD: 
+:END:
+
+Now, a new blog is up by Hugo!
+
+** タスクの整理は心の整理                                          :lifehack:
+:PROPERTIES:
+:EXPORT_FILE_NAME: task-and-mind
+:EXPORT_DATE: 2016-08-23T15:44:21+09:00
+:EXPORT_HUGO_LASTMOD: 
+:END:
+
+抱えているタスクをきちんと整理できていないと，気が重い仕事が手に付かなかったり，効率が低下したりする．それは結局のところ心が定まっていないから．つまり，タスクをちゃんと整理すれば，心が整理されてストレスが軽減されて迷わなくなる．結果的に前に進めるようになる．まずは片付けから着手しよう．
+** 食材レポート                                                    :@cooking:
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-cooking-report
+:EXPORT_DATE: 2016-09-05T12:40:13+09:00
+:EXPORT_HUGO_LASTMOD: 
+:END:
+
+*** 昼食
+- トマト（半分）
+- 肉入り麻婆豆腐
+- ご飯
+*** 残り物
+- トマト（半分）
+- 肉入り麻婆豆腐（1.5人前）
+- ご飯（1人前）
+*** 食材
+- マッシュルーム（3個）
+- 玉ねぎ（半分）
+- レタス（1パック）
+- きゅうり（1本）
+- 蒸しどり（1パック）
+- 鶏もも肉（1パック） *期限*
+* 2017
+** Amazon リンク
+:PROPERTIES:
+:EXPORT_FILE_NAME: amazon-link
+:EXPORT_DATE: 2017-02-06T03:08:01+09:00
+:EXPORT_HUGO_TAGS: "announcement"
+:EXPORT_HUGO_LASTMOD: 
+:END:
+
+アマゾンの検索窓を埋め込んでみます．単純にスクリプトを埋め込むだけで十分です． =tracking_id= を取得して，スクリプトの変数に入れればOKです．うわさによると，日本
+語検索がうまく行かないそうな．
+
+=ox-hugo= 経由だと， ~_~ がエスケープされるので，javascript のコードが正しく動作しない．
+
+* 2018
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: 2018
+:END:
+** DONE ox-hugo テスト                                                :@hugo:
+   CLOSED: [2018-08-20 Mon 18:23]
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-test-of-ox-hugo
+:EXPORT_HUGO_LASTMOD: 
+:END:
+
+=hugo= と =ox-hugo= を利用したブログ執筆の試験です．
+
+*** Heading1
+**** Heading 2
+
+  コンテンツ
+
+**** Heading 3
+    - [ ] a
+    - [X] b
+
+**** Source blocks
+
+    - elisp
+
+      #+begin_src emacs-lisp
+      (message "Hello! World")
+      #+end_src
+
+    - Centered
+
+      #+begin_center
+      Centered text
+      #+end_center
+
+    - cpp
+
+      #+begin_src cpp
+      #include <iostream>
+      using namespace std;
+
+      int main(){
+        cout << "Hello, World!" << endl;
+        return 1;
+      }
+      #+end_src
+
+***** Heading 4
+
+  $H(z)$
+
+*** 表
+
+  #+caption: てーぶる
+  | 1 | 3 |
+  |---+---|
+  | 2 | 4 |
+
+*** 装飾
+
+  *太字* , _下線_ , /イタリック/
+
+*** リンク
+
+  [[http://google.co.jp]]， [[http://google.com/][ぐーぐる．こむ]]
+
+*** タスク
+**** TODO タスク
+     DEADLINE: <2017-03-01 Wed>
+** DONE twitter 組み込みテスト                                        :@hugo:
+   CLOSED: [2018-08-20 Mon 20:10]
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-test-of-twitter-card
+:EXPORT_HUGO_LASTMOD: 
+:END:
+
+Twitter を組み込めるのかを試験します．
+
+{{< tweet 1031404732470898689 >}}
+
+*** References
+ - https://gohugo.io/content-management/shortcodes/#example-tweet-input
+
+** DONE YouTube 組み込みテスト                                        :@hugo:
+   CLOSED: [2018-08-20 Mon 20:28]
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-test-of-youtube
+:EXPORT_HUGO_LASTMOD: 
+:END:
+
+YouTube の動画を組み込めるのかを試験します．
+
+{{< youtube kaw75f11fPU >}}
+
+*** References
+ - [[https://gohugo.io/content-management/shortcodes/#example-youtube-input][Shortcodes | Hugo]]
+
+** DONE 数式の展開テスト                                              :@hugo:
+   CLOSED: [2018-08-21 Tue 02:05]
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-mathjax-text
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :mathjax true
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-08-21 Tue 02:04]
+:END:
+*** inline
+An inline equation $f(x)$.
+
+*** stand alone without numbering
+A standalone equation:
+$$ E = mc^{2} $$
+
+*** full equation with numbering
+
++*うまくいかない* 通常のHTML出力では正しく式番号がレンダリングされる．+
+
+=ox-hugo= の設定では，
+
+#+begin_quote
+https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+#+end_quote
+
+だが，通常のHTML出力では，
+
+#+begin_quote
+https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML
+#+end_quote
+
+である．
+
+And a full @@html:<span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>@@ equation will be displayed as
+
+\begin{equation}
+\label{eq:1}
+C = W\log_{2} (1+\mathrm{SNR})
+\end{equation}
+
+, and could be referenced by (\ref{eq:1}).
+
+最終的に，リファレンスに示された =mathjax-config.js= を利用すればOK．
+
+導入は， =./static/js/mathjax-config.js= として [[https://ox-hugo.scripter.co/js/mathjax-config.js][mathjax-config.js]] を保存し，テーマの中で =mathjax= のスクリプトを記述している箇所に，以下を追加する．
+
+#+begin_src javascript
+<!--
+ https://github.com/mathjax/MathJax/issues/1988#issuecomment-384978927
+ Use plain Javascript to prevent the use of window.eval(). Then
+ 'unsafe-eval' won't be needed to be added to script-src CSP.
+ Also move the mathjax config to a separate file from the inline script so
+ that 'unsafe-inline can also be removed from script-src CSP.
+-->
+<script src="{{ "js/mathjax-config.js" | absURL }}"></script>
+#+end_src
+
+これで式番号と =\ref= が効くようになる．
+
+=ox-hugo= の設定は，以下（本来の値）でOKだった．
+
+#+begin_quote
+https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+#+end_quote
+
+*** References
+ - https://github.com/kaushalmodi/hugo-bare-min-theme/blob/master/layouts/partials/mathjax.html
+ - https://ox-hugo.scripter.co/js/mathjax-config.js
+** DONE 今週のパスタ                                               :@cooking:
+   CLOSED: [2018-08-21 Tue 10:53]
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-test-of-cooking-report-with-twitter
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-08-21 Tue 10:52]
+:END:
+
+こんな感じで調理しています．
+
+{{< tweet 1031028246769426433 >}}
+
+{{< tweet 1028952922116173825 >}}
+
+** DONE Gistの展開テスト                                              :@hugo:
+   CLOSED: [2018-08-21 Tue 16:25]
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-test-of-gist
+:EXPORT_HUGO_LASTMOD: 
+:END:
+
+ビルトインの shorcodes を使って簡単にできます．
+
+{{< gist takaxp 8f83f07d3fc4b711d2d18f5f82767524 >}}
+
+** DONE アマゾンアフィリエイトコードの展開テスト                      :@hugo:
+   CLOSED: [2018-08-23 Thu 00:37]
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-test-of-asin-shortcode
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-08-23 Thu 00:36]
+:END:
+
+[[https://gohugo.io/templates/shortcode-templates/][HUGO shortcodes]]を使って，Amazonアフィリエイトのリンクを組み込みます．
+
+{{< asin B01N3PBDGJ >}}
+
+動かすのはちょっと大変．以下は，今回のために作った shortcodes で，これ加えて，[[https://affiliate.amazon.co.jp/assoc_credentials/home][Product Advertising API ]]を用いたXMLデータのダウンロードスクリプト，XMLからJSON形式のデータを作り， =./data/asin/B01N3PBDGJ.json= として保存しておく必要があります．
+
+#+begin_src html
+{{- $asin := .Get 0 -}}
+{{- $json := index .Site.Data.asin $asin -}}
+{{- $item := $json.ItemLookupResponse.Items.Item -}}
+{{- $title := $item.ItemAttributes.Title -}}
+{{- $price := $item.OfferSummary.LowestNewPrice -}}
+{{- $image := $item.SmallImage -}}
+<div class="asin-box">
+  <div class="asin-title">
+    <a href="{{ $item.DetailPageURL.value }}" target="_blank">
+      製品名: {{ $title.value }}
+    </a><br/>
+    価格: {{ $price.Amount.value }} {{ $price.CurrencyCode.value }}<br/>
+    ASIN: {{ $asin }}
+  </div>
+  <div class="asin-image">
+    <a href="{{ $item.DetailPageURL.value }}" target="_blank">
+      <img src="{{ $image.URL.value }}" alt="{{ $title.value }}" width="{{ $image.Width.value }}" height="{{ $image.Height.value }}"/>
+    </a>
+  </div>
+  <div class="asin-metadata"></div>
+</div>
+#+end_src
+
+書籍だとこんな感じ．
+
+{{< asin 4799106023 >}}
+
+{{< asin 4883998304 >}}
+
+*** Updated (2018-09-04@00:15)
+
+参照する価格のフィールドが，ISBNで拾うアイテムと異なるため修正した．前者は定価で，後者は現在の最安値のようだ．
+
+#+begin_src html
+<!-- {{- $price := $item.ItemAttributes.ListPrice -}} -->
+{{- $price := $item.OfferSummary.LowestNewPrice -}}
+#+end_src
+
+*** References
+ - [[https://frdmtoplay.com/using-curl-with-the-amazon-product-request-api/][Using curl with the Amazon Product Request API]]
+ - [[http://associates-amazon.s3.amazonaws.com/signed-requests/helper/index.html][Signed Requests Helper - Amazon Product Advertising API]]
+ - [[https://docs.aws.amazon.com/AWSECommerceService/latest/DG/HMACSignatures.html][HMAC-SHA256 Signatures for REST Requests - Product Advertising API]]
+ - [[https://docs.aws.amazon.com/AWSECommerceService/latest/DG/rest-signature.html][Example REST Requests - Product Advertising API]]
+** DONE 画像の埋め込みテスト                                          :@hugo:
+   CLOSED: [2018-08-24 Fri 14:02]
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-test-of-images
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-08-23 Thu 02:19]
+:END:
+
+まず前提として，このサイトのようにドメイン直下にディレクトリを作ってブログを運用する場合には，デフォルトだと =figure= shotcode が正しく動作しない．対応策は， =config.toml= で =canonifyURLs=true= にすること．
+
+画像やその他のファイルの置き場所は，実は繊細な問題で，油断するとサイトが肥大化して管理が行き詰まるし，逆に外部サービスに依存するとサービス停止時に大変なことになる．そして今回は，画像を org バッファでインライン展開するかどうかも変数に入るので中々良い回答が出てこない．
+
+=ox-hugo= の場合は， org バッファのディレクトリに画像を置いて，インライン展開に対応しつつ，content フォルダへの Markdown 出力時に public フォルダへ画像をコピーするという手法も取れる．すると，orgバッファではインライン画像を表示できて，公開したサイトでも正しく画像が表示されるようになる．が，当然ながら Hugoのディレクトリが肥大化する．
+
+ということで，ローカルの肥大化を避けたいので，当面は以下のフローで画像を管理することにする．
+
+1. =static/files/2018= を作成して，2018年のコンテンツをここに置く
+2. サーバに同期する
+3. org ファイルでは =#+link= を使ってURLを短縮化
+4. org ファイルには短縮名で画像を指定する
+
+短縮名設定は，org バッファの先頭で，
+#+begin_src org
+#+link: files https://pxaka.tokyo/blog/files/2018/
+#+end_src
+と記述して，同行上で =C-c C-c= で忘れずに有効化する．
+
+後は，通常のリンク記述で =files:= を使えばパスを簡略記入できる．
+
+#+begin_src org
+[[files:twitter.jpg]]
+#+end_src
+
+この記述は，
+
+#+begin_src 
+[[https://pxaka.tokyo/blog/files/2018/twitter.jpg]]
+#+end_src
+
+に展開されるので，サーバにファイルが置かれていれば，確実に画像を埋め込むことができる．将来ファイルパスやドメインを変えたとしても， =#+link= 側の値を変えれば良い．
+
+万が一ローカルが肥大化したら， =./static/files= を削除して，サーバにだけコンテンツを置く，或いは， =./static/files= はシンボリックリンクで飛ばしてもよい．
+
+最終的には，
+1. D&Dでサーバ上の所定のディレクトリにサーバアップロード
+2. アップロード時にサムネイルを同時作成
+3. shortcodes のリンク生成を改良して，リンク先は大きな画像，表示は小さな画像を使う
+とするのが目標．その他のファイル（PDFとかExcelとか）はアップロード時にサムネイル作成ってのも良い．
+
+以下，適当に実験．
+
+#+attr_html: :width 128px
+[[file:/files/2018/twitter.jpg]]
+
+#+attr_html: :width 128px
+[[file:~/Dropbox/org/blog/static/files/2018/twitter.jpg][/files/2018/twitter.jpg]]
+
+#+attr_html: :width 128px
+[[../static/files/2018/twitter.jpg][files/2018/twitter.jpg]]
+
+[[https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg]]
+
+#+attr_html: :width 128px
+https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
+
+#+attr_html: :width 128px
+[[https://pxaka.tokyo/owncloud/index.php/s/sf1CNSc3oLfKfuq]]
+
+=#+link= に非依存で正しく表示される．インライン不可．
+
+[[/files/2018/twitter.jpg]]
+
+*** References
+ - [[https://github.com/gohugoio/hugo/issues/4562][Figure shortcode with baseURL · Issue #4562 · gohugoio/hugo]]
+** DONE ファイル名をUUIDで自動生成するテスト                          :@hugo:
+   CLOSED: [2018-08-24 Fri 19:44]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 44febe88-04a5-9bc4-6bfb-678a8477a0ed
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-08-24 Fri 19:39]
+:END:
+
+次のように =org-capture= を準備して， =C-c r B= 押下すると，テンプレートが立ち上がる．カーソルはタイトル行に置かれる． =C-c C-c= を押してそのまま保存でも良いが，それなりの分量の文章を書くならば， =C-u C-c C-c= として保存先のサブツリーに移動してから編集する方がより安全といえる．
+
+#+begin_src emacs-lisp
+(with-eval-after-load "org-capture"
+  (defvar org-capture-blog-file
+    (concat org-directory "blog/entries/imadenale.org"))
+  (setq org-capture-templates
+        `(("B" "Create new post for imadenale blog (UUID)" entry
+           (file+headline ,org-capture-blog-file ,(format-time-string "%Y"))
+           "** TODO %?\n:PROPERTIES:\n:EXPORT_FILE_NAME: %(uuid-string)\n:END:\n")
+          ("b" "Create new post for imadenale blog" entry
+           (file+headline ,org-capture-blog-file ,(format-time-string "%Y"))
+           "** TODO \n:PROPERTIES:\n:EXPORT_FILE_NAME: %?\n:END:\n"))))
+#+end_src
+** DONE Hugo の data ディレクトリ                                     :@hugo:
+   CLOSED: [2018-08-25 Sat 04:11]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 62d73d4b-439b-cf74-1bf3-ecae75bd7bd2
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-08-25 Sat 03:54]
+:END:
+
+環境構築がほぼ完了．基本的な処理フローは？と言えば，「書いて，デプロイ」のホント2ステップだけ．
+
+1. Emacs Org Mode でメモを取るように書く（org-capture経由もOK）
+2. deploy スクリプトを走らせる（サーバにrsyncしたり，GitHubにpush）
+
+以上，楽すぎた．ありがとう [[https://orgmode.org][Org Mode]]，[[https://gohugo.io/][Hugo]]，[[https://ox-hugo.scripter.co/][ox-hugo]] たち！
+
+さて，Hugoさん， =data= 以下にいわゆるプロセッシング対象のデータを =json= 形式で配置すると，[[https://gohugo.io/content-management/shortcodes/][shortcodes]] で色々と楽しめるのね．これって，ちょっと工夫すれば，料理のレシピ管理に使えるよという話かなと．なお保存方法は =json= 以外に， =yaml=, =toml= もOK．
+
+{{< youtube id="FyPgSuwIMWQ" class="my-yt" >}}
+
+で，Go, Json, SQLite でざっくり調べると，なかなに面白い情報があって，これはテンション上がる．
+
+*** References
+ - [[https://gohugo.io/templates/data-templates/][Data Templates | Hugo]]
+ - [[https://stackoverflow.com/questions/48534992/json-fields-from-sqlite3-in-golang][sqlite - JSON fields from sqlite3 in golang - Stack Overflow]]
+** DONE 完熟あらごしトマトを使ってみた                             :@cooking:
+   CLOSED: [2018-08-28 Tue 02:57]
+:PROPERTIES:
+:EXPORT_FILE_NAME: pasta-with-new-tomato-source
+:EXPORT_HUGO_TAGS: "pasta" "tomato" "cream"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-08-28 Tue 02:40]
+:END:
+
+近所のスーパーで試したことのないトマトソースを見つけたので使ってみた．味付けされていないプレーンなソースなので，玉ねぎをソテーして混ぜて使う．
+
+{{< asin B015FIJYZ8 >}}
+
+価格は1つのパックあたり100円ちょっとで，缶で売られているプレーンなトマトソースよりも少し安めの印象．
+
+{{< tweet 1033555146364440576 >}}
+
+今回は，アンチョビ・ケイパーを使ってプッタネスカ風のベースを作って，牛乳を少し加えてみた．加えた牛乳の分量で言えば，80[cc]程度（二皿用）．いわゆるトマトクリーム的な味わいを期待したけど，やはりちょっと牛乳を加えたくらいでは中途半端になり，しかも生クリームより水分が多いので，ソースを詰めようとする間に風味が飛んでしまうことがわかった．クリームソースには普通に生クリームを使うのが良さそうね．太るよね．
+
+{{< tweet 1033571011898163200 >}}
+
+実は玉ねぎを炒める時に，若干火を入れすぎてしまい，トマトソースはとても濃い色に．牛乳を加えることで，ソースの色が落ち着いた感じになった．味はまぁまぁ．
+
+ごちそうさまでした．
+** DONE (ベビー)ホタテのトマトクリームパスタ                       :@cooking:
+   CLOSED: [2018-08-30 Thu 13:13]
+:PROPERTIES:
+:EXPORT_FILE_NAME: pasta-tomato-fresh-cream
+:EXPORT_HUGO_TAGS: "pasta" "tomato" "cream"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-09-02 Sun 20:40]
+:END:
+
+スーパーで生クリームを探したら，以前は置かれていなかった100[ml]タイプが置かれていたので購入．早速，前回は納得がいかなかったトマトクリームに再挑戦．具材は魚貝が良さそうなので，ベビーホタテを採用．
+
+{{< tweet 1034768304051642368 >}}
+
+にんにく，玉ねぎ，そして貝柱以外を細かく刻んでまずソテー．アンチョビを入れてオイルに馴染ませたら，トマトソースを入れて加熱，温度が安定したら貝柱を入れて，最後に生クリームを投入．黒胡椒を挽いて完成．
+
+それっぽい見た目とそれっぽい味になったけど，ちょっと違う感じ．
+
+生クリームは適当に使う食材じゃないことはわかった．
+
+ごちそうさまでした．
+
+{{{srclink}}}
+
+** DONE 和風クリームパスタに挑戦                                   :@cooking:
+   CLOSED: [2018-09-02 Sun 20:47]
+:PROPERTIES:
+:EXPORT_FILE_NAME: pasta-fresh-cream-jp-style
+:EXPORT_HUGO_TAGS: "pasta" "cream" "wafu"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-09-02 Sun 20:40]
+:END:
+
+教科書として常備している落合シェフの本．
+
+{{< asin 4388062081 >}}
+
+今回はこの教科書をちゃんと読んでから，自分の中ではハズレのない和風パスタに応用してみた．とても旨かった．
+
+{{< tweet 1036104469098840064 >}}
+
+先日のトマトクリームパスタがいまいちだったので，シェフの教科書をよく読んでみると，生クリームの使い方にはいくつかのセオリーがあるようだ．教科書の ~P.118~ にある「生ハムとグリーンピース入りクリーム風味のフェットチーネ」のレシピから引用する．
+
+#+begin_quote
+クリーム系のソースの決め手となるのが塩加減で、これがむずかしい。
+#+end_quote
+
+#+begin_quote
+最終的な塩見はやや強めにきかせる。
+#+end_quote
+
+#+begin_quote
+最初のサラリとした常態から、この程度のとろみが付けばOK。（略）煮詰めてコクを出し、（略）とろみをつける。
+#+end_quote
+
+なるほど，なるほど．ちなみに教科書のこのメニューは，「パン・プロ・ピー」と呼ばれているらしい。
+
+#+begin_quote
+イタリアでは、パンナ（生クリーム）、プロシュート（生ハム）、ピゼッリ（豆）の頭をとって，「パン・プロ・ピー」の愛称で呼ばれている、おなじみのメニューだ。
+#+end_quote
+
+さて，今回のチャレンジで総じて理解したのは，大きく4つ．
+- 生クリームを使うと，麺の舌触りが変わり滑らかになる．
+- 生クリームは沸騰させてはだめだが，詰めるのはOK．
+- 塩見は強めを意識する．
+- 和風と合わせても大丈夫，むしろ旨い．
+
+#+caption: レシピ（材料・二皿分）
+| 材料       | 分量 | 単位 |
+|------------+------+------|
+| 玉ねぎ(中) |  1/4 | 個   |
+| ベーコン   | 適量 |      |
+| 舞茸       | 適量 |      |
+| みりん     |   20 | [cc] |
+| 白だし     |   40 | [cc] |
+| 生クリーム |   60 | [cc] |
+| オイル     |   30 | [cc] |
+| 茹で汁(1%) |   30 | [cc] |
+| バター     |   10 | [g]  |
+| パスタ     |  170 | [g]  |
+
+いつもの和風パスタは，みりん・白だし・醤油でベースを作るけども，醤油を入れると生クリームの色が活かせないと判断して，今回は白だしだけにした．また上記の「強めの塩見」は，バター，茹で汁，そして白だしを使うことでクリアしている．
+
+まだまだ改良は必要だろうけども，初回にしては味も見た目も満足．
+
+ごちそうさまでした．
+
+{{{srclink}}}
+
+** DONE 記事の Org file にリンクを貼る                                :@hugo:
+   CLOSED: [2018-09-03 Mon 17:02]
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-link-to-the-original-org-source-file
+:EXPORT_HUGO_TAGS: "orgmode"
+:EXPORT_HUGO_LASTMOD: [2018-10-09 Tue 01:11]
+:CREATED:  [2018-09-03 Mon 16:55]
+:END:
+
+せっかく [[https://github.com/kaushalmodi/ox-hugo][ox-hugo]] で記事を書いているので，Hugo記事のソースとなる orgfile を明示したい．
+
+毎度手動でそのリンクを生成するのは面倒なので，マクロで実現してみる．
+
+まず，マクロから呼び出す関数を書く．
+
+#+begin_src emacs-lisp
+(defun org-hugo-get-link-to-orgfile (uri alt)
+      "Return a formatted link to the original Org file in GitHub."
+      (let ((line (save-excursion
+                    (save-restriction
+                      (unless (org-at-heading-p)
+                        (org-previous-visible-heading 1))
+                      (line-number-at-pos)))))
+        (concat "[[" uri (file-name-nondirectory (buffer-file-name))
+                "#L" (format "%d" line) "][" alt "]]")))
+#+end_src
+
+で，これを，編集中の orgfile の =#+macro= で使う．こんな感じ．
+
+#+begin_src org
+#+macro: srclink (eval (org-hugo-get-link-to-orgfile "https://github.com/takaxp/blog/blame/master/entries/" "see Orgfile"))
+#+end_src
+
+第一引数を，ソースを配置するサイトのURI．ファイル名の直前までを指定する．スラッシュを忘れずに．
+
+第二引数に，HTML上で表示されるリンク名を指定する．
+
+そして，記事の執筆時に，以下を埋め込めば，対応するソース（行単位）に転送してくれるリンクがエクスポート時に勝手に埋め込まれる．
+
+#+begin_src org
+{{{srclink}}}
+#+end_src
+
+しばらくこれで運用してみる．
+
+{{{srclink}}}
+
+*** Updated (2018-09-04@00:44)
+
+このアプローチだと不十分とわかった．同じファイルの別箇所を編集したときに，headingの行がズレるが，このマクロが含まれているすべての subtree を更新しなければそのズレを反映させられない．ｸﾏｯﾀ...
+*** Updated (2018-10-09@01:05)
+
+基本的に新しい記事は当該文書の末尾に追加される．したがって，通常の運用であれば， =srclink= の値は変更する必要がない．新規記事の追加以外で行番号の更新がある場合は，全記事を再出力すればよい．
+
+しかし， =org-hugo-auto-set-lastmod= が有効な場合は，全記事の最終更新日が更新されることになる．これを防ぐために，このオプションは =nil= にしてから， =C-c C-e H A= を実行すればよい．
+
+それでも非効率な方法なので，継続改善が必要．
+
+** DONE 辛子明太子のペペロンチーノ                                 :@cooking:
+   CLOSED: [2018-09-11 Tue 00:54]
+:PROPERTIES:
+:EXPORT_FILE_NAME: pasta-peperoncino-spicy-seasoned-cod-roe
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-09-11 Tue 00:54]
+:END:
+
+思い立って辛子明太子をパスタに合わせてみた．簡単なところからということで，普通のペペロンチーノの最後に投入．水菜も合わせてみた．水菜はカラスミとよく合う．
+
+{{< tweet 1038290537504067584 >}}
+
+辛子明太子の量は，中サイズなら一人一本入れても良さそう．少ないと食感だけしか残らず，味が感じられなくなる．その点ではカラスミはとても風味が強い食材といえる．
+
+** DONE 頂戴したホールトマト缶でポモドーロ                         :@cooking:
+   CLOSED: [2018-09-11 Tue 01:02]
+:PROPERTIES:
+:EXPORT_FILE_NAME: pasta-pomodoro-montebello
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-09-11 Tue 01:02]
+:END:
+
+モンテベッロのホールトマト缶を戴いたので，さっそくポモドーロにしてみた．余っていたベーコンもおまけでちょっと使用した．
+
+{{< tweet 1038639448345341952 >}}
+
+このホールトマト缶は水っぽくなく，蓋を開けた瞬間に濃厚なソースとわかる．色も綺麗だし，美味しそう．
+
+ソフリットを作る暇はなかったので，簡易的に玉ねぎを炒めて，にんにくとローリエを入れてトマトソースに．
+
+最後の仕上げの塩はだいぶ入れたつもりだったけど，食べてみたら少々味がぼけていた．ソースの濃さに合わせて塩味も微調整しないともったいないね．
+
+** TODO スケーラブルなEmacs起動法(1)                                 :@emacs:
+:PROPERTIES:
+:EXPORT_FILE_NAME: scalable-emacs-booting-p1
+:EXPORT_HUGO_TAGS: 
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-09-15 Sat 14:22]
+:END:
+
+Emacsを使い始めて基本的な操作に慣れてくると，たくさんのパッケージをインストールしたり， =init.el= に凝った設定を追加していくようになります．楽しいですよね．はい，わかります．
+
+しかしそうすると，必然的に Emacs の起動に時間がかかるようになります．
+
+起動時にたくさんのパッケージを一度に読み込めば，確かに起動後はストレスなく作業できるでしょう．一度にすべて読み込んで，セッション復元，ブックマーク・履歴復元，Helm起動，辞書の準備，カーソルやフレーム・モードライン等の視覚効果など，そして，[[https://orgmode.org/][Org Mode]] 等の各メジャーモードの設定群をすべて適用しておく．それも悪くありません．しかし，起動時のストレスは，あなたの精神を少しずつ蝕んでいくでしょう．
+
+私は，好みに合わせてたくさんのパッケージを使える状態までカスタマイズしたEmacsを *フルアーマーEmacs* と呼ぶことにしました．ハイスペックな環境なら期待のパフォーマンスを発揮するでしょう．
+
+しかし，普通の環境ではそうは問屋が卸しません． *フルアーマーEmacs* の扱いは，一般庶民・オールドタイプには難しいのです．
+
+そんな *フルアーマーEmacs* であっても，ストレスを感じることなく高速起動する一つの手法を，私は *スケーラブルなEmacs起動法* と呼ぶことにしました．以下，そのポイントを記述していきます．
+
+*** 高速起動の阻害要因
+
+まず， *フルアーマー* ではない素のEmacsは，どれだけ素早く起動するのでしょうか．
+
+=emacs -q -nw= で素のEmacsを起動し， =M-x emacs-init-time= をすると，起動に費やした時間が表示されます．この値は，ほとんどの環境で，1秒以下でしょう．私の環境では =0.0 seconds= と表示されます．50[ms]未満ということです．一瞬です．ストレスフリー．
+
+では，設定を増やしていくと，なぜ起動が遅くなるのでしょうか．以下に，主だった原因を示します．
+
+1. 起動時にGCが動いている
+2. トップレベルでパッケージを =require= （または =load= ） している
+3. *scratch* バッファで不要なモードを立ち上げない
+   - [[https://qiita.com/takaxp/items/12c01bff4c687b3f242b][高速起動用ミニマム*scratch*バッファ - Qiita]]
+4. 実は不要な設定をトップレベルで適用している
+5. 各パッケージのインストール先が分散し， =load-path= が肥大化している
+
+*** 起動時にGCが動いている
+
+これは，設定の書き方だけに着目して高速化を目指す時の盲点です．Emacsが要求するメモリ量は，GUI利用の *フルアーマー* になると軽く 100[MB]を超えます．そして不運にも起動時にGCが働くと，起動時間が大幅に増えてしまいます．秒単位で増えますので，まずこれを防ぎます．
+
+#+begin_src emacs-lisp
+(setq gc-cons-threshold 134217728) ;; 128MB
+(setq garbage-collection-messages t) ;; GC実行時にメッセージを出す
+#+end_src
+
+この例では，起動後のメモリ専有量がおおよそ 100[MB]程度になると仮定して，GCのしきい値を 128[MB]に設定しています．これで起動時にGCを起こさずに済みます．実際に起動中にGCを起こすかどうかは， =garbage-collection-messages= を設定することで，容易に確認できます．
+
+この改善策自体は，よく知られているものです．
+
+*** require ではなく with-eval-after-load を使う
+
+=package.el= 等で各パッケージが統一的に管理されるようになった現在（Version 24以降）では，いわゆる =autoload= による遅延処理が働くため， =require= を使いながら書く設定を， =with-eval-after-load= に書き換えるだけで，起動は高速化されます．
+
+#+begin_src emacs-lisp
+(when (require 'hoge nil t) ;; ここに時間がかかる．
+  ;; hoge に関する設定を記述する．
+  ;; hoge の読み込みに失敗すれば，すべてスキップされ，
+  ;; 起動シーケンスが継続する．
+  )
+#+end_src
+
+これを，以下のように書き換えるだけです．いつ =hoge.el= が読み込まれるかと言えば，パッケージの中で =autoload= 指定されている関数らが，Emacs 起動後に最初に呼ばれるタイミングです．すなわち，必要なときに読み込まれるため，起動を邪魔しません．
+
+#+begin_src emacs-lisp
+(with-eval-after-load "hoge"
+  ;; hoge に関する設定をここに記述する．
+  )
+#+end_src
+
+起動時に本当に必要な設定（カーソルの色など視覚効果に関するものなど）以外は，極力， =with-eval-after-load= で括り，所定のパッケージが読み込まれた後で発動するようにしましょう．
+
+*** postpone.el のススメ
+
+さて， =with-eval-after-load= の中に設定を書けば，各設定が遅延読み込みされ，高速化に繋がることが理解されたと思います．しかしながら，設定によっては， =with-eval-after-load= の適切な適用先が無いことも想定されます．
+
+例えば，Emacs Version 26.1 から導入された， =pixel-scroll-mode= の設定．起動時にスクロールバーを表示しないのならば，トップレベルで以下を設定しない方が良いです．でも =with-eval-after-load= でぶら下げるべきパッケージは？
+
+#+begin_src emacs-lisp
+(when (fboundp 'pixel-scroll-mode) ;; 存在するなら，すぐにマイナーモード発動
+    (pixel-scroll-mode 1))
+#+end_src
+
+或いは， =selected.el= の設定群．このパッケージは，任意の文字列を選択した時に発動すべきものなので，起動時には不要です．でもどこにぶら下げれば良いでしょうか．
+
+これらのように， *起動時には不要だが，起動直後からメジャーモードの起動直前までに必要* な設定があることがわかります．通常は，それらをトップレベルでのべた書きや前出の =(when (require 'hoge nil t)...)= で設定するために，起動が遅くなるのです．
+
+そこで導入するのが [[https://github.com/takaxp/postpone][postpone.el]] です．起動時に適用されてしまうトップレベルで設定したくないが，起動後にすぐ使いたい設定群を， =postpone= にぶら下げればOKです．
+
+以下は，従来は =(when (require 'selected nil t))= をトップレベルに記載していたものを， =postpone.el= を導入し， =with-eval-after-load= で包むようにした例です．
+
+キーバインドの設定や独自関数の定義等，様々な処理を記述していますが，実際のところ起動時には不要です．しかし一方で，特定のメジャーモードの発動に依存せず，いつでも使えるようにしておきたい設定群です．
+
+#+begin_src emacs-lisp
+(with-eval-after-load "postpone"
+  (when (require 'selected nil t)
+    (define-key selected-keymap (kbd ";") #'comment-dwim)
+    (define-key selected-keymap (kbd "e") #'my-eval-region-echo)
+    ;; (define-key selected-keymap (kbd "E") #'my-eval-region-echo-as-function)
+    (define-key selected-keymap (kbd "=") #'count-words-region)
+    (when (require 'helpful nil t)
+      (define-key selected-keymap (kbd "m") #'helpful-macro))
+    (define-key selected-keymap (kbd "f")
+      (if (fboundp 'helpful-function) #'helpful-function #'describe-function))
+    (define-key selected-keymap (kbd "v")
+      (if (fboundp 'helpful-variable) #'helpful-variable #'describe-variable))
+    (define-key selected-keymap (kbd "w") #'osx-dictionary-search-pointer)
+    (define-key selected-keymap (kbd "5") #'query-replace-from-region)
+    (define-key selected-keymap (kbd "g") #'my-google-this)
+    (define-key selected-keymap (kbd "s") #'osx-lib-say-region)
+    (define-key selected-keymap (kbd "q") #'selected-off)
+    (define-key selected-keymap (kbd "x") #'my-hex-to-decimal)
+    (define-key selected-keymap (kbd "X") #'my-decimal-to-hex)
+
+    (defun my-eval-region-echo ()
+      (interactive)
+      (when mark-active
+        (eval-region (region-beginning) (region-end) t)))
+    (setq selected-org-mode-map (make-sparse-keymap))
+    (define-key selected-org-mode-map (kbd "t") #'org-table-convert-region)
+
+    (when (autoload-if-found
+           '(my-org-list-insert-items my-org-list-insert-checkbox-into-items)
+           "utility" nil t)
+
+      (define-key selected-keymap (kbd "-") #'my-org-list-insert-items)
+      (define-key selected-keymap (kbd "_")
+        #'my-org-list-insert-checkbox-into-items))
+
+    (when (autoload-if-found
+           '(helm-selected)
+           "helm-selected" nil t)
+      (define-key selected-keymap (kbd "h") 'helm-selected))
+
+    (when (require 'help-fns+ nil t)
+      (defun my-describe-selected-keymap ()
+        (interactive)
+        (describe-keymap 'selected-keymap))
+      (define-key selected-keymap (kbd "H") #'my-describe-selected-keymap))
+
+    (unless batch-build
+      (postpone-message "selected")
+      (selected-global-mode 1))))
+#+end_src
+
+=(with-eval-after-load "postpone" ...)= で括った範囲をみると， =selected.el= だけでなく，関連するパッケージまで紐付いて読み込んでいることがわかります．このような設定群をトップレベルで実行したら，起動時間に影響を与えるのは簡単に理解できます．
+
+さて，起動時間に影響するトップレベルでの設定を回避し， =postpone.el= に紐づけた設定群が発動するのがいつかというと， *起動後に初めてEmacsにコマンドを与えるとき* になります．例えば， =M-x= や =C-a= を押下した時です．
+
+したがって， *スケーラブルEmacs起動法* は，Emacsの起動シーケンスを3段階に分割する効果を持ちます．
+
+1. 最小限のトップレベルの設定( =global-set-key= など)で，Emacsを高速起動
+2. コマンド入力をトリガーに， *フルアーマー* の一部を =postpone= の効果で遅延設定
+3. メジャーモード等の通常の =with-eval-after-load= の発動
+
+このように， *フルアーマー* に至る処理をユーザアクションに合わせて分割することで，ユーザの待ち時間を分散させます．
+
+簡単に言えば，仮に上記のSTEP3までに到達するまでに3秒かかるとしても，各STEPがそれぞれ1秒で済むならば，それほどストレスにならないでしょ？ということです．
+
+*** 改修事例
+
+すでに =use-package= を導入して綺麗に =init.el= を書いている人は無視してOKですが，伝統的な記法で =init.el= を書いている人は， =postpone.el= を導入して，次のように記述を改良すれば，前節のような遅延読み込みが簡単にできます．
+
+*** References
+ - [[http://emacs.rubikitch.com/sd1407/][#3 反復練習に勝るものなし -- 打鍵すべし！設定書くべし！ (Software Design 2014年7月号掲載記事) ヘルプシステム 困ったとき 初期設定]]
+ - [[http://blog.livedoor.jp/tek_nishi/archives/1948086.html][でらうま倶楽部 : Emacs 設定小ネタ集]]
+ - [[https://nagayasu-shinya.com/emacs-bc-cons-threshold/][Emacs ガベージコレクションの発動頻度設定｜gc-cons-threshold | 組込みエンジニアの思うところ]]
+ - [[http://emacs-jp.github.io/packages/package-management/package-el.html][package.el - Emacs JP]]
+** DONE プッタネスカ                                               :@cooking:
+   CLOSED: [2018-09-15 Sat 00:35]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0915-pasta-puttanesca
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-09-25 Tue 00:35]
+:END:
+
+ちょっと残念な仕上がり．勇気をもって水を入れるべきだった．
+
+{{< tweet 1040822426286776321 >}}
+** DONE 自家製パンチェッタでアマトリチャーナ                       :@cooking:
+   CLOSED: [2018-09-16 Sun 00:38]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0916-pasta-amatriciana
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-09-25 Tue 00:38]
+:END:
+
+うまく出来た．パンチェッタを次に作る時は，ハーブ入りのクレージーソルトは止めておこう．セロリの感じが強く出過ぎてて，ちと苦手．つまり岩塩選びからやり直しってことね．
+
+{{< tweet 1041191898126245888 >}}
+** DONE しめじのペペロンチーノ                                     :@cooking:
+   CLOSED: [2018-09-17 Mon 00:42]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0917-pastap-peperoncino-shimeji
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-09-25 Tue 00:42]
+:END:
+
+トマト系が続いたので，一休みでソルト系．
+
+{{< tweet 1041534430320353280 >}}
+** DONE アラビアータ                                               :@cooking:
+   CLOSED: [2018-09-22 Sat 00:48]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0922-pasta-arrabbiata
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-09-25 Tue 00:47]
+:END:
+
+自家製パンチェッタをじっくり炒めて油を出して，にんにくと唐辛子でがっつん辛いソースに仕上げた．トマトソースは，ソフリットからきちんと作った．時間をかけて作ったから，その分，旨くなっている．気がする．
+
+{{< tweet 1043373022265004033 >}}
+
+トマトソースを作る時は，どうしても詰めている最中にトマトが跳ねるので，網ざるで防御．うわさでは油ハネを防ぐ専用ツールがあるらしい．
+
+{{< tweet 1043359522960490496 >}}
+** DONE 玉ねぎのパスタ                                             :@cooking:
+   CLOSED: [2018-09-23 Sun 00:53]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0923-pasta-onion-solt
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-09-25 Tue 00:52]
+:END:
+
+シンプルにオイルで玉ねぎを炒めて，バターを落として塩を振るだけ．十分に旨い．玉ねぎの甘さをより感じるために，オイルはオリーブオイルと太白胡麻油を1:1にしている．
+
+{{< tweet 1043718001462194176 >}}
+** DONE 鶏肉の和風パスタ                                           :@cooking:
+   CLOSED: [2018-09-29 Sat 14:37]
+:PROPERTIES:
+:EXPORT_FILE_NAME: pasta-chicken-wafu-style
+:EXPORT_HUGO_TAGS: "pasta" "wafu"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-10-08 Mon 14:26]
+:END:
+
+焼き鳥とまではいかないが，鶏肉を使った和風パスタを作った．鶏肉は小さめにカットしてから，フライパンでソテー．弱火でじっくり動かさず，焼き色が付くまで．するとオイルも出てくるので，それもすべてメインのフライパンに投入．メインのフライパンではすでにアンチョビが溶かしてあって，和風出汁（白だし，醤油，みりん）と合わせてソースにする．パスタをあえて，最後に青のりを振って完成．いつもの和風はバターを使うけども，今回はアンチョビ・フィレを使った．これも悪くない．
+
+{{< tweet 1045999520549527552 >}}
+
+醤油を使うとどうしても麺が茶色になっていくので，焼いた鶏肉を載せるとどうしても皿の色が茶色になる．白だしだけにするってのも必要かな．
+
+** DONE Aglio olio e peperoncino                                   :@cooking:
+   CLOSED: [2018-09-30 Sun 14:42]
+:PROPERTIES:
+:EXPORT_FILE_NAME: pasta-aglio-olio-e-peperoncino
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: [2018-10-08 Mon 01:04]
+:CREATED:  [2018-10-08 Mon 14:38]
+:END:
+
+シンプルなペペロンチーノ．他のソースと違って，麺の味をダイレクトに味わえる．旨いね．
+
+多くの場合，ベーコンを入れるけど，YouTubeで観たコラボ動画に触発されて，原点回帰で作った．
+
+{{< tweet 1046255011993288705 >}}
+
+シェフRopiaさんの動画は何度も見えていて，素人には本当に勉強になる．オススメ．
+
+最も勉強になったのは，ボロネーゼソースの作り方．時間のかかるラグーソースを作るのは，初心者には高いハードルだけども，この動画を観てやってみようという気持ちになれた．塩の使い方とか焼き目の意味とか基本が重要だとよくわかる．感謝．
+
+シェフ大西さんの動画はシンプルに面白い．料理の楽しさが伝わる．
+
+*** References
+    :PROPERTIES:
+    :CREATED:  [2018-10-08 Mon 15:06]
+    :END:
+
+ - 【ペペロンチーノ】イタリアンのプロとパスタの作り方を徹底比較してみた！【Chef Ropia】【コラボ】【本気】【スパゲッティ】Vol.69
+{{< youtube id="0BqePRh2bbw" class="my-yt" >}}
+
+ - 『ペペロンチーノ徹底比較のサブ！-Ropiaさんコラボ-』サブ64
+{{< youtube id="T3Wf18gm5qg" class="my-yt" >}}
+
+ - 【COCOCOROチャンネルさんとコラボ】　第２話　大西シェフ編【ペペロンチーノ】
+{{< youtube id="c1MezAoq2l8" class="my-yt" >}}
+
+ - ボロネーゼソースの作り方
+{{< youtube id="vWL7CAMaEaM" class="my-yt" >}}
+
+** DONE たっぷり舞茸のパスタ                                       :@cooking:
+   CLOSED: [2018-10-06 Sat 15:11]
+:PROPERTIES:
+:EXPORT_FILE_NAME: pasta-maitake-mushroom
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-10-08 Mon 14:48]
+:END:
+
+買っておいた舞茸がだいぶ日が経ってしまったので，1パックまるごとソテーして舞茸パスタに．舞茸の半分はソースに合わせないで，別フライパンで炒った方が良かったな．
+
+{{< tweet 1048421858519830529 >}}
+
+** DONE パンチェッタ入りプッタネスカ                               :@cooking:
+   CLOSED: [2018-10-07 Sun 15:18]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1007-pasta-puttanesca
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-10-08 Mon 15:15]
+:END:
+
+プッタネスカに5週間経った塩漬け豚バラを入れてみた．黒胡椒もかけたから，もうこれでもか！というくらいにガッツリとしたパスタになった．
+
+{{< tweet 1048789349116960775 >}}
+
+{{< tweet 1048778686399311872 >}}
+
+{{< tweet 1048780861414432768 >}}
+
+** DONE カルボナーラ                                               :@cooking:
+   CLOSED: [2018-10-08 Mon 15:25]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1008-pasta-carbonara
+:EXPORT_HUGO_TAGS: "pasta" "cream"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-10-08 Mon 15:20]
+:END:
+
+市販の厚切りベーコンを使ったカルボナーラ．久しぶり．ペコリーノチーズがだいぶ日が経っているので，早く使い切りたい．結果，大量のペコリーノを使ったけど，ちょうど良い具合になった．
+
+パスタの茹で具合が違うだけで，だいぶ印象かわるもので，今日は少し早めにお湯からだしたので，少し固め．濃厚なカルボナーラのソースと合わさるとお上品な感じになる．面白い．
+
+{{< tweet 1049152528540028928 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料         | 分量 | 単位 |
+|--------------+------+------|
+| 全卵         |    1 | 個   |
+| 卵黄         |    1 | 個   |
+| ペコリーノ   | 大量 |      |
+| 黒胡椒       | 適量 |      |
+| ベーコン     |   60 | [g]  |
+| オイル       |   20 | [cc] |
+| 茹で汁(1.1%) |   30 | [cc] |
+| パスタ       |  180 | [g]  |
+** DONE 最終変更日の手動設定                                          :@hugo:
+   CLOSED: [2018-10-08 Mon 22:59]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 58e5bcee-1fb9-48a4-628b-a80692983bfe
+:EXPORT_HUGO_TAGS: "orgmode"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-10-08 Mon 22:23]
+:END:
+
+=ox-hugo= を使った =Hugo= への markdown 出力では，最終更新日( =lastmod= )を設定できる．
+
+さらに次のように設定すれば，ファイル保存時に自動的に最終更新日を設定できる．
+
+#+begin_src emacs-lisp
+(setq org-hugo-auto-set-lastmod t)
+#+end_src
+
+しばらくはこの設定でうまく運用できていたが，細かい修正等で，わざわざ更新日を更新する必要がないことも多いことがわかった．
+
+そこで，この設定は =nil= にして，代わりにプロパティに =lastmod= を簡単に記録するための関数を準備した．
+
+必要に応じて，編集中にこれを呼べば良い．
+
+#+begin_src emacs-lisp
+(defun my-ox-hugo-add-lastmod ()
+      "Add `lastmod' property with the current time."
+      (interactive)
+      (org-set-property "EXPORT_HUGO_LASTMOD"
+                        (format-time-string "[%Y-%m-%d %a %H:%M]")))
+#+end_src
+
+初めて =EXPORT_HUGO_LASTMOD= を追加すると，プロパティの中の最後に追加されるため，順番が気になるかもしれない．そんな人は，あらかじめ =EXPORT_HUGO_LASTMOD= をプロパティに登録しておけばよい．値が空であれば，最終更新日は出力されない．
+
+="EXPORT_HUGO_LASTMOD"= の事前登録は， =org-capture= のテンプレートに追加するだけで簡単にできる．
+
+#+begin_src emacs-lisp
+(defvar org-capture-blog-file
+      (concat org-directory "blog/entries/imadenale.org"))
+(setq org-capture-templates
+      `(("b" "Create new post for imadenale blog" entry
+         (file+headline ,org-capture-blog-file ,(format-time-string "%Y"))
+         "** TODO \n:PROPERTIES:\n:EXPORT_FILE_NAME: %?\n:EXPORT_HUGO_TAGS: \n:EXPORT_HUGO_LASTMOD: \n:END:\n")
+        ("B" "Create new post for imadenale blog (UUID)" entry
+         (file+headline ,org-capture-blog-file ,(format-time-string "%Y"))
+         "** TODO %?\n:PROPERTIES:\n:EXPORT_FILE_NAME: %(uuid-string)\n:EXPORT_HUGO_TAGS: \n:EXPORT_HUGO_LASTMOD: \n:END:\n")))
+#+end_src
+
+=org-hugo-auto-set-lastmod= を有効にしている時のもう一つのデメリットは，複数の記事を含む orgfile で =C-c C-e H A= を実行すると，すべての記事に最終更新日が付与される，或いは，日付が更新される点にある．
+** DONE ベーコンのペペロンチーノ                                   :@cooking:
+   CLOSED: [2018-10-10 Wed 14:10]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1010-pasta-peperoncino
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-10-10 Wed 14:07]
+:END:
+
+市販の厚切りベーコンを使ったペペロンチーノ．唐辛子は少なめ．旨すぎた．
+
+{{< tweet 1049872913984364544 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料         | 分量 | 単位 |
+|--------------+------+------|
+| ベーコン     |   60 | [g]  |
+| オイル       |   30 | [cc] |
+| 茹で汁(1.0%) |   30 | [cc] |
+| パスタ       |  180 | [g]  |
+| にんにく     |    2 | [片] |
+| 唐辛子       | 適量 |      |
+** DONE たまねぎと自家製パンチェッタの和風パスタ                   :@cooking:
+   CLOSED: [2018-10-13 Sat 05:24]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1011-pasta-wafu-onion
+:EXPORT_HUGO_TAGS: "pasta" "wafu"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-10-13 Sat 05:21]
+:END:
+
+前回作った玉ねぎパスタはあっさりな感じだったので，今回はパンチェッタと合わせてさらに和風の味付けにしてみた．するととても旨いパスタに仕上がった．正直なところ，こういう味になるのかという驚きがあって，まだ良く理解できていない．また作ってみて味を理解しようと思う．
+
+{{< tweet 1050347819633061888 >}}
+
+今回のパンチェッタは，とうとう6週間経過したパンチェッタ．
+
+{{< tweet 1050350153826091008 >}}
+
+食材はシンプル．
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   15 | [cc] |
+| 太白胡麻油     |   15 | [cc] |
+| にんにく       |    2 | [片] |
+| 玉ねぎ         |  1/2 | [個] |
+| パンチェッタ   |   40 | [g]  |
+| 水             |   30 | [cc] |
+| みりん         |   15 | [cc] |
+| 白だし         |   15 | [cc] |
+| パスタ         |  180 | [g]  |
+| 青のり         | 適量 |      |
+** DONE スモークサーモンのパスタ                                   :@cooking:
+   CLOSED: [2018-10-21 Sun 19:10]
+:PROPERTIES:
+:EXPORT_FILE_NAME: pasta-smoke-salmon
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-10-23 Tue 01:41]
+:END:
+
+お土産として買ってきたスモークサーモンを使って，パスタを作った．味のベースは，塩とアンチョビ．サーモンはパウチに入っていて，旨味の元になるエキスもたっぷりあったので，全部フライパンに投入．流石にフレッシュなサーモンではないので，硬さの点では食感が悪い．今回は旨さが勝った．
+
+{{< tweet 1053951774585843712 >}}
+
+今回の食材もシンプル．
+
+#+caption: レシピ（材料・二皿分）
+| 材料             | 分量 | 単位   |
+|------------------+------+--------|
+| オリーブオイル   |   30 | [cc]   |
+| スモークサーモン |  133 | [g]    |
+| 茹で汁(1.0%)     |   30 | [cc]   |
+| 白ワイン         |   15 | [cc]   |
+| アンチョビ       |    2 | [片]   |
+| ケイパー         |    2 | 小さじ |
+| パスタ           |  180 | [g]    |
+
+** DONE 有頭海老を使ったパスタ                                     :@cooking:
+   CLOSED: [2018-10-28 Sun 01:07]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1028-pasta-shrimp
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-12-05 Wed 01:03]
+:END:
+
+有頭海老を使ったパスタ．旨し．散々悩んで購入した新しいアルミ鍋もいい感じ．
+
+{{< tweet 1056374038648389632 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料         | 分量 | 単位   |
+|--------------+------+--------|
+| 有頭海老     | 数尾 |        |
+| オイル       |    3 | 大さじ |
+| バター       |   15 | [g]    |
+| 白ワイン     |    1 | 大さじ |
+| しめじ       |  1/3 | 株     |
+| 茹で汁(1.0%) |   45 | [cc]   |
+| パスタ       |  190 | [g]    |
+** DONE MELPAにあるテーマ一覧                                        :@emacs:
+   CLOSED: [2018-10-26 Fri 02:03]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 44c5d5dc-5ca0-4a14-b26b-6caaaea156cd
+:EXPORT_HUGO_TAGS: "MELPA"
+:EXPORT_HUGO_LASTMOD: [2018-10-26 Fri 14:06]
+:CREATED:  [2018-10-26 Fri 01:43]
+:END:
+
+MELPAから入手可能な Emacs用のテーマが一覧化されています． +どのメジャーモードに対応しているかも確認できます．+ =Lisp=, =JavaScript=, =C=, =Ruby=, =Org Mode= の配色をプレビューできます．
+
+[[https://peach-melpa.org/][PeachMelpa | Browse Emacs themes from MELPA]]
+
+インストールは，例えば，
+
+#+begin_src emacs-lisp
+M-x package-install
+#+end_src
+
+としてから，希望のテーマ名（例： =darkokai-theme= ）を入力（選択）します．
+
+インストールが終わったら，当該のテーマ =init.el= で読み込みます． =dark= と =light= の双方に対応している場合は， =loat-theme= で読み込むテーマの名前を変えます．
+
+#+begin_src emacs-lisp
+(when (require 'darkokai-theme nil t)
+  (load-theme 'darkokai-theme t))
+#+end_src
+
+** TODO previous recipes
+:PROPERTIES:
+:EXPORT_FILE_NAME: 
+:EXPORT_HUGO_TAGS: 
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-10-26 Fri 01:43]
+:END:
+
+{{< tweet 1013261004946305024 >}}
+{{< tweet 1002140805413269504 >}}
+{{< tweet 1000583384836464640 >}}
+{{< tweet 997691034233487360 >}}
+{{< tweet 996712105444163584 >}}
+{{< tweet 995271582573473792 >}}
+{{< tweet 992251344068132864 >}}
+{{< tweet 986728081430790144 >}}
+*
+** DONE KOF に来ています．                                           :@emacs:
+   CLOSED: [2018-11-10 Sat 14:42]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 7751cf9b-ed6a-e744-2f33-a7f7247b05a8
+:EXPORT_HUGO_TAGS: "event"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-11-10 Sat 14:41]
+:END:
+
+ - 本日，KOF2018に来ています．とても楽しいです．
+ - 行番号付きのソースブロックを作ります．
+
+ #+begin_src emacs-lisp -n
+ (defun ad:emacs-init-time ()
+   "Return a string giving the duration of the Emacs initialization."
+   (interactive)
+   (let ((str
+          (format "%.3f seconds"
+                  (float-time
+                   (time-subtract after-init-time before-init-time)))))
+     (if (called-interactively-p 'interactive)
+         (message "%s" str)
+       str)))
+ #+end_src
+
+ - 付けない場合はこちら．
+
+ #+begin_src emacs-lisp
+ (defun ad:emacs-init-time ()
+   "Return a string giving the duration of the Emacs initialization."
+   (interactive)
+   (let ((str
+          (format "%.3f seconds"
+                  (float-time
+                   (time-subtract after-init-time before-init-time)))))
+     (if (called-interactively-p 'interactive)
+         (message "%s" str)
+       str)))
+ #+end_src
+** DONE XO醤のアラビアータ                                         :@cooking:
+   CLOSED: [2018-11-11 Sun 01:01]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1111-pasta-arrabiata
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-12-05 Wed 00:56]
+:END:
+
+市販のトマトパウチに，XO醤を混ぜたパスタ．とても旨かった．XO醤は意外と甘いので，塩分調整が必要になった．
+
+{{< tweet 1061469460786110465 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料         | 分量 | 単位   |
+|--------------+------+--------|
+| ベビーホタテ |    4 | 個     |
+| しめじ       | 少々 |        |
+| にんにく     |    4 | [片]   |
+| ベーコン     | 少々 | [片]   |
+| オイル       |    2 | 大さじ |
+| 鷹の爪       |    1 | 本     |
+| XO醤         |    1 | 大さじ |
+| 白ワイン     |    1 | 大さじ |
+| 茹で汁(1.0%) |   15 | [cc]   |
+| トマトソース |    1 | 袋     |
+| 水           |  100 | [cc]   |
+| パスタ       |  180 | [g]    |
+** DONE 肉そぼろのパスタ                                           :@cooking:
+   CLOSED: [2018-11-17 Sat 00:55]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1117-pasta-mince
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-12-05 Wed 00:51]
+:END:
+
+台湾で購入した肉そぼろを使ってパスタを作った．XO醤が意外と甘く，ケイパーと合わせるといい感じになった．
+
+{{< tweet 1063630878671175680 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位   |
+|----------------+------+--------|
+| オリーブオイル |   30 | [cc]   |
+| にんにく       |    3 | [片]   |
+| 玉ねぎ         |  1/4 | 個     |
+| ケイパー       |    2 | 小さじ |
+| 茹で汁(1.0%)   |   30 | [cc]   |
+| XO醤           |    2 | 小さじ |
+| 肉醤           |    2 | 大さじ |
+| パスタ         |  190 | [g]    |
+
+** DONE 梅干しと生ハムのパスタ                                     :@cooking:
+   CLOSED: [2018-11-18 Sun 00:50]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1118-pasta-plum-ham
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-12-05 Wed 00:47]
+:END:
+
+梅干しを使うパスタに挑戦．仕上がりの一皿を撮影し忘れた．無念．
+
+{{< tweet 1064024526369914881 >}}
+
+{{< tweet 1064009552104849408 >}}
+
+{{< tweet 1064007709094141953 >}}
+** DONE 梅干しと生ハムのパスタ                                     :@cooking:
+   CLOSED: [2018-11-23 Fri 00:46]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1123-pasta-plum-ham
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-12-05 Wed 00:44]
+:END:
+
+梅干しがアクセントになってとても旨い．生ハムが無くても成立しそう．でも生ハムも旨い．
+
+{{< tweet 1065912951318568965 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   45 | [cc] |
+| にんにく       |    3 | 片   |
+| うめぼし       |    2 | 粒   |
+| 茹で汁(1%)     |   40 | [cc] |
+| 生ハム         | 数枚 |      |
+| 大葉           | 少々 |      |
+| パスタ         |  190 | [g]  |
+** DONE VimConf 2018 で遊んできた話                                  :@emacs:
+   CLOSED: [2018-11-25 Sun 09:07]
+:PROPERTIES:
+:EXPORT_FILE_NAME: vimconf2018
+:EXPORT_HUGO_TAGS: "editor"
+:EXPORT_HUGO_LASTMOD: [2018-11-27 Tue 17:29]
+:CREATED:  [2018-11-25 Sun 08:40]
+:END:
+
+生粋の Emacsユーザである私ですが， VimConf2018 に参加してきました．
+
+会議の開催場所は，比較的近所の秋葉原．駅から徒歩数分と近く，また，とても綺麗な会場でした．Twitter の [[https://twitter.com/search?q=vimconf][#vimconf]] タグで何枚か写真が出回っていると思いますが，それらから得られる印象よりも実際の会場はとても広く，満員の会場は登壇者に十分な威圧感を与えるものでした．
+
+当初は登壇するつもりは全くなく，スパイよろしく潜伏する形で他宗派の会合に参加し，[[https://twitter.com/takaxp/status/1066169131660017664][今半の弁当]]を美味しくいただき，そして，ノベルティの Emacs 缶バッチを手に入れたらそそくさと退散する予定でした．
+
+{{< tweet 1066134030444195842 >}}
+
+ところが， Slack の [[https://vim-jp.slack.com/][vim-jp]] で戯れているうちに，折角の機会だし何か爪痕を残してくるのも悪くはないだろうと思い直し，ネタ的に LT 募集に応募したらまさかの accept だったというわけです．
+
+LTの応募をしたときはもう頭がどうかしていて，すべて  [[https://vim-jp.slack.com/][vim-jp]] のコミュニティ力のせいですね．変な動画も出回っていて..．
+
+{{< tweet 1047669110987837440 >}}
+
+あ，これを作ったのは[[https://gist.github.com/takaxp/ba9d33a4fafff6c86f3da26498d05711][私]]です．といっても mattn 氏の[[https://twitter.com/mattn_jp/status/1047071077556465664][投稿]]に便乗しただけですけどね．
+
+さて，会議の内容は？といえば，LT含めて14名が登壇し，[[https://vimconf.org/2018/#link-timetable][朝の10時から夕方5時半まで開催]]する非常に充実したものでした．各講演の詳しいところは，多くのVimユーザの方々がレポートしてくださると思いますから，ここでは自分に関係するところだけをいくつか拾っていきます．
+
+ 1) Keynote - What is the next feature?	(speaker: Yasuhiro Matsumoto)
+    - トピック
+      - [[https://vim-jp.slack.com/][vim-jp]] の生い立ち，位置づけ，価値
+      - Vim をHTTPサーバ化
+        - 現状は 20req/sec だが，50req/sec まで改善予定
+      - Vim本体開発には，GDB利用
+      - バイナリ確認
+        #+begin_src sh
+        xxd -g 1 bytes
+        #+end_src
+    - 感想
+      - 私にとっては，VimでもGoでもなく，Perlのお方．お会いできて嬉しい．
+      - いらすとやの呪縛（便利ですよね）
+ 2) Vim ported to WebAssembly (speaker: rhysd)
+    - トピック
+      - ブラウザで使える Vim
+      - [[https://kripken.github.io/emscripten-site/][Emscripten]]
+      - [[https://webassembly.org/getting-started/developers-guide/][WebAssembly]]
+      - ユーザからのキー入力等，非同期対応が必須だが，とても大変
+      - 開発着手時，ブラウザ側にデバッグ機能がなく，printfデバッグで地獄を見た
+    - 質疑
+      - キャンパスサイズの変更で表示が乱れるのはなぜか
+        - インタープリタ部分まで手を加えないとダメで現状での対応は大変
+    - 感想
+      - 技術的な興味があり，開発者ご本人の講演を聞けて幸せ
+      - Emacs port to WebAssembly ... どうかなー．
+ 3) カメラマン
+    - トピック
+      - 参加者が今半の弁当に舌鼓を打つ間も，ひたすらにお仕事
+    - 感想
+      - お疲れ様でした
+ 4) 懇親会会場のサーバー
+    - トピック
+      - 参加者が懇談する間も，ひたすらにお仕事
+    - 感想
+      - 「白ワインに炭酸水を入れて」とのお願いに，快く対応してくれて感謝
+        - そうやって飲む人が結構いますよ，と味方になってくれた．
+
+自分のLTはどうだったかと言えば，エセ Vimmer としてデモでもしようと思ったら，当日になって動かないというよくあるパターンに．
+
+{{< tweet 1066214946214572032 >}}
+
+それでも，あれだけの沢山の聴講者の方々に， [[https://github.com/jceb/vim-orgmode][vim-orgmode]] あるいは [[https://orgmode.org/][Org Mode]] をデリバーできたのは良かったなと．
+
+#+caption: Change your situation by Org
+[[https://takaxp.github.io/event/data/0C/8C7577-DA2E-4C69-B32D-05B5DEDE08A6/vimconf2018_2018-11-24_12-11-11.png]]
+
+他の登壇者の方から「抽象的でわからん」とのご批判も受けましたが，仮に具体的な話をしたら *3時間いただいても足りません* と言わざるを得ません :p
+
+{{< tweet 1066237668676136960 >}}
+
+発表資料は，次のリンクからどうぞお持ちください．
+ - https://takaxp.github.io/event/vimconf2018.html
+ - https://takaxp.github.io/event/vimconf2018.org
+
+
+最後に Emacs ユーザとしていくつか確認できたことをまとめます．
+
+ 1. Emacs はエディタとして非常に恵まれている
+    - それ Emacs で(すでに)できるよ案件が複数あった（多少誤解があるかも）
+      - テキストプロパティ
+      - パッケージマネジメント
+      - バイトコンパイル
+      - 画像のインライン表示
+    - 「Vim はテキストエディタです」と「Emacs はテキストエディタです」には乖離がある
+ 2. Emacs 難しい・Vim 難しい論は，状況依存であり，割とどうでもいい
+    - 一方のエディタの習得が難しいから，他方を選ぶべき論は成り立たない
+    - (利用)環境がユーザを育てる
+ 3. モニタ領域を左右分割して使う
+    - 横長のモニタを左右に領域をわけて使う人を多くみかけた
+    - 左にブラウザ，右にVimのようなパターン
+    - タブレットでも左右分割の方が居た
+
+なお，このブログも Org Mode（のエクスポータである [[https://ox-hugo.scripter.co/][ox-hugo]]）の恩恵です．
+
+{{{srclink}}}
+
+*** パスタ
+
+ノベルティの[[https://www.atware.co.jp/tobatware/][鮭とば]]をパスタで食べたよ．旨々．
+
+{{< tweet 1066540085917605888 >}}
+
+*** References
+
+ - [[https://vim-jp.org/docs/chat.html][vim-jp » vim-jpのチャットルームについて]]
+ - [[https://togetter.com/li/1291515][VimConf 2018 まとめ - Togetter]]
+ - [[https://www.softantenna.com/wp/software/learning-curves-of-editors/][【ネタ】有名エディタの学習曲線 | ソフトアンテナブログ]]
+ - [[https://orgmode.org/worg/org-papers.html][White Papers Relevant to Org-mode]]
+ - [[https://www.atware.co.jp/tobatware/][とばっとうぇあ — 株式会社アットウェア]]
+** DONE ホタテと鮭とばのパスタ                                     :@cooking:
+   CLOSED: [2018-11-25 Sun 00:43]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1125-pasta-vimconf
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-12-05 Wed 00:40]
+:END:
+
+Vimconf に参加した時にいただいたノベルティに，鮭トバが入っていたのでパスタにしてみた．旨かった．
+
+{{< tweet 1066540085917605888 >}}
+
+#+caption: レシピ（材料・一皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   20 | [cc] |
+| にんにく       |    1 | 片   |
+| ベビーほたて   |    4 | 個   |
+| 鮭とば         | 少々 |      |
+| カイワレ       | 少々 |      |
+| 白ワイン       |   30 | [cc] |
+| パスタ         |  110 | [g]  |
+
+** DONE 生牡蠣のパスタ                                             :@cooking:
+   CLOSED: [2018-12-01 Sat 00:39]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1201-pasta-oyster
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-12-05 Wed 00:36]
+:END:
+
+生牡蠣を使ったパスタに挑戦．作り方はボンゴレの手順をそのまま応用した．旨い旨い．
+
+{{< tweet 1068720908443873286 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位   |
+|----------------+------+--------|
+| オリーブオイル |   40 | [cc]   |
+| にんにく       |    2 | 片     |
+| 生牡蠣         |   10 | 枚     |
+| 白ワイン       |   45 | [cc]   |
+| XO醤           |    1 | 小さじ |
+| 塩             | 少々 |        |
+| バター         |   15 | [g]    |
+| パスタ         |  190 | [g]    |
+** DONE 市販ソースのパスタ                                         :@cooking:
+   CLOSED: [2018-12-02 Sun 14:34]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1202-pasta-clam
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-12-05 Wed 00:29]
+:END:
+
+市販のパスタソースを使用．どうしても塩味が強くなるのが欠点．にんにくとシーチキンで少しだけ味を変えてみた．
+
+{{< tweet 1069084675769942016 >}}
+** DONE init.el の読み込みを計測                                     :@emacs:
+   CLOSED: [2018-12-19 Wed 19:21]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 4f261cc0-8e97-a764-c703-c21c4fa6a340
+:EXPORT_HUGO_TAGS: 
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2018-12-19 Wed 19:06]
+:END:
+
+~init.el~ の中に次のような関数を組み込んで，起動時にどの程度の読み込み時間を要しているのか観察することにしました．
+
+起動時間の制御という意味では， =postpone.el= の導入と =autoload-if-found= 及び =with-eval-after-load= を積極利用することで，高速な起動を維持できています．しかしながら，常に新しい拡張を試しているので，私の ~init.el~ は常に肥大化の傾向にあります．
+
+今回導入した関数の出力を定期的にチェックすることで，新たに追加する設定が原因となる，不用意な起動時間の増加が生じないように気をつけます．
+
+#+begin_src emacs-lisp
+(defconst my-before-load-init-time (current-time))
+(defvar my-tick-previous-time my-before-load-init-time)
+(defun my-tick-init-time (msg)
+  "Tick boot sequence."
+  (when t
+    (let ((ctime (current-time)))
+      (message "--- %5.2f[ms] %s"
+               (* 1000 (float-time
+                        (time-subtract ctime my-tick-previous-time)))
+               msg)
+      (setq my-tick-previous-time ctime))))
+;; 呼び出し（init.el中に適宜配置する）
+(my-tick-init-time "hoge")
+#+end_src
+
+今回の計測では，次のようになりました．
+
+#+caption: init.el 読み込みシーケンスの時間計測
+|                  | CUI[ms] | GUI[ms] |
+|------------------+---------+---------|
+| startup          |    6.67 |    6.29 |
+| core             |    5.32 |    5.76 |
+| point            |    3.73 |    3.77 |
+| editing          |    6.74 |    7.04 |
+| presentation     |    9.90 |    7.54 |
+| media            |    2.09 |    1.81 |
+| history          |    4.88 |    4.61 |
+| development      |    5.06 |    4.76 |
+| Org Mode         |   15.82 |   13.63 |
+| frame and window |    3.52 |    3.18 |
+| font             |    3.92 |    3.26 |
+| utility          |    7.26 |    4.53 |
+** DONE ソーセージと舞茸のパスタ                                   :@cooking:
+   CLOSED: [2018-12-08 Sat 00:54]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1208-pasta-sausage-with-maitake
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2019-01-16 Wed 00:59]
+:END:
+
+ソーセージからは旨味だけじゃなくオイルも多く出てくるからソースの完成にはちょっと工夫が必要かな．
+
+{{< tweet 1071260817155284994 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位   |
+|----------------+------+--------|
+| オリーブオイル |   45 | [cc]   |
+| にんにく       |    2 | 片     |
+| ソーセージ     | 数本 |        |
+| 舞茸           | 半分 | パック |
+| 水             |   40 | [cc]   |
+| パスタ         |  190 | [g]    |
+
+** DONE ほうれん草とベーコンのペペロンチーノ                       :@cooking:
+   CLOSED: [2018-12-09 Sun 01:10]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1209-pasta-bacon-spinash-peperoncino
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2019-01-16 Wed 01:03]
+:END:
+
+定番のほうれん草とベーコンのペペロンチーノ！ほうれん草とベーコンをサブのフライパンで炒めておくのが我が家流．失敗がない．
+
+{{< tweet 1071623844039843840 >}}
+
+{{< tweet 1071617959762649089 >}}
+
+** DONE すっぱいパスタ                                             :@cooking:
+   CLOSED: [2018-12-15 Sat 01:18]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1215-pasta-pickled-plum
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2019-01-16 Wed 01:12]
+:END:
+
+梅干しを中心にして冷蔵庫の余り物で一皿作りました．
+
+{{< tweet 1073793373222232064 >}}
+
+{{< tweet 1073794304550699008 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   40 | [cc] |
+| にんにくのめ   | 数本 |      |
+| しめじ         | 半株 |      |
+| トマト（小）   |    3 | 個   |
+| 梅干し         |    2 | 個   |
+| みりん         |   15 | [cc] |
+| 茹で汁(0.9%)   |   30 | [cc] |
+| 韓国のり       | 少々 |      |
+| パスタ         |  190 | [g]  |
+
+** DONE しらすとアンチョビのパスタ                                 :@cooking:
+   CLOSED: [2018-12-16 Sun 01:34]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1216-pasta-shirasu
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2019-01-16 Wed 01:22]
+:END:
+
+定番になりつつある，しらすとアンチョビのパスタ．ベビーホタテもいい感じ．
+
+{{< tweet 1074166496765472768 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位   |
+|----------------+------+--------|
+| オリーブオイル |   30 | [cc]   |
+| にんにく       |    2 | 片     |
+| べびーホタテ   | 数個 |        |
+| アンチョビ     |    3 | 片     |
+| 茹で汁(0.9%)   |   15 | [cc]   |
+| しらす         |    1 | パック |
+| パスタ         |  190 | [g]    |
+
+** DONE 塩豚とレタスのパスタ                                       :@cooking:
+   CLOSED: [2018-12-23 Sun 01:34]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1223-pasta-homemade-bacon
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2019-01-16 Wed 01:29]
+:END:
+
+{{< tweet 1076786902156566533 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| にんにく       |    2 | 片   |
+| 塩豚           |   70 | [g]  |
+| アンチョビ     |    1 | 片   |
+| 茹で汁(1%)     |   30 | [cc] |
+| レタス         | 適量 |      |
+| パスタ         |  180 | [g]  |
+
+** DONE ボンゴレビアンコ                                           :@cooking:
+   CLOSED: [2018-12-24 Mon 01:41]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1224-pasta-vongole-bianco
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2019-01-16 Wed 01:36]
+:END:
+
+料理酒の代用でもなんとかなるけど，やはり白ワインが良いね．
+
+{{< tweet 1077150985242300416 >}}
+
+** DONE バジルペーストのパスタ                                     :@cooking:
+   CLOSED: [2018-12-29 Sat 01:41]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1229-pasta-basil
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2019-01-16 Wed 01:38]
+:END:
+
+バジルペーストは既成品で，自家製の塩豚を添えてみた．
+
+{{< tweet 1078868578214981632 >}}
+
+** DONE ボロネーゼ                                                 :@cooking:
+   CLOSED: [2018-12-30 Sun 01:45]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1230-pasta-boronase
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2019-01-16 Wed 01:42]
+:END:
+
+ソフリットから作ったボロネーゼ．トマト缶を変えたから酸味の調整で悩まされることがなくなったのが嬉しい．
+
+{{< tweet 1079301028032393216 >}}
+
+** DONE ラザニア                                                   :@cooking:
+   CLOSED: [2018-12-31 Mon 01:48]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1231-pasta-razania
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2019-01-16 Wed 01:46]
+:END:
+
+大量に作ったボロネーゼソースを使って，ラザニアを作りました．ホワイトソースとチーズをたっぷり載せて贅沢に．
+
+{{< tweet 1079590326203953154 >}}
+

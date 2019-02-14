@@ -1,0 +1,461 @@
+{
+	"ItemLookupResponse": {
+		"xmlns": "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
+		"OperationRequest": {
+			"HTTPHeaders": {
+				"Header": {
+					"Name": "UserAgent",
+					"Value": "curl/7.54.0"
+				}
+			},
+			"RequestId": {
+				"$t": "709ef101-b787-4f40-bb76-5cae05146f65"
+			},
+			"Arguments": {
+				"Argument": [
+					{
+						"Name": "AWSAccessKeyId",
+						"Value": "AKIAI7WGOLOCKUDEVSXA"
+					},
+					{
+						"Name": "AssociateTag",
+						"Value": "pxaka-22"
+					},
+					{
+						"Name": "ItemId",
+						"Value": "B004N3APGO"
+					},
+					{
+						"Name": "Operation",
+						"Value": "ItemLookup"
+					},
+					{
+						"Name": "ResponseGroup",
+						"Value": "Medium"
+					},
+					{
+						"Name": "Service",
+						"Value": "AWSECommerceService"
+					},
+					{
+						"Name": "Timestamp",
+						"Value": "2019-02-14T09:58:14Z"
+					},
+					{
+						"Name": "Version",
+						"Value": "2013-08-01"
+					},
+					{
+						"Name": "Signature",
+						"Value": "L/K9cuVUCdEjSqPiGPB7cpHB29F+pLADwDREUSbc4UE="
+					}
+				]
+			},
+			"RequestProcessingTime": {
+				"value": "0.0186516580000000"
+			}
+		},
+		"Items": {
+			"Request": {
+				"IsValid": {
+					"value": "True"
+				},
+				"ItemLookupRequest": {
+					"IdType": {
+						"value": "ASIN"
+					},
+					"ItemId": {
+						"value": "B004N3APGO"
+					},
+					"ResponseGroup": {
+						"value": "Medium"
+					},
+					"VariationPage": {
+						"value": "All"
+					}
+				}
+			},
+			"Item": {
+				"ASIN": {
+					"value": "B004N3APGO"
+				},
+				"ParentASIN": {
+					"value": "BT00DHI8G4"
+				},
+				"DetailPageURL": {
+					"value": "https://www.amazon.co.jp/Amazon%E3%82%AE%E3%83%95%E3%83%88%E5%88%B8-1_JP_Email-Amazon%E3%82%AE%E3%83%95%E3%83%88%E5%88%B8-E%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%97-Amazon%E3%83%99%E3%83%BC%E3%82%B7%E3%83%83%E3%82%AF/dp/B004N3APGO?psc=1&SubscriptionId=AKIAI7WGOLOCKUDEVSXA&tag=pxaka-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B004N3APGO"
+				},
+				"ItemLinks": {
+					"ItemLink": [
+						{
+							"Description": {
+								"value": "Add To Wishlist"
+							},
+							"URL": {
+								"value": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=B004N3APGO&SubscriptionId=AKIAI7WGOLOCKUDEVSXA&tag=pxaka-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B004N3APGO"
+							}
+						},
+						{
+							"Description": {
+								"value": "Tell A Friend"
+							},
+							"URL": {
+								"value": "https://www.amazon.co.jp/gp/pdp/taf/B004N3APGO?SubscriptionId=AKIAI7WGOLOCKUDEVSXA&tag=pxaka-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B004N3APGO"
+							}
+						},
+						{
+							"Description": {
+								"value": "All Customer Reviews"
+							},
+							"URL": {
+								"value": "https://www.amazon.co.jp/review/product/B004N3APGO?SubscriptionId=AKIAI7WGOLOCKUDEVSXA&tag=pxaka-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B004N3APGO"
+							}
+						},
+						{
+							"Description": {
+								"value": "All Offers"
+							},
+							"URL": {
+								"value": "https://www.amazon.co.jp/gp/offer-listing/B004N3APGO?SubscriptionId=AKIAI7WGOLOCKUDEVSXA&tag=pxaka-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B004N3APGO"
+							}
+						}
+					]
+				},
+				"SalesRank": {
+					"value": "2"
+				},
+				"SmallImage": {
+					"URL": {
+						"value": "https://images-fe.ssl-images-amazon.com/images/I/41-4Hj2o%2BqL._SL75_.jpg"
+					},
+					"Height": {
+						"Units": "pixels",
+						"value": "75"
+					},
+					"Width": {
+						"Units": "pixels",
+						"value": "75"
+					}
+				},
+				"MediumImage": {
+					"URL": {
+						"value": "https://images-fe.ssl-images-amazon.com/images/I/41-4Hj2o%2BqL._SL160_.jpg"
+					},
+					"Height": {
+						"Units": "pixels",
+						"value": "160"
+					},
+					"Width": {
+						"Units": "pixels",
+						"value": "160"
+					}
+				},
+				"LargeImage": {
+					"URL": {
+						"value": "https://images-fe.ssl-images-amazon.com/images/I/41-4Hj2o%2BqL.jpg"
+					},
+					"Height": {
+						"Units": "pixels",
+						"value": "500"
+					},
+					"Width": {
+						"Units": "pixels",
+						"value": "500"
+					}
+				},
+				"ImageSets": {
+					"ImageSet": [
+						{
+							"Category": "swatch",
+							"SwatchImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/31cvqMhdG2L._SL30_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "22"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "30"
+								}
+							},
+							"SmallImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/31cvqMhdG2L._SL75_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "56"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "75"
+								}
+							},
+							"ThumbnailImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/31cvqMhdG2L._SL75_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "56"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "75"
+								}
+							},
+							"TinyImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/31cvqMhdG2L._SL110_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "82"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "110"
+								}
+							},
+							"MediumImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/31cvqMhdG2L._SL160_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "120"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "160"
+								}
+							},
+							"LargeImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/31cvqMhdG2L.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "375"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "500"
+								}
+							}
+						},
+						{
+							"Category": "primary",
+							"SwatchImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/41-4Hj2o%2BqL._SL30_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "30"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "30"
+								}
+							},
+							"SmallImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/41-4Hj2o%2BqL._SL75_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "75"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "75"
+								}
+							},
+							"ThumbnailImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/41-4Hj2o%2BqL._SL75_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "75"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "75"
+								}
+							},
+							"TinyImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/41-4Hj2o%2BqL._SL110_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "110"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "110"
+								}
+							},
+							"MediumImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/41-4Hj2o%2BqL._SL160_.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "160"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "160"
+								}
+							},
+							"LargeImage": {
+								"URL": {
+									"value": "https://images-fe.ssl-images-amazon.com/images/I/41-4Hj2o%2BqL.jpg"
+								},
+								"Height": {
+									"Units": "pixels",
+									"value": "500"
+								},
+								"Width": {
+									"Units": "pixels",
+									"value": "500"
+								}
+							}
+						}
+					]
+				},
+				"ItemAttributes": {
+					"Binding": {
+						"value": "Ecard Gift Certificate"
+					},
+					"Brand": {
+						"value": "Amazonギフト券"
+					},
+					"Feature": [
+						{
+							"value": "Amazon.co.jpで使えるデジタル商品券"
+						},
+						{
+							"value": "Eメール、ショートメッセージ、LINEやFacebookメッセンジャーなどに送信できます。"
+						},
+						{
+							"value": "数億種の商品・サービスに利用できます。 ※Amazonギフト券など、細則にもどづき一部制限あり"
+						},
+						{
+							"value": "お届けは注文完了から通常5分以内。 場合により、5分以上かかることがあります。"
+						},
+						{
+							"value": "有効期限は発行から10年です。"
+						},
+						{
+							"value": "法律によって認められる場合を除き、返金および返品できません。"
+						},
+						{
+							"value": "Amazon.co.jpでのお買物以外の用途・理由にてAmazonギフト券の送付を要求された場合は十分ご注意ください。"
+						},
+						{
+							"value": "Amazonギフト券を再販売その他対価をもって譲渡することはアカウントの停止などの対象となりますのでお控えください。"
+						}
+					],
+					"Genre": {
+						"value": "Amazonギフト券"
+					},
+					"Label": {
+						"value": "Amazonギフト券"
+					},
+					"Languages": {
+						"Language": [
+							{
+								"Name": {
+									"value": "英語"
+								},
+								"Type": {
+									"value": "Unknown"
+								}
+							},
+							{
+								"Name": {
+									"value": "日本語"
+								},
+								"Type": {
+									"value": "Unknown"
+								}
+							}
+						]
+					},
+					"ListPrice": {
+						"Amount": {
+							"value": "5000"
+						},
+						"CurrencyCode": {
+							"value": "JPY"
+						},
+						"FormattedPrice": {
+							"value": "￥ 5,000"
+						}
+					},
+					"Manufacturer": {
+						"value": "Amazonギフト券"
+					},
+					"Model": {
+						"value": "1_JP_Email"
+					},
+					"MPN": {
+						"value": "a_basic_noto_email_v2016_jp"
+					},
+					"PartNumber": {
+						"value": "a_basic_noto_email_v2016_jp"
+					},
+					"ProductGroup": {
+						"value": "Electronic Gift Card"
+					},
+					"ProductTypeName": {
+						"value": "ABIS_GIFT_CARD"
+					},
+					"Publisher": {
+						"value": "Amazonギフト券"
+					},
+					"ReleaseDate": {
+						"value": "2010-07-15"
+					},
+					"Studio": {
+						"value": "Amazonギフト券"
+					},
+					"Title": {
+						"value": "Amazonギフト券- Eメールタイプ - Amazonベーシック"
+					}
+				},
+				"OfferSummary": {
+					"LowestNewPrice": {
+						"Amount": {
+							"value": "5000"
+						},
+						"CurrencyCode": {
+							"value": "JPY"
+						},
+						"FormattedPrice": {
+							"value": "￥ 5,000"
+						}
+					},
+					"TotalNew": {
+						"value": "2"
+					},
+					"TotalUsed": {
+						"value": "0"
+					},
+					"TotalCollectible": {
+						"value": "0"
+					},
+					"TotalRefurbished": {
+						"value": "0"
+					}
+				}
+			}
+		}
+	}
+}
