@@ -1,3 +1,0 @@
-#+hugo_section: 2017
-#+hugo_base_dir: ../
-
