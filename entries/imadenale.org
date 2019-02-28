@@ -341,7 +341,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | 大葉           | 数枚 |      |
 | パスタ         |  190 | [g]  |
 ** DONE カラスミと水菜のパスタ                                     :@cooking:
-   CLOSED: [2019-02-24 Sun 01:33]
+   CLOSED: [2019-02-23 Sat 16:42]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0223-pasta-bottarga
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -363,7 +363,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | カラスミ       | 適量 |      |
 | パスタ         |  180 | [g]  |
 ** DONE 梅干しのペペロンチーノ                                     :@cooking:
-   CLOSED: [2019-02-24 Sun 16:40]
+   CLOSED: [2019-02-24 Sun 15:44]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0224-pasta-peperoncino
 :EXPORT_HUGO_TAGS: "pasta" "salt"

@@ -1,7 +1,7 @@
 +++
 title = "カラスミと水菜のパスタ"
 author = ["Takaaki ISHIKAWA"]
-date = 2019-02-24T01:33:00+09:00
+date = 2019-02-23T16:42:00+09:00
 tags = ["pasta", "salt"]
 categories = ["cooking"]
 draft = false
