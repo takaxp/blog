@@ -1,0 +1,133 @@
+{
+	"ItemLookupResponse": {
+		"xmlns": "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
+		"OperationRequest": {
+			"HTTPHeaders": {
+				"Header": {
+					"Name": "UserAgent",
+					"Value": "curl/7.54.0"
+				}
+			},
+			"RequestId": {
+				"value": "f96a99ae-f586-4c08-9bb8-2aca6c6ec4e8"
+			},
+			"Arguments": {
+				"Argument": [
+					{
+						"Name": "AWSAccessKeyId",
+						"Value": "AKIAI7WGOLOCKUDEVSXA"
+					},
+					{
+						"Name": "AssociateTag",
+						"Value": "pxaka-22"
+					},
+					{
+						"Name": "ItemId",
+						"Value": "B005MHKJQQ"
+					},
+					{
+						"Name": "Operation",
+						"Value": "ItemLookup"
+					},
+					{
+						"Name": "ResponseGroup",
+						"Value": "Medium"
+					},
+					{
+						"Name": "Service",
+						"Value": "AWSECommerceService"
+					},
+					{
+						"Name": "Timestamp",
+						"Value": "2019-03-10T14:35:32Z"
+					},
+					{
+						"Name": "Version",
+						"Value": "2013-08-01"
+					},
+					{
+						"Name": "Signature",
+						"Value": "3sK5dIBWtclbEBc3/BoZMTTEsUuzlvE+HkIjt7vcmB0="
+					}
+				]
+			},
+			"RequestProcessingTime": {
+				"value": "0.0209186820000000"
+			}
+		},
+		"Items": {
+			"Request": {
+				"IsValid": {
+					"value": "True"
+				},
+				"ItemLookupRequest": {
+					"IdType": {
+						"value": "ASIN"
+					},
+					"ItemId": {
+						"value": "B005MHKJQQ"
+					},
+					"ResponseGroup": {
+						"value": "Medium"
+					},
+					"VariationPage": {
+						"value": "All"
+					}
+				}
+			},
+			"Item": {
+				"ASIN": {
+					"value": "B005MHKJQQ"
+				},
+				"DetailPageURL": {
+					"value": "https://www.amazon.co.jp/gp/product/B005MHKJQQ/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=pxaka-22&linkId=96674eb248adb5fe27aa71e1ab7f7cc7&language=ja_JP"
+				},
+				"SmallImage": {
+					"URL": {
+						"value": "https://images-fe.ssl-images-amazon.com/images/I/514g5f-Rt6L._SL75_.jpg"
+					},
+					"Height": {
+						"Units": "pixels",
+						"value": "75"
+					},
+					"Width": {
+						"Units": "pixels",
+						"value": "56"
+					}
+				},
+				"ItemAttributes": {
+					"ISBN": {
+						"value": "B005MHKJQQ"
+					},
+					"Title": {
+						"value": "COLAVITA ピュアオリーブオイル缶（1L）"
+					}
+				},
+				"OfferSummary": {
+					"LowestNewPrice": {
+						"Amount": {
+							"value": "2027"
+						},
+						"CurrencyCode": {
+							"value": "JPY"
+						},
+						"FormattedPrice": {
+							"value": "￥ 2,027"
+						}
+					},
+					"LowestUsedPrice": {
+						"Amount": {
+							"value": "2257"
+						},
+						"CurrencyCode": {
+							"value": "JPY"
+						},
+						"FormattedPrice": {
+							"value": "￥ 2,257"
+						}
+					}
+				}
+			}
+		}
+	}
+}
