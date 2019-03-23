@@ -1521,7 +1521,7 @@ Vimconf に参加した時にいただいたノベルティに，鮭トバが入
 | Org Mode         |   15.82 |   13.63 |
 | frame and window |    3.52 |    3.18 |
 | font             |    3.92 |    3.26 |
-| utility          |    7.26 |    4.53 |
+| utility          |    7.26 |   4.532 |
 ** DONE ソーセージと舞茸のパスタ                                   :@cooking:
    CLOSED: [2018-12-08 Sat 00:54]
 :PROPERTIES:
