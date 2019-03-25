@@ -558,10 +558,11 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | ホールトマト       | 1200 | [cc]   |
 | ローリエ           |    2 | 枚     |
 | パスタ             |  190 | [g]    |
-** TODO company-mode に移行する                                      :@emacs:
+** DONE company-mode に移行する                                      :@emacs:
+   CLOSED: [2019-03-25 Mon 13:39]
 :PROPERTIES:
-:EXPORT_FILE_NAME: 
-:EXPORT_HUGO_TAGS: 
+:EXPORT_FILE_NAME: 0325-auto-complete-to-company
+:EXPORT_HUGO_TAGS: "emacs"
 :EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2019-03-25 Mon 12:17]
 :END:
