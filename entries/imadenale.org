@@ -527,6 +527,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | XO醤           |    1 | 小さじ |
 | ゆで汁(1.0%)   |   30 | [cc]   |
 | パスタ         |  200 | [g]    |
+
 ** DONE トマトラグー・ビアンコ                                     :@cooking:
    CLOSED: [2019-03-24 Sun 18:24]
 :PROPERTIES:
@@ -557,3 +558,50 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | ホールトマト       | 1200 | [cc]   |
 | ローリエ           |    2 | 枚     |
 | パスタ             |  190 | [g]    |
+** TODO company-mode に移行する                                      :@emacs:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 
+:EXPORT_HUGO_TAGS: 
+:EXPORT_HUGO_LASTMOD: 
+:CREATED:  [2019-03-25 Mon 12:17]
+:END:
+
+長らく愛用してきた [[https://github.com/auto-complete/auto-complete][auto-comple]] ですが，メンテナンスモードに入ったという知らせを受けましたので， [[https://company-mode.github.io/][company]] に移行することにしました．
+
+最近は =el-get= でもパッケージ管理をしているので，早速以下を追加してインストールです．ヘルプ表示が非標準らしいので =company-quickhelp= も追加します．
+
+#+begin_src emacs-lisp
+(el-get-bundle "company-mode/company-mode")
+(el-get-bundle "expez/company-quickhelp")
+#+end_src
+
+=auto-complete= の時に頻繁に使っていたファイルパスの補完がうまく動かなかったので調べてみると， =company-backends= の中の =company-files= の位置が悪いようで，補完候補の第一に持ってくることで，希望の動作になりました．
+
+#+begin_src emacs-lisp
+(delq 'company-files company-backends)
+(add-to-list 'company-backends 'company-files)
+#+end_src
+
+初期の設定を次のようにしました．配色は確かに =auto-complete= とかなり違いますけど，とりあえず許容範囲なので当面はそのまま使おうと思います．
+
+#+begin_src emacs-lisp
+(when (require 'company nil t)
+  (define-key company-active-map (kbd "C-n") 'company-select-next)
+  (define-key company-active-map (kbd "C-p") 'company-select-previous)
+  (define-key company-search-map (kbd "C-n") 'company-select-next)
+  (define-key company-search-map (kbd "C-p") 'company-select-previous)
+  (define-key company-active-map (kbd "<tab>") 'company-complete-selection)
+
+  (delq 'company-files company-backends)
+  (add-to-list 'company-backends 'company-files)
+
+  (global-company-mode))
+
+(when (require 'company-quickhelp nil t)
+  (company-quickhelp-mode))
+#+end_src
+
+*** References
+ - [[https://company-mode.github.io/][company-mode for Emacs]]
+ - [[https://qiita.com/syohex/items/8d21d7422f14e9b53b17][auto-completeユーザのための company-modeの設定 - Qiita]]
+ - [[https://qiita.com/sune2/items/b73037f9e85962f5afb7][emacsの補完用パッケージcompany-mode - Qiita]]
