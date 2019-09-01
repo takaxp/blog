@@ -1,8 +1,8 @@
 +++
 title = "鶏肉と梅干しの和風パスタ"
 author = ["Takaaki ISHIKAWA"]
-date = 2019-02-18T00:15:00+01:00
-lastmod = 2019-07-15T07:33:00+02:00
+date = 2019-02-18T00:15:00+09:00
+lastmod = 2019-07-15T07:33:00+09:00
 tags = ["pasta", "wafu"]
 categories = ["cooking"]
 draft = false
