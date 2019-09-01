@@ -25,7 +25,7 @@ draft = false
 
 {{< tweet 1104603450224984064 >}}
 
-[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/imadenale.org#L408)
+[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/imadenale.org#L410)
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:
@@ -39,5 +39,3 @@ draft = false
 | ゆで汁(1.0%) | 30  | [cc] |
 | 鷹の爪    | 1   | 本   |
 | パスタ    | 190 | [g]  |
-
-\*\*

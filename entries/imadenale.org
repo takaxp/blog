@@ -9,7 +9,7 @@
 :EXPORT_HUGO_SECTION: 2019
 :END:
 ** DONE プッタネスカ                                               :@cooking:
-   CLOSED: [2019-01-03 Thu 01:51]
+	 CLOSED: [2019-01-03 Thu 01:51]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0103-pasta-puttanesca
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
@@ -21,7 +21,7 @@
 
 {{< tweet 1080682792244064257 >}}
 ** DONE たらこのパスタ                                             :@cooking:
-   CLOSED: [2019-01-05 Sat 01:53]
+	 CLOSED: [2019-01-05 Sat 01:53]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0105-pasta-tarako
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
@@ -46,7 +46,7 @@
 | 白ワイン       |   15 | [cc] |
 | パスタ         |  180 | [g]  |
 ** DONE 生ハムとホタテのペペロンチーノ                             :@cooking:
-   CLOSED: [2019-01-10 Thu 01:59]
+	 CLOSED: [2019-01-10 Thu 01:59]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0110-pasta-peperoncino
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -58,7 +58,7 @@
 
 {{< tweet 1083355076901580801 >}}
 ** DONE たっぷり茄子のボロネーゼ                                   :@cooking:
-   CLOSED: [2019-01-13 Sun 02:02]
+	 CLOSED: [2019-01-13 Sun 02:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0116-pasta-boronase
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
@@ -70,7 +70,7 @@
 
 {{< tweet 1084292371750084609 >}}
 ** DONE ラザニア                                                   :@cooking:
-   CLOSED: [2019-01-14 Mon 02:04]
+	 CLOSED: [2019-01-14 Mon 02:04]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0114-pasta-razania
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
@@ -81,8 +81,8 @@
 今回はホワイトソースを使わずに，ボロネーゼソースとチーズだけで作りました．
 
 {{< tweet 1084764017476825088 >}}
-** DONE Amazon Gift
-   CLOSED: [2019-02-14 Thu 19:00]
+** DONE Amazon Gift                                                :@cooking:
+	 CLOSED: [2019-02-14 Thu 19:00]
 :PROPERTIES:
 :EXPORT_FILE_NAME: ce9fe520-d1c0-8864-59b3-40580eea51b8
 :EXPORT_HUGO_TAGS: 
@@ -95,7 +95,7 @@
 {{{srclink}}}
 
 ** DONE ジェノベーゼ                                               :@cooking:
-   CLOSED: [2019-01-16 Wed 05:32]
+	 CLOSED: [2019-01-16 Wed 05:32]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0116-pasta-genovese
 :EXPORT_HUGO_TAGS: "pasta" "pesto"
@@ -107,7 +107,7 @@
 
 {{< tweet 1085507175143727104 >}}
 ** DONE ベビーホタテのパスタ                                       :@cooking:
-   CLOSED: [2019-01-29 Tue 05:40]
+	 CLOSED: [2019-01-29 Tue 05:40]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0129-pasta-scallop
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -130,7 +130,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | 茹で汁(1%)     |   15 | [cc] |
 | パスタ         |  170 | [g]  |
 ** DONE ボロネーゼ（解凍）                                         :@cooking:
-   CLOSED: [2019-01-31 Thu 05:48]
+	 CLOSED: [2019-01-31 Thu 05:48]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0130-pasta-boronase
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
@@ -142,7 +142,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 
 {{< tweet 1090598806620520448 >}}
 ** DONE アリタリア                                                 :@cooking:
-   CLOSED: [2019-02-02 Sat 06:08]
+	 CLOSED: [2019-02-02 Sat 06:08]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0202-pasta-alitalia
 :EXPORT_HUGO_TAGS: "pasta" "tomato" "cream"
@@ -164,7 +164,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | 鷹の爪           |    1 | 本   |
 | パスタ           |  190 | [g]  |
 ** DONE トマトリゾット                                             :@cooking:
-   CLOSED: [2019-02-03 Sun 06:31]
+	 CLOSED: [2019-02-03 Sun 06:31]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0203-risotto-tomato
 :EXPORT_HUGO_TAGS: "risotto" "tomato"
@@ -190,7 +190,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | 水               |  200 | [cc] |
 | ボロネーゼソース | 適量 |      |
 ** DONE アンチョビとベーコンのパスタ                               :@cooking:
-   CLOSED: [2019-02-09 Sat 06:41]
+	 CLOSED: [2019-02-09 Sat 06:41]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0209-pasta-anchovy-bacon
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -203,19 +203,19 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 {{< tweet 1094178364124934145 >}}
 
 #+caption: レシピ（材料・二皿分）
-| 材料             | 分量 | 単位 |
-|------------------+------+------|
-| オリーブオイル   |   40 | [cc] |
-| ニンニク         |    2 | 片   |
-| 玉ねぎ           |  1/8 | 個   |
-| ベーコン         |    2 | 枚   |
-| アンチョビ       |    3 | 枚   |
-| 白ワイン         |   15 | [cc] |
-| ゆで汁(1%)       |   30 | [cc] |
-| XO醤             |   15 | [g]  |
-| パスタ           |  190 | [g]  |
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   40 | [cc] |
+| ニンニク       |    2 | 片   |
+| 玉ねぎ         |  1/8 | 個   |
+| ベーコン       |    2 | 枚   |
+| アンチョビ     |    3 | 枚   |
+| 白ワイン       |   15 | [cc] |
+| ゆで汁(1%)     |   30 | [cc] |
+| XO醤           |   15 | [g]  |
+| パスタ         |  190 | [g]  |
 ** DONE 梅干しのペペロンチーノ                                     :@cooking:
-   CLOSED: [2019-02-10 Sun 06:47]
+	 CLOSED: [2019-02-10 Sun 06:47]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0210-pasta-umeboshi-peperoncino
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -239,7 +239,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | ゆで汁(1.1%)   |   40 | [cc] |
 | パスタ         |  200 | [g]  |
 ** DONE カルボナーラ                                               :@cooking:
-   CLOSED: [2019-02-11 Mon 06:51]
+	 CLOSED: [2019-02-11 Mon 06:51]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0211-pasta-carbonara
 :EXPORT_HUGO_TAGS: "pasta" "cream"
@@ -263,7 +263,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | 黒胡椒         | 大量 |      |
 | パスタ         |  190 | [g]  |
 ** DONE ボンゴレビアンコ・イカ入り                                 :@cooking:
-   CLOSED: [2019-02-15 Fri 16:47]
+	 CLOSED: [2019-02-15 Fri 16:47]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0215-pasta-vongole-bianco
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -288,12 +288,13 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | XO醤           | 少々 |      |
 | パスタ         |  190 | [g]  |
 ** DONE アラビアータ                                               :@cooking:
-   CLOSED: [2019-02-16 Sat 17:01]
+	 CLOSED: [2019-02-16 Sat 17:01]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0216-pasta-arrabiata
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
 :EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2019-02-16 Sat 16:53]
+:ID:       101DE0DA-C913-4DCE-A478-B555F6BF412F
 :END:
 
 前日のパスタでアサリのミネラルがアルミパンに着いたので，今日はトマトソースでそれを取るのが目的です．ホールトマト缶はモンテベッロが甘くて旨いですが今日は無いので，スーパーでデルモンテのホールトマト缶を購入してトマトソースを作りました．酸味が表に出やすいので，ベーコンと多めのオイルで調整しました．オイルはもう少し少なくてよかった印象．
@@ -313,7 +314,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | ゆで汁(1.0%)       |   30 | [cc] |
 | パスタ             |  190 | [g]  |
 ** DONE 鶏肉と梅干しの和風パスタ                                   :@cooking:
-   CLOSED: [2019-02-18 Mon 00:15]
+	 CLOSED: [2019-02-18 Mon 00:15]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0217-pasta-ume-and-chicken
 :EXPORT_HUGO_TAGS: "pasta" "wafu"
@@ -342,7 +343,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | パスタ         |  190 | [g]  |
 
 ** DONE カラスミと水菜のパスタ                                     :@cooking:
-   CLOSED: [2019-02-23 Sat 16:42]
+	 CLOSED: [2019-02-23 Sat 16:42]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0223-pasta-bottarga
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -364,7 +365,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | カラスミ       | 適量 |      |
 | パスタ         |  180 | [g]  |
 ** DONE 梅干しのペペロンチーノ                                     :@cooking:
-   CLOSED: [2019-02-24 Sun 15:44]
+	 CLOSED: [2019-02-24 Sun 15:44]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0224-pasta-peperoncino
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -387,7 +388,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | 梅             |    1 | 個   |
 | パスタ         |  180 | [g]  |
 ** DONE トマトリゾット                                             :@cooking:
-   CLOSED: [2019-03-09 Sat 15:53]
+	 CLOSED: [2019-03-09 Sat 15:53]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0309-risotto-tomato
 :EXPORT_HUGO_TAGS: "risotto" "tomato"
@@ -407,7 +408,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 
 {{< tweet 1104209482299596801 >}}
 ** DONE アーリオ・オーリオ・エ・ペペロンチーノ                     :@cooking:
-   CLOSED: [2019-03-10 Sun 14:39]
+	 CLOSED: [2019-03-10 Sun 14:39]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0310-pasta-peperoncino
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -445,7 +446,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | パスタ         |  190 | [g]  |
 
 ** DONE init.el の読み込みを計測（2）                                :@emacs:
-   CLOSED: [2019-03-12 Tue 19:42]
+	 CLOSED: [2019-03-12 Tue 19:42]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 52c2c1ab-eafb-7bc4-09bb-8d34848f71a8
 :EXPORT_HUGO_TAGS: 
@@ -492,7 +493,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | 第一回（前回） |   74.91 |   66.18 |
 | 第二回（今回） |   14.64 |   16.54 |
 ** DONE 椎茸とベビーホタテのパスタ                                 :@cooking:
-   CLOSED: [2019-03-24 Sun 01:09]
+	 CLOSED: [2019-03-24 Sun 01:09]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0323-pasta-mushroom-and-scallop
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -530,7 +531,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | パスタ         |  200 | [g]    |
 
 ** DONE トマトラグー・ビアンコ                                     :@cooking:
-   CLOSED: [2019-03-24 Sun 18:24]
+	 CLOSED: [2019-03-24 Sun 18:24]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0324-pasta-tomato-ragu-bianco
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
@@ -560,7 +561,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | ローリエ           |    2 | 枚     |
 | パスタ             |  190 | [g]    |
 ** DONE company-mode に移行する                                      :@emacs:
-   CLOSED: [2019-03-25 Mon 13:39]
+	 CLOSED: [2019-03-25 Mon 13:39]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0325-auto-complete-to-company
 :EXPORT_HUGO_TAGS: "emacs"
@@ -604,11 +605,11 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 #+end_src
 
 *** References
- - [[https://company-mode.github.io/][company-mode for Emacs]]
- - [[https://qiita.com/syohex/items/8d21d7422f14e9b53b17][auto-completeユーザのための company-modeの設定 - Qiita]]
- - [[https://qiita.com/sune2/items/b73037f9e85962f5afb7][emacsの補完用パッケージcompany-mode - Qiita]]
+- [[https://company-mode.github.io/][company-mode for Emacs]]
+- [[https://qiita.com/syohex/items/8d21d7422f14e9b53b17][auto-completeユーザのための company-modeの設定 - Qiita]]
+- [[https://qiita.com/sune2/items/b73037f9e85962f5afb7][emacsの補完用パッケージcompany-mode - Qiita]]
 ** DONE カルボナーラリゾット                                       :@cooking:
-   CLOSED: [2019-03-30 Sat 14:43]
+	 CLOSED: [2019-03-30 Sat 14:43]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0330-risotto-carbonara
 :EXPORT_HUGO_TAGS: "risotto" "cream"
@@ -634,7 +635,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 パスタにするよりも簡単で美味しくいただけます．洗い物が少ないのも利点ですね．
 
 ** DONE 梅干しとアンチョビのパスタ                                 :@cooking:
-   CLOSED: [2019-03-30 Sat 19:18]
+	 CLOSED: [2019-03-30 Sat 19:18]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0330-pasta-umeboshi-anchovy
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -650,7 +651,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 {{< tweet 1111936217740804097 >}}
 
 ** DONE トマトラグー・ビアンコ（解凍）                             :@cooking:
-   CLOSED: [2019-03-31 Sun 00:23]
+	 CLOSED: [2019-03-31 Sun 00:23]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0331-pasta-tomato-ragu-bianco
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
@@ -663,7 +664,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 {{< tweet 1112198962423853056 >}}
 
 ** DONE トマトラグー・ビアンコ（解凍）                             :@cooking:
-   CLOSED: [2019-04-02 Tue 00:23]
+	 CLOSED: [2019-04-02 Tue 00:23]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0402-pasta-tomato-ragu-bianco
 :bianco_HUGO_TAGS: "pasta" "tomato"
@@ -676,7 +677,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 {{< tweet 1113064068795981825 >}}
 
 ** DONE トマトラグー・ビアンコ（解凍）                             :@cooking:
-   CLOSED: [2019-04-05 Fri 00:23]
+	 CLOSED: [2019-04-05 Fri 00:23]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0405-pasta-tomato-ragu-bianco
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
@@ -690,7 +691,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 {{< tweet 1114125471485026304 >}}
 
 ** DONE 梅干しとベーコンのペペロンチーノ                           :@cooking:
-   CLOSED: [2019-04-06 Sat 00:49]
+	 CLOSED: [2019-04-06 Sat 00:49]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0406-pasta-bacon-and-umeboshi
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -715,8 +716,9 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | 梅干し         |    2 | 個   |
 | ゆで汁(1.0%)   |   30 | [cc] |
 | パスタ         |  200 | [g]  |
+
 ** DONE 梅干しとベーコンのパスタ                                   :@cooking:
-   CLOSED: [2019-04-13 Sat 00:49]
+	 CLOSED: [2019-04-13 Sat 00:49]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0413-pasta-bacon-and-umeboshi
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -741,7 +743,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | ゆで汁(1.0%)   |   15 | [cc] |
 | パスタ         |  200 | [g]  |
 ** DONE 小松菜とベーコンのペペロンチーノ                           :@cooking:
-   CLOSED: [2019-04-14 Sun 00:49]
+	 CLOSED: [2019-04-14 Sun 00:49]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0414-pasta-bacon-and-spinach
 :EXPORT_HUGO_TAGS: 
@@ -766,7 +768,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | ゆで汁(1.0%)   |   30 | [cc] |
 | パスタ         |  180 | [g]  |
 ** DONE しらすとアンチョビのパスタ                                 :@cooking:
-   CLOSED: [2019-04-20 Sat 16:30]
+	 CLOSED: [2019-04-20 Sat 16:30]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0420-pasta-anchovy-whitebait
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -780,19 +782,361 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 {{< tweet 1119465183393357824 >}}
 
 #+caption: レシピ（材料・二皿分）
-| 材料           |    分量 | 単位 |
-|----------------+---------+------|
-| オリーブオイル |      40 | [cc] |
-| ニンニク       |       2 | 片   |
-| アンチョビ     |       2 | 片   |
-| 梅干し         |       2 | 個   |
-| ゆで汁(1.0%)   |      30 | [cc] |
-| みりん         |       1 | [cc] |
-| しらす         |    適量 |      |
-| かいわれ       |    適量 |      |
-| パスタ         |     200 | [g]  |
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   40 | [cc] |
+| ニンニク       |    2 | 片   |
+| アンチョビ     |    2 | 片   |
+| 梅干し         |    2 | 個   |
+| ゆで汁(1.0%)   |   30 | [cc] |
+| みりん         |    1 | [cc] |
+| しらす         | 適量 |      |
+| かいわれ       | 適量 |      |
+| パスタ         |  200 | [g]  |
+** DONE 玉ねぎスープ                                               :@cooking:
+   CLOSED: [2019-05-11 Sat 16:52]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0511-soup-onion-pancetta
+:EXPORT_HUGO_TAGS: "soup"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       E86F047E-284F-4F3D-B841-016C7F4EE73A
+:CREATED:  [2019-09-01 Sun 16:50]
+:END:
+
+パンチェッタの塩味と玉ねぎの甘味をいただくスープを作りました．自家製パンチェッタの用途が広がります．
+
+{{< tweet 1127045848242614272 >}}
+** DONE All-in-pasta                                               :@cooking:
+   CLOSED: [2019-05-11 Wed 16:17]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0511-all-in-pasta
+:EXPORT_HUGO_TAGS: "pasta"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       450896AF-C4FD-4C07-BC90-AE7CCEA58F2D
+:CREATED:  [2019-09-01 Sun 16:13]
+:END:
+
+パスタ好きかつ新しいもの好きな私は，これを試さないわけにいきません．結論としては，新たに発売された All-in NOODLES の方が良さそうだな，というところです．
+
+{{< tweet 1127054646147670016 >}}
+** DONE 餃子を作る                                                 :@cooking:
+   CLOSED: [2019-05-12 Sun 16:02]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0512-gyoza
+:EXPORT_HUGO_TAGS: 
+:EXPORT_HUGO_LASTMOD: 
+:ID:       25358039-84BA-4C6B-B286-749DBFF08137
+:CREATED:  [2019-09-01 Sun 15:59]
+:END:
+
+餃子焼きに挑戦中です．鉄製フライパンで美味しく綺麗に焼きたい！
+
+{{< tweet 1127516384110333958 >}}
+
+とりあえず抑えたコツは次の通り．
+
+1. 油通しは徹底的にやる
+2. 水は少量でいい（100cc以下）
+3. 水を入れたら最強火力を維持
+4. 薄いスプーンで端から剥がす
+** DONE 生姜のパスタ                                               :@cooking:
+   CLOSED: [2019-05-12 Sun 16:11]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0512-pasta-zenzero-parmigiano
+:EXPORT_HUGO_TAGS: "pasta" "wafu"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       D824E512-4074-4E31-9387-5339A6360A34
+:CREATED:  [2019-09-01 Sun 16:03]
+:END:
+
+雑誌で紹介されていたパスタをアレンジして挑戦しました．かなりガッツンな味になるので，一人前100gは無理です．コース料理の一つとして少量出すそうで，なるほどです．
+
+{{< tweet 1127422100732399616 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   40 | [cc] |
+| 玉ねぎ         |  1/6 | 個   |
+| 白醤油         |   10 | [cc] |
+| 白だし         |   10 | [cc] |
+| みりん         |   10 | [cc] |
+| ゆで汁(1.0%)   |   10 | [cc] |
+| 生姜           |  1/2 | 個   |
+| パルメジャーノ | 適量 |      |
+| パスタ         |  200 | [g]  |
+** DONE 鶏肉と梅干しの和風パスタ(2)                                :@cooking:
+   CLOSED: [2019-05-18 Sat 15:57]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0518-pasta-chicken-umeboshi
+:EXPORT_HUGO_TAGS: "pasta" "wafu"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       963E048A-AE35-4DC9-A06C-BA7CDBE804B0
+:CREATED:  [2019-09-01 Sun 15:51]
+:END:
+
+鶏肉をメインにした和風パスタを作りました．ハズレのない旨さです．
+
+{{< tweet 1129701594537156608 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| 太白ゴマ油     |   20 | [cc] |
+| オリーブオイル |   10 | [cc] |
+| 玉ねぎ         |  1/8 | 個   |
+| 鶏もも肉       | 適量 |      |
+| みりん         |   10 | [cc] |
+| 白だし         |   10 | [cc] |
+| めんつゆ       |   10 | [cc] |
+| バター         |    5 | [g]  |
+| 梅干し         |    2 | 個   |
+| ゆで汁(1.0%)   |   10 | [cc] |
+| パスタ         |  180 | [g]  |
+** DONE ボンゴレ・ビアンコ                                         :@cooking:
+	 CLOSED: [2019-05-19 Sun 19:02]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0519-pasta-vongole-bianco
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       9BAC044C-511E-4FE3-8006-AD1898FBDBE0
+:CREATED:  [2019-08-30 Fri 18:56]
+:END:
+
+パンチェッタとルーコラと組み合わせてボンゴレビアンコを作りました．なかなかうまくいきません．パンチェッタは塩味調整，ルーコラのカット方法，生姜の量などもっとよく考えないといけません．
+
+{{< tweet 1130075824445509632 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位   |
+|----------------+------+--------|
+| オリーブオイル |   30 | [cc]   |
+| パンチェッタ   | 適量 |        |
+| あさり         |    1 | パック |
+| 白ワイン       |   50 | [cc]   |
+| 新生姜         |    2 | [cm]   |
+| ルーコラ       |    1 | 株     |
+| ゆで汁(1.0%)   |   10 | [cc]   |
+| 追いオイル     |   10 | [cc]   |
+| パスタ         |  180 | [g]    |
+
+** DONE パンチェッタペペロンチーノ                                 :@cooking:
+	 CLOSED: [2019-05-22 Wed 18:53]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0522-pasta-pancetta-peperoncino
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       E603C4B9-DD3D-4CC3-B099-38A6D3C6B155
+:CREATED:  [2019-08-30 Fri 18:45]
+:END:
+
+パンチェッタを使ったパスタです．パンチェッタは自家製ですが，どこまで火を入れるかで肉の食感がどこまで残るかが変わります．ベーコンのようにカリカリにしてしまうと，あまり旨味を感じられない状態になるので，少し柔らかさが残るようにすると丁度良いです．にんにくの火入れと同じく，なかなか繊細な食材です．
+
+{{< tweet 1132889216705282049 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| にんにく       |    2 | 片   |
+| 鷹の爪         |    1 | 本   |
+| パンチェッタ   | 適量 |      |
+| 大葉           |    2 | 枚   |
+| 白ワイン       |   15 | [cc] |
+| 水             |    1 | [cc] |
+| ゆで汁(1.0%)   |   15 | [cc] |
+| パスタ         |  200 | [g]  |
+
+** DONE 野菜スープ                                                 :@cooking:
+	 CLOSED: [2019-05-25 Sat 01:09]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0525-vegetable-soup
+:EXPORT_HUGO_TAGS: "soup"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       489B85EB-EAAC-4931-94F0-3146ECE4A209
+:CREATED:  [2019-08-29 Thu 01:05]
+:END:
+
+パンチェッタをベースにして野菜スープを作りました．パンチェッタは火の入れ方で食感と脂の出方が変わり，出汁的な使い方ができます．
+
+{{< tweet 1132224263623045126 >}}
+
+{{< tweet 1132229522055503872 >}}
+
+** DONE 生姜のパスタ(2)                                            :@cooking:
+	 CLOSED: [2019-05-25 Sat 01:27]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0525-pasta-zenzero-parmigiano
+:EXPORT_HUGO_TAGS: "pasta" "wafu"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       612336D4-B7FE-4A4E-B0B4-7A6C16B95943
+:CREATED:  [2019-08-29 Thu 01:17]
+:END:
+
+雑誌に紹介されていた生姜のパスタを和風ベースで真似てみました．見た目も綺麗で基本的にすごく旨いです．ただ完成させるにはバランスの調整が必要で，それは容易じゃなさそうです．下記のレシピは，全体的にソースの分量が多いので，少なくともパスタは180[g]の方が良いと思います．
+
+{{< tweet 1132128560573845504 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| 玉ねぎ         |  1/8 | 個   |
+| 白だし         |   10 | [cc] |
+| 白醤油         |   10 | [cc] |
+| みりん         |   10 | [cc] |
+| 新生姜         |    1 | [cm] |
+| ゆで汁(1.0%)   |   10 | [cc] |
+| パルメジャーノ | 適量 |      |
+| パスタ         |  160 | [g]  |
+** DONE サルティン・ボッカ                                         :@cooking:
+	 CLOSED: [2019-05-25 Sat 01:37]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0525-saltimbocca
+:EXPORT_HUGO_TAGS: "secondo"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       70237FDB-E6AD-4C91-8E1A-B439AF7D9D15
+:CREATED:  [2019-08-29 Thu 01:30]
+:END:
+
+ずっと作りたかったサルティン・ボッカにチャレンジしました．牛肉を生ハムで包んで焼く料理です．生ハムで巻くのが少々手間ですが，とても美味しいです．また作りたいですね．
+
+下処理等は，[[https://chefgohan.gnavi.co.jp/detail/4962][シェフごはんの記事]]を参考にしました．
+
+{{< tweet 1132127884015915008 >}}
+
+{{< tweet 1132119853148528640 >}}
+** DONE しらすとアンチョビのパスタ・大葉ともに                     :@cooking:
+	 CLOSED: [2019-05-26 Sun 01:02]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0526-pasta-anchovy-whitebait
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       03701349-DAF5-4BE8-BA64-60CAC0D903E9
+:CREATED:  [2019-08-29 Thu 00:55]
+:END:
+
+しらすとアンチョビのパスタを作りました．親子丼的なパスタで安定した旨さです．
+
+{{< tweet 1132482300233437185 >}}
+** DONE 玉ねぎとエリンギのパスタ                                   :@cooking:
+	 CLOSED: [2019-06-02 Sun 00:52]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0602-pasta-onion-eryngii
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       7182160A-41ED-4B3D-B5A2-D806D9FD0E8C
+:CREATED:  [2019-08-29 Thu 00:43]
+:END:
+
+パンチェッタをベースにエリンギと玉ねぎのパスタを作りました．エリンギは薄切りの方が良かったと思います．
+
+{{< tweet 1135025693291454465 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| パンチェッタ   | 適量 |      |
+| 玉ねぎ         |  1/4 | 個   |
+| エリンギ       |    1 | 株   |
+| 水             |   15 | [cc] |
+| ゆで汁(1.0%)   |   15 | [cc] |
+| パスタ         |  180 | [g]  |
+** DONE カラスミとベビーホタテのペペロンチーノ                     :@cooking:
+	 CLOSED: [2019-06-08 Sat 00:38]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0608-pasta-pettine-bottarga
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       2E4CBBC8-E000-4362-B0FE-AC1881855026
+:CREATED:  [2019-08-28 Wed 22:55]
+:END:
+
+{{< tweet 1137216287082344448 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ニンニク       |    2 | 片   |
+| 鷹の爪         |    2 | 本   |
+| ベビーホタテ   | 適量 |      |
+| ゆで汁(1.0%)   |   20 | [cc] |
+| 白ワイン       |   15 | [cc] |
+| カラスミ       | 適量 |      |
+| パスタ         |  180 | [g]  |
+
+** DONE 半熟パンチェッタのパスタ                                   :@cooking:
+   CLOSED: [2019-06-16 Sun 17:29]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0616-pasta-pancetta
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       9794ABE4-A00B-4485-A20E-6E843660ED0B
+:CREATED:  [2019-09-01 Sun 17:26]
+:END:
+
+まだ1週間しか塩漬けしていない状態のパンチェッタでパスタを作りました．旨味の凝縮がまだまだの印象で，やはり最低2週間は塩漬けしたいですね．
+
+{{< tweet 1139736874279301120 >}}
+
+** DONE ほうれん草のパスタ                                         :@cooking:
+	 CLOSED: [2019-06-22 Sat 16:22]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0622-pasta-spinacio
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       7D0583A9-20F6-4CDF-A495-06B4D6555DBD
+:CREATED:  [2019-08-26 Mon 16:19]
+:END:
+
+パンチェッタとほうれん草を使ったパスタです．今回のパンチェッタは，塩漬けの濃度を3[%]と薄めにして，塩抜きせずに使っています．
+
+{{< tweet 1142277151414087680 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| パンチェッタ   | 適量 |      |
+| ニンニク       |    1 | 片   |
+| ほうれん草     |    4 | 株   |
+| 炒め用オイル   |   15 | [cc] |
+| ゆで汁(1.0%)   |   15 | [cc] |
+| 水             |   15 | [cc] |
+| みりん         |   15 | [cc] |
+| パスタ         |  180 | [g]  |
+
+** DONE カラスミとベビーホタテのパンチェッタオイルペペロンチーノ   :@cooking:
+	 CLOSED: [2019-06-29 Sat 16:18]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0629-pasta-pettine-bottarga
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       A4550DC9-65A1-4FCB-88F2-E2A4FA8F450D
+:CREATED:  [2019-08-26 Mon 16:13]
+:END:
+
+パンチェッタから出るオイルをベースにペペロンチーノを作りました．
+
+{{< tweet 1144843006123507714 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料               | 分量 | 単位 |
+|--------------------+------+------|
+| パンチェッタオイル |   30 | [cc] |
+| ニンニク           |    2 | 片   |
+| 鷹の爪             | 適量 |      |
+| ベビーホタテ       | 適量 |      |
+| 追いオイル         |   15 | [cc] |
+| 炭酸水             |   15 | [cc] |
+| 茹で汁(1.0%)       |   30 | [cc] |
+| カラスミ           | 適量 | 個   |
+| パスタ             |  180 | [g]  |
+
 ** DONE ホタテのトマトパスタ                                       :@cooking:
-   CLOSED: [2019-07-07 Sun 14:58]
+	 CLOSED: [2019-07-07 Sun 14:58]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0707-pasta-pettine
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
@@ -806,21 +1150,21 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 {{< tweet 1147720990224343040 >}}
 
 #+caption: レシピ（材料・二皿分）
-| 材料                 | 分量 | 単位   |
-|----------------------+------+--------|
-| オリーブオイル       |   30 | [cc]   |
-| ホタテ               |    3 | 個     |
-| ニンニク             |    1 | 片     |
-| 鷹の爪               |    2 | 本     |
-| ホールトマト         |    1 | 缶     |
-| 玉ねぎ               |  7/8 | 個     |
-| トマトソース用オイル |   15 | [cc]   |
-| 追いオイル           |   30 | [cc]   |
-| 追い塩               |    3 | [g]    |
-| パスタ               |  190 | [g]    |
+| 材料                 | 分量 | 単位 |
+|----------------------+------+------|
+| オリーブオイル       |   30 | [cc] |
+| ホタテ               |    3 | 個   |
+| ニンニク             |    1 | 片   |
+| 鷹の爪               |    2 | 本   |
+| ホールトマト         |    1 | 缶   |
+| 玉ねぎ               |  7/8 | 個   |
+| トマトソース用オイル |   15 | [cc] |
+| 追いオイル           |   30 | [cc] |
+| 追い塩               |    3 | [g]  |
+| パスタ               |  190 | [g]  |
 
 ** DONE カラスミのペペロンチーノ                                   :@cooking:
-   CLOSED: [2019-07-27 Sat 14:48]
+	 CLOSED: [2019-07-27 Sat 14:48]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0727-pasta-bottarga-peperoncino
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -834,7 +1178,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 {{< tweet 1154959169310429184 >}}
 
 ** DONE アンチョビのペペロンチーノ                                 :@cooking:
-   CLOSED: [2019-07-28 Sun 14:52]
+	 CLOSED: [2019-07-28 Sun 14:52]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0728-pasta-anchovy-peperoncino
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -848,7 +1192,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 {{< tweet 1155316953734508546 >}}
 
 ** DONE きのことベーコンのペペロンチーノ                           :@cooking:
-   CLOSED: [2019-08-03 Sat 14:44]
+	 CLOSED: [2019-08-03 Sat 14:44]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0826-pasta-bacon-mushroom-peperoncino
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -862,18 +1206,18 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 {{< tweet 1157492232217190400 >}}
 
 #+caption: レシピ（材料・二皿分）
-| 材料           | 分量 | 単位   |
-|----------------+------+--------|
-| オリーブオイル |   30 | [cc]   |
-| ニンニク       |    1 | 片     |
-| 唐辛子         |    1 | 本     |
-| しめじ         | 適量 |        |
-| ベーコン       |    2 | 枚     |
-| ゆで汁(1.0%)   |   40 | [cc]   |
-| パスタ         |  170 | [g]    |
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ニンニク       |    1 | 片   |
+| 唐辛子         |    1 | 本   |
+| しめじ         | 適量 |      |
+| ベーコン       |    2 | 枚   |
+| ゆで汁(1.0%)   |   40 | [cc] |
+| パスタ         |  170 | [g]  |
 
 ** DONE 海老ときのこのペペロンチーノ                               :@cooking:
-   CLOSED: [2019-08-04 Sun 14:33]
+	 CLOSED: [2019-08-04 Sun 14:33]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0804-pasta-mushroom-shrimp-peperoncino
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -901,7 +1245,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | パスタ         |  170 | [g]  |
 
 ** DONE 茄子とベーコンのパスタ                                     :@cooking:
-   CLOSED: [2019-08-09 Fri 14:21]
+	 CLOSED: [2019-08-09 Fri 14:21]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0809-pasta-melanzane-bacon
 :EXPORT_HUGO_TAGS: 
@@ -927,7 +1271,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | パスタ           |  170 | [g]  |
 
 ** DONE しめじとベーコンのパスタ                                   :@cooking:
-   CLOSED: [2019-08-10 Sat 14:15]
+	 CLOSED: [2019-08-10 Sat 14:15]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0810-pasta-bacon-mushroom
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -941,19 +1285,19 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 {{< tweet 1160034335296122880 >}}
 
 #+caption: レシピ（材料・二皿分）
-| 材料                   | 分量 | 単位 |
-|------------------------+------+------|
-| オリーブオイル         |   30 | [cc] |
-| 玉ねぎ                 |  1/8 | 個   |
-| ベーコン               |    2 | 枚   |
-| しめじ                 | 適量 |      |
-| 白ワイン               |   15 | [cc] |
-| 茹で汁(1.0%)           |   20 | [cc] |
-| 梅干し                 |    1 | 個   |
-| パスタ                 |  170 | [g]  |
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| 玉ねぎ         |  1/8 | 個   |
+| ベーコン       |    2 | 枚   |
+| しめじ         | 適量 |      |
+| 白ワイン       |   15 | [cc] |
+| 茹で汁(1.0%)   |   20 | [cc] |
+| 梅干し         |    1 | 個   |
+| パスタ         |  170 | [g]  |
 
 ** DONE トマト冷製パスタ                                           :@cooking:
-   CLOSED: [2019-08-13 Tue 14:02]
+	 CLOSED: [2019-08-13 Tue 14:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0813-pasta-fredda-tomato-and-tuna
 :EXPORT_HUGO_TAGS: "pasta" "tomato" "fredda"
@@ -983,7 +1327,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | パスタ         |  170 | [g]  |
 
 ** DONE 三種きのこのパスタ                                         :@cooking:
-   CLOSED: [2019-08-14 Wed 13:21]
+	 CLOSED: [2019-08-14 Wed 13:21]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0814-pasta-three-mushrooms
 :EXPORT_HUGO_TAGS: "pasta" "wafu"
@@ -1014,7 +1358,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | パスタ                 |  170 | [g]  |
 
 ** DONE ブカティーニ・プッタネスカ                                 :@cooking:
-   CLOSED: [2019-08-15 Thu 13:14]
+	 CLOSED: [2019-08-15 Thu 13:14]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0815-pasta-puttanesca
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
@@ -1043,7 +1387,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | パスタ           |  160 | [g]    |
 
 ** DONE 和風カルボナーラ                                           :@cooking:
-   CLOSED: [2019-08-16 Fri 13:02]
+	 CLOSED: [2019-08-16 Fri 13:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0816-pasta-carbonara
 :EXPORT_HUGO_TAGS: "pasta" "wafu"
@@ -1073,7 +1417,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | パスタ         |  160 | [g]    |
 
 ** DONE カラスミとベーコンのパスタ                                 :@cooking:
-   CLOSED: [2019-08-18 Sun 12:50]
+	 CLOSED: [2019-08-18 Sun 12:50]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0818-pasta-bacon-bottarga
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -1099,7 +1443,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | パスタ         |  170 | [g]  |
 
 ** DONE 茄子とベーコンのペペロンチーノ                             :@cooking:
-   CLOSED: [2019-08-24 Sat 12:20]
+	 CLOSED: [2019-08-24 Sat 12:20]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0824-pasta-beacon-and-melanzane
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -1108,7 +1452,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 :CREATED:  [2019-08-26 Mon 12:15]
 :END:
 
-初めてマンチーニを使いました．硬いのに柔らかいというしっかりした食感のパスタでとても美味しいですね．少々ブロンズダイスのパスタで，今回のは2.2[m]もあります．私のような素人が使うにはもったいない高級品ですが，購入した1[kg]を楽しみたいと思います．
+初めてマンチーニを使いました．硬いのに柔らかいというしっかりした食感のパスタでとても美味しいですね．少々ブロンズダイスのパスタで，今回のは2.2[mm]もあります．私のような素人が使うにはもったいない高級品ですが，購入した1[kg]を楽しみたいと思います．
 
 {{< tweet 1165115841332989952 >}}
 
@@ -1127,7 +1471,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | パスタ         |  160 | [g]  |
 
 ** DONE プッタネスカ風パスタ                                       :@cooking:
-   CLOSED: [2019-08-25 Sun 11:16]
+	 CLOSED: [2019-08-25 Sun 11:16]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0825-pasta-puttanesca-wo-tomato
 :EXPORT_HUGO_TAGS: "pasta" "salt"
@@ -1151,4 +1495,64 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | オリーブ       |   数 | 個     |
 | ゆで汁(0.8%)   |   15 | [cc]   |
 | 白ワイン       |   15 | [cc]   |
+| パスタ         |  160 | [g]    |
+** DONE Emacs 26.3 has been released                                 :@emacs:
+	 CLOSED: [2019-08-29 Thu 11:07]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0829-emacs-26-3-released
+:EXPORT_HUGO_TAGS: "emacs"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       7E7CFF76-2A2F-4302-B791-9796421BBD4C
+:CREATED:  [2019-08-29 Thu 02:25]
+:END:
+
+Emacs 26.3 がリリースされました． ~RC1~ の公開から1週間の正式版公開です．
+
+メンテナンスリリースなので大きな機能追加は無しですが，新元号の令和対応が入っています．なので，今回のリリースは，日本のために出されたようなものです（言い過ぎ
+
+#+begin_src org
+,** Emacs now supports the new Japanese Era name.
+The newly assigned codepoint U+32FF was added to the Unicode Character
+Database compiled into Emacs.
+#+end_src
+
+*** References
+- [[https://www.gnu.org/software/emacs/news/NEWS.26.3][https://www.gnu.org/software/emacs/news/NEWS.26.3]]
+** DONE 禁酒破り                                                      :@life:
+ 	 CLOSED: [2019-08-30 Fri 19:33]
+:PROPERTIES:
+:EXPORT_FILE_NAME: df210cef-96b3-f6b4-8ae3-7d1acf9a9e26
+:EXPORT_HUGO_TAGS: "drink"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       93CDB7D3-8163-4642-8497-D7B45F207A52
+:CREATED:  [2019-08-30 Fri 19:33]
+:END:
+
+8月17日から禁酒してきましたが，諸事情により今日は飲むことに．明日以降，またがんばって，禁酒します．
+** DONE ベーコンとトマトのパスタ                                   :@cooking:
+ 	 CLOSED: [2019-09-01 Sun 14:26]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0901-pasta-bacon-tomato
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       EBEBCD70-3FD2-4D9A-B6B4-3D020F1224F5
+:CREATED:  [2019-09-01 Sun 14:20]
+:END:
+
+冷蔵庫に何もないので，残り物で作ることにしました．トマトはサラダ用に考えていましたが，ベーコンだけのペペロンチーノだとつまらないので，じゃぁトマトを加えてみようとしたところ，だいぶ旨い一皿になりました．
+
+ケイパーとカラスミも入れましたが，カラスミは無くて良さそうです．唐辛子も無くて良さそうで，つまり，ベーコン・トマト・ケイパーの組み合わせの相性が良いようです．また作ってみたいです．
+
+{{< tweet 1168023014732001280 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位   |
+|----------------+------+--------|
+| オリーブオイル |   30 | [cc]   |
+| ニンニク       |    3 | 片     |
+| ベーコン       |    2 | 枚     |
+| 小さいトマト   |    1 | 個     |
+| ケイパー       |    2 | 小さじ |
+| カラスミ       | 少々 |        |
+| ゆで汁(1.0%)   |   15 | [cc]   |
 | パスタ         |  160 | [g]    |
