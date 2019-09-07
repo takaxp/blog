@@ -793,6 +793,120 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | しらす         | 適量 |      |
 | かいわれ       | 適量 |      |
 | パスタ         |  200 | [g]  |
+** DONE ほうれん草とベーコンのペペロンチーノ                       :@cooking:
+   CLOSED: [2019-04-24 Wed 18:45]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0424-pasta-bacon-spinacio-peperoncino
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       AE00A3A7-5CDB-4B75-A242-987B9FCD25FA
+:CREATED:  [2019-09-01 Sun 18:40]
+:END:
+
+定番のほうれん草とベーコンのペペロンチーノを作りました．ほうれん草は別のフライパンで塩とオイルでソテーしています．
+
+{{< tweet 1121011380256038913 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料             | 分量 | 単位 |
+|------------------+------+------|
+| オリーブオイル   |   30 | [cc] |
+| ニンニク         |    1 | 片   |
+| 鷹の爪           |    2 | 本   |
+| ブロックベーコン | 適量 |      |
+| ほうれん草       |    3 | 株   |
+| 白ワイン         |   15 | [cc] |
+| ゆで汁(1.0%)     |   30 | [cc] |
+| パスタ           |  200 | [g]  |
+
+** DONE パエリア                                                   :@cooking:
+   CLOSED: [2019-05-01 Wed 18:40]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0501-paella
+:EXPORT_HUGO_TAGS: "paella"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       615FCA70-5C35-47A3-8405-6381775C4EAC
+:CREATED:  [2019-09-01 Sun 18:38]
+:END:
+
+パエリアに挑戦しました．見事に失敗しました．
+
+{{< tweet 1123557512651743233 >}}
+
+** DONE ボロネーゼ                                                 :@cooking:
+   CLOSED: [2019-05-02 Thu 18:38]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0502-pasta-boronase
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       F2347CDB-FF96-4FF4-B740-E5F202791AD9
+:CREATED:  [2019-09-01 Sun 18:34]
+:END:
+
+週末に作ったボロネーゼを冷蔵しておいたものです．数日間冷蔵したおかげか，味が落ち着いて非常に旨い仕上がりになりました．大満足！
+
+{{< tweet 1123901851714322433 >}}
+
+過去のレシピからの変更点は次のようなものです．
+- 少し脂が多めのひき肉を選んだ
+- 下味の塩を強めにした
+- ソフリットの玉ねぎの割合を少し減らした
+
+** DONE ボロネーゼ(2)                                              :@cooking:
+   CLOSED: [2019-05-04 Sat 18:33]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0504-pasta-boronase
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       CDA6B029-36CD-454C-90CE-6FBD626E2946
+:CREATED:  [2019-09-01 Sun 18:31]
+:END:
+
+冷凍もののボロネーゼソースでパスタを作りました．かなり時間が経っているため，風味が落ちていました．
+
+{{< tweet 1124521002472329222 >}}
+
+** DONE 自家製パンチェッタのカルボナーラ                           :@cooking:
+   CLOSED: [2019-05-05 Sun 18:30]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0505-pasta-carbonara
+:EXPORT_HUGO_TAGS: "pasta" "cream"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       A2456D4D-F8DA-4559-A58D-3E44AE72BFF1
+:CREATED:  [2019-09-01 Sun 18:13]
+:END:
+
+自家製パンチェッタでカルボナーラを作りました．
+
+{{< tweet 1124894069652480000 >}}
+
+{{< tweet 1124883589210853376 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   15 | [cc] |
+| パンチェッタ   | 適量 |      |
+| ゆで汁(1.0%)   |   15 | [cc] |
+| 卵黄           |    1 | 個   |
+| 全卵           |    1 | 個   |
+| ペコリーノ     | 適量 |      |
+| 黒胡椒         | 適量 |      |
+| パスタ         |  190 | [g]  |
+
+** DONE 牛肉の赤ワイン煮                                           :@cooking:
+   CLOSED: [2019-05-06 Mon 18:02]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0506-Manzo-stufato-nel-vino-rosso
+:EXPORT_HUGO_TAGS: "secondo"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       D6BA6F96-9FD4-4C1B-A5CB-FB38B5045A62
+:CREATED:  [2019-09-01 Sun 17:58]
+:END:
+
+赤ワインが余ったので牛肉の赤ワイン煮込みにチャレンジしました．ソースはとても美味しい仕上がりになりましたが，想像していたよりも牛肉が固くなり，下処理の重要性を思い知らされました．鶏肉と豚肉は普段からよく使いますが，牛肉は単純にソテーすることが多いのが欠点です．もっと食材に詳しくならないといけません．
+
+{{< tweet 1125362171901177856 >}}
 ** DONE 玉ねぎスープ                                               :@cooking:
    CLOSED: [2019-05-11 Sat 16:52]
 :PROPERTIES:
@@ -1066,6 +1180,20 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | 白ワイン       |   15 | [cc] |
 | カラスミ       | 適量 |      |
 | パスタ         |  180 | [g]  |
+
+** DONE ブカティーニ・ボロネーゼ                                   :@cooking:
+   CLOSED: [2019-06-09 Sun 18:22]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0609-pasta-bucatini-boronase
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       E386373A-E0B4-4A1F-AE24-1F49A4542409
+:CREATED:  [2019-09-01 Sun 18:20]
+:END:
+
+冷凍してあったボロネーゼソースをブカティーニでいただきました．
+
+{{< tweet 1137572889849237504 >}}
 
 ** DONE 半熟パンチェッタのパスタ                                   :@cooking:
    CLOSED: [2019-06-16 Sun 17:29]
@@ -1556,3 +1684,53 @@ Database compiled into Emacs.
 | カラスミ       | 少々 |        |
 | ゆで汁(1.0%)   |   15 | [cc]   |
 | パスタ         |  160 | [g]    |
+** DONE アンチョビとしらすのパスタ                                 :@cooking:
+   CLOSED: [2019-09-04 Wed 00:47]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0904-pasta-anchovy-and-whitebait
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       8AA31AEE-93C8-430B-B4E3-5317E82C40A0
+:CREATED:  [2019-09-06 Fri 00:43]
+:END:
+
+定番になりつつあるアンチョビとしらすのパスタ．でもしらすの状態によっては塩味が強くなりすぎるのが難点です．水分の一部を茹で汁ではなく，白ワインから取るのは基本としていますが，もうひと工夫必要そうです．今度はフレッシュトマトを使ってみようと思います．
+
+{{< tweet 1169223136656543744 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位   |
+|----------------+------+--------|
+| オリーブオイル |   30 | [cc]   |
+| ニンニク       |    1 | 片     |
+| アンチョビ     |    2 | 枚     |
+| ケイパー       |    2 | 小さじ |
+| しらす         |    1 | パック |
+| 白ワイン       |   15 | [cc]   |
+| ゆで汁(1.0%)   |   15 | [cc]   |
+| パスタ         |  160 | [g]    |
+** DONE アンチョビとしらすのパスタ(again)                          :@cooking:
+   CLOSED: [2019-09-07 Sat 14:10]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0907-pasta-anchovy-and-whitebait
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:ID:       255A291A-C192-4372-9AF7-1CD8C3572BDB
+:CREATED:  [2019-09-07 Sat 14:06]
+:END:
+
+先日作ったパスタの改良作として，トマトを入れるレシピを試しました．結果的に，塩味の絶対量はしらすに由来しているようなので，調節するならしらすの分量に注目する方が良さそうです．
+
+{{< tweet 1170180232394887168 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ニンニク       |    2 | 片   |
+| アンチョビ     |    2 | 枚   |
+| しらす         |   30 | [g]  |
+| 白ワイン       |   15 | [cc] |
+| ゆで汁(1.0%)   |   10 | [cc] |
+| 小トマト       |    1 | 個   |
+| パスタ         |  160 | [g]  |
