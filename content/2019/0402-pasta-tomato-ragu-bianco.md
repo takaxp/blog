@@ -1,7 +1,8 @@
 +++
-title = "トマトラグー・ビアンコ（解凍）"
+title = "トマトラグー・ビアンコ（解凍）(2)"
 author = ["Takaaki ISHIKAWA"]
 date = 2019-04-02T00:23:00+09:00
+tags = ["pasta", "tomato"]
 categories = ["cooking"]
 draft = false
 +++

@@ -3,7 +3,7 @@ title = "MELPAにあるテーマ一覧"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-10-26T02:03:00+09:00
 lastmod = 2018-10-26T14:06:00+09:00
-tags = ["MELPA"]
+tags = ["melpa"]
 categories = ["emacs"]
 draft = false
 +++

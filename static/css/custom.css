@@ -1,0 +1,73 @@
+/* Custom config for Mainroad - start */
+
+/* Sidebar */
+
+/* RSS widget */
+.widget-feed {
+	margin: 5px 0px 10px;
+	padding: 0px;
+	text-align: right;
+	overflow: hidden;
+}
+
+.widget-feed .feedly,
+.widget-feed .rss {
+	float: left;
+	vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Single */
+
+.post__social {
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+	overflow: hidden;
+}
+
+.post__social .hatena,
+.post__social .twitter,
+.post__social .pockets{
+	float: right;
+  vertical-align: top;
+	margin: 0px;
+	padding: 0px 2px;
+}
+
+.post__amazon_banner_large {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	display: block;
+}
+
+.post__amazon_banner_small {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	display: none;
+}
+
+.addthis_relatedposts_inline {
+}
+
+@media screen and (max-width: 620px) {
+
+	.post__amazon_banner_large {
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+		display: none;
+	}
+
+	.post__amazon_banner_small {
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+		display: block;
+	}
+}
+
+/* Custom config for Mainroad - end */

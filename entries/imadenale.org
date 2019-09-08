@@ -663,11 +663,11 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 
 {{< tweet 1112198962423853056 >}}
 
-** DONE トマトラグー・ビアンコ（解凍）                             :@cooking:
+** DONE トマトラグー・ビアンコ（解凍）(2)                          :@cooking:
 	 CLOSED: [2019-04-02 Tue 00:23]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0402-pasta-tomato-ragu-bianco
-:bianco_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
 :EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2019-04-15 Mon 00:25]
 :END:
