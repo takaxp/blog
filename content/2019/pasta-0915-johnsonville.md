@@ -2,7 +2,7 @@
 title = "パスタジョンソンヴィル"
 author = ["Takaaki ISHIKAWA"]
 date = 2019-09-15T19:41:00+09:00
-images = ["https://pbs.twimg.com/media/EEejWSkVUAI9Xcg.jpg"]
+images = ["https://pxaka.tokyo/blog/files/2019/pasta_2019-09-08.jpg"]
 tags = ["pasta", "salt"]
 categories = ["cooking"]
 draft = false
