@@ -1478,7 +1478,7 @@ Vimconf に参加した時にいただいたノベルティに，鮭トバが入
    CLOSED: [2018-12-19 Wed 19:21]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 4f261cc0-8e97-a764-c703-c21c4fa6a340
-:EXPORT_HUGO_TAGS: 
+:EXPORT_HUGO_TAGS: "emacs" "init.el"
 :EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-12-19 Wed 19:06]
 :END:
