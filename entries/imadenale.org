@@ -1768,6 +1768,7 @@ Database compiled into Emacs.
 :EXPORT_FILE_NAME: pasta-0915-johnsonville
 :EXPORT_HUGO_TAGS: "pasta" "salt"
 :EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: https://pbs.twimg.com/media/EEejWSkVUAI9Xcg.jpg
 :ID:       45E4875A-31DD-40BD-9194-D55635598D19
 :CREATED:  [2019-09-18 Wed 19:35]
 :END:
@@ -1792,6 +1793,7 @@ Database compiled into Emacs.
 :EXPORT_FILE_NAME: 28b354d3-0f8e-9734-3e23-5f7b3820b28a
 :EXPORT_HUGO_TAGS: "emacs" "init.el"
 :EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: https://pxaka.tokyo/img/twitter_2019-08-08.jpg
 :CREATED:  [2019-09-19 Thu 19:25]
 :END:
 
