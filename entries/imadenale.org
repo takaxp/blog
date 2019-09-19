@@ -1765,7 +1765,7 @@ Database compiled into Emacs.
 ** DONE パスタジョンソンヴィル                                     :@cooking:
    CLOSED: [2019-09-15 Sun 19:41]
 :PROPERTIES:
-:EXPORT_FILE_NAME: pasta-0915-johnsonville
+:EXPORT_FILE_NAME: 0915-pasta-johnsonville
 :EXPORT_HUGO_TAGS: "pasta" "salt"
 :EXPORT_HUGO_LASTMOD: 
 :EXPORT_HUGO_IMAGES: https://pxaka.tokyo/blog/files/2019/pasta_2019-03-09.jpg
