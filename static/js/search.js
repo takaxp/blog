@@ -4,10 +4,13 @@ var resultDetails = [];
 var $searchResults;
 var $searchInput;
 var $headerSearch;
+var $path = '/blog'
+var $currentpage = null;
 
 window.onload = function () {
   var request = new XMLHttpRequest();
   var query = '';
+  $currentpage = location.href;
 
   $searchResults = document.getElementById('search-results');
   $searchInput   = document.getElementById('search-input');
@@ -15,7 +18,7 @@ window.onload = function () {
   query          = (getParameterByName('q')) ? getParameterByName('q').trim() : '';
 
   request.overrideMimeType("application/json");
-  request.open("GET", "/blog/index.json", true);
+  request.open("GET", $path+"/index.json", true);
   request.onload = function() {
     if (request.status >= 200 && request.status < 400) {
       // Success!
@@ -68,6 +71,9 @@ function registerSearchHandlers() {
 
     if ($searchInput.value == '') {
       $searchResults.innerHTML = '';
+      if ($currentpage != null) {
+        history.pushState('', '', $currentpage);
+      }
     }
   }
 
@@ -126,5 +132,5 @@ function getParameterByName(name, url) {
 }
 
 function updateQueryParam(query) {
-  history.pushState('', '', '/search/?q=' + query);
+  history.pushState('', '', $path+ '/?q=' + query);
 }
