@@ -8,7 +8,7 @@
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: 2019
 :END:
-** DONE プッタネスカ                                                     :@cooking:
+** DONE プッタネスカ                                               :@cooking:
 CLOSED: [2019-01-03 Thu 01:51]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0103-pasta-puttanesca
@@ -20,7 +20,7 @@ CLOSED: [2019-01-03 Thu 01:51]
 2019年の最初のパスタは，簡単に作れるプッタネスカ！
 
 {{< tweet 1080682792244064257 >}}
-** DONE たらこのパスタ                                                    :@cooking:
+** DONE たらこのパスタ                                             :@cooking:
 CLOSED: [2019-01-05 Sat 01:53]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0105-pasta-tarako
@@ -45,7 +45,7 @@ CLOSED: [2019-01-05 Sat 01:53]
 | 茹で汁(1%)     |   15 | [cc] |
 | 白ワイン       |   15 | [cc] |
 | パスタ         |  180 | [g]  |
-** DONE 生ハムとホタテのペペロンチーノ                                            :@cooking:
+** DONE 生ハムとホタテのペペロンチーノ                             :@cooking:
 CLOSED: [2019-01-10 Thu 01:59]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0110-pasta-peperoncino
@@ -57,7 +57,7 @@ CLOSED: [2019-01-10 Thu 01:59]
 生ハムとホタテのペペロンチーノ．食材に火を入れる長さが味と食感を大きく変えるのね．
 
 {{< tweet 1083355076901580801 >}}
-** DONE たっぷり茄子のボロネーゼ                                               :@cooking:
+** DONE たっぷり茄子のボロネーゼ                                   :@cooking:
 CLOSED: [2019-01-13 Sun 02:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0116-pasta-boronase
@@ -69,7 +69,7 @@ CLOSED: [2019-01-13 Sun 02:02]
 茄子を炒めて解凍したトマトソースと合わせみました．
 
 {{< tweet 1084292371750084609 >}}
-** DONE ラザニア                                                       :@cooking:
+** DONE ラザニア                                                   :@cooking:
 CLOSED: [2019-01-14 Mon 02:04]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0114-pasta-razania
@@ -94,7 +94,7 @@ CLOSED: [2019-02-14 Thu 19:00]
 
 {{{srclink}}}
 
-** DONE ジェノベーゼ                                                     :@cooking:
+** DONE ジェノベーゼ                                               :@cooking:
 CLOSED: [2019-01-16 Wed 05:32]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0116-pasta-genovese
@@ -106,7 +106,7 @@ CLOSED: [2019-01-16 Wed 05:32]
 いつもの美味しい市販ソースで．
 
 {{< tweet 1085507175143727104 >}}
-** DONE ベビーホタテのパスタ                                                 :@cooking:
+** DONE ベビーホタテのパスタ                                       :@cooking:
 CLOSED: [2019-01-29 Tue 05:40]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0129-pasta-scallop
@@ -129,7 +129,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 | 白ワイン       |   15 | [cc] |
 | 茹で汁(1%)     |   15 | [cc] |
 | パスタ         |  170 | [g]  |
-** DONE ボロネーゼ（解凍）                                                  :@cooking:
+** DONE ボロネーゼ（解凍）                                         :@cooking:
 CLOSED: [2019-01-31 Thu 05:48]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0130-pasta-boronase
@@ -141,7 +141,7 @@ CLOSED: [2019-01-31 Thu 05:48]
 年末に大量に作った冷凍しておいたボロネーゼソースでパスタを作りました．ホールトマト缶の違いでここまで味が変わるのかと驚いた．酸味と甘みのバランスがうまくいかない時は，ホールトマト缶を変えてみるのがいいですね．
 
 {{< tweet 1090598806620520448 >}}
-** DONE アリタリア                                                      :@cooking:
+** DONE アリタリア                                                 :@cooking:
 CLOSED: [2019-02-02 Sat 06:08]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0202-pasta-alitalia
@@ -163,7 +163,7 @@ CLOSED: [2019-02-02 Sat 06:08]
 | しめじ           |  1/3 | 株   |
 | 鷹の爪           |    1 | 本   |
 | パスタ           |  190 | [g]  |
-** DONE トマトリゾット                                                    :@cooking:
+** DONE トマトリゾット                                             :@cooking:
 CLOSED: [2019-02-03 Sun 06:31]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0203-risotto-tomato
@@ -189,7 +189,7 @@ CLOSED: [2019-02-03 Sun 06:31]
 | ブイヨン         |    1 | 個   |
 | 水               |  200 | [cc] |
 | ボロネーゼソース | 適量 |      |
-** DONE アンチョビとベーコンのパスタ                                             :@cooking:
+** DONE アンチョビとベーコンのパスタ                               :@cooking:
 CLOSED: [2019-02-09 Sat 06:41]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0209-pasta-anchovy-bacon
@@ -214,7 +214,7 @@ CLOSED: [2019-02-09 Sat 06:41]
 | ゆで汁(1%)     |   30 | [cc] |
 | XO醤           |   15 | [g]  |
 | パスタ         |  190 | [g]  |
-** DONE 梅干しのペペロンチーノ                                                :@cooking:
+** DONE 梅干しのペペロンチーノ                                     :@cooking:
 CLOSED: [2019-02-10 Sun 06:47]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0210-pasta-umeboshi-peperoncino
@@ -238,7 +238,7 @@ CLOSED: [2019-02-10 Sun 06:47]
 | 梅干し         |    1 | 個   |
 | ゆで汁(1.1%)   |   40 | [cc] |
 | パスタ         |  200 | [g]  |
-** DONE カルボナーラ                                                     :@cooking:
+** DONE カルボナーラ                                               :@cooking:
 CLOSED: [2019-02-11 Mon 06:51]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0211-pasta-carbonara
@@ -262,7 +262,7 @@ CLOSED: [2019-02-11 Mon 06:51]
 | ペコリーノ     | 大量 |      |
 | 黒胡椒         | 大量 |      |
 | パスタ         |  190 | [g]  |
-** DONE ボンゴレビアンコ・イカ入り                                              :@cooking:
+** DONE ボンゴレビアンコ・イカ入り                                 :@cooking:
 CLOSED: [2019-02-15 Fri 16:47]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0215-pasta-vongole-bianco
@@ -287,7 +287,7 @@ CLOSED: [2019-02-15 Fri 16:47]
 | バター         |   10 | [g]  |
 | XO醤           | 少々 |      |
 | パスタ         |  190 | [g]  |
-** DONE アラビアータ                                                     :@cooking:
+** DONE アラビアータ                                               :@cooking:
 CLOSED: [2019-02-16 Sat 17:01]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0216-pasta-arrabiata
@@ -313,7 +313,7 @@ CLOSED: [2019-02-16 Sat 17:01]
 | トマトソース用の塩 | 適量 |      |
 | ゆで汁(1.0%)       |   30 | [cc] |
 | パスタ             |  190 | [g]  |
-** DONE 鶏肉と梅干しの和風パスタ                                               :@cooking:
+** DONE 鶏肉と梅干しの和風パスタ                                   :@cooking:
 CLOSED: [2019-02-18 Mon 00:15]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0217-pasta-ume-and-chicken
@@ -342,7 +342,7 @@ CLOSED: [2019-02-18 Mon 00:15]
 | 大葉           | 数枚 |      |
 | パスタ         |  190 | [g]  |
 
-** DONE カラスミと水菜のパスタ                                                :@cooking:
+** DONE カラスミと水菜のパスタ                                     :@cooking:
 CLOSED: [2019-02-23 Sat 16:42]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0223-pasta-bottarga
@@ -364,7 +364,7 @@ CLOSED: [2019-02-23 Sat 16:42]
 | ゆで汁(1.0%)   |   30 | [cc] |
 | カラスミ       | 適量 |      |
 | パスタ         |  180 | [g]  |
-** DONE 梅干しのペペロンチーノ                                                :@cooking:
+** DONE 梅干しのペペロンチーノ                                     :@cooking:
 CLOSED: [2019-02-24 Sun 15:44]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0224-pasta-peperoncino
@@ -387,7 +387,7 @@ CLOSED: [2019-02-24 Sun 15:44]
 | ゆで汁(1.0%)   |   30 | [cc] |
 | 梅             |    1 | 個   |
 | パスタ         |  180 | [g]  |
-** DONE トマトリゾット                                                    :@cooking:
+** DONE トマトリゾット                                             :@cooking:
 CLOSED: [2019-03-09 Sat 15:53]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0309-risotto-tomato
@@ -407,7 +407,7 @@ CLOSED: [2019-03-09 Sat 15:53]
 今度はトマト系じゃないパスタソースで試してみたいです．
 
 {{< tweet 1104209482299596801 >}}
-** DONE アーリオ・オーリオ・エ・ペペロンチーノ                                        :@cooking:
+** DONE アーリオ・オーリオ・エ・ペペロンチーノ                     :@cooking:
 CLOSED: [2019-03-10 Sun 14:39]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0310-pasta-peperoncino
@@ -445,7 +445,7 @@ CLOSED: [2019-03-10 Sun 14:39]
 | 鷹の爪         |    1 | 本   |
 | パスタ         |  190 | [g]  |
 
-** DONE init.el の読み込みを計測（2）                                          :@emacs:
+** DONE init.el の読み込みを計測（2）                                :@emacs:
 CLOSED: [2019-03-12 Tue 19:42]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 52c2c1ab-eafb-7bc4-09bb-8d34848f71a8
@@ -492,7 +492,7 @@ CLOSED: [2019-03-12 Tue 19:42]
 |----------------+---------+---------|
 | 第一回（前回） |   74.91 |   66.18 |
 | 第二回（今回） |   14.64 |   16.54 |
-** DONE 椎茸とベビーホタテのパスタ                                              :@cooking:
+** DONE 椎茸とベビーホタテのパスタ                                 :@cooking:
 CLOSED: [2019-03-24 Sun 01:09]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0323-pasta-mushroom-and-scallop
@@ -530,7 +530,7 @@ CLOSED: [2019-03-24 Sun 01:09]
 | ゆで汁(1.0%)   |   30 | [cc]   |
 | パスタ         |  200 | [g]    |
 
-** DONE トマトラグー・ビアンコ                                                :@cooking:
+** DONE トマトラグー・ビアンコ                                     :@cooking:
 CLOSED: [2019-03-24 Sun 18:24]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0324-pasta-tomato-ragu-bianco
@@ -560,7 +560,7 @@ CLOSED: [2019-03-24 Sun 18:24]
 | ホールトマト       | 1200 | [cc]   |
 | ローリエ           |    2 | 枚     |
 | パスタ             |  190 | [g]    |
-** DONE company-mode に移行する                                           :@emacs:
+** DONE company-mode に移行する                                      :@emacs:
 CLOSED: [2019-03-25 Mon 13:39]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0325-auto-complete-to-company
@@ -608,7 +608,7 @@ CLOSED: [2019-03-25 Mon 13:39]
 - [[https://company-mode.github.io/][company-mode for Emacs]]
 - [[https://qiita.com/syohex/items/8d21d7422f14e9b53b17][auto-completeユーザのための company-modeの設定 - Qiita]]
 - [[https://qiita.com/sune2/items/b73037f9e85962f5afb7][emacsの補完用パッケージcompany-mode - Qiita]]
-** DONE カルボナーラリゾット                                                 :@cooking:
+** DONE カルボナーラリゾット                                       :@cooking:
 CLOSED: [2019-03-30 Sat 14:43]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0330-risotto-carbonara
@@ -634,7 +634,7 @@ CLOSED: [2019-03-30 Sat 14:43]
 
 パスタにするよりも簡単で美味しくいただけます．洗い物が少ないのも利点ですね．
 
-** DONE 梅干しとアンチョビのパスタ                                              :@cooking:
+** DONE 梅干しとアンチョビのパスタ                                 :@cooking:
 CLOSED: [2019-03-30 Sat 19:18]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0330-pasta-umeboshi-anchovy
@@ -650,7 +650,7 @@ CLOSED: [2019-03-30 Sat 19:18]
 
 {{< tweet 1111936217740804097 >}}
 
-** DONE トマトラグー・ビアンコ（解凍）                                            :@cooking:
+** DONE トマトラグー・ビアンコ（解凍）                             :@cooking:
 CLOSED: [2019-03-31 Sun 00:23]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0331-pasta-tomato-ragu-bianco
@@ -663,7 +663,7 @@ CLOSED: [2019-03-31 Sun 00:23]
 
 {{< tweet 1112198962423853056 >}}
 
-** DONE トマトラグー・ビアンコ（解凍）(2)                                         :@cooking:
+** DONE トマトラグー・ビアンコ（解凍）(2)                          :@cooking:
 CLOSED: [2019-04-02 Tue 00:23]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0402-pasta-tomato-ragu-bianco
@@ -676,7 +676,7 @@ CLOSED: [2019-04-02 Tue 00:23]
 
 {{< tweet 1113064068795981825 >}}
 
-** DONE トマトラグー・ビアンコ（解凍）                                            :@cooking:
+** DONE トマトラグー・ビアンコ（解凍）                             :@cooking:
 CLOSED: [2019-04-05 Fri 00:23]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0405-pasta-tomato-ragu-bianco
@@ -690,7 +690,7 @@ CLOSED: [2019-04-05 Fri 00:23]
 
 {{< tweet 1114125471485026304 >}}
 
-** DONE 梅干しとベーコンのペペロンチーノ                                           :@cooking:
+** DONE 梅干しとベーコンのペペロンチーノ                           :@cooking:
 CLOSED: [2019-04-06 Sat 00:49]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0406-pasta-bacon-and-umeboshi
@@ -717,7 +717,7 @@ CLOSED: [2019-04-06 Sat 00:49]
 | ゆで汁(1.0%)   |   30 | [cc] |
 | パスタ         |  200 | [g]  |
 
-** DONE 梅干しとベーコンのパスタ                                               :@cooking:
+** DONE 梅干しとベーコンのパスタ                                   :@cooking:
 CLOSED: [2019-04-13 Sat 00:49]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0413-pasta-bacon-and-umeboshi
@@ -742,7 +742,7 @@ CLOSED: [2019-04-13 Sat 00:49]
 | 梅干し         |    1 | 個   |
 | ゆで汁(1.0%)   |   15 | [cc] |
 | パスタ         |  200 | [g]  |
-** DONE 小松菜とベーコンのペペロンチーノ                                           :@cooking:
+** DONE 小松菜とベーコンのペペロンチーノ                           :@cooking:
 CLOSED: [2019-04-14 Sun 00:49]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0414-pasta-bacon-and-spinach
@@ -767,7 +767,7 @@ CLOSED: [2019-04-14 Sun 00:49]
 | 小松菜         |    2 | 株   |
 | ゆで汁(1.0%)   |   30 | [cc] |
 | パスタ         |  180 | [g]  |
-** DONE しらすとアンチョビのパスタ                                              :@cooking:
+** DONE しらすとアンチョビのパスタ                                 :@cooking:
 CLOSED: [2019-04-20 Sat 16:30]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0420-pasta-anchovy-whitebait
@@ -793,7 +793,7 @@ CLOSED: [2019-04-20 Sat 16:30]
 | しらす         | 適量 |      |
 | かいわれ       | 適量 |      |
 | パスタ         |  200 | [g]  |
-** DONE ほうれん草とベーコンのペペロンチーノ                                         :@cooking:
+** DONE ほうれん草とベーコンのペペロンチーノ                       :@cooking:
 CLOSED: [2019-04-24 Wed 18:45]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0424-pasta-bacon-spinacio-peperoncino
@@ -819,7 +819,7 @@ CLOSED: [2019-04-24 Wed 18:45]
 | ゆで汁(1.0%)     |   30 | [cc] |
 | パスタ           |  200 | [g]  |
 
-** DONE パエリア                                                       :@cooking:
+** DONE パエリア                                                   :@cooking:
 CLOSED: [2019-05-01 Wed 18:40]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0501-paella
@@ -833,7 +833,7 @@ CLOSED: [2019-05-01 Wed 18:40]
 
 {{< tweet 1123557512651743233 >}}
 
-** DONE ボロネーゼ                                                      :@cooking:
+** DONE ボロネーゼ                                                 :@cooking:
 CLOSED: [2019-05-02 Thu 18:38]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0502-pasta-boronase
@@ -852,7 +852,7 @@ CLOSED: [2019-05-02 Thu 18:38]
 - 下味の塩を強めにした
 - ソフリットの玉ねぎの割合を少し減らした
 
-** DONE ボロネーゼ(2)                                                   :@cooking:
+** DONE ボロネーゼ(2)                                              :@cooking:
 CLOSED: [2019-05-04 Sat 18:33]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0504-pasta-boronase
@@ -866,7 +866,7 @@ CLOSED: [2019-05-04 Sat 18:33]
 
 {{< tweet 1124521002472329222 >}}
 
-** DONE 自家製パンチェッタのカルボナーラ                                           :@cooking:
+** DONE 自家製パンチェッタのカルボナーラ                           :@cooking:
 CLOSED: [2019-05-05 Sun 18:30]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0505-pasta-carbonara
@@ -894,7 +894,7 @@ CLOSED: [2019-05-05 Sun 18:30]
 | 黒胡椒         | 適量 |      |
 | パスタ         |  190 | [g]  |
 
-** DONE 牛肉の赤ワイン煮                                                   :@cooking:
+** DONE 牛肉の赤ワイン煮                                           :@cooking:
 CLOSED: [2019-05-06 Mon 18:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0506-Manzo-stufato-nel-vino-rosso
@@ -907,7 +907,7 @@ CLOSED: [2019-05-06 Mon 18:02]
 赤ワインが余ったので牛肉の赤ワイン煮込みにチャレンジしました．ソースはとても美味しい仕上がりになりましたが，想像していたよりも牛肉が固くなり，下処理の重要性を思い知らされました．鶏肉と豚肉は普段からよく使いますが，牛肉は単純にソテーすることが多いのが欠点です．もっと食材に詳しくならないといけません．
 
 {{< tweet 1125362171901177856 >}}
-** DONE 玉ねぎスープ                                                     :@cooking:
+** DONE 玉ねぎスープ                                               :@cooking:
 CLOSED: [2019-05-11 Sat 16:52]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0511-soup-onion-pancetta
@@ -933,7 +933,7 @@ CLOSED: [2019-05-11 Sat 16:17]
 パスタ好きかつ新しいもの好きな私は，これを試さないわけにいきません．結論としては，新たに発売された All-in NOODLES の方が良さそうだな，というところです．
 
 {{< tweet 1127054646147670016 >}}
-** DONE 餃子を作る                                                      :@cooking:
+** DONE 餃子を作る                                                 :@cooking:
 CLOSED: [2019-05-12 Sun 16:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0512-gyoza
@@ -953,7 +953,7 @@ CLOSED: [2019-05-12 Sun 16:02]
 2. 水は少量でいい（100cc以下）
 3. 水を入れたら最強火力を維持
 4. 薄いスプーンで端から剥がす
-** DONE 生姜のパスタ                                                     :@cooking:
+** DONE 生姜のパスタ                                               :@cooking:
 CLOSED: [2019-05-12 Sun 16:11]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0512-pasta-zenzero-parmigiano
@@ -979,7 +979,7 @@ CLOSED: [2019-05-12 Sun 16:11]
 | 生姜           |  1/2 | 個   |
 | パルメジャーノ | 適量 |      |
 | パスタ         |  200 | [g]  |
-** DONE 鶏肉と梅干しの和風パスタ(2)                                            :@cooking:
+** DONE 鶏肉と梅干しの和風パスタ(2)                                :@cooking:
 CLOSED: [2019-05-18 Sat 15:57]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0518-pasta-chicken-umeboshi
@@ -1007,7 +1007,7 @@ CLOSED: [2019-05-18 Sat 15:57]
 | 梅干し         |    2 | 個   |
 | ゆで汁(1.0%)   |   10 | [cc] |
 | パスタ         |  180 | [g]  |
-** DONE ボンゴレ・ビアンコ                                                  :@cooking:
+** DONE ボンゴレ・ビアンコ                                         :@cooking:
 CLOSED: [2019-05-19 Sun 19:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0519-pasta-vongole-bianco
@@ -1034,7 +1034,7 @@ CLOSED: [2019-05-19 Sun 19:02]
 | 追いオイル     |   10 | [cc]   |
 | パスタ         |  180 | [g]    |
 
-** DONE パンチェッタペペロンチーノ                                              :@cooking:
+** DONE パンチェッタペペロンチーノ                                 :@cooking:
 CLOSED: [2019-05-22 Wed 18:53]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0522-pasta-pancetta-peperoncino
@@ -1061,7 +1061,7 @@ CLOSED: [2019-05-22 Wed 18:53]
 | ゆで汁(1.0%)   |   15 | [cc] |
 | パスタ         |  200 | [g]  |
 
-** DONE 野菜スープ                                                      :@cooking:
+** DONE 野菜スープ                                                 :@cooking:
 CLOSED: [2019-05-25 Sat 01:09]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0525-vegetable-soup
@@ -1077,7 +1077,7 @@ CLOSED: [2019-05-25 Sat 01:09]
 
 {{< tweet 1132229522055503872 >}}
 
-** DONE 生姜のパスタ(2)                                                  :@cooking:
+** DONE 生姜のパスタ(2)                                            :@cooking:
 CLOSED: [2019-05-25 Sat 01:27]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0525-pasta-zenzero-parmigiano
@@ -1103,7 +1103,7 @@ CLOSED: [2019-05-25 Sat 01:27]
 | ゆで汁(1.0%)   |   10 | [cc] |
 | パルメジャーノ | 適量 |      |
 | パスタ         |  160 | [g]  |
-** DONE サルティン・ボッカ                                                  :@cooking:
+** DONE サルティン・ボッカ                                         :@cooking:
 CLOSED: [2019-05-25 Sat 01:37]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0525-saltimbocca
@@ -1120,7 +1120,7 @@ CLOSED: [2019-05-25 Sat 01:37]
 {{< tweet 1132127884015915008 >}}
 
 {{< tweet 1132119853148528640 >}}
-** DONE しらすとアンチョビのパスタ・大葉ともに                                        :@cooking:
+** DONE しらすとアンチョビのパスタ・大葉ともに                     :@cooking:
 CLOSED: [2019-05-26 Sun 01:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0526-pasta-anchovy-whitebait
@@ -1133,7 +1133,7 @@ CLOSED: [2019-05-26 Sun 01:02]
 しらすとアンチョビのパスタを作りました．親子丼的なパスタで安定した旨さです．
 
 {{< tweet 1132482300233437185 >}}
-** DONE 玉ねぎとエリンギのパスタ                                               :@cooking:
+** DONE 玉ねぎとエリンギのパスタ                                   :@cooking:
 CLOSED: [2019-06-02 Sun 00:52]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0602-pasta-onion-eryngii
@@ -1157,7 +1157,7 @@ CLOSED: [2019-06-02 Sun 00:52]
 | 水             |   15 | [cc] |
 | ゆで汁(1.0%)   |   15 | [cc] |
 | パスタ         |  180 | [g]  |
-** DONE カラスミとベビーホタテのペペロンチーノ                                        :@cooking:
+** DONE カラスミとベビーホタテのペペロンチーノ                     :@cooking:
 CLOSED: [2019-06-08 Sat 00:38]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0608-pasta-pettine-bottarga
@@ -1181,7 +1181,7 @@ CLOSED: [2019-06-08 Sat 00:38]
 | カラスミ       | 適量 |      |
 | パスタ         |  180 | [g]  |
 
-** DONE ブカティーニ・ボロネーゼ                                               :@cooking:
+** DONE ブカティーニ・ボロネーゼ                                   :@cooking:
 CLOSED: [2019-06-09 Sun 18:22]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0609-pasta-bucatini-boronase
@@ -1195,7 +1195,7 @@ CLOSED: [2019-06-09 Sun 18:22]
 
 {{< tweet 1137572889849237504 >}}
 
-** DONE 半熟パンチェッタのパスタ                                               :@cooking:
+** DONE 半熟パンチェッタのパスタ                                   :@cooking:
 CLOSED: [2019-06-16 Sun 17:29]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0616-pasta-pancetta
@@ -1209,7 +1209,7 @@ CLOSED: [2019-06-16 Sun 17:29]
 
 {{< tweet 1139736874279301120 >}}
 
-** DONE ほうれん草のパスタ                                                  :@cooking:
+** DONE ほうれん草のパスタ                                         :@cooking:
 CLOSED: [2019-06-22 Sat 16:22]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0622-pasta-spinacio
@@ -1236,7 +1236,7 @@ CLOSED: [2019-06-22 Sat 16:22]
 | みりん         |   15 | [cc] |
 | パスタ         |  180 | [g]  |
 
-** DONE カラスミとベビーホタテのパンチェッタオイルペペロンチーノ                               :@cooking:
+** DONE カラスミとベビーホタテのパンチェッタオイルペペロンチーノ   :@cooking:
 CLOSED: [2019-06-29 Sat 16:18]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0629-pasta-pettine-bottarga
@@ -1263,7 +1263,7 @@ CLOSED: [2019-06-29 Sat 16:18]
 | カラスミ           | 適量 | 個   |
 | パスタ             |  180 | [g]  |
 
-** DONE ホタテのトマトパスタ                                                 :@cooking:
+** DONE ホタテのトマトパスタ                                       :@cooking:
 CLOSED: [2019-07-07 Sun 14:58]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0707-pasta-pettine
@@ -1291,7 +1291,7 @@ CLOSED: [2019-07-07 Sun 14:58]
 | 追い塩               |    3 | [g]  |
 | パスタ               |  190 | [g]  |
 
-** DONE カラスミのペペロンチーノ                                               :@cooking:
+** DONE カラスミのペペロンチーノ                                   :@cooking:
 CLOSED: [2019-07-27 Sat 14:48]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0727-pasta-bottarga-peperoncino
@@ -1305,7 +1305,7 @@ CLOSED: [2019-07-27 Sat 14:48]
 
 {{< tweet 1154959169310429184 >}}
 
-** DONE アンチョビのペペロンチーノ                                              :@cooking:
+** DONE アンチョビのペペロンチーノ                                 :@cooking:
 CLOSED: [2019-07-28 Sun 14:52]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0728-pasta-anchovy-peperoncino
@@ -1319,7 +1319,7 @@ CLOSED: [2019-07-28 Sun 14:52]
 
 {{< tweet 1155316953734508546 >}}
 
-** DONE きのことベーコンのペペロンチーノ                                           :@cooking:
+** DONE きのことベーコンのペペロンチーノ                           :@cooking:
 CLOSED: [2019-08-03 Sat 14:44]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0826-pasta-bacon-mushroom-peperoncino
@@ -1344,7 +1344,7 @@ CLOSED: [2019-08-03 Sat 14:44]
 | ゆで汁(1.0%)   |   40 | [cc] |
 | パスタ         |  170 | [g]  |
 
-** DONE 海老ときのこのペペロンチーノ                                             :@cooking:
+** DONE 海老ときのこのペペロンチーノ                               :@cooking:
 CLOSED: [2019-08-04 Sun 14:33]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0804-pasta-mushroom-shrimp-peperoncino
@@ -1372,7 +1372,7 @@ CLOSED: [2019-08-04 Sun 14:33]
 | ゆで汁(1.1%)   |   30 | [cc] |
 | パスタ         |  170 | [g]  |
 
-** DONE 茄子とベーコンのパスタ                                                :@cooking:
+** DONE 茄子とベーコンのパスタ                                     :@cooking:
 CLOSED: [2019-08-09 Fri 14:21]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0809-pasta-melanzane-bacon
@@ -1398,7 +1398,7 @@ CLOSED: [2019-08-09 Fri 14:21]
 | 茹で汁(1.0%)     |   45 | [cc] |
 | パスタ           |  170 | [g]  |
 
-** DONE しめじとベーコンのパスタ                                               :@cooking:
+** DONE しめじとベーコンのパスタ                                   :@cooking:
 CLOSED: [2019-08-10 Sat 14:15]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0810-pasta-bacon-mushroom
@@ -1424,7 +1424,7 @@ CLOSED: [2019-08-10 Sat 14:15]
 | 梅干し         |    1 | 個   |
 | パスタ         |  170 | [g]  |
 
-** DONE トマト冷製パスタ                                                   :@cooking:
+** DONE トマト冷製パスタ                                           :@cooking:
 CLOSED: [2019-08-13 Tue 14:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0813-pasta-fredda-tomato-and-tuna
@@ -1454,7 +1454,7 @@ CLOSED: [2019-08-13 Tue 14:02]
 | 生ハム         | 数枚 |      |
 | パスタ         |  170 | [g]  |
 
-** DONE 三種きのこのパスタ                                                  :@cooking:
+** DONE 三種きのこのパスタ                                         :@cooking:
 CLOSED: [2019-08-14 Wed 13:21]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0814-pasta-three-mushrooms
@@ -1485,7 +1485,7 @@ CLOSED: [2019-08-14 Wed 13:21]
 | 胡椒                   | 適量 |      |
 | パスタ                 |  170 | [g]  |
 
-** DONE ブカティーニ・プッタネスカ                                              :@cooking:
+** DONE ブカティーニ・プッタネスカ                                 :@cooking:
 CLOSED: [2019-08-15 Thu 13:14]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0815-pasta-puttanesca
@@ -1514,7 +1514,7 @@ CLOSED: [2019-08-15 Thu 13:14]
 | 胡椒             | 適量 |        |
 | パスタ           |  160 | [g]    |
 
-** DONE 和風カルボナーラ                                                   :@cooking:
+** DONE 和風カルボナーラ                                           :@cooking:
 CLOSED: [2019-08-16 Fri 13:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0816-pasta-carbonara
@@ -1544,7 +1544,7 @@ CLOSED: [2019-08-16 Fri 13:02]
 | 大葉           |    3 | 枚     |
 | パスタ         |  160 | [g]    |
 
-** DONE カラスミとベーコンのパスタ                                              :@cooking:
+** DONE カラスミとベーコンのパスタ                                 :@cooking:
 CLOSED: [2019-08-18 Sun 12:50]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0818-pasta-bacon-bottarga
@@ -1570,7 +1570,7 @@ CLOSED: [2019-08-18 Sun 12:50]
 | カラスミ       | 適量 |      |
 | パスタ         |  170 | [g]  |
 
-** DONE 茄子とベーコンのペペロンチーノ                                            :@cooking:
+** DONE 茄子とベーコンのペペロンチーノ                             :@cooking:
 CLOSED: [2019-08-24 Sat 12:20]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0824-pasta-beacon-and-melanzane
@@ -1598,7 +1598,7 @@ CLOSED: [2019-08-24 Sat 12:20]
 | ゆで汁(1.1%)   |   15 | [cc] |
 | パスタ         |  160 | [g]  |
 
-** DONE プッタネスカ風パスタ                                                 :@cooking:
+** DONE プッタネスカ風パスタ                                       :@cooking:
 CLOSED: [2019-08-25 Sun 11:16]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0825-pasta-puttanesca-wo-tomato
@@ -1646,7 +1646,7 @@ Database compiled into Emacs.
 
 *** References
 - [[https://www.gnu.org/software/emacs/news/NEWS.26.3][https://www.gnu.org/software/emacs/news/NEWS.26.3]]
-** DONE 禁酒破り                                                          :@life:
+** DONE 禁酒破り                                                      :@life:
 CLOSED: [2019-08-30 Fri 19:33]
 :PROPERTIES:
 :EXPORT_FILE_NAME: df210cef-96b3-f6b4-8ae3-7d1acf9a9e26
@@ -1657,7 +1657,7 @@ CLOSED: [2019-08-30 Fri 19:33]
 :END:
 
 8月17日から禁酒してきましたが，諸事情により今日は飲むことに．明日以降，またがんばって，禁酒します．
-** DONE ベーコンとトマトのパスタ                                               :@cooking:
+** DONE ベーコンとトマトのパスタ                                   :@cooking:
 CLOSED: [2019-09-01 Sun 14:26]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0901-pasta-bacon-tomato
@@ -1684,7 +1684,7 @@ CLOSED: [2019-09-01 Sun 14:26]
 | カラスミ       | 少々 |        |
 | ゆで汁(1.0%)   |   15 | [cc]   |
 | パスタ         |  160 | [g]    |
-** DONE アンチョビとしらすのパスタ                                              :@cooking:
+** DONE アンチョビとしらすのパスタ                                 :@cooking:
 CLOSED: [2019-09-04 Wed 00:47]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0904-pasta-anchovy-and-whitebait
@@ -1709,7 +1709,7 @@ CLOSED: [2019-09-04 Wed 00:47]
 | 白ワイン       |   15 | [cc]   |
 | ゆで汁(1.0%)   |   15 | [cc]   |
 | パスタ         |  160 | [g]    |
-** DONE アンチョビとしらすのパスタ(again)                                       :@cooking:
+** DONE アンチョビとしらすのパスタ(again)                          :@cooking:
 CLOSED: [2019-09-07 Sat 14:10]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0907-pasta-anchovy-and-whitebait
@@ -1734,7 +1734,7 @@ CLOSED: [2019-09-07 Sat 14:10]
 | ゆで汁(1.0%)   |   10 | [cc] |
 | 小トマト       |    1 | 個   |
 | パスタ         |  160 | [g]  |
-** DONE 鶏肉とトマトのパスタ                                                 :@cooking:
+** DONE 鶏肉とトマトのパスタ                                       :@cooking:
 CLOSED: [2019-09-08 Sun 14:21]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0908-pasta-tomato-chicken
@@ -1762,7 +1762,7 @@ CLOSED: [2019-09-08 Sun 14:21]
 | みりん         |   10 | [cc] |
 | バター         |   10 | [g]  |
 | パスタ         |  160 | [g]  |
-** DONE パスタジョンソンヴィル                                                :@cooking:
+** DONE パスタジョンソンヴィル                                     :@cooking:
 CLOSED: [2019-09-15 Sun 19:41]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0915-pasta-johnsonville
@@ -1849,3 +1849,66 @@ CLOSED: [2019-09-22 Sun 22:30]
 | 白ワイン       |   15 | [cc] |
 | 茹で汁(1.1%)   |   20 | [cc] |
 | パスタ         |  160 | [g]  |
+** DONE MarkdownリンクをHTML形式に置換する                           :@emacs:
+   CLOSED: [2019-09-23 Mon 15:18]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0923-helm-to-ivy
+:EXPORT_HUGO_TAGS: "emacs" "helm" "ivy"
+:EXPORT_HUGO_LASTMOD:
+:EXPORT_HUGO_IMAGES: https://pxaka.tokyo/img/twitter_2019-08-08.jpg
+:ID:       9C4E533B-F6E5-441C-A07A-D3CA3CC388F8
+:CREATED:  [2019-09-23 Mon 14:37]
+:END:
+
+年数回開催されて，私もそれなりの頻度で参加している[[https://tokyo-emacs.connpass.com][東京Emacs勉強会]]ですが，2019年に入って発表者に =ivy-mode= ユーザが多いように思い，移行してみようかな？とそれまで =helm-mode= を使ってきた私の気持ちが揺らぎました．
+
+そんな迷いと試験的な設定を Twitter に投稿すると，徐々に移行するのを期待されている雰囲気が出てきたので（気の迷い），せっかくならば記録を付けながらということで，記事を書く前提で =helm-mode= から =ivy-mode= に移行しました．
+
+移行で得られた知見は，Qiita に[[https://qiita.com/takaxp/items/2fde2c119e419713342b][helm を背に ivy の門を叩く - Qiita]]と題して書かせいただきました．まとまった文章を書く時は，人前でお話したくなるのが自然なことですから，Emacs勉強会でも[[https://speakerdeck.com/takaxp/counsel][さよならhelm、ようこそivy/counsel - Speaker Deck]]としてお話しました．個人的には最高のオチだったと思います（オチはスライドから削除してあります．版権の問題で...）．
+
+結果として，記事をきっかけに =ivy-mode= に移行した方も複数いらっしゃるようで，少しは役に立てたかと安堵しています．
+
+さて，Qiitaへの記事の投稿ですけども，Markdownを書くなんて野暮なことはしていません．もちろん[[https://orgmode.org/][Org mode]]で書き，[[https://github.com/0x60df/ox-qmd][ox-qmd]]を使って Qiita 用の Markdown を生成するわけです．ただ，同じソースを使って =ox-html= で出力する時に少々手間取りました．通常の文字列とコードは問題ないのですが，Qiita用に生成した画像リンクを通常のHTMLに書き出す時にひと手間が必要でした．
+
+まず基本的な作業フローとしては，
+
+1. org-mode でローカル執筆する（org fileを更新）
+2. =ox-qmd= で書き出したドラフトを，Qiita のオンラインエディタでコピペする
+3. 画像等メディアが必要な場合，オンラインエディタにD&Dして，リンクを得る
+4. 取得したリンクを org file の =begin_export html= なソースブロック内にコピペする
+
+この繰り返しです．
+
+Qiita のオンラインエディタでは，画像をD&Dすると ~![filename](uri)~ な Markdown の記法でリンクが生成されます．それをそのまま =begin_export html= のソースブロックに保存すれば，Qiita では正しくレンダリングされます．
+
+#+begin_src emacs-lisp
+,#+begin_export html
+![filename](uri)
+,#+end_export
+#+end_src
+
+しかし，そうして作成した org file から通常のHTMLをエクスポートすると，HTMLリンクに正しく変換されません．そこで， =ox-qmd= でエクスポートしても， =ox-html= でエクスポートしても，どちらでも成立する状態になるようにソースブロックの中身を書き換えます．要は，HTMLコードに置換しておくのです．
+
+次の関数をコールして，どちらの環境でも正しく読み込まれるHTMLコードを生成しています．org file を表示中に =M-x my-convert-md-link-to-html= するだけです．必要ならば，バッファ保存時に毎度走らせても良さそうです．
+
+#+begin_src emacs-lisp
+(defvar md-link-format "^!\\[\\(.+\\)\\](\\(.+\\))$")
+(defun my-convert-md-link-to-html ()
+    (interactive)
+    (goto-char (point-min))
+    (while (re-search-forward md-link-format nil :noerror)
+      (let* ((prev (match-string-no-properties 0))
+             (alt (match-string-no-properties 1))
+             (src (match-string-no-properties 2))
+             (new (concat "<p><img src=\"" src "\" alt=\"" alt "\" /></p>")))
+        (replace-match new)
+        (message "====\ninput:\t%s\noutput:\t%s" prev new)))
+    (message "--- done."))
+#+end_src
+
+=M-x my-convert-md-link-to-html= でリンクを書き換えることで，次の2つのサイトに並列エクスポートできるようになりました．ワンソース・マルチユースです（懐かしい）．
+
+1. [[https://qiita.com/takaxp/items/2fde2c119e419713342b][helm を背に ivy の門を叩く - Qiita]]
+2. [[https://takaxp.github.io/articles/qiita-helm2ivy.html][helm を背に ivy の門を叩く]] (takaxp.github.io)
+
+個人的には，後者のように見出しが独立してアクセスしやすい記事が好きです．なお，画像の使い回しについては，利用規約的にどうかな？と思うところはありますが，とりあえず大丈夫そうです．問題がありそうなら，画像コンテンツを回収して適切な場所に置こうと思います．その場合であっても，リンクの張替えだけで済みます．

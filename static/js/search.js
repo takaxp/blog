@@ -6,25 +6,41 @@ var $searchInput;
 var $headerSearch;
 var $path = '/blog'
 var $currentpage = null;
+var request = null;
 
-window.onload = function () {
-  var request = new XMLHttpRequest();
+// var lunr = require('lunr.js');
+// require('/js/lunr-langs/lunr.stemmer.support.js')(lunr);
+// require('/js/lunr-langs/tiny_segmenter.js')(lunr);
+// require('/js/lunr-langs/lunr.ja.js')(lunr);
+// require('/js/lunr-langs/lunr.multi.js')(lunr);
+
+function setup (){
   var query = '';
-  $currentpage = location.href;
 
+  $currentpage   = location.href;
+  $searchLangJa  = document.getElementById('search-lunr-ja');
   $searchResults = document.getElementById('search-results');
   $searchInput   = document.getElementById('search-input');
   $headerSearch  = document.getElementById('header-search');
   query          = (getParameterByName('q')) ? getParameterByName('q').trim() : '';
 
-  request.overrideMimeType("application/json");
-  request.open("GET", $path+"/index.json", true);
+  if ( request == null ){
+    request = new XMLHttpRequest();
+    request.overrideMimeType("application/json");
+    request.open("GET", $path+"/index.json", true);
+  }
+
   request.onload = function() {
     if (request.status >= 200 && request.status < 400) {
       // Success!
       var documents = JSON.parse(request.responseText);
 
       idx = lunr(function () {
+        // use lang support
+        if( $searchLangJa && $searchLangJa.checked == true ) {
+          this.use(lunr.ja);
+        }
+
         this.ref('ref');
         this.field('title');
         this.field('excerpt');
@@ -54,7 +70,11 @@ window.onload = function () {
     $searchResults.innerHTML = 'Error loading search results';
   };
 
-  request.send();
+  if ( idx == null ){
+    request.send();
+  }else{
+    request.onload();
+  }
 
   registerSearchHandlers();
 };
@@ -86,6 +106,8 @@ function registerSearchHandlers() {
     }
   }
 }
+
+window.onload = setup();
 
 function search(query) {
   return idx.search(query);
