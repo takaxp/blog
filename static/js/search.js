@@ -10,7 +10,7 @@ var request = null;
 
 // var lunr = require('lunr.js');
 // require('/js/lunr-langs/lunr.stemmer.support.js')(lunr);
-// require('/js/lunr-langs/tiny_segmenter.js')(lunr);
+// require('/js/lunr-langs/tinyseg.js')(lunr);
 // require('/js/lunr-langs/lunr.ja.js')(lunr);
 // require('/js/lunr-langs/lunr.multi.js')(lunr);
 
