@@ -1850,7 +1850,7 @@ CLOSED: [2019-09-22 Sun 22:30]
 | 茹で汁(1.1%)   |   20 | [cc] |
 | パスタ         |  160 | [g]  |
 ** DONE MarkdownリンクをHTML形式に置換する                           :@emacs:
-   CLOSED: [2019-09-23 Mon 15:18]
+   CLOSED: [2019-09-23 Mon 15:38]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0923-helm-to-ivy
 :EXPORT_HUGO_TAGS: "emacs" "helm" "ivy"
@@ -1912,3 +1912,119 @@ Qiita のオンラインエディタでは，画像をD&Dすると ~![filename](
 2. [[https://takaxp.github.io/articles/qiita-helm2ivy.html][helm を背に ivy の門を叩く]] (takaxp.github.io)
 
 個人的には，後者のように見出しが独立してアクセスしやすい記事が好きです．なお，画像の使い回しについては，利用規約的にどうかな？と思うところはありますが，とりあえず大丈夫そうです．問題がありそうなら，画像コンテンツを回収して適切な場所に置こうと思います．その場合であっても，リンクの張替えだけで済みます．
+** DONE たらこのパスタ(2)                                          :@cooking:
+   CLOSED: [2019-09-28 Sat 16:04]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0928-pasta-tarako
+:EXPORT_HUGO_TAGS: "pasta" "wafu"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: https://pxaka.tokyo/blog/files/2019/pasta_2019-03-09.jpg
+:ID:       AD822E71-CBA8-4CFA-9306-78552BCC0B66
+:CREATED:  [2019-10-01 Tue 16:00]
+:END:
+
+たらこのパスタを和風で作りました．折角のマンチーニでしたが，今回の場合は茹で汁0.8%では薄すぎたようで，ソースの塩味が勝ちすぎた印象です．
+
+{{< tweet 1177781583937323008 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| たまねぎ       |  1/8 | 個   |
+| たらこ         |    2 | 本   |
+| みりん         |   10 | [cc] |
+| 白だし         |   10 | [cc] |
+| 白醤油         |    5 | [cc] |
+| バター         |   10 | [cc] |
+| 茹で汁(0.8%)   |   30 | [cc] |
+| パスタ         |  160 | [g]  |
+** DONE きのこのペペロンチーノ                                     :@cooking:
+   CLOSED: [2019-09-29 Sun 16:14]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0929-pasta-mushroom-peperoncino
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: https://pxaka.tokyo/blog/files/2019/pasta_2019-03-09.jpg
+:ID:       5A4B08E9-354B-4767-95E8-2189E6697E55
+:CREATED:  [2019-10-01 Tue 16:06]
+:END:
+
+乾燥ポルチーニ茸とマンチーニという自分的には高級なペペロンチーノを作りました．乾燥ポルチーニ茸はぬるま湯で戻しますが，戻した汁も使えます．また，オイルはオリーブオイルに加えて，自家製パンチェッタから出てくるオイルを使い，全体的に濃厚な一皿なになりました．とても美味しかったです．今回は，マンチーニの茹で汁が1.0%です．
+
+{{< tweet 1178155823127658496 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料                   | 分量 | 単位 |
+|------------------------+------+------|
+| オリーブオイル         |   20 | [cc] |
+| にんにく               |    2 | 片   |
+| 鷹の爪                 |  1/2 | 本   |
+| パンチェッタ           | 適量 |      |
+| しめじ                 |  1/3 | 株   |
+| 乾燥ポルチーニ茸       |   15 | 片   |
+| 白ワイン               |   15 | [cc] |
+| 乾燥ポルチーニ茸戻し汁 |   15 | 片   |
+| パスタ                 |  160 | [g]  |
+** DONE リンクの内容をeldocで表示                                    :@emacs:
+   CLOSED: [2019-10-01 Tue 22:06]
+:PROPERTIES:
+:EXPORT_FILE_NAME: a7ef3cd5-df52-2004-db2b-03d36ef48555
+:EXPORT_HUGO_TAGS: "orgmode" "eldoc" "org-link"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       88DE0FE1-E266-44FB-8E4E-DFE3967E8831
+:CREATED:  [2019-10-01 Tue 22:03]
+:END:
+
+=eldoc= の機能を用いてカーソル下のリンクをエコーエリアに出す設定です．意外と簡単にできました．
+
+#+begin_src emacs-lisp
+(with-eval-after-load "org"
+  (add-hook 'org-mode-hook #'my-load-echo-org-link)
+
+  (defun my-echo-org-link ()
+    (when (org-in-regexp org-link-bracket-re 1)
+      (let ((link "Link:")
+            (msg (org-link-unescape (match-string-no-properties 1))))
+        (put-text-property 0 (length link) 'face 'minibuffer-prompt link)
+        (eldoc-message (format "%s %s" link msg)))))
+
+  (defun my-load-echo-org-link ()
+    (setq-local eldoc-documentation-function #'my-echo-org-link)))
+#+end_src
+** DONE C-g した場所をブックマークする                               :@emacs:
+   CLOSED: [2019-10-05 Sat 17:07]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 7f6518aa-bab0-91a4-53b3-ba3b8f02a481
+:EXPORT_HUGO_TAGS: "emacs" "ah" "hook"
+:EXPORT_HUGO_LASTMOD: [2019-10-06 Sun 10:34]
+:EXPORT_HUGO_IMAGES: 
+:ID:       0F42FE16-6068-445C-A557-9395DA021D9C
+:CREATED:  [2019-10-05 Sat 17:00]
+:END:
+
+=isearch= した後に =C-g= してしまう癖がどうも抜けず，その度にカーソル位置が初期化されて困っていました．正解は， =RET= の押下で =isearch-exit= を呼び出すことですが，なかなか慣れません．
+
+そこで，万が一 =C-g= で初期位置にカーソルが飛んでしまっても，その直前にすぐカーソルを戻せるようにブックマークするようにしました．
+
+拙作の =ah.el= に当該の =hook= を加えることで， =C-g= に反応するイベントを簡単に追加できます．
+
+ - [[https://github.com/takaxp/ah][takaxp/ah: Additional hooks for Emacs]]
+
+#+begin_src emacs-lisp
+(defvar my-cg-bookmark "c-g-point-last")
+(defun my-cg-bookmark ()
+  (when buffer-file-name
+    (bookmark-set my-cg-bookmark)))
+(when (require 'ah nil t)
+  (add-hook 'ah-before-c-g-hook #'my-cg-bookmark)
+  (ah-mode 1))
+#+end_src
+
+=C-g= で万が一カーソルが飛んでしまったら， =M-x list-bookmarks= 或いは =M-x counsel-bookmark= から =my-ag-bookmark= に設定したブックマークを選択すれば，一発でカーソルを移動できます．
+
+便利！
+
+*** updates
+ - [2019-10-06 Sun] =buffer-file-name= を確認するように改良
