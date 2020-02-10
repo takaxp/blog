@@ -1,4 +1,4 @@
-{{- $asin := .Get 0 -}}
+{{- $asin := string (.Get 0) -}}
 {{- $json := index .Site.Data.asin $asin -}}
 {{- $item := $json.ItemLookupResponse.Items.Item -}}
 {{- $title := $item.ItemAttributes.Title -}}
