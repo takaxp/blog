@@ -641,7 +641,7 @@
 ** DONE ボロネーゼ                                                 :@cooking:
    CLOSED: [2020-04-05 Sun 12:52]
 :PROPERTIES:
-:EXPORT_FILE_NAME: 0405-bolonase
+:EXPORT_FILE_NAME: 0405-bolgonese
 :EXPORT_HUGO_TAGS: "pasta" "tomato" "best"
 :EXPORT_HUGO_LASTMOD: 
 :EXPORT_HUGO_IMAGES: 
@@ -743,7 +743,7 @@ MacBook Air を新調しました！ゴールドです！
 ** DONE ボロネーゼ(解凍)                                           :@cooking:
    CLOSED: [2020-04-11 Sat 13:32]
 :PROPERTIES:
-:EXPORT_FILE_NAME: 0411-pasta-bolonase
+:EXPORT_FILE_NAME: 0411-pasta-bolognese
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
 :EXPORT_HUGO_LASTMOD: 
 :EXPORT_HUGO_IMAGES: 
@@ -874,3 +874,278 @@ MacBook Air を新調しました！ゴールドです！
 | 白ワイン       |   20 | [cc] |
 | 茹で汁(1.2%)   |   40 | [cc] |
 | パスタ         |  160 | [g]  |
+** DONE アスパラとベーコンのペペロンチーノ                         :@cooking:
+   CLOSED: [2020-03-25 Wed 14:22]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0425-pasta-aspara-bacon-peperoncino
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       4882557E-4CA9-4A68-A875-FB1207657C1D
+:CREATED:  [2020-05-31 Sun 14:16]
+:END:
+
+アスパラを使ったパスタを作りました．アスパラはパスタの食材として相性がいいですね．
+
+{{< tweet 1253881337095700481 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ニンニク       |    3 | 片   |
+| ベーコン       |    2 | 枚   |
+| アスパラ       |    2 | 本   |
+| 鷹の爪         |    1 | 本   |
+| 茹で汁(1.2%)   |   40 | [cc] |
+| パスタ         |  160 | [g]  |
+** DONE ボロネーゼ(解凍) (2)                                       :@cooking:
+   CLOSED: [2020-04-26 Sun 14:25]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0426-pasta-bolognese
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       5C8155B5-29D5-4061-A56C-DEB7C9E8192C
+:CREATED:  [2020-05-31 Sun 14:23]
+:END:
+
+冷凍しておいたボロネーゼを食べました．モンテベッロのホールトマト缶は，冷凍してもそこまで酸味が立たないのでラグーにピッタリです．
+
+{{< tweet 1254252190648070144 >}}
+** DONE ボロネーゼ(解凍)とメランザーネ                             :@cooking:
+   CLOSED: [2020-04-27 Mon 14:29]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0427-pasta-bolognese-melanzane
+:EXPORT_HUGO_TAGS: "pasta" "salt" "secondo"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       FD778367-314B-46AC-BA0C-D25543756623
+:CREATED:  [2020-05-31 Sun 14:26]
+:END:
+
+解凍もののボロネーゼをパスタとメランザーネの2つに使いました．メランザーネは丸茄子を購入して少し集めに切って使いました．土台として十分な質量となり，チーズをのせてじっくり焼くことでいい感じになりました．
+
+{{< tweet 1254616799728955392 >}}
+** DONE ハンマーと小鍋                                             :@cooking:
+   CLOSED: [2020-05-01 Fri 14:34]
+:PROPERTIES:
+:EXPORT_FILE_NAME: small-pan-and-meat-hammer
+:EXPORT_HUGO_TAGS: 
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       AFE8DD29-7B1E-448D-9E06-6C23D93C53C1
+:CREATED:  [2020-05-31 Sun 14:30]
+:END:
+
+以前から狙っていたミートハンマーを購入しました．さらに，揚げ物と少量のソースを作る目的で小さな鍋を買いました．どちらも WMFです．
+
+鍋は10cmと極小で，コンロの五徳にギリギリ乗るサイズです．気をつけて使わないと大事故になりそうで，あまりおすすめしません．
+
+{{< tweet 1256167273053601794 >}}
+
+** DONE ほうれん草とベーコンのパスタ                               :@cooking:
+   CLOSED: [2020-05-02 Sat 14:43]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0502-pasta-bacon-spinach
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       A9F44F63-C207-4188-8C9D-DC4AEAF7B557
+:CREATED:  [2020-05-31 Sun 14:40]
+:END:
+
+ほうれん草とベーコンの定番パスタを作りました．慣れているので安心して作れます．
+
+{{< tweet 1256423745293443072 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| にんにく       |    2 | 片   |
+| 玉ねぎ         |  1/8 | 個   |
+| ほうれん草     |    3 | 株   |
+| ベーコン       | 多め |      |
+| 茹で汁(1.1%)   |   45 | [cc] |
+| パスタ         |  160 | [g]  |
+
+** DONE 豚ヒレカツ                                                 :@cooking:
+   CLOSED: [2020-05-02 Sat 14:51]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0502-pork-hirekatu
+:EXPORT_HUGO_TAGS: "secondo"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       5E4F656E-7375-4A71-8322-389465FC3354
+:CREATED:  [2020-05-31 Sun 14:48]
+:END:
+
+スーパーの売れ残りの豚ヒレ肉を使って，揚げ物をしてみました．これまで揚げ物は避けてきましたが，先日，少量の油でも揚げ物ができる小さな鍋を購入したので，早速チャレンジしてみたということです．
+
+温度調整に気を使いますけど，2度揚げして非常に美味しいヒレカツが出来上がりました．この規模なら定期的に揚げ物をしても良いかなと思えます．
+
+{{< tweet 1256541871251181569 >}}
+** DONE ベーコンのパスタ                                           :@cooking:
+   CLOSED: [2020-05-03 Sun 14:58]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0503-pasta-bacon
+:EXPORT_HUGO_TAGS: "pasta" "wafu" "best"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       5A8AA3E7-D398-4FC9-8E1A-F655F781CEB0
+:CREATED:  [2020-05-31 Sun 14:55]
+:END:
+
+シンプルにベーコンだけを使う和風パスタです．安定して旨いです．
+
+{{< tweet 1256788353199955968 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| 新玉ねぎ       |  1/4 | 個   |
+| ベーコン       | 少々 |      |
+| みりん         |   10 | [cc] |
+| 白だし         |   10 | [cc] |
+| 白醤油         |    8 | [cc] |
+| 茹で汁(1.0%)   |   15 | [cc] |
+| バター         |   10 | [g]  |
+| のり           | 少々 |      |
+| 大葉           | 少々 |      |
+| パスタ         |  160 | [g]  |
+** DONE 牛肉のタリアータ                                           :@cooking:
+   CLOSED: [2020-05-03 Sun 15:02]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0503-beaf-tariata
+:EXPORT_HUGO_TAGS: "secondo"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       C7910F76-EC59-4BDB-B09B-CAE7EBDB0689
+:CREATED:  [2020-05-31 Sun 14:59]
+:END:
+
+先日入手したミートハンマーを実戦投入して，牛肉のタリアータを作りました．ちょっと表面に火を入れすぎたかな？という感じはありますが，予熱で中心まで適度に火が入りました．ソースは無しで，でも旨いです．
+
+{{< tweet 1256902638362177537 >}}
+** DONE ベーコンとニンニクの芽のペペロンチーノ                     :@cooking:
+   CLOSED: [2020-05-10 Sun 15:05]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0510-pasta-bacon-onion-peperoncino
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       F63FF758-F6E7-4E4F-9F81-643F18AB48E8
+:CREATED:  [2020-05-31 Sun 15:03]
+:END:
+
+茹で汁の塩分濃度を変える実験をしてみました．使う具材にもよりますが，強すぎるとパスタの持つ甘みが低下する傾向にあるようです．それはそれで勿体ないことです．
+
+{{< tweet 1259429856950890496 >}}
+** DONE 豚キムチーズ                                               :@cooking:
+   CLOSED: [2020-05-11 Mon 15:08]
+:PROPERTIES:
+:EXPORT_FILE_NAME: pork-kimuchi-cheese
+:EXPORT_HUGO_TAGS: "secondo"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       4F5A9825-DB1A-43E8-8233-7A0D14B0A195
+:CREATED:  [2020-05-31 Sun 15:05]
+:END:
+
+チーズを大量消費できる豚キムチーズを作りました．鉄板の旨さですけど，塩分とカロリーが気になる料理です．
+
+{{< tweet 1259800487563411456 >}}
+** DONE 二種類の貝のパスタ                                         :@cooking:
+   CLOSED: [2020-05-13 Wed 15:12]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0513-asari-and-hotate
+:EXPORT_HUGO_TAGS: "pasta" "salt" "best"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       CC7C8B58-622B-464F-8B9B-E75383D7A1B3
+:CREATED:  [2020-05-31 Sun 15:08]
+:END:
+
+3種のきのこならぬ，2種類の貝でパスタを作りました．かなり美味しい一皿になりました．大成功です．基本はボンゴレビアンコに作り方ですが，アサリの出汁とニンニクが白ワインと合わさると非常に旨いソースになることを実感しました．白ワインは常温の方が良さそうです．
+
+{{< tweet 1260413611392020480 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料                 | 分量 | 単位 |
+|----------------------+------+------|
+| オリーブオイル       |   30 | [cc] |
+| ニンニク(薄切り)     |    1 | 片   |
+| ベビーホタテ(非解凍) |  125 | [g]  |
+| あさり               | 適量 |      |
+| 白だし(常温)         |   30 | [cc] |
+| 茹で汁(1.0%)         |   10 | [cc] |
+| バター               |   10 | [g]  |
+| パスタ               |  160 | [g]  |
+** TODO ラーメン                                                   :@cooking:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0515-ramen
+:EXPORT_HUGO_TAGS: "ramen"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       9D33285A-A30D-4500-BB13-1FB53EC556CE
+:CREATED:  [2020-05-31 Sun 15:14]
+:END:
+
+食材の量は抑え気味に，でも野菜炒めはしっかりと味をつけたラーメンを作りました．このくらいの分量でもまだ多めな感じ．
+
+{{< tweet 1261250631609643009 >}}
+** DONE トラックパッドでドラッグ                                      :@tech:
+   CLOSED: [2020-05-20 Wed 15:25]
+:PROPERTIES:
+:EXPORT_FILE_NAME: three-finger-drag
+:EXPORT_HUGO_TAGS: "apple" "mac"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       AEE8609E-8AEB-4F16-B887-002F0F4759D1
+:CREATED:  [2020-05-31 Sun 15:16]
+:END:
+
+色々と設定を調べていたら，トラックパッドの設定に「ドラッグ」の設定があることに気づきました．これにより，三本指でのウィンドウ移動や，テキスト選択が可能になります．
+
+{{< tweet 1262769066466402304 >}}
+
+これまではトラックパッドの左下をクリックしながら，二本指でドラッグするようにしていましたが，片手で済ませるにはちょっと難しい操作で，これが原因でトラックパッドを積極的に使うのを諦めていました．
+
+しかし，三本指でドラッグできるとなると話は別です．現在は次のようにしています．
+
+| トラックパッドの操作 | 対応するマウス操作 |
+|----------------------+--------------------|
+| 一本指タップ         | 左クリック         |
+| 二本指タップ         | 右クリック         |
+| 三本指押しっぱなし   | ドラッグ           |
+
+「三本指押しっぱなし」と言っても，押し込みは不要で，触れていればOKです．
+
+現在は，MX Master 2 に代わって，Magic Trackpad を使う日々になりました．さらに，ノートパソコンでも同じことができるので，苦手だったトラックパッドでのマウス操作頻度が高くなりそうです．
+** DONE しめじとベーコンのパスタ                                   :@cooking:
+   CLOSED: [2020-05-23 Sat 15:29]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0523-pasta-shimeji-bacon
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       6D44059D-127F-412B-9DC4-5839580230B8
+:CREATED:  [2020-05-31 Sun 15:26]
+:END:
+
+キノコバターソテーを想像しながらしめじとベーコンのパスタを作りました．ベーコンに頼らずもっとキノコを全面に出した作り方がありそうです．
+
+{{< tweet 1264033269424590848 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ベーコン       |    2 | 枚   |
+| しめじ         | 適量 |      |
+| 白ワイン       |   15 | [cc] |
+| バター         |   10 | [g]  |
+| 茹で汁(1.0%)   |   30 | [cc] |
+| パスタ         |  165 | [g]  |

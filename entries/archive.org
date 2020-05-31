@@ -1668,7 +1668,7 @@ Vimconf に参加した時にいただいたノベルティに，鮭トバが入
 ** DONE ボロネーゼ                                                 :@cooking:
    CLOSED: [2018-12-30 Sun 01:45]
 :PROPERTIES:
-:EXPORT_FILE_NAME: 1230-pasta-boronase
+:EXPORT_FILE_NAME: 1230-pasta-bolognese
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
 :EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2019-01-16 Wed 01:42]
@@ -1748,7 +1748,7 @@ CLOSED: [2019-01-10 Thu 01:59]
 ** DONE たっぷり茄子のボロネーゼ                                   :@cooking:
 CLOSED: [2019-01-13 Sun 02:02]
 :PROPERTIES:
-:EXPORT_FILE_NAME: 0116-pasta-boronase
+:EXPORT_FILE_NAME: 0116-pasta-bolognese
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
 :EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2019-01-16 Wed 02:00]
@@ -1820,7 +1820,7 @@ XO醤を強めに使ったベビーホタテのパスタ．ランチで食べる
 ** DONE ボロネーゼ（解凍）                                         :@cooking:
 CLOSED: [2019-01-31 Thu 05:48]
 :PROPERTIES:
-:EXPORT_FILE_NAME: 0130-pasta-boronase
+:EXPORT_FILE_NAME: 0130-pasta-bolognese
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
 :EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2019-02-15 Fri 05:41]
@@ -2524,7 +2524,7 @@ CLOSED: [2019-05-01 Wed 18:40]
 ** DONE ボロネーゼ                                                 :@cooking:
 CLOSED: [2019-05-02 Thu 18:38]
 :PROPERTIES:
-:EXPORT_FILE_NAME: 0502-pasta-boronase
+:EXPORT_FILE_NAME: 0502-pasta-bolognese
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
 :EXPORT_HUGO_LASTMOD: 
 :ID:       F2347CDB-FF96-4FF4-B740-E5F202791AD9
@@ -2543,7 +2543,7 @@ CLOSED: [2019-05-02 Thu 18:38]
 ** DONE ボロネーゼ(2)                                              :@cooking:
 CLOSED: [2019-05-04 Sat 18:33]
 :PROPERTIES:
-:EXPORT_FILE_NAME: 0504-pasta-boronase
+:EXPORT_FILE_NAME: 0504-pasta-bolognese
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
 :EXPORT_HUGO_LASTMOD: 
 :ID:       CDA6B029-36CD-454C-90CE-6FBD626E2946
@@ -2872,7 +2872,7 @@ CLOSED: [2019-06-08 Sat 00:38]
 ** DONE ブカティーニ・ボロネーゼ                                   :@cooking:
 CLOSED: [2019-06-09 Sun 18:22]
 :PROPERTIES:
-:EXPORT_FILE_NAME: 0609-pasta-bucatini-boronase
+:EXPORT_FILE_NAME: 0609-pasta-bucatini-bolognese
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
 :EXPORT_HUGO_LASTMOD: 
 :ID:       E386373A-E0B4-4A1F-AE24-1F49A4542409
@@ -4020,7 +4020,7 @@ Qiita のオンラインエディタでは，画像をD&Dすると ~![filename](
 ** DONE ボロネーゼを仕込む                                         :@cooking:
    CLOSED: [2019-11-23 Sat 00:44]
 :PROPERTIES:
-:EXPORT_FILE_NAME: 1123-pasta-boronase
+:EXPORT_FILE_NAME: 1123-pasta-bolognese
 :EXPORT_HUGO_TAGS: 
 :EXPORT_HUGO_LASTMOD: 
 :EXPORT_HUGO_IMAGES: 
@@ -4063,7 +4063,7 @@ Qiita のオンラインエディタでは，画像をD&Dすると ~![filename](
 ** DONE きのこのボロネーゼ1                                        :@cooking:
    CLOSED: [2019-11-24 Sun 09:37]
 :PROPERTIES:
-:EXPORT_FILE_NAME: 1124-pasta-boronase
+:EXPORT_FILE_NAME: 1124-pasta-bolognese
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
 :EXPORT_HUGO_LASTMOD: 
 :EXPORT_HUGO_IMAGES: 
@@ -4078,7 +4078,7 @@ Qiita のオンラインエディタでは，画像をD&Dすると ~![filename](
 ** DONE きのこのボロネーゼ2                                        :@cooking:
    CLOSED: [2019-12-01 Sun 09:40]
 :PROPERTIES:
-:EXPORT_FILE_NAME: 1201-pasta-boronase
+:EXPORT_FILE_NAME: 1201-pasta-bolognese
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
 :EXPORT_HUGO_LASTMOD: 
 :EXPORT_HUGO_IMAGES: 
@@ -4093,7 +4093,7 @@ Qiita のオンラインエディタでは，画像をD&Dすると ~![filename](
 ** DONE きのこのボロネーゼ3                                        :@cooking:
    CLOSED: [2019-12-05 Thu 09:42]
 :PROPERTIES:
-:EXPORT_FILE_NAME: 1205-pasta-boronase
+:EXPORT_FILE_NAME: 1205-pasta-bolognese
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
 :EXPORT_HUGO_LASTMOD: 
 :EXPORT_HUGO_IMAGES: 
@@ -4139,7 +4139,7 @@ Qiita のオンラインエディタでは，画像をD&Dすると ~![filename](
 ** DONE きのこのボロネーゼ4                                        :@cooking:
    CLOSED: [2019-12-17 Tue 09:54]
 :PROPERTIES:
-:EXPORT_FILE_NAME: 1217-pasta-boronase
+:EXPORT_FILE_NAME: 1217-pasta-bolognese
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
 :EXPORT_HUGO_LASTMOD: 
 :EXPORT_HUGO_IMAGES: 
