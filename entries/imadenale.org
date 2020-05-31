@@ -724,10 +724,153 @@ MacBook Air を新調しました！ゴールドです！
 
 {{< tweet 1248863662820831232 >}}
 
-そして個人的にはこれが初めての Retinaディスプレイです．とても綺麗で満足しています．老眼にはぴったりです．あと軽く感動したのは，愛用している 1Password の解錠を，Touch IDでできたことです．結構な頻度でマスターパスワードを打ち込んでいるので，タッチするだけで解錠できるのはとても楽です．
+そして個人的にはこれが初めての Retinaディスプレイです．とても綺麗で満足しています．老眼にはぴったりです．あと軽く感動したのは，愛用している [[https://1password.com/jp/][1Password]] の解錠を，Touch IDでできたことです．結構な頻度でマスターパスワードを打ち込んでいるので，タッチするだけで解錠できるのはとても楽です．
 
 {{< tweet 1248865249819680768 >}}
 
-それにしても合わせて買った USB-C Digital AV Multiport アダプタが高すぎで泣けます．HDMI出力のために 6400円のアダプタとは...
+それにしても合わせて買った [[https://www.apple.com/jp/shop/product/MUF82ZA/A/usb-c-digital-av-multiport%E3%82%A2%E3%83%80%E3%83%97%E3%82%BF][USB-C Digital AV Multiport アダプタ]]が高すぎで泣けます．HDMI出力のために 6800円のアダプタとは...
 
+しかも，アダプタの USB-C ポートは電源供給のみに対応していて，データ転送できないというオチでした．
 
+コロナ禍の影響で MacBook Air を持ち出す機会がないですが，スペック上の 1.29[kg]なので，少々重いかなという感じです．それまで外に持ち出していたのが [[https://support.apple.com/kb/SP713?locale=ja_JP][11インチのMBA]]だった（1.08[kg]）ので，それと比較しているのも重く感じる要因です．重量差というよりは，重心の位置の問題な気がします．
+
+持ち出してはいないですが，ケースもちゃんと入手しました．でかい！
+
+{{< tweet 1253527060347097088 >}}
+
+{{< asin B06XWTZN2F >}}
+
+** DONE ボロネーゼ(解凍)                                           :@cooking:
+   CLOSED: [2020-04-11 Sat 13:32]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0411-pasta-bolonase
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       76A722A1-EEE7-4984-A663-1D7C74ECD721
+:CREATED:  [2020-05-31 Sun 13:30]
+:END:
+
+余っていた市販のホワイトソースを混ぜ込んでみました．これはこれで旨いです．
+
+{{< tweet 1248922257692352512 >}}
+** DONE MBA2020 で emacs を動かす                                    :@emacs:
+   CLOSED: [2020-04-12 Sun 13:37]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0412-emacs-on-windows
+:EXPORT_HUGO_TAGS: "apple" "mac"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       EACE1D15-D83A-4AC3-A4F8-CD79F50E2732
+:CREATED:  [2020-05-31 Sun 13:33]
+:END:
+
+新調した MacBook Air に Windows を入れて，Emacs を動かしました．Emacs は，MSYS2を使ってインストールしていて，意外と簡単に動かせますね．
+
+{{< tweet 1249132163901075457 >}}
+
+*** References
+ - [[https://www.msys2.org/][MSYS2]]
+** DONE メランザーネ                                               :@cooking:
+   CLOSED: [2020-04-12 Sun 13:43]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0412-melanzane
+:EXPORT_HUGO_TAGS: "secondo"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       BB9D791F-5384-4360-AE09-07C7FD1CBA58
+:CREATED:  [2020-05-31 Sun 13:38]
+:END:
+
+ボロネーゼソースを使ってメランザーネを作りました．
+
+味は2種類で，
+
+- ガーリックとアンチョビのソテー
+- 舞茸とニンニクの芽のソテー
+
+をボロネーゼソースと合わせてナスの上にのせています．
+
+ただ，素人感がひどいです．食材の選び方とカット方法から考えないとだめですね．普通のナスを薄切りにすると，味の善し悪しの前に食べにくいです．
+
+{{< tweet 1249302408699633666 >}}
+** DONE ポークソテー                                               :@cooking:
+   CLOSED: [2020-04-15 Sun 13:48]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0415-pork-saute
+:EXPORT_HUGO_TAGS: "secondo"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       16304341-C7FD-41EC-A92A-B292034A8B9C
+:CREATED:  [2020-05-31 Sun 13:44]
+:END:
+
+我が家では定番になっているソテーしたポークのタリアータです．
+
+{{< tweet 1250380555209719808 >}}
+
+ソースは独自の和風です．
+
+#+caption: ポークソテー用ソース（材料・二皿分）
+| 材料   | 分量 | 単位 |
+|--------+------+------|
+| 玉ねぎ |  1/8 | 個   |
+| 白だし |   10 | [cc] |
+| みりん |   10 | [cc] |
+| 醤油   |   10 | [cc] |
+| バター |   10 | [g]  |
+** DONE 角煮ラーメン                                               :@cooking:
+   CLOSED: [2020-04-18 Sat 13:51]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0418-ramen
+:EXPORT_HUGO_TAGS: "ramen"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       E7AE4BEF-6894-437A-931F-6B80DC3B3E06
+:CREATED:  [2020-05-31 Sun 13:49]
+:END:
+
+スーパーで色々具材を選んでいたら結果的に量が多すぎに．パスタと同じで，何でも入れればいいてもんじゃないですね．
+
+{{< tweet 1251361842707890178 >}}
+** DONE 茄子としめじのパスタ                                       :@cooking:
+   CLOSED: [2020-04-19 Sun 13:54]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0419-pasta-nasu-shimeji
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       FB471818-E22E-4055-862D-63EDC6A512F2
+:CREATED:  [2020-05-31 Sun 13:51]
+:END:
+
+あまり気味になった茄子でパスタを作りました．塩分調整で最後に加える塩は，ミルで削る岩塩ではなく，粒度の細かい塩を使うべきだと学びました．削ったばかりの塩をパスタにかけると，塩が溶けず，一部だけ塩味が強くなってしまいます．
+
+{{< tweet 1251702785688563713 >}}
+** DONE ホタテとベーコンのパスタ                                   :@cooking:
+   CLOSED: [2020-04-23 Thu 14:03]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0423-pasta-bacon-hotate
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       92FA217E-DED4-44B6-9CBB-A0028F056B63
+:CREATED:  [2020-05-31 Sun 14:00]
+:END:
+
+久しぶりにベビーホタテが売られていたのでベーコンと合わせてパスタにしました．ちょっと味のバランスが悪いかなという印象です．
+
+{{< tweet 1253279051113873408 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ニンニク       |    2 | 片   |
+| 玉ねぎ         |  1/8 | 個   |
+| オリーブ       |    3 | 粒   |
+| ベーコン       | 適量 |      |
+| ベビーホタテ   |   数 | 個   |
+| 白ワイン       |   20 | [cc] |
+| 茹で汁(1.2%)   |   40 | [cc] |
+| パスタ         |  160 | [g]  |

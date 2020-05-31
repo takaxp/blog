@@ -1,0 +1,42 @@
+{
+	"ItemLookupResponse": {
+		"Items": {
+			"Item": {
+				"ASIN": {
+					"value": "BB06XWTZN2F"
+				},
+				"DetailPageURL": {
+					"value": "https://www.amazon.co.jp/gp/product/B06XWTZN2F/ref=as_li_ss_tl?ie=UTF8&psc=1&&linkCode=ll1&tag=pxaka-22&linkId=d1e88aad5d428713d6f68394cdecf826&language=ja_JP"
+				},
+				"SmallImage": {
+					"URL": {
+						"value": "https://m.media-amazon.com/images/S/aplus-media/sc/5434bf8d-d233-4351-8505-b93789b1ab13.__CR0,0,1000,1000_PT0_SX300_V1___.jpg"
+					},
+					"Height": {
+						"Units": "pixels",
+						"value": "60"
+					},
+					"Width": {
+						"Units": "pixels",
+						"value": "150"
+					}
+				},
+				"ItemAttributes": {
+					"Title": {
+						"value": "tomtoc 360°保護 耐衝撃 ノートパソコンケース 13インチ MacBook Air 2018-2020 Retina"
+					}
+				},
+        "OfferSummary": {
+					"LowestNewPrice": {
+						"Amount": {
+							"value": "2299"
+						},
+						"CurrencyCode": {
+							"value": "JPY"
+						}
+					}
+				}
+			}
+		}
+	}
+}
