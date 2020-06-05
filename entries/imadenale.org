@@ -1083,7 +1083,8 @@ MacBook Air を新調しました！ゴールドです！
 | 茹で汁(1.0%)         |   10 | [cc] |
 | バター               |   10 | [g]  |
 | パスタ               |  160 | [g]  |
-** TODO ラーメン                                                   :@cooking:
+** DONE ラーメン                                                   :@cooking:
+   CLOSED: [2020-05-15 Fri 17:36]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0515-ramen
 :EXPORT_HUGO_TAGS: "ramen"
@@ -1096,6 +1097,7 @@ MacBook Air を新調しました！ゴールドです！
 食材の量は抑え気味に，でも野菜炒めはしっかりと味をつけたラーメンを作りました．このくらいの分量でもまだ多めな感じ．
 
 {{< tweet 1261250631609643009 >}}
+
 ** DONE トラックパッドでドラッグ                                      :@tech:
    CLOSED: [2020-05-20 Wed 15:25]
 :PROPERTIES:
@@ -1149,3 +1151,86 @@ MacBook Air を新調しました！ゴールドです！
 | バター         |   10 | [g]  |
 | 茹で汁(1.0%)   |   30 | [cc] |
 | パスタ         |  165 | [g]  |
+** DONE まっさら環境でとりあえず elget を使う                        :@emacs:
+   CLOSED: [2020-06-02 Tue 10:04]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 4b60b09a-73c0-9964-a67b-6e5369549e4c
+:EXPORT_HUGO_TAGS: "emacs" "el-get"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       C87DF708-D01E-4810-953C-59DFAF365A06
+:CREATED:  [2020-06-02 Tue 10:02]
+:END:
+
+自分向けのメモです．Linux 向け．とりあえず以下で良さそう．
+
+#+begin_src sh
+install git curl global texinfo fzf silversearcher-ag hunspell
+mkdir devel Dropbox && cd ~/Dropbox/emacs.d/setup && bash ./setup.sh
+cd ~/Dropbox/emacs.d/bin/ && bash update-elget.sh -s
+#+end_src
+
+で，次を ~.emacs~ に書き込む．
+
+#+begin_src emacs-lisp
+(when (require 'elget-setup nil t)
+  (my-elget-setup)
+  (el-get-bundle "takaxp/moom") ;; package for testing
+  (el-get 'sync))
+#+end_src
+
+簡易的な試験をしたいだけならこれでヨシ
+** DONE ニンニクとベーコンのパスタ                                 :@cooking:
+   CLOSED: [2020-06-03 Wed 17:31]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0503-pasta-bacon
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       CADF56F2-B13C-4A86-A150-7AAC6C57D2F0
+:CREATED:  [2020-06-03 Wed 17:28]
+:END:
+
+冷蔵庫の余りものでパスタを作りました．ベーコンは，前回，香りがきついと感じたものですが，今回は冷蔵庫でしばらく放置したからか香りが落ち着いていて，全体としてバランスの良い一皿になりました．
+
+{{< tweet 1268018406688567296 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ニンニク       |    2 | 片   |
+| 玉ねぎ         |  1/4 | 個   |
+| ベーコン       |    2 | 枚   |
+| ミニトマト     |    2 | 個   |
+| 茹で汁(1.1%)   |   30 | [cc] |
+| パスタ         |  160 | [g]  |
+** DONE 拙作パッケージのメンテナンス                                 :@emacs:
+   CLOSED: [2020-06-06 Sat 00:25]
+:PROPERTIES:
+:EXPORT_FILE_NAME: c4a3a29a-1aef-d504-fca3-e265c1cafc7a
+:EXPORT_HUGO_TAGS: "emacs" "org-mode"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       96ABAB53-C4F8-4985-9ED0-9F6B3F140C92
+:CREATED:  [2020-06-06 Sat 00:11]
+:END:
+
+拙作のパッケージのメンテナンスを再開しました．どちらもまだまだ改良が必要なのですが，とりあえずはドキュメントの更新からでしょうか...
+
+*** org-tree-slide.el
+
+ - [[https://github.com/takaxp/org-tree-slide][takaxp/org-tree-slide: A presentation tool for org-mode based on the visibility of outline trees]]
+ - [[https://orgmode.org/worg/org-tutorials/non-beamer-presentations.html][Writing Non-Beamer presentations in org-mode]]
+ - [[https://pxaka.tokyo/wiki/emacs:org-tree-slide][emacs:org-tree-slide - wiki]]
+
+Emacs でプレゼンテーションしたくて作り始めたパッケージです．最近の自分の Emacs の使い方としては，プレゼンテーションモードに突入しないでも， [[https://orgmode.org/][org-mode]] のツリーを ~fold/unfold~ (=tab= のtoggle) したり， ~narrowing/widen~ (=s= のtoggle) したりして対応しています．なので，このパッケージの出番が少し減っていました．出番が減ると，メンテナンスする機会が減りますよね．
+
+Wiki の記事はかなり古いので，書き直して再公開したいです．
+
+*** moom.el
+
+ - [[https://github.com/takaxp/moom][takaxp/moom: A Moom port to Emacs - Make your dominant hand FREE from your mouse]]
+ - [[https://qiita.com/takaxp/items/0f094eb94554eb08ace3][Moom - Qiita]]
+
+Emacs のフレームをマウスで動かしたり，マウスでフレームサイズを変更するのが嫌で作ったパッケージです．キーボード操作だけでスクリーン上の Emacs ウィンドウの位置を制御できます．もともと Manytricks の [[https://manytricks.com/moom/][moom]] というデスクトップアプリからインスパイヤされて作り始めましたが，気づけば独自機能満載の便利ツールに仕上がっています．日本語フォントの拡大縮小にも対応していて，[[https://github.com/takaxp/org-tree-slide][org-tree-slide.el]] で全画面プレゼンテーションする時にも重宝します．macOSでの利用を前提としています．Linux と Windows でも動きますが，色々と微調整が必要なのでまだ正式対応とは言えない状態です．
