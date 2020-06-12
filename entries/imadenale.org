@@ -3,6 +3,7 @@
 #+macro: latex @@html:<span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>@@
 #+options: ^:{}
 #+macro: srclink (eval (org-hugo-get-link-to-orgfile "https://github.com/takaxp/blog/blame/master/entries/" "see Orgfile"))
+#+link: files https://raw.githubusercontent.com/takaxp/takaxp.github.io/master/files
 
 * 2020
 :PROPERTIES:
@@ -1165,9 +1166,9 @@ MacBook Air を新調しました！ゴールドです！
 自分向けのメモです．Linux 向け．とりあえず以下で良さそう．
 
 #+begin_src sh
-install git curl global texinfo fzf silversearcher-ag hunspell
+install git curl global texinfo fzf silversearcher-ag hunspell cmake libgnutls28-dev 
 mkdir devel Dropbox && cd ~/Dropbox/emacs.d/setup && bash ./setup.sh
-cd ~/Dropbox/emacs.d/bin/ && bash update-elget.sh -s
+cd ~/Dropbox/emacs.d/bin/ && bash el-get.sh -s
 #+end_src
 
 で，次を ~.emacs~ に書き込む．
@@ -1210,7 +1211,7 @@ cd ~/Dropbox/emacs.d/bin/ && bash update-elget.sh -s
 :PROPERTIES:
 :EXPORT_FILE_NAME: c4a3a29a-1aef-d504-fca3-e265c1cafc7a
 :EXPORT_HUGO_TAGS: "emacs" "org-mode"
-:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_LASTMOD: [2020-06-07 Sun 11:00]
 :EXPORT_HUGO_IMAGES: 
 :ID:       96ABAB53-C4F8-4985-9ED0-9F6B3F140C92
 :CREATED:  [2020-06-06 Sat 00:11]
@@ -1222,11 +1223,13 @@ cd ~/Dropbox/emacs.d/bin/ && bash update-elget.sh -s
 
  - [[https://github.com/takaxp/org-tree-slide][takaxp/org-tree-slide: A presentation tool for org-mode based on the visibility of outline trees]]
  - [[https://orgmode.org/worg/org-tutorials/non-beamer-presentations.html][Writing Non-Beamer presentations in org-mode]]
- - [[https://pxaka.tokyo/wiki/emacs:org-tree-slide][emacs:org-tree-slide - wiki]]
+ - [[https://qiita.com/takaxp/items/8dfb5d34dfcd79f9fa5c][org-modeのツリーでスライドショー - Qiita]]
 
 Emacs でプレゼンテーションしたくて作り始めたパッケージです．最近の自分の Emacs の使い方としては，プレゼンテーションモードに突入しないでも， [[https://orgmode.org/][org-mode]] のツリーを ~fold/unfold~ (=tab= のtoggle) したり， ~narrowing/widen~ (=s= のtoggle) したりして対応しています．なので，このパッケージの出番が少し減っていました．出番が減ると，メンテナンスする機会が減りますよね．
 
-Wiki の記事はかなり古いので，書き直して再公開したいです．
+Qiitaに移築した Wiki の記事はかなり古いので，書き直して再公開したいです．
+
+[[files:/201x/072a87ca-9033-3c24-91eb-f1a1bf158c75.gif]]
 
 *** moom.el
 
@@ -1234,3 +1237,38 @@ Wiki の記事はかなり古いので，書き直して再公開したいです
  - [[https://qiita.com/takaxp/items/0f094eb94554eb08ace3][Moom - Qiita]]
 
 Emacs のフレームをマウスで動かしたり，マウスでフレームサイズを変更するのが嫌で作ったパッケージです．キーボード操作だけでスクリーン上の Emacs ウィンドウの位置を制御できます．もともと Manytricks の [[https://manytricks.com/moom/][moom]] というデスクトップアプリからインスパイヤされて作り始めましたが，気づけば独自機能満載の便利ツールに仕上がっています．日本語フォントの拡大縮小にも対応していて，[[https://github.com/takaxp/org-tree-slide][org-tree-slide.el]] で全画面プレゼンテーションする時にも重宝します．macOSでの利用を前提としています．Linux と Windows でも動きますが，色々と微調整が必要なのでまだ正式対応とは言えない状態です．
+
+[[files:/201x/fc0fafe5-4e83-6444-683b-b3bfa21af4ca.gif]]
+** DONE org-table.el のエコー表示を安定化                            :@emacs:
+   CLOSED: [2020-06-12 Fri 10:28]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 67fe3ac1-2dc0-f9f4-5973-caa0eb395bec
+:EXPORT_HUGO_TAGS: "emacs" "org-mode" "org-table"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       73AFD1B6-239A-45E0-9276-9D904DD6A6B6
+:CREATED:  [2020-06-12 Fri 10:18]
+:END:
+
+私は普段から自動保存機能（[[http://0xcc.net/misc/auto-save/][auto-save-buffer.el]]）を利用しているので， org table のセルで ~C-c ?~ 押下でエコーエリアに表示される情報がすぐ消えてしまいます．
+
+~org-table-field-info (C-c ?)~ は
+
+#+begin_src
+line @2, col $1, ref @2$1 or A2 or $LR1
+#+end_src
+
+のような情報をエコーエリアに出してくれる機能で， =tblfm= で指定する数式に使用します．（私が施している設定が主な要因で）これが自動保存時に消えるため，保存してからエコーエリアに表示するように変更します．
+
+#+begin_src emacs-lisp
+(defun ad:org-table-field-info (_arg)
+  (save-buffer))
+(advice-add 'org-table-field-info :before #'ad:org-table-field-info)
+#+end_src
+
+これで表示が消えなくなりました．簡単！
+
+*** References
+ - [[http://0xcc.net/misc/auto-save/][Emacsでファイルの自動保存 (auto-save-buffers)]]
+ - [[https://takaxp.github.io/init.html#orgb8c01946][Configurations for GNU Emacs | 8.12 [auto-save-buffers.el] 一定間隔でバッファを保存する]]
+ - [[https://github.com/ChillarAnand/real-auto-save][ChillarAnand/real-auto-save: Automatically save your all your buffers/files at regular intervals in Emacs!]]

@@ -549,7 +549,7 @@ https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
    CLOSED: [2018-09-03 Mon 17:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-link-to-the-original-org-source-file
-:EXPORT_HUGO_TAGS: "orgmode"
+:EXPORT_HUGO_TAGS: "org-mode" "emacs"
 :EXPORT_HUGO_LASTMOD: [2018-10-09 Tue 01:11]
 :CREATED:  [2018-09-03 Mon 16:55]
 :END:
@@ -980,7 +980,7 @@ Emacsを使い始めて基本的な操作に慣れてくると，たくさんの
    CLOSED: [2018-10-08 Mon 22:59]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 58e5bcee-1fb9-48a4-628b-a80692983bfe
-:EXPORT_HUGO_TAGS: "orgmode"
+:EXPORT_HUGO_TAGS: "org-mode" "emacs"
 :EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-10-08 Mon 22:23]
 :END:
@@ -3658,7 +3658,7 @@ Qiita のオンラインエディタでは，画像をD&Dすると ~![filename](
    CLOSED: [2019-10-01 Tue 22:06]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a7ef3cd5-df52-2004-db2b-03d36ef48555
-:EXPORT_HUGO_TAGS: "orgmode" "eldoc" "org-link"
+:EXPORT_HUGO_TAGS: "org-mode" "eldoc" "org-link"
 :EXPORT_HUGO_LASTMOD: [2019-11-19 Tue 10:30]
 :EXPORT_HUGO_IMAGES: 
 :ID:       88DE0FE1-E266-44FB-8E4E-DFE3967E8831
