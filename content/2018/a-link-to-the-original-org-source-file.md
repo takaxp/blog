@@ -3,8 +3,8 @@ title = "記事の Org file にリンクを貼る"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-09-03T17:02:00+09:00
 lastmod = 2018-10-09T01:11:00+09:00
-tags = ["org-mode", "emacs"]
-categories = ["hugo"]
+tags = ["org-mode", "emacs", "hugo"]
+categories = ["tech"]
 draft = false
 +++
 
@@ -44,7 +44,7 @@ draft = false
 
 しばらくこれで運用してみる．
 
-[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/archive.org#L548)
+[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/archive.org#L544)
 
 
 ## Updated (2018-09-04@00:44) {#updated--2018-09-04-00-44}
