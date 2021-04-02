@@ -9,7 +9,7 @@
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: 2016
 :END:
-** はじめてのHugo                                             :go:blog:@hugo:
+** はじめてのHugo                                             :go:blog:@tech:
 :PROPERTIES:
 :EXPORT_FILE_NAME: init-entry-by-hugo
 :EXPORT_DATE: 2016-08-21T00:56:32+09:00
@@ -69,7 +69,7 @@ Now, a new blog is up by Hugo!
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: 2018
 :END:
-** DONE ox-hugo テスト                                                :@hugo:
+** DONE ox-hugo テスト                                                :@tech:
    CLOSED: [2018-08-20 Mon 18:23]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-ox-hugo
@@ -135,7 +135,7 @@ Now, a new blog is up by Hugo!
 *** タスク
 **** TODO タスク
      DEADLINE: <2017-03-01 Wed>
-** DONE twitter 組み込みテスト                                        :@hugo:
+** DONE twitter 組み込みテスト                                        :@tech:
    CLOSED: [2018-08-20 Mon 20:10]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-twitter-card
@@ -149,7 +149,7 @@ Twitter を組み込めるのかを試験します．
 *** References
  - https://gohugo.io/content-management/shortcodes/#example-tweet-input
 
-** DONE YouTube 組み込みテスト                                        :@hugo:
+** DONE YouTube 組み込みテスト                                        :@tech:
    CLOSED: [2018-08-20 Mon 20:28]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-youtube
@@ -163,7 +163,7 @@ YouTube の動画を組み込めるのかを試験します．
 *** References
  - [[https://gohugo.io/content-management/shortcodes/#example-youtube-input][Shortcodes | Hugo]]
 
-** DONE 数式の展開テスト                                              :@hugo:
+** DONE 数式の展開テスト                                              :@tech:
    CLOSED: [2018-08-21 Tue 02:05]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-mathjax-text
@@ -245,7 +245,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
 
 {{< tweet 1028952922116173825 >}}
 
-** DONE Gistの展開テスト                                              :@hugo:
+** DONE Gistの展開テスト                                              :@tech:
    CLOSED: [2018-08-21 Tue 16:25]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-gist
@@ -256,7 +256,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
 
 {{< gist takaxp 8f83f07d3fc4b711d2d18f5f82767524 >}}
 
-** DONE アマゾンアフィリエイトコードの展開テスト                      :@hugo:
+** DONE アマゾンアフィリエイトコードの展開テスト                      :@tech:
    CLOSED: [2018-08-23 Thu 00:37]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-asin-shortcode
@@ -314,7 +314,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
  - [[http://associates-amazon.s3.amazonaws.com/signed-requests/helper/index.html][Signed Requests Helper - Amazon Product Advertising API]]
  - [[https://docs.aws.amazon.com/AWSECommerceService/latest/DG/HMACSignatures.html][HMAC-SHA256 Signatures for REST Requests - Product Advertising API]]
  - [[https://docs.aws.amazon.com/AWSECommerceService/latest/DG/rest-signature.html][Example REST Requests - Product Advertising API]]
-** DONE 画像の埋め込みテスト                                          :@hugo:
+** DONE 画像の埋め込みテスト                                          :@tech:
    CLOSED: [2018-08-24 Fri 14:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-images
@@ -383,7 +383,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
 
 *** References
  - [[https://github.com/gohugoio/hugo/issues/4562][Figure shortcode with baseURL · Issue #4562 · gohugoio/hugo]]
-** DONE ファイル名をUUIDで自動生成するテスト                          :@hugo:
+** DONE ファイル名をUUIDで自動生成するテスト                          :@tech:
    CLOSED: [2018-08-24 Fri 19:44]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 44febe88-04a5-9bc4-6bfb-678a8477a0ed
@@ -405,7 +405,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
            (file+headline ,org-capture-blog-file ,(format-time-string "%Y"))
            "** TODO \n:PROPERTIES:\n:EXPORT_FILE_NAME: %?\n:END:\n"))))
 #+end_src
-** DONE Hugo の data ディレクトリ                                     :@hugo:
+** DONE Hugo の data ディレクトリ                                     :@tech:
    CLOSED: [2018-08-25 Sat 04:11]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 62d73d4b-439b-cf74-1bf3-ecae75bd7bd2
@@ -541,11 +541,11 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
 
 {{{srclink}}}
 
-** DONE 記事の Org file にリンクを貼る                                :@hugo:
+** DONE 記事の Org file にリンクを貼る                                :@tech:
    CLOSED: [2018-09-03 Mon 17:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-link-to-the-original-org-source-file
-:EXPORT_HUGO_TAGS: "org-mode" "emacs"
+:EXPORT_HUGO_TAGS: "org-mode" "emacs" "hugo"
 :EXPORT_HUGO_LASTMOD: [2018-10-09 Tue 01:11]
 :CREATED:  [2018-09-03 Mon 16:55]
 :END:
@@ -972,11 +972,11 @@ Emacsを使い始めて基本的な操作に慣れてくると，たくさんの
 | オイル       |   20 | [cc] |
 | 茹で汁(1.1%) |   30 | [cc] |
 | パスタ       |  180 | [g]  |
-** DONE 最終変更日の手動設定                                          :@hugo:
+** DONE 最終変更日の手動設定                                          :@tech:
    CLOSED: [2018-10-08 Mon 22:59]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 58e5bcee-1fb9-48a4-628b-a80692983bfe
-:EXPORT_HUGO_TAGS: "org-mode" "emacs"
+:EXPORT_HUGO_TAGS: "org-mode" "emacs" "hugo"
 :EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-10-08 Mon 22:23]
 :END:
@@ -4525,11 +4525,11 @@ Qiita のオンラインエディタでは，画像をD&Dすると ~![filename](
 梅干しの酸味とアンチョビが合うかなと思ってトライしてみました．でも一緒に使った豚バラが想像以上に力強くて，他の味が消えてしまう結果に．
 
 {{< tweet 1225037631307665408 >}}
-** DONE テーマの設定が変わっていた                                    :@hugo:
+** DONE テーマの設定が変わっていた                                    :@tech:
    CLOSED: [2020-02-11 Tue 00:44]
 :PROPERTIES:
 :EXPORT_FILE_NAME: b9431770-3127-7df4-2fbb-31a3ef4413b1
-:EXPORT_HUGO_TAGS: "Mainroad"
+:EXPORT_HUGO_TAGS: "Mainroad" "hugo"
 :EXPORT_HUGO_LASTMOD: 
 :EXPORT_HUGO_IMAGES: 
 :ID:       814C2BC0-2AF7-4E69-8C51-03B7E3449A5B
