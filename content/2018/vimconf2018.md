@@ -101,7 +101,7 @@ LTの応募をしたときはもう頭がどうかしていて，すべて  [vim
 
 なお，このブログも Org Mode（のエクスポータである [ox-hugo](https://ox-hugo.scripter.co/)）の恩恵です．
 
-[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/imadenale.org#L1246)
+[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/archive.org#L1313)
 
 
 ## パスタ {#パスタ}
