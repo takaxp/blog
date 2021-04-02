@@ -3,6 +3,7 @@
 #+macro: latex @@html:<span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>@@
 #+options: ^:{}
 #+macro: srclink (eval (org-hugo-get-link-to-orgfile "https://github.com/takaxp/blog/blame/master/entries/" "see Orgfile"))
+#+link: files https://pxaka.tokyo/blog/files/
 
 * 2016
 :PROPERTIES:
@@ -317,7 +318,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
    CLOSED: [2018-08-24 Fri 14:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-images
-:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_LASTMOD: [2021-01-02 Sat 23:48]
 :CREATED:  [2018-08-23 Thu 02:19]
 :END:
 
@@ -336,7 +337,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
 
 短縮名設定は，org バッファの先頭で，
 #+begin_src org
-#+link: files https://pxaka.tokyo/blog/files/2018/
+#+link: files https://pxaka.tokyo/blog/files/
 #+end_src
 と記述して，同行上で =C-c C-c= で忘れずに有効化する．
 
@@ -372,11 +373,6 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
 
 #+attr_html: :width 128px
 [[../static/files/2018/twitter.jpg][files/2018/twitter.jpg]]
-
-[[https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg]]
-
-#+attr_html: :width 128px
-https://pbs.twimg.com/profile_images/892836904202149888/p_UbMC5Q_400x400.jpg
 
 #+attr_html: :width 128px
 [[https://pxaka.tokyo/owncloud/index.php/s/sf1CNSc3oLfKfuq]]
@@ -1214,7 +1210,7 @@ M-x package-install
 ** DONE XO醤のアラビアータ                                         :@cooking:
    CLOSED: [2018-11-11 Sun 01:01]
 :PROPERTIES:
-:EXPORT_FILE_NAME: 1111-pasta-arrabiata
+:EXPORT_FILE_NAME: 1111-pasta-arrabbiata
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
 :EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-12-05 Wed 00:56]
@@ -1978,7 +1974,7 @@ CLOSED: [2019-02-15 Fri 16:47]
 ** DONE アラビアータ                                               :@cooking:
 CLOSED: [2019-02-16 Sat 17:01]
 :PROPERTIES:
-:EXPORT_FILE_NAME: 0216-pasta-arrabiata
+:EXPORT_FILE_NAME: 0216-pasta-arrabbiata
 :EXPORT_HUGO_TAGS: "pasta" "tomato"
 :EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2019-02-16 Sat 16:53]
@@ -3706,7 +3702,7 @@ Qiita のオンラインエディタでは，画像をD&Dすると ~![filename](
 :PROPERTIES:
 :EXPORT_FILE_NAME: 7f6518aa-bab0-91a4-53b3-ba3b8f02a481
 :EXPORT_HUGO_TAGS: "emacs" "ah" "hook"
-:EXPORT_HUGO_LASTMOD: [2019-11-18 Mon 10:34]
+:EXPORT_HUGO_LASTMOD: [2021-02-11 Thu 10:32]
 :EXPORT_HUGO_IMAGES: 
 :ID:       0F42FE16-6068-445C-A557-9395DA021D9C
 :CREATED:  [2019-10-05 Sat 17:00]
@@ -3723,6 +3719,7 @@ Qiita のオンラインエディタでは，画像をD&Dすると ~![filename](
 #+begin_src emacs-lisp
 (defvar my-cg-bookmark "c-g-point-last")
 (defun my-cg-bookmark ()
+  (push-mark)
   (when (and buffer-file-name
              isearch-mode)
     (bookmark-set my-cg-bookmark)))
@@ -3735,7 +3732,8 @@ Qiita のオンラインエディタでは，画像をD&Dすると ~![filename](
 
 便利！
 
-*** COMMENT updates
+*** updates
+ - [2021-02-11 Thu] =mark= を記録するように改良
  - [2019-10-06 Sun] =buffer-file-name= を確認するように改良
  - [2019-11-18 Mon] =isearch-mode= を確認するように改良
 ** DONE しらすとアンチョビのパスタ(2)                              :@cooking:
@@ -4243,3 +4241,1875 @@ Qiita のオンラインエディタでは，画像をD&Dすると ~![filename](
 リベンジできました．ポイントはオリーブにちゃんと火を入れることと，酸味と塩味のバランスを整えることですね．
 
 {{< tweet 1211841646100238337 >}}
+* 2020
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: 2020
+:ID:       4933CB55-CAE6-4DA2-83AD-4B894C055994
+:END:
+** DONE 梅とハムのパスタ                                           :@cooking:
+   CLOSED: [2020-01-03 Fri 17:15]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0103-pasta-umeboshi-and-ham
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       6CBE376B-5A54-4F07-81B1-A57277378275
+:CREATED:  [2020-02-10 Mon 17:13]
+:END:
+
+ベーコンで作っていた梅のパスタでハムを使ってみました．しかし，ハムの主張が強くてバランスが崩れてしまいました．
+
+{{< tweet 1212927429901078528 >}}
+
+** DONE 梅のパスタ                                                 :@cooking:
+   CLOSED: [2020-01-04 Sat 17:21]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0104-pasta-umeboshi
+:EXPORT_HUGO_TAGS: "pasta" "wafu"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       D7C1B3C8-AFE7-4EB7-B8C2-93C32CD4E099
+:CREATED:  [2020-02-10 Mon 17:16]
+:END:
+
+梅干しを使うパスタを和風パスタに応用してみました．イマイチでした．
+
+{{< tweet 1213291019921326087 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| 玉ねぎ         |  1/8 | 個   |
+| みりん         |   10 | [cc] |
+| 白だし         |   10 | [cc] |
+| 醤油           |   10 | [cc] |
+| 梅干し         |    1 | 個   |
+| ケイパー       | 少々 |      |
+| バター         |   10 | [g]  |
+| パスタ         |  160 | [g]  |
+** DONE ハムのパスタ                                               :@cooking:
+   CLOSED: [2020-01-05 Sun 17:26]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0105-pasta-ham-with-tomato
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       3E470151-B938-4E3A-9C5B-300836FB2F5A
+:CREATED:  [2020-02-10 Mon 17:23]
+:END:
+
+ハムを消化するためにトマトパスタにしてみました．ハムの味が強すぎて，ちょっとパスタには合わないです．
+
+{{< tweet 1213667714981494784 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料                 | 分量 | 単位 |
+|----------------------+------+------|
+| オリーブオイル       |   30 | [cc] |
+| ハム                 | 適量 |      |
+| オリーブ浸けのオイル | 少々 |      |
+| 小トマト             |    1 | 個   |
+| 水                   |   15 | [cc] |
+| 茹で汁(1.1%)         |   30 | [cc] |
+| パスタ               |  160 | [g]  |
+** DONE ベーコンペペロンチーノ                                     :@cooking:
+   CLOSED: [2020-01-12 Sun 17:49]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0112-pasta-bacon-peperoncino
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       17D0CFD4-CBA6-494C-9F89-600C75FFB585
+:CREATED:  [2020-02-10 Mon 17:46]
+:END:
+
+さっと作りました．
+
+{{< tweet 1216246468308135936 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| にんにく       |    1 | 片   |
+| 玉ねぎ(小)     |  1/4 | 個   |
+| ベーコン       |    2 | 枚   |
+| 輪切り鷹の爪   | 少々 |      |
+| 白ワイン       |   15 | [cc] |
+| 茹で汁(1.1%)   |   20 | [cc] |
+| パスタ         |  170 | [g]  |
+** DONE 出張先で料理                                               :@cooking:
+   CLOSED: [2020-01-26 Sun 18:32]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0126-cooking-in-hotel
+:EXPORT_HUGO_TAGS: 
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       19F3FF2F-F056-4E3B-A9B7-3B15B7660ADF
+:CREATED:  [2020-02-10 Mon 18:28]
+:END:
+
+出張先でキッチン付きのホテルを使うのが最近のマイルールです．
+
+ホテルの近くのスーパーで食材を買い込んで，ホテルで調理して食べます．量の調整もでき，それなりに安定した旨さの食事になるのがメリットです．
+
+初日に買い込んだ食材は，ほぼほぼ約一週間で消化して，余りは持ち帰りました．
+
+{{< tweet 1218354371483693056 >}}
+
+#+caption: 初日の購入食材（一週間分の基礎）
+| 食材           | 量     | メモ                       |
+|----------------+--------+----------------------------|
+| にんにく（小） | 4個    | 丁度よい                   |
+| トマトソース   | 400[g] | 丁度よい                   |
+| 塩             | 200[g] | 使いきれず                 |
+| 玉ねぎ（中）   | 2個    | 丁度よい                   |
+| チーズ         | 500[g] | 使いきれず（200gで十分）   |
+| パスタ         | 1[kg]  | 使いきれず（一部持ち帰り） |
+| 唐辛子         | 25[g]  | 使いきれず                 |
+| オリーブオイル | 500[g] | 贅沢アヒージョで使い切り   |
+| ベビーリーフ   | 120[g] | 少ない                     |
+
+*** day 1
+
+まずは昼食に手始めにペペロンチーノから．前回の出張では唐辛子が手に入らず困りましたが，今回はカットされた唐辛子を入手できました．フライパンがちょっと使いづらいです．
+
+あと，電磁調理器の操作系がちょっとよくわからず，電源を落とすこともできなかったので，最終的にブレーカーの1系統を一時的に落とすことで対応しました．
+
+{{< tweet 1218365395993686016 >}}
+
+そして晩御飯です．サーモンがあったのでソテーにしてみました．脂肪分の高いサーモンの身とチーズと葉っぱがよく合います．かなり旨かった．
+
+{{< tweet 1218471119423860736 >}}
+
+*** day 2
+
+前日に引き続き，サーモンのソテーを作りました．今回はガーリックを添えています．
+
+{{< tweet 1218875715904401408 >}}
+
+そして瓶入りのトマトソースをベースに，チーズ入りのポモドーロを作りました．チーズの旨味とオイルが合って，大満足です．
+
+{{< tweet 1218888149008408576 >}}
+
+仕上げにかけるオリーブオイルが，一皿の完成度を高めてくれることがわかりました．収穫です．
+
+{{< tweet 1218889787018399749 >}}
+
+*** day 3
+
+外食で済ませました．
+
+*** day 4
+
+ベビーリーフの元気が無くなってきたので，一気に使いました．
+
+{{< tweet 1219547468624359424 >}}
+
+*** day 5
+
+ペペロンチーノをベースに，チーズを入れてみました．これはこれで旨いです．
+
+{{< tweet 1219939029560385542 >}}
+
+*** day 6
+
+昼休憩の1時間でホテルに戻り速攻でペペロンチーノを作って食べました．洗い物まで済ませてちゃんと会場に戻りました．やれば出来る！
+
+{{< tweet 1220158638729220097 >}}
+
+*** day 7
+
+夜食が食べたくなったのでアラビアータを作りました．
+
+{{< tweet 1220653934575898624 >}}
+
+*** day 8
+
+さすがにオリーブオイル1瓶を一週間で使い切るのは辛いので，最後は贅沢にアヒージョを作りました．
+
+{{< tweet 1220898098966196224 >}}
+** DONE タコのペペロンチーノ                                       :@cooking:
+   CLOSED: [2020-01-26 Sun 21:05]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0126-pasta-octopus-peperoncino
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       62C5FCA6-A325-42D1-94CB-91A3ADBC3B78
+:CREATED:  [2020-02-10 Mon 21:02]
+:END:
+
+出張から帰国して最初のミッションは，冷凍庫にあったタコを美味しくいただくことでした．シンプルなのに旨いペペロンチーノにしました．
+
+{{< tweet 1221384819235381250 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| にんにく       |    4 | 片   |
+| 唐辛子         | 少々 |      |
+| ケイパー       | 少々 |      |
+| みりん         |   15 | [cc] |
+| タコ           | 適量 |      |
+| 茹で汁(1.1%)   |   30 | [cc] |
+| XO醤           | 少々 |      |
+| パスタ         |  170 | [g]  |
+** DONE 寿司もどき                                                 :@cooking:
+   CLOSED: [2020-02-01 Sat 21:08]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0201-sushi
+:EXPORT_HUGO_TAGS: "sushi"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       102F6DC8-FC83-48F1-812F-F6A879B4CD62
+:CREATED:  [2020-02-10 Mon 21:06]
+:END:
+
+刺し身を引くことが少しできるようになったので，調子にのって酢飯を作り，握ってみました．知識ゼロでやったので，惨敗でした．今後に期待．
+
+{{< tweet 1223549177054912513 >}}
+** DONE 梅とベーコンのパスタ                                       :@cooking:
+   CLOSED: [2020-02-02 Sun 21:11]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0202-pasta-umeboshi-bacon
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       7CC53218-896E-40FD-B775-1B32DEB1B587
+:CREATED:  [2020-02-10 Mon 21:09]
+:END:
+
+ふるさと納税で手に入れた梅干しが残り続けているので消化のためにパスタにしました．
+
+{{< tweet 1223919457573064704 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ベーコン       | 適量 |      |
+| しめじ         | 適量 |      |
+| 梅干し         |    2 | 粒   |
+| 茹で汁(1.1%)   |   30 | [cc] |
+| パスタ         |  170 | [g]  |
+** DONE 鶏と豚のキムチーズ                                         :@cooking:
+   CLOSED: [2020-02-03 Mon 21:16]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0203-chicken-pork-kimuchi-cheese
+:EXPORT_HUGO_TAGS: "secondo"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       AA930A42-55BA-4494-B0C5-B84719634647
+:CREATED:  [2020-02-10 Mon 21:12]
+:END:
+
+定番の豚キムチーズに鶏肉を加えてみました．
+
+最初に鶏肉を表面がカリッとなるまで焼いて，キャベツをのせてその上に豚肉をかぶせて少し加熱．さらにキムチをのせてオリーブオイルを回しかけて更に加熱．最後にチーズをのせて溶けるまで火を入れて，バジルをかけて仕上げました．当然の旨さです．
+
+{{< tweet 1224317387790356480 >}}
+** DONE 梅とアンチョビのパスタ                                     :@cooking:
+   CLOSED: [2020-02-05 Wed 23:02]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0205-pasta-umeboshi-anchovy
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       622FF623-D1A8-42E2-8FBD-16ED84C26F13
+:CREATED:  [2020-02-10 Mon 21:16]
+:END:
+
+梅干しの酸味とアンチョビが合うかなと思ってトライしてみました．でも一緒に使った豚バラが想像以上に力強くて，他の味が消えてしまう結果に．
+
+{{< tweet 1225037631307665408 >}}
+** DONE テーマの設定が変わっていた                                    :@hugo:
+   CLOSED: [2020-02-11 Tue 00:44]
+:PROPERTIES:
+:EXPORT_FILE_NAME: b9431770-3127-7df4-2fbb-31a3ef4413b1
+:EXPORT_HUGO_TAGS: "Mainroad"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       814C2BC0-2AF7-4E69-8C51-03B7E3449A5B
+:CREATED:  [2020-02-11 Tue 00:40]
+:END:
+
+当ブログでは，hugo のテーマに [[https://themes.gohugo.io/mainroad/][Mainroad]] を使っています．
+
+2020年になって新しい記事を追加しようとしましたが，どうもトップページに追加した記事が一覧されない現象に出くわし，困った状況になっていました．
+
+確認したところ，テーマの設定方法が一部変更になっていたのが原因でした．
+
+#+begin_src toml
+  # postSections = ["post", "2016", "2017", "2018", "2019", "2020"]
+  mainSections = ["post", "2016", "2017", "2018", "2019", "2020"]
+#+end_src
+
+以前は ~postSections~ としていたところを， ~mainSections~ に変更することで，無事に新しい記事もトップページに出力されるようになりました．
+** DONE 梅とアンチョビのパスタ（魚介系）                           :@cooking:
+   CLOSED: [2020-02-08 Sat 01:44]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0208-pasta-umeboshi-anchovy
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       4CA2AE4A-B4A2-49C3-9EA7-DC97C79BB09F
+:CREATED:  [2020-02-11 Tue 01:41]
+:END:
+
+梅干しとアンチョビを合わせる試み第二弾．今回はタンパク質としてホタテを採用．全体のバランスを調整すればなかなかの一皿になりそうです．
+
+{{< tweet 1225981575168282624 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| アンチョビ     |    2 | 片   |
+| 梅干し         |    2 | 粒   |
+| ベビーホタテ   | 数個 |      |
+| 白ワイン       |   15 | [cc] |
+| 茹で汁(1.1%)   |   15 | [cc] |
+| パスタ         |  160 | [g]  |
+** DONE オリーブとホタテのパスタ                                   :@cooking:
+   CLOSED: [2020-02-09 Sun 02:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0209-pasta-olive-and-capesante
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       93DC0E32-9FA6-43C3-9489-C2517CAFF728
+:CREATED:  [2020-02-11 Tue 01:46]
+:END:
+
+久々にホールトマトを使ってトマトソースのパスタを作りました．
+
+アルミパンで玉ねぎのみじん切りに火を入れて，そこにホールトマトを入れて詰めるという手順を踏んだのですが，ホタテに火を入れるタイミングを逸してしまい，結局トマトソースの中で温めるだけになってしまいました．
+
+結局それが原因で，ホタテの臭みが残ってしまって失敗．いつものフローだと，オイルでホタテを軽く焼くので，同じ工程を別なフライパンでやっておくべきでした．
+
+麺はグランフィーロのリンギーネです．ソースが麺に沿うように口に入ってくるので，濃いめのトマトソースにピッタリです．
+
+{{< tweet 1226342678238879745 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| トマトソース   | 300  | [g]  |
+| オリーブオイル | 多め |      |
+| ベビーホタテ   | 数個 |      |
+| オリーブ       | 数個 |      |
+| 輪切り鷹の爪   | 少々 |      |
+| XO醤           | 小1  |      |
+| 追い塩         | 適量 |      |
+| 茹で汁(1.1%)   | 30   | [cc] |
+| パスタ         | 160  | [g]  |
+** DONE 梅とベーコンのパスタ・リンギーネ                           :@cooking:
+   CLOSED: [2020-02-15 Sat 19:50]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0215-pasta-bacon-umeboshi
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       722933E2-2340-4D48-8D5E-7CDFEC8859F1
+:CREATED:  [2020-03-11 Wed 19:44]
+:END:
+
+もう少しで消化しきれる梅でパスタを作りました．リンギーネも合うことがわかりました．
+
+{{< tweet 1228624352041562112 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ベーコン       | 適量 |      |
+| オリーブ       |    4 | 粒   |
+| 梅干し         |    1 | 粒   |
+| みりん         |   15 | [cc] |
+| 茹で汁(1.1%)   |   20 | [cc] |
+| パスタ         |  160 | [g]  |
+** DONE キノコとオリーブのパスタ                                   :@cooking:
+   CLOSED: [2020-02-21 Fri 19:55]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0221-pasta-olive-and-mushroom
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       EE92C71D-DD84-4731-8DF1-738B4B64EFDF
+:CREATED:  [2020-03-11 Wed 19:50]
+:END:
+
+前回に続いてリンギーネを使って作りました．味はだいぶこなれてきた感じですが，どうもキノコ香りを活かしきれていないような．工夫が必要です．旨味の元にパンチェッタは，5%で塩漬けして2週間経過したものです．
+
+{{< tweet 1230668430929321984 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| パンチェッタ   | 適量 |      |
+| しめじ         | 少々 |      |
+| オリーブ       |    2 | 粒   |
+| 梅干し         |    1 | 粒   |
+| みりん         |   15 | [cc] |
+| 茹で汁(1.0%)   |   20 | [cc] |
+| パスタ         |  160 | [g]  |
+** DONE たらことホタテのパスタ                                     :@cooking:
+   CLOSED: [2020-02-22 Sat 20:02]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0222-pasta-hotate-tarako
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       D29FF3C3-73BE-46BC-B5E4-FB4865446FF6
+:CREATED:  [2020-03-11 Wed 19:57]
+:END:
+
+スーパーでたらこを見かけたのでパスタにしてみました．使用するたらこをケチるとたらこ感が少なくインパクトに欠ける仕上がりになりました．残念です．
+
+{{< tweet 1231072862083010560 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ベビーホタテ   | 適量 |      |
+| XO醤           | 少々 |      |
+| 白ワイン       |   15 | [cc] |
+| たらこ         |    1 | 本   |
+| 茹で汁(1.1%)   |   20 | [cc] |
+| 大葉           | 適量 |      |
+| 海苔           | 適量 |      |
+| パスタ         |  160 | [g]  |
+** DONE オリーブとベーコンのパスタ                                 :@cooking:
+   CLOSED: [2020-02-25 Tue 20:18]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0225-pasta-olive-and-bacon
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       DB0E8BD2-5A40-411A-8AA4-812399F80D63
+:CREATED:  [2020-03-11 Wed 20:15]
+:END:
+
+予定外にパスタを作ることになり冷蔵庫の余り物で対応しました．急いで作ったわりには旨いです．
+
+{{< tweet 1232283765839319052 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| にんにく       |    2 | 片   |
+| ベーコン       | 適量 |      |
+| オリーブ       |    3 | 粒   |
+| 白ワイン       |   15 | [cc] |
+| 茹で汁(1.1%)   |   30 | [cc] |
+| パスタ         |  150 | [g]  |
+** DONE たらこパスタ                                               :@cooking:
+   CLOSED: [2020-03-07 Sat 20:44]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0307-pasta-tarako
+:EXPORT_HUGO_TAGS: "pasta" "wafu" "best"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       09B07E82-F9D7-4E98-AA3E-D88E22437862
+:CREATED:  [2020-03-11 Wed 20:26]
+:END:
+
+前回の反省を活かし，今回はたらこを一人1本使いました．ちゃんとたらこ感がでました．また，バターに頼りたくはないと思いつつ，やはり定番ということで，いつもの和風レシピを適用してみました．上出来です．玉ねぎではなく長ネギを使ったところが少し違いますが，むしろ今回はそれで良かった気がします．
+
+{{< tweet 1236123681740349445 >}}
+
+味が安定したところで一つの気づきが．
+
+パスタを作り始めた頃は「一体感のある状態に仕上げる」のが難しく，素材の味だけ独立した仕上がりでした．一方，今回のように一体感を出せるようになると，今度は「味が一辺倒」になりました．
+
+すると，トッピングの位置付けが明確になることがわかりました．今回の場合なら，食べながら少し塩味を和らげる食材．例えば，みずみずしい白髪ネギとかでしょうか．
+
+トッピングする食材を工夫することの重要性に気づけました．
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| 長ネギ         |   10 | [cm] |
+| 白だし         |   10 | [cc] |
+| みりん         |   10 | [cc] |
+| 醤油           |    8 | [cc] |
+| たらこ         |    2 | 本   |
+| バター         |   10 | [g]  |
+| 茹で汁(1.1%)   |   10 | [cc] |
+| パスタ         |  165 | [g]  |
+** DONE キノコのペペロンチーノ                                     :@cooking:
+   CLOSED: [2020-03-08 Sun 20:53]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0308-pasta-mushroom-peperoncino
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       71CFAB05-EA12-4410-BC0E-D33E99B30354
+:CREATED:  [2020-03-11 Wed 20:46]
+:END:
+
+多めのしめじを使うペペロンチーノを作りました．キノコをアルミパンでソテーして，旨味を逃さないようにしていますが，少し強めに火入れをしたり，ソースの全体量を調整することを考えると，別なフライパンで調理してから最後に合わせる方法の方が楽だったりします．
+
+ラグー系だと，別なフライパンで調理してからメインのアルミパンに食材を移し，フライパンに残った旨味は水を入れて溶かして使うという手があります．
+
+ペペロンチーノ系で同じことをするにはどうするべきか，ちょっと工夫が必要ですね．茹で汁をうまいこと使えば良いかな．
+
+{{< tweet 1236485507552391168 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   40 | [cc] |
+| にんにく       |    1 | 片   |
+| しめじ         | 適量 |      |
+| オリーブ       |    3 | 粒   |
+| 鷹の爪         | 少々 |      |
+| XO醤           | 少々 |      |
+| 茹で汁(1.1%)   |   30 | [cc] |
+| パスタ         |  160 | [g]  |
+
+** DONE ベーコンとトマトのペペロンチーノ                           :@cooking:
+   CLOSED: [2020-03-17 Tue 12:19]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0317-pasta-bacon-tomato-peperoncino
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       8ECD7E8F-3946-4A4B-A12D-D5B7884796DC
+:CREATED:  [2020-05-31 Sun 12:12]
+:END:
+
+ベーコン主体のペペロンチーノにトマト味にしてみました．仕上げにエキストラバージョンオイルをかけてると，さらに美味しくなりますね．
+
+{{< tweet 1239882219184766978 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| にんにく       |    4 | 片   |
+| ベーコン       | 少々 |      |
+| プチトマト     |    6 | 個   |
+| 鷹の爪         | 少々 |      |
+| 茹で汁(1.1%)   |   40 | [cc] |
+| パスタ         |  160 | [g]  |
+** DONE ベーコンと塩レモンのパスタ                                 :@cooking:
+   CLOSED: [2020-03-22 Sun 12:28]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0322-pasta-bacon-slat-lemon
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       18D03249-4B8C-4481-96F8-BBB2552A910B
+:CREATED:  [2020-05-31 Sun 12:24]
+:END:
+
+今回は市販の塩レモンを使ったパスタを作りました．ベースはトマトです．酸味が中心になる一皿に仕上がりました．
+
+{{< tweet 1241569740285509633 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| にんにく       |    2 | 片   |
+| ベーコン       | 少々 |      |
+| 鷹の爪         | 少々 |      |
+| オリーブ       |    5 | 粒   |
+| プチトマト     | 数個 |      |
+| 塩レモン       |  小1 |      |
+| 茹で汁(1.1%)   |   40 | [cc] |
+| パスタ         |  160 | [g]  |
+** DONE 玉ねぎとアンチョビのパスタ                                 :@cooking:
+   CLOSED: [2020-03-28 Sat 12:33]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0328-pasta-onion-anchovy
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       39E4AF5B-EE1A-4E84-A388-A71C389DB8F7
+:CREATED:  [2020-05-31 Sun 12:29]
+:END:
+
+{{< tweet 1243736445694533632 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル | 30   | [cc] |
+| 玉ねぎ         | 1/2  | 個   |
+| ベーコン       | 少々 |      |
+| アンチョビ     | 1.5  | 片   |
+| 茹で汁(1.1%)   | 40   | [cc] |
+| パスタ         | 170  | [g]  |
+** DONE アスパラと玉ねぎのパスタ                                   :@cooking:
+   CLOSED: [2020-04-04 Sat 12:41]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0404-pasta-onion-aspara
+:EXPORT_HUGO_TAGS: "pasta" "salt" "best"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       E6EF109E-3A64-4244-B57F-294915DBB17C
+:CREATED:  [2020-05-31 Sun 12:36]
+:END:
+
+前回作った玉ねぎとアンチョビのパスタで，ベーコンをアスパラに置き換えてみました．こちらの方が玉ねぎの甘みを強く感じられて，アスパラの水分で味に幅が出るの総合的に美味しいと感じます．
+
+{{< tweet 1246285191250755584 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料                 | 分量 | 単位 |
+|----------------------+------+------|
+| オリーブオイル       |   30 | [cc] |
+| ニンニク             |    2 | 片   |
+| 玉ねぎ（くし切り）   |  1/2 | 個   |
+| 玉ねぎ（みじん切り） |  1/4 | 個   |
+| アンチョビ           |  1.5 | 片   |
+| アスパラ             |    2 | 本   |
+| 茹で汁(1.1%)         |   40 | [cc] |
+| パスタ               |  170 | [g]  |
+** DONE ボロネーゼ                                                 :@cooking:
+   CLOSED: [2020-04-05 Sun 12:52]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0405-bolgonese
+:EXPORT_HUGO_TAGS: "pasta" "tomato" "best"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       C5A1B03B-68F0-4CB5-B528-CE91850C4656
+:CREATED:  [2020-05-31 Sun 12:42]
+:END:
+
+久々にボロネーゼを作りました．完成度が高くとても美味しいです．
+
+{{< tweet 1246654632639651840 >}}
+
+6皿目安で作っているけど，だいたい8皿分という感じです．
+
+{{< tweet 1246658565206491136 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| 赤ワイン       |  300 | [cc] |
+| ひき肉         |  360 | [g]  |
+| トマト缶       | 1200 | [cc] |
+| 玉ねぎ         |  1.5 | 個   |
+| セロリ         |  3/4 | 本   |
+| にんじん       |  3/4 | 本   |
+| ニンニク       |  1.5 | 片   |
+| ローリエ       |  1.5 | 枚   |
+| 水             |  600 | [cc] |
+| オリーブオイル |   90 | [cc] |
+** DONE ベーコンとホタテのパスタ                                   :@cooking:
+   CLOSED: [2020-04-08 Wed 12:58]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0408-pasta-bacon-hotate
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       D70E88FA-34C9-4E69-90C0-E9BF23F1DEA3
+:CREATED:  [2020-05-31 Sun 12:55]
+:END:
+
+パック入りのホタテを使ってパスタを作りました．ちょっと中途半端な仕上がりになりました．旨味が中途半端です．
+
+{{< tweet 1247830215562104833 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料             | 分量 | 単位 |
+|------------------+------+------|
+| オリーブオイル   |   30 | [cc] |
+| ニンニク         |    1 | 片   |
+| ベーコン         | 適量 |      |
+| パック入りホタテ |    2 | 粒   |
+| オリーブ         |    2 | 粒   |
+| XO醤             |  小2 |      |
+| 茹で汁(1.1%)     |   30 | [cc] |
+| パスタ           |  170 | [g]  |
+** DONE MacBook Air 2020                                              :@tech:
+   CLOSED: [2020-04-11 Sat 13:22]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0411-macbook-air-2020
+:EXPORT_HUGO_TAGS: "apple" "mac"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       D2EA9D7A-3212-4C13-A41B-72CBB6101656
+:CREATED:  [2020-05-31 Sun 13:00]
+:END:
+
+MacBook Air を新調しました！ゴールドです！
+
+2020年の最新モデルです．購入時にカスタマイズをしたので，主なスペックは次のような感じです．英語キーボードです．
+
+#+caption: MBA2020(BTO)
+|     | Spec                                        |
+|-----+---------------------------------------------|
+| CPU | 1.2GHz Intel Core i7 (Quad Core) max:2.8GHz |
+| MEM | 16GB (3733MHz LPDDR4X)                      |
+| SSD | 256GB                                       |
+
+{{< tweet 1248859686876491776 >}}
+
+前のモデルはキーボードがバタフライ構造でいくつかの問題がありましたが，このモデルではシザー構造に戻っています．その影響で本体が少しだけ厚くなっていますが，差が分かる人は居ないレベルです．キーボードは最終的にはタイピングの好みの問題ですが，私は前モデルのバタフライキーボードはちょっと受け入れられなかったので，ちょうど良いタイミングで更新してくれたなと思います．何度もアップルストアでタイピングして確認しつつ，シザーモデルが出るのを待ってよかったです．
+
+{{< tweet 1248863662820831232 >}}
+
+そして個人的にはこれが初めての Retinaディスプレイです．とても綺麗で満足しています．老眼にはぴったりです．あと軽く感動したのは，愛用している [[https://1password.com/jp/][1Password]] の解錠を，Touch IDでできたことです．結構な頻度でマスターパスワードを打ち込んでいるので，タッチするだけで解錠できるのはとても楽です．
+
+{{< tweet 1248865249819680768 >}}
+
+それにしても合わせて買った [[https://www.apple.com/jp/shop/product/MUF82ZA/A/usb-c-digital-av-multiport%E3%82%A2%E3%83%80%E3%83%97%E3%82%BF][USB-C Digital AV Multiport アダプタ]]が高すぎで泣けます．HDMI出力のために 6800円のアダプタとは...
+
+しかも，アダプタの USB-C ポートは電源供給のみに対応していて，データ転送できないというオチでした．
+
+コロナ禍の影響で MacBook Air を持ち出す機会がないですが，スペック上の 1.29[kg]なので，少々重いかなという感じです．それまで外に持ち出していたのが [[https://support.apple.com/kb/SP713?locale=ja_JP][11インチのMBA]]だった（1.08[kg]）ので，それと比較しているのも重く感じる要因です．重量差というよりは，重心の位置の問題な気がします．
+
+持ち出してはいないですが，ケースもちゃんと入手しました．でかい！
+
+{{< tweet 1253527060347097088 >}}
+
+{{< asin B06XWTZN2F >}}
+
+** DONE ボロネーゼ(解凍)                                           :@cooking:
+   CLOSED: [2020-04-11 Sat 13:32]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0411-pasta-bolognese
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       76A722A1-EEE7-4984-A663-1D7C74ECD721
+:CREATED:  [2020-05-31 Sun 13:30]
+:END:
+
+余っていた市販のホワイトソースを混ぜ込んでみました．これはこれで旨いです．
+
+{{< tweet 1248922257692352512 >}}
+** DONE MBA2020 で emacs を動かす                                    :@emacs:
+   CLOSED: [2020-04-12 Sun 13:37]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0412-emacs-on-windows
+:EXPORT_HUGO_TAGS: "apple" "mac"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       EACE1D15-D83A-4AC3-A4F8-CD79F50E2732
+:CREATED:  [2020-05-31 Sun 13:33]
+:END:
+
+新調した MacBook Air に Windows を入れて，Emacs を動かしました．Emacs は，MSYS2を使ってインストールしていて，意外と簡単に動かせますね．
+
+{{< tweet 1249132163901075457 >}}
+
+*** References
+ - [[https://www.msys2.org/][MSYS2]]
+** DONE メランザーネ                                               :@cooking:
+   CLOSED: [2020-04-12 Sun 13:43]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0412-melanzane
+:EXPORT_HUGO_TAGS: "secondo"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       BB9D791F-5384-4360-AE09-07C7FD1CBA58
+:CREATED:  [2020-05-31 Sun 13:38]
+:END:
+
+ボロネーゼソースを使ってメランザーネを作りました．
+
+味は2種類で，
+
+- ガーリックとアンチョビのソテー
+- 舞茸とニンニクの芽のソテー
+
+をボロネーゼソースと合わせてナスの上にのせています．
+
+ただ，素人感がひどいです．食材の選び方とカット方法から考えないとだめですね．普通のナスを薄切りにすると，味の善し悪しの前に食べにくいです．
+
+{{< tweet 1249302408699633666 >}}
+** DONE ポークソテー                                               :@cooking:
+   CLOSED: [2020-04-15 Sun 13:48]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0415-pork-saute
+:EXPORT_HUGO_TAGS: "secondo"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       16304341-C7FD-41EC-A92A-B292034A8B9C
+:CREATED:  [2020-05-31 Sun 13:44]
+:END:
+
+我が家では定番になっているソテーしたポークのタリアータです．
+
+{{< tweet 1250380555209719808 >}}
+
+ソースは独自の和風です．
+
+#+caption: ポークソテー用ソース（材料・二皿分）
+| 材料   | 分量 | 単位 |
+|--------+------+------|
+| 玉ねぎ |  1/8 | 個   |
+| 白だし |   10 | [cc] |
+| みりん |   10 | [cc] |
+| 醤油   |   10 | [cc] |
+| バター |   10 | [g]  |
+** DONE 角煮ラーメン                                               :@cooking:
+   CLOSED: [2020-04-18 Sat 13:51]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0418-ramen
+:EXPORT_HUGO_TAGS: "ramen"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       E7AE4BEF-6894-437A-931F-6B80DC3B3E06
+:CREATED:  [2020-05-31 Sun 13:49]
+:END:
+
+スーパーで色々具材を選んでいたら結果的に量が多すぎに．パスタと同じで，何でも入れればいいてもんじゃないですね．
+
+{{< tweet 1251361842707890178 >}}
+** DONE 茄子としめじのパスタ                                       :@cooking:
+   CLOSED: [2020-04-19 Sun 13:54]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0419-pasta-nasu-shimeji
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       FB471818-E22E-4055-862D-63EDC6A512F2
+:CREATED:  [2020-05-31 Sun 13:51]
+:END:
+
+あまり気味になった茄子でパスタを作りました．塩分調整で最後に加える塩は，ミルで削る岩塩ではなく，粒度の細かい塩を使うべきだと学びました．削ったばかりの塩をパスタにかけると，塩が溶けず，一部だけ塩味が強くなってしまいます．
+
+{{< tweet 1251702785688563713 >}}
+** DONE ホタテとベーコンのパスタ                                   :@cooking:
+   CLOSED: [2020-04-23 Thu 14:03]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0423-pasta-bacon-hotate
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       92FA217E-DED4-44B6-9CBB-A0028F056B63
+:CREATED:  [2020-05-31 Sun 14:00]
+:END:
+
+久しぶりにベビーホタテが売られていたのでベーコンと合わせてパスタにしました．ちょっと味のバランスが悪いかなという印象です．
+
+{{< tweet 1253279051113873408 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ニンニク       |    2 | 片   |
+| 玉ねぎ         |  1/8 | 個   |
+| オリーブ       |    3 | 粒   |
+| ベーコン       | 適量 |      |
+| ベビーホタテ   |   数 | 個   |
+| 白ワイン       |   20 | [cc] |
+| 茹で汁(1.2%)   |   40 | [cc] |
+| パスタ         |  160 | [g]  |
+** DONE アスパラとベーコンのペペロンチーノ                         :@cooking:
+   CLOSED: [2020-03-25 Wed 14:22]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0425-pasta-aspara-bacon-peperoncino
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       4882557E-4CA9-4A68-A875-FB1207657C1D
+:CREATED:  [2020-05-31 Sun 14:16]
+:END:
+
+アスパラを使ったパスタを作りました．アスパラはパスタの食材として相性がいいですね．
+
+{{< tweet 1253881337095700481 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ニンニク       |    3 | 片   |
+| ベーコン       |    2 | 枚   |
+| アスパラ       |    2 | 本   |
+| 鷹の爪         |    1 | 本   |
+| 茹で汁(1.2%)   |   40 | [cc] |
+| パスタ         |  160 | [g]  |
+** DONE ボロネーゼ(解凍) (2)                                       :@cooking:
+   CLOSED: [2020-04-26 Sun 14:25]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0426-pasta-bolognese
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       5C8155B5-29D5-4061-A56C-DEB7C9E8192C
+:CREATED:  [2020-05-31 Sun 14:23]
+:END:
+
+冷凍しておいたボロネーゼを食べました．モンテベッロのホールトマト缶は，冷凍してもそこまで酸味が立たないのでラグーにピッタリです．
+
+{{< tweet 1254252190648070144 >}}
+** DONE ボロネーゼ(解凍)とメランザーネ                             :@cooking:
+   CLOSED: [2020-04-27 Mon 14:29]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0427-pasta-bolognese-melanzane
+:EXPORT_HUGO_TAGS: "pasta" "salt" "secondo"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       FD778367-314B-46AC-BA0C-D25543756623
+:CREATED:  [2020-05-31 Sun 14:26]
+:END:
+
+解凍もののボロネーゼをパスタとメランザーネの2つに使いました．メランザーネは丸茄子を購入して少し集めに切って使いました．土台として十分な質量となり，チーズをのせてじっくり焼くことでいい感じになりました．
+
+{{< tweet 1254616799728955392 >}}
+** DONE ハンマーと小鍋                                             :@cooking:
+   CLOSED: [2020-05-01 Fri 14:34]
+:PROPERTIES:
+:EXPORT_FILE_NAME: small-pan-and-meat-hammer
+:EXPORT_HUGO_TAGS: 
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       AFE8DD29-7B1E-448D-9E06-6C23D93C53C1
+:CREATED:  [2020-05-31 Sun 14:30]
+:END:
+
+以前から狙っていたミートハンマーを購入しました．さらに，揚げ物と少量のソースを作る目的で小さな鍋を買いました．どちらも WMFです．
+
+鍋は10cmと極小で，コンロの五徳にギリギリ乗るサイズです．気をつけて使わないと大事故になりそうで，あまりおすすめしません．
+
+{{< tweet 1256167273053601794 >}}
+
+** DONE ほうれん草とベーコンのパスタ                               :@cooking:
+   CLOSED: [2020-05-02 Sat 14:43]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0502-pasta-bacon-spinach
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       A9F44F63-C207-4188-8C9D-DC4AEAF7B557
+:CREATED:  [2020-05-31 Sun 14:40]
+:END:
+
+ほうれん草とベーコンの定番パスタを作りました．慣れているので安心して作れます．
+
+{{< tweet 1256423745293443072 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| にんにく       |    2 | 片   |
+| 玉ねぎ         |  1/8 | 個   |
+| ほうれん草     |    3 | 株   |
+| ベーコン       | 多め |      |
+| 茹で汁(1.1%)   |   45 | [cc] |
+| パスタ         |  160 | [g]  |
+
+** DONE 豚ヒレカツ                                                 :@cooking:
+   CLOSED: [2020-05-02 Sat 14:51]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0502-pork-hirekatu
+:EXPORT_HUGO_TAGS: "secondo"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       5E4F656E-7375-4A71-8322-389465FC3354
+:CREATED:  [2020-05-31 Sun 14:48]
+:END:
+
+スーパーの売れ残りの豚ヒレ肉を使って，揚げ物をしてみました．これまで揚げ物は避けてきましたが，先日，少量の油でも揚げ物ができる小さな鍋を購入したので，早速チャレンジしてみたということです．
+
+温度調整に気を使いますけど，2度揚げして非常に美味しいヒレカツが出来上がりました．この規模なら定期的に揚げ物をしても良いかなと思えます．
+
+{{< tweet 1256541871251181569 >}}
+** DONE ベーコンのパスタ                                           :@cooking:
+   CLOSED: [2020-05-03 Sun 14:58]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0503-pasta-bacon
+:EXPORT_HUGO_TAGS: "pasta" "wafu" "best"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       5A8AA3E7-D398-4FC9-8E1A-F655F781CEB0
+:CREATED:  [2020-05-31 Sun 14:55]
+:END:
+
+シンプルにベーコンだけを使う和風パスタです．安定して旨いです．
+
+{{< tweet 1256788353199955968 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| 新玉ねぎ       |  1/4 | 個   |
+| ベーコン       | 少々 |      |
+| みりん         |   10 | [cc] |
+| 白だし         |   10 | [cc] |
+| 白醤油         |    8 | [cc] |
+| 茹で汁(1.0%)   |   15 | [cc] |
+| バター         |   10 | [g]  |
+| のり           | 少々 |      |
+| 大葉           | 少々 |      |
+| パスタ         |  160 | [g]  |
+** DONE 牛肉のタリアータ                                           :@cooking:
+   CLOSED: [2020-05-03 Sun 15:02]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0503-beaf-tariata
+:EXPORT_HUGO_TAGS: "secondo"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       C7910F76-EC59-4BDB-B09B-CAE7EBDB0689
+:CREATED:  [2020-05-31 Sun 14:59]
+:END:
+
+先日入手したミートハンマーを実戦投入して，牛肉のタリアータを作りました．ちょっと表面に火を入れすぎたかな？という感じはありますが，予熱で中心まで適度に火が入りました．ソースは無しで，でも旨いです．
+
+{{< tweet 1256902638362177537 >}}
+** DONE ベーコンとニンニクの芽のペペロンチーノ                     :@cooking:
+   CLOSED: [2020-05-10 Sun 15:05]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0510-pasta-bacon-onion-peperoncino
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       F63FF758-F6E7-4E4F-9F81-643F18AB48E8
+:CREATED:  [2020-05-31 Sun 15:03]
+:END:
+
+茹で汁の塩分濃度を変える実験をしてみました．使う具材にもよりますが，強すぎるとパスタの持つ甘みが低下する傾向にあるようです．それはそれで勿体ないことです．
+
+{{< tweet 1259429856950890496 >}}
+** DONE 豚キムチーズ                                               :@cooking:
+   CLOSED: [2020-05-11 Mon 15:08]
+:PROPERTIES:
+:EXPORT_FILE_NAME: pork-kimuchi-cheese
+:EXPORT_HUGO_TAGS: "secondo"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       4F5A9825-DB1A-43E8-8233-7A0D14B0A195
+:CREATED:  [2020-05-31 Sun 15:05]
+:END:
+
+チーズを大量消費できる豚キムチーズを作りました．鉄板の旨さですけど，塩分とカロリーが気になる料理です．
+
+{{< tweet 1259800487563411456 >}}
+** DONE 二種類の貝のパスタ                                         :@cooking:
+   CLOSED: [2020-05-13 Wed 15:12]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0513-asari-and-hotate
+:EXPORT_HUGO_TAGS: "pasta" "salt" "best"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       CC7C8B58-622B-464F-8B9B-E75383D7A1B3
+:CREATED:  [2020-05-31 Sun 15:08]
+:END:
+
+3種のきのこならぬ，2種類の貝でパスタを作りました．かなり美味しい一皿になりました．大成功です．基本はボンゴレビアンコに作り方ですが，アサリの出汁とニンニクが白ワインと合わさると非常に旨いソースになることを実感しました．白ワインは常温の方が良さそうです．
+
+{{< tweet 1260413611392020480 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料                 | 分量 | 単位 |
+|----------------------+------+------|
+| オリーブオイル       |   30 | [cc] |
+| ニンニク(薄切り)     |    1 | 片   |
+| ベビーホタテ(非解凍) |  125 | [g]  |
+| あさり               | 適量 |      |
+| 白だし(常温)         |   30 | [cc] |
+| 茹で汁(1.0%)         |   10 | [cc] |
+| バター               |   10 | [g]  |
+| パスタ               |  160 | [g]  |
+** DONE ラーメン                                                   :@cooking:
+   CLOSED: [2020-05-15 Fri 17:36]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0515-ramen
+:EXPORT_HUGO_TAGS: "ramen"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       9D33285A-A30D-4500-BB13-1FB53EC556CE
+:CREATED:  [2020-05-31 Sun 15:14]
+:END:
+
+食材の量は抑え気味に，でも野菜炒めはしっかりと味をつけたラーメンを作りました．このくらいの分量でもまだ多めな感じ．
+
+{{< tweet 1261250631609643009 >}}
+
+** DONE トラックパッドでドラッグ                                      :@tech:
+   CLOSED: [2020-05-20 Wed 15:25]
+:PROPERTIES:
+:EXPORT_FILE_NAME: three-finger-drag
+:EXPORT_HUGO_TAGS: "apple" "mac"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       AEE8609E-8AEB-4F16-B887-002F0F4759D1
+:CREATED:  [2020-05-31 Sun 15:16]
+:END:
+
+色々と設定を調べていたら，トラックパッドの設定に「ドラッグ」の設定があることに気づきました．これにより，三本指でのウィンドウ移動や，テキスト選択が可能になります．
+
+{{< tweet 1262769066466402304 >}}
+
+これまではトラックパッドの左下をクリックしながら，二本指でドラッグするようにしていましたが，片手で済ませるにはちょっと難しい操作で，これが原因でトラックパッドを積極的に使うのを諦めていました．
+
+しかし，三本指でドラッグできるとなると話は別です．現在は次のようにしています．
+
+| トラックパッドの操作 | 対応するマウス操作 |
+|----------------------+--------------------|
+| 一本指タップ         | 左クリック         |
+| 二本指タップ         | 右クリック         |
+| 三本指押しっぱなし   | ドラッグ           |
+
+「三本指押しっぱなし」と言っても，押し込みは不要で，触れていればOKです．
+
+現在は，MX Master 2 に代わって，Magic Trackpad を使う日々になりました．さらに，ノートパソコンでも同じことができるので，苦手だったトラックパッドでのマウス操作頻度が高くなりそうです．
+** DONE しめじとベーコンのパスタ                                   :@cooking:
+   CLOSED: [2020-05-23 Sat 15:29]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0523-pasta-shimeji-bacon
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       6D44059D-127F-412B-9DC4-5839580230B8
+:CREATED:  [2020-05-31 Sun 15:26]
+:END:
+
+キノコバターソテーを想像しながらしめじとベーコンのパスタを作りました．ベーコンに頼らずもっとキノコを全面に出した作り方がありそうです．
+
+{{< tweet 1264033269424590848 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ベーコン       |    2 | 枚   |
+| しめじ         | 適量 |      |
+| 白ワイン       |   15 | [cc] |
+| バター         |   10 | [g]  |
+| 茹で汁(1.0%)   |   30 | [cc] |
+| パスタ         |  165 | [g]  |
+** DONE まっさら環境でとりあえず elget を使う                        :@emacs:
+   CLOSED: [2020-06-02 Tue 10:04]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 4b60b09a-73c0-9964-a67b-6e5369549e4c
+:EXPORT_HUGO_TAGS: "emacs" "el-get"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       C87DF708-D01E-4810-953C-59DFAF365A06
+:CREATED:  [2020-06-02 Tue 10:02]
+:END:
+
+自分向けのメモです．Linux 向け．とりあえず以下で良さそう．
+
+#+begin_src sh
+install git curl global texinfo fzf silversearcher-ag hunspell cmake libgnutls28-dev 
+mkdir devel Dropbox && cd ~/Dropbox/emacs.d/setup && bash ./setup.sh
+cd ~/Dropbox/emacs.d/bin/ && bash el-get.sh -s
+#+end_src
+
+で，次を ~.emacs~ に書き込む．
+
+#+begin_src emacs-lisp
+(when (require 'elget-setup nil t)
+  (my-elget-setup)
+  (el-get-bundle "takaxp/moom") ;; package for testing
+  (el-get 'sync))
+#+end_src
+
+簡易的な試験をしたいだけならこれでヨシ
+** DONE ニンニクとベーコンのパスタ                                 :@cooking:
+   CLOSED: [2020-06-03 Wed 17:31]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0503-pasta-bacon
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       CADF56F2-B13C-4A86-A150-7AAC6C57D2F0
+:CREATED:  [2020-06-03 Wed 17:28]
+:END:
+
+冷蔵庫の余りものでパスタを作りました．ベーコンは，前回，香りがきついと感じたものですが，今回は冷蔵庫でしばらく放置したからか香りが落ち着いていて，全体としてバランスの良い一皿になりました．
+
+{{< tweet 1268018406688567296 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ニンニク       |    2 | 片   |
+| 玉ねぎ         |  1/4 | 個   |
+| ベーコン       |    2 | 枚   |
+| ミニトマト     |    2 | 個   |
+| 茹で汁(1.1%)   |   30 | [cc] |
+| パスタ         |  160 | [g]  |
+** DONE 拙作パッケージのメンテナンス                                 :@emacs:
+   CLOSED: [2020-06-06 Sat 00:25]
+:PROPERTIES:
+:EXPORT_FILE_NAME: c4a3a29a-1aef-d504-fca3-e265c1cafc7a
+:EXPORT_HUGO_TAGS: "emacs" "org-mode"
+:EXPORT_HUGO_LASTMOD: [2020-06-07 Sun 11:00]
+:EXPORT_HUGO_IMAGES: 
+:ID:       96ABAB53-C4F8-4985-9ED0-9F6B3F140C92
+:CREATED:  [2020-06-06 Sat 00:11]
+:END:
+
+拙作のパッケージのメンテナンスを再開しました．どちらもまだまだ改良が必要なのですが，とりあえずはドキュメントの更新からでしょうか...
+
+*** org-tree-slide.el
+
+ - [[https://github.com/takaxp/org-tree-slide][takaxp/org-tree-slide: A presentation tool for org-mode based on the visibility of outline trees]]
+ - [[https://orgmode.org/worg/org-tutorials/non-beamer-presentations.html][Writing Non-Beamer presentations in org-mode]]
+ - [[https://qiita.com/takaxp/items/8dfb5d34dfcd79f9fa5c][org-modeのツリーでスライドショー - Qiita]]
+
+Emacs でプレゼンテーションしたくて作り始めたパッケージです．最近の自分の Emacs の使い方としては，プレゼンテーションモードに突入しないでも， [[https://orgmode.org/][org-mode]] のツリーを ~fold/unfold~ (=tab= のtoggle) したり， ~narrowing/widen~ (=s= のtoggle) したりして対応しています．なので，このパッケージの出番が少し減っていました．出番が減ると，メンテナンスする機会が減りますよね．
+
+Qiitaに移築した Wiki の記事はかなり古いので，書き直して再公開したいです．
+
+[[files:/201x/072a87ca-9033-3c24-91eb-f1a1bf158c75.gif]]
+
+*** moom.el
+
+ - [[https://github.com/takaxp/moom][takaxp/moom: A Moom port to Emacs - Make your dominant hand FREE from your mouse]]
+ - [[https://qiita.com/takaxp/items/0f094eb94554eb08ace3][Moom - Qiita]]
+
+Emacs のフレームをマウスで動かしたり，マウスでフレームサイズを変更するのが嫌で作ったパッケージです．キーボード操作だけでスクリーン上の Emacs ウィンドウの位置を制御できます．もともと Manytricks の [[https://manytricks.com/moom/][moom]] というデスクトップアプリからインスパイヤされて作り始めましたが，気づけば独自機能満載の便利ツールに仕上がっています．日本語フォントの拡大縮小にも対応していて，[[https://github.com/takaxp/org-tree-slide][org-tree-slide.el]] で全画面プレゼンテーションする時にも重宝します．macOSでの利用を前提としています．Linux と Windows でも動きますが，色々と微調整が必要なのでまだ正式対応とは言えない状態です．
+
+[[files:/201x/fc0fafe5-4e83-6444-683b-b3bfa21af4ca.gif]]
+** DONE org-table.el のエコー表示を安定化                            :@emacs:
+   CLOSED: [2020-06-12 Fri 10:28]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 67fe3ac1-2dc0-f9f4-5973-caa0eb395bec
+:EXPORT_HUGO_TAGS: "emacs" "org-mode" "org-table"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       73AFD1B6-239A-45E0-9276-9D904DD6A6B6
+:CREATED:  [2020-06-12 Fri 10:18]
+:END:
+
+私は普段から自動保存機能（[[http://0xcc.net/misc/auto-save/][auto-save-buffer.el]]）を利用しているので， org table のセルで ~C-c ?~ 押下でエコーエリアに表示される情報がすぐ消えてしまいます．
+
+~org-table-field-info (C-c ?)~ は
+
+#+begin_src
+line @2, col $1, ref @2$1 or A2 or $LR1
+#+end_src
+
+のような情報をエコーエリアに出してくれる機能で， =tblfm= で指定する数式に使用します．（私が施している設定が主な要因で）これが自動保存時に消えるため，保存してからエコーエリアに表示するように変更します．
+
+#+begin_src emacs-lisp
+(defun ad:org-table-field-info (_arg)
+  (save-buffer))
+(advice-add 'org-table-field-info :before #'ad:org-table-field-info)
+#+end_src
+
+これで表示が消えなくなりました．簡単！
+
+*** References
+ - [[http://0xcc.net/misc/auto-save/][Emacsでファイルの自動保存 (auto-save-buffers)]]
+ - [[https://takaxp.github.io/init.html#orgb8c01946][Configurations for GNU Emacs | 8.12 [auto-save-buffers.el] 一定間隔でバッファを保存する]]
+ - [[https://github.com/ChillarAnand/real-auto-save][ChillarAnand/real-auto-save: Automatically save your all your buffers/files at regular intervals in Emacs!]]
+** DONE ベーコンとマッシュルームのパスタ                           :@cooking:
+   CLOSED: [2020-06-20 Sat 19:23]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0621-pasta-bacon-and-mushroom
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       B625D4F9-D609-4C79-8475-A97BE6EF8ADC
+:CREATED:  [2020-06-21 Sun 19:01]
+:END:
+
+久しぶりにマッシュルームを購入したのでパスタにしてみました．途中まではソルト系の要領で作り，最後に小さめで旨味の強いトマトでまとめるのがマイブームです．白だしを使う和風パスタと同じ位に定番になりつつあります．
+
+{{< tweet 1274185707641159680 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ニンニク       |    1 | 片   |
+| ベーコン       | 適量 |      |
+| マッシュルーム |    6 | 個   |
+| 小トマト       |    2 | 個   |
+| 茹で汁(1.1%)   |   30 | [cc] |
+| パスタ         |  165 | [g]  |
+** DONE アーリオ・オーリオ・ペペロンチーノ                         :@cooking:
+   CLOSED: [2020-07-05 Sun 01:02]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0705-pasta-peperoncino
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       C3A22225-9BC7-4EB5-BB1E-E599E27BC6B3
+:CREATED:  [2020-11-16 Mon 00:57]
+:END:
+
+コースの二皿目として作りました．ニンニクをブレンダーでソース化して使うという手法をチャレンジしましたが，翌日大変な事になりました．風味は良いですが強烈なので要注意です．
+
+{{< tweet 1279726722045243392 >}}
+
+{{< tweet 1279773711042621440 >}}
+
+#+caption: レシピ（材料・一皿分）
+| 材料             | 分量 | 単位 |
+|------------------+------+------|
+| オリーブオイル   |   20 | [cc] |
+| ニンニク         |    1 | 片   |
+| 水               |   20 | [cc] |
+| イタリアンパセリ | 少々 |      |
+| カイエンペッパー |  0.8 | [g]  |
+| パスタ           |   60 | [g]  |
+** DONE 生姜のパスタ                                               :@cooking:
+   CLOSED: [2020-07-05 Sun 01:11]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0705-pasta-ginger
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       CA5A16C1-38BC-4004-B423-60DBC927A61F
+:CREATED:  [2020-11-16 Mon 01:03]
+:END:
+
+これもコースの一皿として作りました．パスタが二皿という贅沢コースです．違うソースのパスタを同時に作るのは結構大変です．今回の生姜のパスタはわりと好評でした．生姜は使用量の半分を繊維を残すようにして，もう半分は汁を絞って捨てるようにしました．
+
+{{< tweet 1279726813510463490 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料                         | 分量 | 単位 |
+|------------------------------+------+------|
+| オリーブオイル               |   15 | [cc] |
+| ニンニク                     |    1 | 片   |
+| 生姜                         |    2 | [cm] |
+| 茹で汁(1.1%)                 |   15 | [cc] |
+| パルメジャーノ・レッジャーノ | 少々 |      |
+| パスタ                       |   60 | [g]  |
+** DONE フライパンの新調                                           :@cooking:
+   CLOSED: [2020-08-01 Sat 01:16]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0801-frypan-renewal
+:EXPORT_HUGO_TAGS: "kitchenware"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       61089AAB-03EA-4984-A3C5-F5F00D98BF8B
+:CREATED:  [2020-11-16 Mon 01:13]
+:END:
+
+テフロンのフライパンを買い替えました．3年での買い替えです．
+
+{{< tweet 1289366420162109441 >}}
+** DONE ベーコンのパスタ(2)                                        :@cooking:
+   CLOSED: [2020-08-01 Sat 01:21]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0801-pasta-bacon-with-tomato
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       DE10D8F7-0E0E-4ABB-8FBE-373A6CC9F851
+:CREATED:  [2020-11-16 Mon 01:17]
+:END:
+
+冷蔵庫の余り物シリーズです．トマトの酸味がいい感じです．
+
+{{< tweet 1289405588900732929 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| 玉ねぎ         |  1/4 |      |
+| ベーコン       | 適量 |      |
+| プチトマト     |    6 | 個   |
+| 茹で汁(1.1%)   |   40 | [cc] |
+| パスタ         |  170 | [g]  |
+** DONE ホタテと大葉のパスタ                                       :@cooking:
+   CLOSED: [2020-08-02 Sun 01:27]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0802-pasta-hotate
+:EXPORT_HUGO_TAGS: "pasta" "wafu"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       0BC80F38-BC88-4DB3-B473-8E824CB7214D
+:CREATED:  [2020-11-16 Mon 01:23]
+:END:
+
+安定の和風パスタを作りました．少々バターの量が多かったです．あとは，ホタテの厚みを半分くらいにカットする方が良いかもしれません．
+
+{{< tweet 1289776312173727745 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   15 | [cc] |
+| ホタテ         |   10 | 粒   |
+| 白だし         |   10 | [cc] |
+| みりん         |   10 | [cc] |
+| 白醤油         |    8 | [cc] |
+| バター         |   10 | [g]  |
+| 大葉           |   10 | 枚   |
+| 茹で汁(1.1%)   |   15 | [cc] |
+| パスタ         |  165 | [g]  |
+** DONE アラビアータ                                               :@cooking:
+   CLOSED: [2020-08-08 Sat 01:37]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0808-pasta-arrabbiata
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       DA456140-3886-4606-A5C2-582A91DDBE56
+:CREATED:  [2020-11-16 Mon 01:28]
+:END:
+
+ブカティーニを使ってアラビアータを作りました．前回はブカティーニの中に入る水分を考慮していなくて，モヤッとした仕上がりになりましたが，今回は反省を活かし，バランスの取れた仕上がりになりました．
+
+{{< tweet 1291938323712192512 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   45 | [cc] |
+| ニンニク       |    2 | 片   |
+| 鷹の爪         |    2 | 本   |
+| アンチョビ     |    2 | 片   |
+| ホールトマト   |  3/4 | 缶   |
+| パスタ         |  193 | [g]  |
+** DONE ベーコンとフレッシュトマトのプッタネスカ                   :@cooking:
+   CLOSED: [2020-08-09 Sun 01:42]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0809-pasta-puttanesca
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       182F23BD-F590-4DD1-83CA-B35F0FF87FE9
+:CREATED:  [2020-11-16 Mon 01:38]
+:END:
+
+キッタラを使ったパスタを作りました．ちょっと具材がごちゃついてしまったのが反省点ですが，キッタラの歯ごたえがクセになりそうです．
+
+{{< tweet 1292301906690285568 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ニンニク       |    2 | 片   |
+| 玉ねぎ         |  1/8 | 個   |
+| ベーコン       | 適量 |      |
+| ミニトマト     |   数 | 粒   |
+| オリーブ       |    4 | 粒   |
+| アンチョビ     |    3 | 片   |
+| ケッパー       |  小2 |      |
+| パスタ         |  170 | [g]  |
+** DONE ホタテのパスタ                                             :@cooking:
+   CLOSED: [2020-08-15 Sat 01:46]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0815-pasta-hotate
+:EXPORT_HUGO_TAGS: "pasta" "wafu"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       C9E2FFA1-925C-4FB1-88C8-70E9222F64BA
+:CREATED:  [2020-11-16 Mon 01:43]
+:END:
+
+ホタテと和風パスタは本当によく合います．
+
+{{< tweet 1294473643062202368 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| 玉ねぎ         |  3/8 | 個   |
+| ホタテ         |   10 | 粒   |
+| 白だし         |   10 | [cc] |
+| 牡蠣醤油       |    8 | [cc] |
+| みりん         |   10 | [cc] |
+| バター         |   10 | [g]  |
+| 茹で汁(1.1%)   |   15 | [cc] |
+| 大葉           | 数枚 |      |
+| パスタ         |  170 | [g]  |
+** DONE 玉ねぎのパスタ                                             :@cooking:
+   CLOSED: [2020-08-29 Sat 01:52]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0829-pasta-onion
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       2406098F-7F76-484F-8812-87A544D9403C
+:CREATED:  [2020-11-16 Mon 01:48]
+:END:
+
+少し多めの玉ねぎを使うシンプルなパスタを作りました．味はソルトですが，玉ねぎの甘みをしっかり感じられます．アンチョビを入れるとまた違った味になりそうです．
+
+{{< tweet 1299548845865492480 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ニンニク       |    1 | 片   |
+| 玉ねぎ         |  1/4 | 個   |
+| 茹で汁(1.1%)   |   30 | [cc] |
+| パスタ         |  160 | [g]  |
+** DONE しらすの和風パスタ                                         :@cooking:
+   CLOSED: [2020-09-05 Sat 02:01]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0905-pasta-whitebait
+:EXPORT_HUGO_TAGS: "pasta" "wafu"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       8B1EB3BC-6785-43EC-A7AC-041E7C932F47
+:CREATED:  [2020-11-16 Mon 01:52]
+:END:
+
+今回は色んな具材を使ってパスタを作りました．ベースは和風ですが，ベーコン，トマト，バターとキーとなる食材が盛りだくさんです．まずいはずが無いですね．大葉の緑，しらすの白，トマトの赤でフラッグカラーになりました．
+
+{{< tweet 1302084579805732870 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| 玉ねぎ         |  1/4 | 個   |
+| ベーコン       | 適量 |      |
+| プチトマト     | 数個 |      |
+| みりん         |   10 | [cc] |
+| 白だし         |   10 | [cc] |
+| 牡蠣醤油       |    8 | [cc] |
+| 茹で汁(1.1%)   |   15 | [cc] |
+| バター         |   10 | [g]  |
+| しらす         | 大量 |      |
+| 大葉           | 数枚 |      |
+| パスタ         |  160 | [g]  |
+** DONE ほうれん草ベーコン・ロッソ                                 :@cooking:
+   CLOSED: [2020-09-12 Sat 02:07]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0912-pasta-bacon-spinach
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       86C92843-6C0F-47E3-B682-376A8396EBD9
+:CREATED:  [2020-11-16 Mon 02:02]
+:END:
+
+ほうれん草とベーコンをオイルではなくトマトでまとめてみました．ちょっと見た目が良くないので，ほうれん草は別途火を通すとか工夫が必要そうです．
+
+{{< tweet 1304631811130028032 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   50 | [cc] |
+| ニンニク       |    3 | 片   |
+| 完熟トマト小   |    5 | 個   |
+| ベーコン       |    2 | 枚   |
+| ほうれん草     |    3 | 枚   |
+| 茹で汁(1.1%)   |   60 | [cc] |
+| XO醤           |  小1 |      |
+| パスタ         |  170 | [g]  |
+** DONE シーフード・ペペロンチーノ                                 :@cooking:
+   CLOSED: [2020-09-22 Tue 02:12]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0922-pasta-seafood-peperoncino
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       E9F82AA8-CAD4-45D6-9D53-D4C28F68B1D5
+:CREATED:  [2020-11-16 Mon 02:08]
+:END:
+
+シーフードミックスは塩水で解凍すると良いという情報を得たので早速実践してみました．確かに旨味が残っていい感じです．ただイカはもう少し小さめにカットしてから使えば良かったと思います．
+
+{{< tweet 1308260706140082178 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料             | 分量 | 単位 |
+|------------------+------+------|
+| オリーブオイル   |   30 | [cc] |
+| ニンニク         |    2 | 片   |
+| 鷹の爪           |    1 | 本   |
+| シーフドミックス | 適量 |      |
+| みりん           |   15 | [cc] |
+| 茹で汁(1.1%)     |   30 | [cc] |
+| パスタ           |  170 | [g]  |
+** DONE ベーコンと三種キノコのパスタ                               :@cooking:
+   CLOSED: [2020-10-03 Sat 02:17]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1003-pasta-bacon-mushroom
+:EXPORT_HUGO_TAGS: "pasta" "wafu"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       85CE39A7-29DD-4786-B71F-D54EEF384435
+:CREATED:  [2020-11-16 Mon 02:12]
+:END:
+
+秋になったのでキノコがメインのパスタを作りました．キノコの香りの活かし方はまだまだ修行が必要そうです．
+
+{{< tweet 1312228980158685184 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| しめじ         | 適量 |      |
+| 椎茸           | 適量 |      |
+| 舞茸           | 適量 |      |
+| オリーブオイル |   30 | [cc] |
+| ベーコン       |    2 | 枚   |
+| 白だし         |   10 | [cc] |
+| みりん         |   10 | [cc] |
+| 白醤油         |    8 | [cc] |
+| バター         |   10 | [cc] |
+| パスタ         |  170 | [g]  |
+** DONE ボンゴレビアンコ                                           :@cooking:
+   CLOSED: [2020-10-18 Sun 02:21]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1018-pasta-vongole-bianco
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       C30B0952-37C5-48ED-B8BB-33E9BEA412E9
+:CREATED:  [2020-11-16 Mon 02:17]
+:END:
+
+ようやくバターに頼らず白ワインだけで美味しいボンゴレビアンコを作れるようになってきました．
+
+{{< tweet 1317786064170315776 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           |  分量 | 単位 |
+|----------------+-------+------|
+| オリーブオイル |    30 | [cc] |
+| ニンニク       |     2 | 片   |
+| 鷹の爪         |     1 | 本   |
+| あさり         |  適量 |      |
+| 白ワイン       | 2回し |      |
+| ベーコン       |     1 | 枚   |
+| 小エビ         |  少々 |      |
+| 茹で汁(1.1%)   |    20 | [cc] |
+| パスタ         |   160 | [g]  |
+** DONE ベーコンのパスタ(3)                                        :@cooking:
+   CLOSED: [2020-10-24 Sat 02:24]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1024-pasta-bacon
+:EXPORT_HUGO_TAGS: "pasta" "wafu"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       DB384B82-AF44-4887-B2E9-39014DB6AF35
+:CREATED:  [2020-11-16 Mon 02:21]
+:END:
+
+ベーコンを中心にした和風パスタを作りました．和風の良さがベーコンが覆い隠してしまった感じがします．
+
+{{< tweet 1319833483150176256 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料               | 分量 | 単位 |
+|--------------------+------+------|
+| オリーブオイル     |   30 | [cc] |
+| ベーコン           | 適量 |      |
+| みりん             |   10 | [cc] |
+| 白だし             |   10 | [cc] |
+| 白醤油             |    5 | [cc] |
+| バター             |   10 | [cc] |
+| 玉ねぎドレッシング |   30 | [g]  |
+| 大葉               | 数枚 |      |
+| パスタ             |  180 | [g]  |
+** DONE 茹で汁の濃度                                               :@cooking:
+   CLOSED: [2020-10-24 Sat 02:30]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1024-emulsion
+:EXPORT_HUGO_TAGS: 
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       BAACAA61-8372-4F2C-9049-0E8D04EFD5E6
+:CREATED:  [2020-11-16 Mon 02:25]
+:END:
+
+家庭で昼食にパスタを作るとなると，水を火にかけて，沸いたらパスタを入れるというのが一般的なフローだと思います．お店だと，継続的に同じお湯を使うので，自然とパスタの一部が溶け込みますが，家庭だとそうなりません．そこで，鍋に入れた水に火をかけるタイミングで，パスタを1本折って入れておくと，沸騰するまでの間にそれなりに溶け込むので，ペペロンチーノを作る時にはわりと質の良い茹で汁になってくれます（計測したわけではないです
+
+{{< tweet 1319830264395120640 >}}
+** DONE ウニボナーラ                                               :@cooking:
+   CLOSED: [2020-11-03 Tue 02:32]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1103-pasta-uni
+:EXPORT_HUGO_TAGS: "pasta" "cream"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       3103EBA6-EDE3-44E1-88BC-1373826F6BAB
+:CREATED:  [2020-11-16 Mon 02:30]
+:END:
+
+某所で話題だったウニボナーラを作ってみました．まぁまぁのできだと思います．
+
+{{< tweet 1323469919376207872 >}}
+** DONE ベーコンと生姜のパスタ                                     :@cooking:
+   CLOSED: [2020-11-14 Sat 02:36]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1114-pasta-bacon-ginger
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       AF80F8E2-89E9-4CCB-9745-A103A1C246DB
+:CREATED:  [2020-11-16 Mon 02:32]
+:END:
+
+卵を使っていないのでカルボナーラとは違うのですが，ベーコンと粉チーズでそれっぽい雰囲気になりました．その一方で生姜のおかげでがあっさりとした一皿になりました．
+
+{{< tweet 1327457725463203840 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| 玉ねぎ         |  1/8 | 個   |
+| ベーコン       |    1 | 枚   |
+| 粉チーズ       | 適量 |      |
+| 生姜           | 少々 |      |
+| 茹で汁(1.1%)   |   30 | [cc] |
+| パスタ         |  170 | [g]  |
+** DONE タコとオリーブのペペロンチーノ                             :@cooking:
+   CLOSED: [2020-11-15 Sun 02:39]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1115-pasta-octopus-olive-peperoncino
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: [2020-11-23 Mon 14:13]
+:EXPORT_HUGO_IMAGES: 
+:ID:       B030D89F-9799-417F-9F76-E66F9603DE62
+:CREATED:  [2020-11-16 Mon 02:36]
+:END:
+
+タコをメインにしたペペロンチーノを作りました．アクセントで生姜を使っています．ペペロンチーノで生姜を使うと和風と違いパンチが強くなるので，生姜は控えめのが良さそうです．
+
+{{< tweet 1327824777512251392 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| 玉ねぎ         |  1/8 | 個   |
+| ニンニク       |    1 | 片   |
+| 鷹の爪         |    1 | 本   |
+| オリーブ       |    2 | 粒   |
+| タコ           | 適量 |      |
+| 茹で汁(1.1%)   |   30 | [cc] |
+| 生姜           | 適量 |      |
+| パスタ         |  170 | [g]  |
+
+** DONE ProgresTouch RETRO TINY                                       :@tech:
+   CLOSED: [2020-11-06 Fri 03:43]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1116-progrestouch-retro-tiny
+:EXPORT_HUGO_TAGS: "windows" "keyboard"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       396E7452-CE51-4934-95FB-73F84D2D8B29
+:CREATED:  [2020-11-16 Mon 03:20]
+:END:
+
+Windows用のキーボードとして導入したピンク軸の [[https://archisite.co.jp/products/archiss/progres-touch/retro-tiny-en/][ProgresTouch RETRO TINY]]（66キー）ですが，macOSで使うならどんな設定かな？と試行錯誤してみました．Contrlキーの位置をキーボード側で調整できるのはありがたい機能です．
+
+|     | macOS | Windows |                              |
+|-----+-------+---------+------------------------------|
+| SW1 | ON    | ON      | Left ctrl と CapsLock を交換 |
+| SW2 | ON    | OFF     | Windows と Left Alt  を交換  |
+| SW3 | OFF   | ON      | Windows と Fn を交換         |
+| SW4 | OFF   | OFF     | Windows を無効化             |
+
+静音赤軸（ピンク軸）の打ち心地が最高なのですが，唯一， ~Metaキー~ として使う ~Alt~ の位置が， ~X~ の下ではなく ~Z~ の下に位置しているのが私には残念ポイントです．英語配列のキーボードのお話です．
+
+{{< tweet 1304616774122442753 >}}
+
+これは ~M-x~ を多用する Emacs ユーザならではの事情で，親指を内側に折るようにして ~Alt~ 押下するので， ~Alt~ が左側に寄っていると，押下の過程でスペースキーを誤打することになるからです．
+
+Macで普段常用している MagicKeyboard は（ ~Metaキー~ として使う） ~Command~ キー が ~X~ の真下にあるので，打ち間違いは基本的に生じません．なので， MagicKeyboard に慣れた左手だと，ProgresTouch RETRO TINY のキー配置はちょっとつらいのです．
+
+とは言っても，最終的には慣れのような気もします...
+
+なお，テンキーレスの [[https://archisite.co.jp/products/archiss/progres-touch/retro-tkl-en/][ProgresTouch RETRO TKL]]（87キー）の場合は，ちょうど ~Z~ と ~X~ の間に位置するところに ~Alt~ があるので，だいぶ打ちやすいです．試したいがゆえに，結局両方買ってしまった...
+
+{{< tweet 1324675295543058433 >}}
+
+どちらも大切に使っていきます．
+** DONE 椎茸とホタテのパスタ                                       :@cooking:
+   CLOSED: [2020-11-23 Mon 14:09]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1123-pasta-mushroom-hotate
+:EXPORT_HUGO_TAGS: "pasta" "wafu" "best"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       FAE810B1-DB55-4A9E-8338-5B7A5D5F7778
+:CREATED:  [2020-11-23 Mon 14:04]
+:END:
+
+大きめの椎茸が売られてたので冷凍庫で眠っているホタテと合わせてみました．旨みたっぷりで大変美味しゅうございます．食材のカットをもう少し工夫してもいいかもしれません．今日はキッタラを使いました．
+
+{{< tweet 1330719181667397632 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| 玉ねぎ         |  1/6 | 個   |
+| ホタテ         | 数個 |      |
+| 椎茸           |    1 | 本   |
+| 白だし         |   10 | [cc] |
+| みりん         |   10 | [cc] |
+| 麺つゆ         |   10 | [cc] |
+| バター         |   10 | [cc] |
+| 茹で汁(1.1%)   |   30 | [cc] |
+| 大葉           |    1 | 束   |
+| パスタ         |  180 | [g]  |
+** DONE ボロネーゼ（カレー風味）                                   :@cooking:
+   CLOSED: [2020-12-06 Sun 21:20]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1206-pasta-boronase
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       CCA1D952-5DEF-4DD9-860F-AF09BB08281F
+:CREATED:  [2020-12-06 Sun 22:06]
+:END:
+
+冬になるとラグーを食べたくなります．ということで，ボロネーゼソースを作りました．今回はカレー粉をちょっと入れてみたくなりチャレンジしました．結果は，6皿分に対して小さじ1程度の量でもほんのりとカレー感を主張する感じに仕上がりです．胡椒以外のスパイシーさが加わって，わりといい感じです．
+
+{{< tweet 1335417538897870848 >}}
+
+*** 解凍(1)
+
+{{< tweet 1343029373046116352 >}}
+
+*** 解凍(2)
+
+{{< tweet 1343755829107777536 >}}
+*** 解凍(3)
+{{< tweet 1345207923945869315 >}}
+*** 解凍(4)
+{{< tweet 1345578232335122434 >}}
+** DONE ローストビーフ                                             :@cooking:
+   CLOSED: [2020-12-31 Thu 19:04]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 1231-roast-beef
+:EXPORT_HUGO_TAGS: "secondo"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       ED0617AE-34BB-4A59-9D38-493B60A4B5D5
+:CREATED:  [2020-12-31 Thu 18:53]
+:END:
+
+2020年は何度かローストビーフに挑戦してきましたが，年の瀬にかなり完成度が高くよい仕上がりのものができました．
+
+最終的には肉選びに帰着する感じですが，牛肉のサイズ，表面の焼き方，オーブンでの火入れ，そしてカットと，実はそんなに簡単なメニューではないと思います．
+
+今回は通常通りに予熱で全体に熱を入れた後にそのままカットせず，冷蔵庫で一晩置いてみました．すると，期待以上にちょうどよいしっとり感の肉の状態になりました．塩コショウ以外の下処理をしていないので，次回は下味を付けてから焼き工程に入るようなフローに挑戦しようと思います．
+
+(手順)
+1. 肉は大きめで筋が無くうっすらとサシが入っているもの
+2. 牛肉を冷蔵庫から出して塩コショウする
+3. 常温に戻るまでしばらく置く
+4. 表面を焼く（ステンレスフライパンの高温でさっと）
+5. オーブンに入れる（150度15分: 30分の予定を少し早めにした）
+6. 予熱で常温まで戻す（触るとかなりぷにぷに）
+7. ラップで包み直して冷蔵庫に入れる（一晩置く）
+8. 翌朝，薄く切って完成
+
+{{< tweet 1344449122393182208 >}}
+

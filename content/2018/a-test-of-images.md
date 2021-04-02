@@ -2,6 +2,7 @@
 title = "画像の埋め込みテスト"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-08-24T14:02:00+09:00
+lastmod = 2021-01-02T23:48:00+09:00
 categories = ["hugo"]
 draft = false
 +++
@@ -22,7 +23,7 @@ draft = false
 短縮名設定は，org バッファの先頭で，
 
 ```org
-#+link: files https://pxaka.tokyo/blog/files/2018/
+#+link: files https://pxaka.tokyo/blog/files/
 ```
 
 と記述して，同行上で `C-c C-c` で忘れずに有効化する．
@@ -58,10 +59,6 @@ draft = false
 [/files/2018/twitter.jpg](~/Dropbox/org/blog/static/files/2018/twitter.jpg)
 
 [files/2018/twitter.jpg](../static/files/2018/twitter.jpg)
-
-{{< figure src="https://pbs.twimg.com/profile%5Fimages/892836904202149888/p%5FUbMC5Q%5F400x400.jpg" >}}
-
-{{< figure src="https://pbs.twimg.com/profile%5Fimages/892836904202149888/p%5FUbMC5Q%5F400x400.jpg" width="128px" >}}
 
 <https://pxaka.tokyo/owncloud/index.php/s/sf1CNSc3oLfKfuq>
 
