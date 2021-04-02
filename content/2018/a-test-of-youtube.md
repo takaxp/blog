@@ -2,6 +2,7 @@
 title = "YouTube 組み込みテスト"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-08-20T20:28:00+09:00
+tags = ["hugo"]
 categories = ["tech"]
 draft = false
 +++

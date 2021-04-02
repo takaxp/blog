@@ -25,7 +25,7 @@ draft = false
 
 {{< tweet 1104603450224984064 >}}
 
-[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/imadenale.org#L410)
+[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/archive.org#L2105)
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

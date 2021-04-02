@@ -19,4 +19,4 @@ draft = false
 
 ごちそうさまでした．
 
-[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/imadenale.org#L7)
+[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/archive.org#L467)

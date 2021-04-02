@@ -3,6 +3,7 @@ title = "画像の埋め込みテスト"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-08-24T14:02:00+09:00
 lastmod = 2021-01-02T23:48:00+09:00
+tags = ["hugo"]
 categories = ["tech"]
 draft = false
 +++

@@ -14,6 +14,7 @@
 :PROPERTIES:
 :EXPORT_FILE_NAME: init-entry-by-hugo
 :EXPORT_DATE: 2016-08-21T00:56:32+09:00
+:EXPORT_HUGO_TAGS: "hugo"
 :EXPORT_HUGO_LASTMOD: 
 :END:
 
@@ -74,6 +75,7 @@ Now, a new blog is up by Hugo!
    CLOSED: [2018-08-20 Mon 18:23]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-ox-hugo
+:EXPORT_HUGO_TAGS: "hugo"
 :EXPORT_HUGO_LASTMOD: 
 :END:
 
@@ -140,6 +142,7 @@ Now, a new blog is up by Hugo!
    CLOSED: [2018-08-20 Mon 20:10]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-twitter-card
+:EXPORT_HUGO_TAGS: "hugo"
 :EXPORT_HUGO_LASTMOD: 
 :END:
 
@@ -154,6 +157,7 @@ Twitter を組み込めるのかを試験します．
    CLOSED: [2018-08-20 Mon 20:28]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-youtube
+:EXPORT_HUGO_TAGS: "hugo"
 :EXPORT_HUGO_LASTMOD: 
 :END:
 
@@ -168,6 +172,7 @@ YouTube の動画を組み込めるのかを試験します．
    CLOSED: [2018-08-21 Tue 02:05]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-mathjax-text
+:EXPORT_HUGO_TAGS: "hugo"
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :mathjax true
 :EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-08-21 Tue 02:04]
@@ -250,6 +255,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
    CLOSED: [2018-08-21 Tue 16:25]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-gist
+:EXPORT_HUGO_TAGS: "hugo"
 :EXPORT_HUGO_LASTMOD: 
 :END:
 
@@ -261,6 +267,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
    CLOSED: [2018-08-23 Thu 00:37]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-asin-shortcode
+:EXPORT_HUGO_TAGS: "hugo"
 :EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-08-23 Thu 00:36]
 :END:
@@ -319,6 +326,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
    CLOSED: [2018-08-24 Fri 14:02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-test-of-images
+:EXPORT_HUGO_TAGS: "hugo"
 :EXPORT_HUGO_LASTMOD: [2021-01-02 Sat 23:48]
 :CREATED:  [2018-08-23 Thu 02:19]
 :END:
@@ -388,6 +396,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
    CLOSED: [2018-08-24 Fri 19:44]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 44febe88-04a5-9bc4-6bfb-678a8477a0ed
+:EXPORT_HUGO_TAGS: "hugo"
 :EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-08-24 Fri 19:39]
 :END:
@@ -410,6 +419,7 @@ https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-M
    CLOSED: [2018-08-25 Sat 04:11]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 62d73d4b-439b-cf74-1bf3-ecae75bd7bd2
+:EXPORT_HUGO_TAGS: "hugo"
 :EXPORT_HUGO_LASTMOD: 
 :CREATED:  [2018-08-25 Sat 03:54]
 :END:

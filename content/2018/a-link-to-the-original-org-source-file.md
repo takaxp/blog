@@ -44,7 +44,7 @@ draft = false
 
 しばらくこれで運用してみる．
 
-[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/archive.org#L545)
+[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/archive.org#L555)
 
 
 ## Updated (2018-09-04@00:44) {#updated--2018-09-04-00-44}
