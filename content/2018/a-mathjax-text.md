@@ -2,7 +2,7 @@
 title = "数式の展開テスト"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-08-21T02:05:00+09:00
-categories = ["hugo"]
+categories = ["tech"]
 draft = false
 mathjax = true
 +++

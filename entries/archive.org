@@ -9,7 +9,8 @@
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: 2016
 :END:
-** はじめてのHugo                                             :go:blog:@tech:
+** DONE はじめてのHugo                                        :go:blog:@tech:
+   CLOSED: [2016-08-21 Sun 23:07]
 :PROPERTIES:
 :EXPORT_FILE_NAME: init-entry-by-hugo
 :EXPORT_DATE: 2016-08-21T00:56:32+09:00
