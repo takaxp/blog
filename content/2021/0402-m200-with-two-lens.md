@@ -32,18 +32,3 @@ M200の製品イメージは，スペシャルサイトのコンテンツで簡�
 軽量コンパクトが特徴ですから，普段からなるべく持ち歩きたい，でもあまり粗雑に扱いたくもない，というところで，交換レンズも含めて簡単に持ち出せて，かつ，丈夫で長持ち使いやすいというわがままを満たしてくれる専用バッグも入手しました．ALPAKA製 [Go Sling Pro](https://tyomac.com/GoSlingPro/)です．本体と交換レンズが2本入り（本体に付ける1本を含めてレンズは3本!），財布と携帯を入れてぴったりな感じです．
 
 {{< vimeo 281961084 >}}
-
-<div style="width:480px;border:1px;">
-  <div class="photo-content">
-    <a href="<https://pxaka.tokyo/nextcloud/index.php/s/cH7yAFHxgm98sDH>">
-    <img alt="" width="480" src="<https://pxaka.tokyo/nextcloud/index.php/s/cH7yAFHxgm98sDH/preview%22/>></a>
-  </div>
-  <div class="photo-metadata" style="text-align:right;">
-    <p style="fontsize:7pt; color:darkgray; font-family:sans-serif;margin:0px;">
-      Canon EOS M200<br/>
-      Canon EF-M14-45mm F3.5-6.3 IS STM<br/>
-      20mm f4.0 1/80sec ISO200
-    </p>
-  </div>
-  <p></p>
-</div>

@@ -1,0 +1,22 @@
+{
+  "SharedPhotoItem" :{
+    "PhotoId": "miJndzLAN7qAHcZ",
+    "FileName": "IMG_0029.JPG",
+    "Exif": {
+      "CameraModelName": "Canon EOS M200",
+      "Orientation": 1,
+      "FocalLength": 24,
+      "ExposureTime": "1/60",
+      "FNumber": 4.5,
+      "ExposureProgram": "Aperture-priority AE",
+      "ISO": 800,
+      "CreateDate": "2021:01:24 21:17:46",
+      "OffsetTime": "+09:00",
+      "LensType": "Canon EF-M 15-45mm f/3.5-6.3 IS STM",
+      "ImageWidth": 6000,
+      "ImageHeight": 4000,
+      "ExifImageWidth": 6000,
+      "ExifImageHeight": 4000
+    }
+  }
+}
