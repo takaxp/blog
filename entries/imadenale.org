@@ -519,24 +519,6 @@ https://cweb.canon.jp/eos/special/m200/
 
 {{< vimeo 281961084 >}}
 
-
-#+begin_src html
-<div style="width:480px;border:1px;">
-  <div class="photo-content">
-    <a href="https://pxaka.tokyo/nextcloud/index.php/s/cH7yAFHxgm98sDH">
-    <img alt="" width="480" src="https://pxaka.tokyo/nextcloud/index.php/s/cH7yAFHxgm98sDH/preview"/></a>
-  </div>
-  <div class="photo-metadata" style="text-align:right;">
-    <p style="fontsize:7pt; color:darkgray; font-family:sans-serif;margin:0px;">
-      Canon EOS M200<br/>
-      Canon EF-M14-45mm F3.5-6.3 IS STM<br/>
-      20mm f4.0 1/80sec ISO200
-    </p>
-  </div>
-  <p></p>
-</div>
-#+end_src
-
 ** TODO ミラーレスカメラデビュ
 :PROPERTIES:
 :EXPORT_FILE_NAME: 
@@ -562,4 +544,18 @@ https://cweb.canon.jp/eos/special/m200/
 少し使い込むと，ダイヤル2個のモデルがいいですな．
 
 色々と比較していると，セミプロラインのR6が気になるんですよね...
+** DONE 画像埋め込み用ショートコードテスト                           :@photo:
+   CLOSED: [2021-04-03 Sat 00:50]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0403-try-shortcode-photo-on-nextcloud
+:EXPORT_HUGO_TAGS: "photo" "hugo"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       ABF13BB0-76D6-4293-9614-C10A9F533345
+:CREATED:  [2021-04-03 Sat 00:48]
+:END:
+
+{{< photo cH7yAFHxgm98sDH >}}
+
+{{< photo miJndzLAN7qAHcZ >}}
 
