@@ -121,4 +121,10 @@
 	}
 }
 
+@media screen and (max-width: 480px) {
+  .photo-container {
+    width: 240px;
+  }
+}
+
 /* Custom config for Mainroad - end */

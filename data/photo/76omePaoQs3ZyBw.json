@@ -1,0 +1,22 @@
+{
+  "SharedPhotoItem": {
+    "PhotoId": "76omePaoQs3ZyBw",
+    "FileName": "IMG_0298.JPG",
+    "Exif": {
+      "CameraModelName": "Canon EOS M200",
+      "Orientation": 1,
+      "FocalLength": 28,
+      "ExposureTime": "1/15",
+      "FNumber": 22.0,
+      "ExposureProgram": "Aperture-priority AE",
+      "ISO": 6400,
+      "CreateDate": "2021:03:17 22:47:28",
+      "OffsetTime": "+09:00",
+      "LensType": "Canon EF-M 28mm f/3.5 Macro IS STM",
+      "ImageWidth": 6000,
+      "ImageHeight": 4000,
+      "ExifImageWidth": 6000,
+      "ExifImageHeight": 4000
+    }
+  }
+}
