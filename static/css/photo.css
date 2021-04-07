@@ -1,0 +1,26 @@
+@media screen and (min-width: 521px){
+  .photo-container {
+    width: 480px;
+  }
+  .photo-metadata {
+    font-size: 10pt;
+  }
+}
+
+@media screen and (max-width: 520px) and (min-width: 401px) {
+  .photo-container {
+    width: 320px;
+  }
+  .photo-metadata {
+    font-size: 9pt;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .photo-container {
+    width: 240px;
+  }
+  .photo-metadata {
+    font-size: 8pt;
+  }
+}
