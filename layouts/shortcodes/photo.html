@@ -6,13 +6,13 @@
 {{- $baseUri := "https://pxaka.tokyo/nextcloud/index.php" -}}
 {{- $previewApp := "/apps/files_sharing/publicpreview/" -}}
 {{- $previewSize := "1024" -}}
-<div class="photo-container" style="width:480px;margin:30px auto;border:0px solid;">
+<div class="photo-container" style="margin:30px auto;border:0px solid;">
   <div class="photo-content">
     <a href="{{ $baseUri }}/s/{{ $photoid }}">
-      <img class="photo" alt="{{ $photoid }}" width="480" src="{{ $baseUri }}{{ $previewApp }}{{ $photoid }}?x={{ $previewSize }}&y={{ $previewSize }}&a=true&file={{ $filename }}"/></a>
+      <img class="photo" alt="{{ $photoid }}" src="{{ $baseUri }}{{ $previewApp }}{{ $photoid }}?x={{ $previewSize }}&y={{ $previewSize }}&a=true&file={{ $filename }}"/></a>
   </div>
   <div class="photo-metadata" style="text-align:right;border:0px solid;">
-    <p style="font-size:9pt;color:darkgray;font-family:sans-serif;margin:0px;">
+    <p style="color:darkgray;font-family:sans-serif;margin:0px;">
       {{ $exif.CameraModelName }}<br/>
       {{ $exif.LensType }}<br/>
       {{ $exif.FocalLength}}mm f{{ $exif.FNumber }} {{ $exif.ExposureTime }}sec ISO{{ $exif.ISO }}
