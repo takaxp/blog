@@ -544,18 +544,91 @@ https://cweb.canon.jp/eos/special/m200/
 少し使い込むと，ダイヤル2個のモデルがいいですな．
 
 色々と比較していると，セミプロラインのR6が気になるんですよね...
+
 ** DONE 画像埋め込み用ショートコードテスト                           :@photo:
    CLOSED: [2021-04-03 Sat 00:50]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0403-try-shortcode-photo-on-nextcloud
 :EXPORT_HUGO_TAGS: "photo" "hugo"
 :EXPORT_HUGO_LASTMOD: 
-:EXPORT_HUGO_IMAGES: 
+:EXPORT_HUGO_IMAGES: https://pxaka.tokyo/nextcloud/index.php/apps/files_sharing/publicpreview/miJndzLAN7qAHcZ?x=1024&y=1024&a=true&file=IMG_0029.jpg
 :ID:       ABF13BB0-76D6-4293-9614-C10A9F533345
 :CREATED:  [2021-04-03 Sat 00:48]
 :END:
 
+本文を追加するとこんな感じになります．
+
 {{< photo cH7yAFHxgm98sDH >}}
+
+ショートコード自体はかなりシンプルで，URLを構築する部分と，メタデータを並べる部分，そしてそれらを配置する部分しかありません．
 
 {{< photo miJndzLAN7qAHcZ >}}
 
+ページに読み込んでくる画像は，Nextcloud側で public link を生成している画像で，標準で発行されるリンクではなく，解像度を下げたサムネイルを取得可能なリンクを使っています．各画像をクリックすると，Nextcloudの高解像度画像を見られます．
+
+{{< photo 76omePaoQs3ZyBw >}}
+
+** DONE orgのテーブルをexcelコピペ用に変換する                       :@emacs:
+   CLOSED: [2021-04-05 Mon 21:27]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0405-my-org-table-to-format
+:EXPORT_HUGO_TAGS: "emacs" "orgmode"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       1329268A-0F20-4DF9-A265-FD640E84CFCF
+:CREATED:  [2021-04-05 Mon 21:00]
+:END:
+
+標準関数の =org-table-export= を使うと，カーソル位置のテーブルをファイルに出力できます．プロパティの =TABLE_EXPORT_FILE= を設定してればファイル名を指定する必要はなく，また出力形式は，同じくプロパティの =TABLE_EXPORT_FORMAT= で指定する形式か， =org-table-export-default-format= で指定した値が使われます．
+
+この関数は確かに便利なのですが，使っているとファイル出力というよりもコピペ用に変換したい，とか，変換した結果でバッファを書き換えたい，というシーンも多いことに気づきました．ということで書いてみました．基本的に =org-table-export= の一部を切り出してきた形になります．
+
+まず =my-org-table-copy-as= は，カーソル位置のテーブルはそのままの表示で，変換したテーブルをクリップボードに流し込みます．エクセルに持っていきペーストするのがユースケースです．
+
+次に =my-org-table-convert-to= は，カーソル位置のテーブルをその位置で変換してバッファ上で書き換えます．ついでに =my-org-table-copy-as= と同様にクリップボードに流し込んでいます．
+
+#+begin_src emacs-lisp
+(defun my-org-table-copy-as (&optional format)
+  "Copy converted table."
+  (interactive)
+  (let ((format (or format
+                    (org-entry-get (point) "TABLE_EXPORT_FORMAT" t)
+                    org-table-export-default-format)))
+    (if (string-match "\\([^ \t\r\n]+\\)\\( +.*\\)?" format)
+	      (let ((transform (intern (match-string 1 format)))
+	            (params (and (match-end 2)
+			                     (read (concat "(" (match-string 2 format) ")"))))
+	            (table (org-table-to-lisp)))
+          (if (not (org-at-table-p))
+              (user-error "The cursor is not at a table")
+	          (with-temp-buffer
+		          (insert (funcall transform table params) "\n")
+              (clipboard-kill-ring-save (point-min) (point-max)))))
+      (user-error "TABLE_EXPORT_FORMAT invalid"))))
+
+(defun my-org-table-convert-to (&optional format)
+  "Convert a table to FORMAT.
+If FORMAT is nil, it is set equal to a property value specified
+by \"TABLE_EXPORT_FORMAT\" or `org-table-export-default-format'.
+Converted table is copied to kill ring for further use.
+The core part is extracted from `org-table-export'."
+  (interactive)
+  (let ((format (or format
+                    (org-entry-get (point) "TABLE_EXPORT_FORMAT" t)
+                    org-table-export-default-format)))
+    (if (string-match "\\([^ \t\r\n]+\\)\\( +.*\\)?" format)
+	      (let ((transform (intern (match-string 1 format)))
+	            (params (and (match-end 2)
+			                     (read (concat "(" (match-string 2 format) ")"))))
+	            (table (org-table-to-lisp)))
+          (if (not (org-at-table-p))
+              (user-error "The cursor is not at a table")
+	          (kill-region (org-table-begin) (org-table-end))
+	          (let ((begin (point)))
+	            (insert (funcall transform table params))
+	            (clipboard-kill-ring-save begin (point))
+              (insert "\n"))))
+      (user-error "TABLE_EXPORT_FORMAT invalid"))))
+#+end_src
+
+テーブルがある場所で =M-x my-org-table-copy-as= 或いは =M-x my-org-table-convert-to= すると，プロパティ =TABLE_EXPORT_FORMAT= に設定された出力形式に変換されます．プロパティが未設定の場合は， =org-table-export-default-format= の値を使います．このあたりは =org-table-export= の挙動と同じです．なお =org-table-export-default-format= のデフォルト値は =orgtbl-to-tsv= なので，普段からカンマ区切りに変えたい場合は， =orgtbl-to-csv= に設定しておきます．
