@@ -7,7 +7,7 @@ categories = ["tech"]
 draft = false
 +++
 
-YouTube の動画を組み込めるのかを試験します．
+YouTube の動画を組み込めるのかを試験します。
 
 {{< youtube kaw75f11fPU >}}
 

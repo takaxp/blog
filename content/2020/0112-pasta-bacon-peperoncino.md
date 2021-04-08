@@ -7,7 +7,7 @@ categories = ["cooking"]
 draft = false
 +++
 
-さっと作りました．
+さっと作りました。
 
 {{< tweet 1216246468308135936 >}}
 

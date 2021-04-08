@@ -21,17 +21,17 @@ A standalone equation:
 
 ## full equation with numbering {#full-equation-with-numbering}
 
-~~**うまくいかない** 通常のHTML出力では正しく式番号がレンダリングされる．~~
+~~**うまくいかない** 通常のHTML出力では正しく式番号がレンダリングされる。~~
 
-`ox-hugo` の設定では，
+`ox-hugo` の設定では、
 
 > <https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML%5FHTMLorMML>
 
-だが，通常のHTML出力では，
+だが、通常のHTML出力では、
 
 > <https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS%5FHTML>
 
-である．
+である。
 
 And a full <span class="latex">L<sup>A</sup>T<sub>E</sub>X</span> equation will be displayed as
 
@@ -42,9 +42,9 @@ C = W\log\_{2} (1+\mathrm{SNR})
 
 , and could be referenced by (\ref{eq:1}).
 
-最終的に，リファレンスに示された `mathjax-config.js` を利用すればOK．
+最終的に、リファレンスに示された `mathjax-config.js` を利用すればOK。
 
-導入は， `./static/js/mathjax-config.js` として [mathjax-config.js](https://ox-hugo.scripter.co/js/mathjax-config.js) を保存し，テーマの中で `mathjax` のスクリプトを記述している箇所に，以下を追加する．
+導入は、 `./static/js/mathjax-config.js` として [mathjax-config.js](https://ox-hugo.scripter.co/js/mathjax-config.js) を保存し、テーマの中で `mathjax` のスクリプトを記述している箇所に、以下を追加する。
 
 ```javascript
 <!--
@@ -57,9 +57,9 @@ C = W\log\_{2} (1+\mathrm{SNR})
 <script src="{{ "js/mathjax-config.js" | absURL }}"></script>
 ```
 
-これで式番号と `\ref` が効くようになる．
+これで式番号と `\ref` が効くようになる。
 
-`ox-hugo` の設定は，以下（本来の値）でOKだった．
+`ox-hugo` の設定は、以下（本来の値）でOKだった。
 
 > <https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML%5FHTMLorMML>
 
