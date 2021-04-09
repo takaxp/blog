@@ -7,7 +7,7 @@ categories = ["tech"]
 draft = false
 +++
 
-`hugo` と `ox-hugo` を利用したブログ執筆の試験です。
+`hugo` と `ox-hugo` を利用したブログ執筆の試験です．
 
 
 ## Heading1 {#heading1}
@@ -80,7 +80,7 @@ draft = false
 
 ## リンク {#リンク}
 
-<http://google.co.jp>、 [ぐーぐる。こむ](http://google.com/)
+<http://google.co.jp>， [ぐーぐる．こむ](http://google.com/)
 
 
 ## タスク {#タスク}

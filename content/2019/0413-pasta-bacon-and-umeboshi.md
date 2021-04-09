@@ -7,7 +7,7 @@ categories = ["cooking"]
 draft = false
 +++
 
-今日は唐辛子抜きで。
+今日は唐辛子抜きで．
 
 {{< tweet 1116916061100597249 >}}
 

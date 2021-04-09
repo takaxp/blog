@@ -7,11 +7,11 @@ categories = ["tech"]
 draft = false
 +++
 
-[HUGO shortcodes](https://gohugo.io/templates/shortcode-templates/)を使って、Amazonアフィリエイトのリンクを組み込みます。
+[HUGO shortcodes](https://gohugo.io/templates/shortcode-templates/)を使って，Amazonアフィリエイトのリンクを組み込みます．
 
 {{< asin B01N3PBDGJ >}}
 
-動かすのはちょっと大変。以下は、今回のために作った shortcodes で、これ加えて、[Product Advertising API ](https://affiliate.amazon.co.jp/assoc%5Fcredentials/home)を用いたXMLデータのダウンロードスクリプト、XMLからJSON形式のデータを作り、 `./data/asin/B01N3PBDGJ.json` として保存しておく必要があります。
+動かすのはちょっと大変．以下は，今回のために作った shortcodes で，これ加えて，[Product Advertising API ](https://affiliate.amazon.co.jp/assoc%5Fcredentials/home)を用いたXMLデータのダウンロードスクリプト，XMLからJSON形式のデータを作り， `./data/asin/B01N3PBDGJ.json` として保存しておく必要があります．
 
 ```html
 {{- $asin := .Get 0 -}}
@@ -37,7 +37,7 @@ draft = false
 </div>
 ```
 
-書籍だとこんな感じ。
+書籍だとこんな感じ．
 
 {{< asin 4799106023 >}}
 
@@ -46,7 +46,7 @@ draft = false
 
 ## Updated (2018-09-04@00:15) {#updated--2018-09-04-00-15}
 
-参照する価格のフィールドが、ISBNで拾うアイテムと異なるため修正した。前者は定価で、後者は現在の最安値のようだ。
+参照する価格のフィールドが，ISBNで拾うアイテムと異なるため修正した．前者は定価で，後者は現在の最安値のようだ．
 
 ```html
 <!-- {{- $price := $item.ItemAttributes.ListPrice -}} -->
