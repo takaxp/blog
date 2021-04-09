@@ -7,6 +7,6 @@ categories = ["tech"]
 draft = false
 +++
 
-ビルトインの shorcodes を使って簡単にできます．
+ビルトインの shorcodes を使って簡単にできます。
 
 {{< gist takaxp 8f83f07d3fc4b711d2d18f5f82767524 >}}
