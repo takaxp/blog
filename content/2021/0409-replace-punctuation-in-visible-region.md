@@ -7,8 +7,8 @@ categories = ["emacs"]
 draft = false
 +++
 
-再開発感満載ですが，句読点を置き換えるコマンドを書きました．
+再開発感満載ですが、句読点を置き換えるコマンドを書きました。
 
-`M-x my-replace-punctuation-to-scientific` でカンマ・ピリオドに， `M-x my-replace-punctuation-to-normal` で点丸になります．
+`M-x my-replace-punctuation-to-scientific` でカンマ・ピリオドに、 `M-x my-replace-punctuation-to-normal` で点丸になります。
 
 {{< gist takaxp 519139e54ce5ab8034887443a16e63c0 >}}
