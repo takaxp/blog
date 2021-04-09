@@ -7,6 +7,6 @@ categories = ["cooking"]
 draft = false
 +++
 
-解凍して食べました。
+解凍して食べました．
 
 {{< tweet 1201091759696052224 >}}
