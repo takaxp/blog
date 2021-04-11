@@ -650,3 +650,15 @@ The core part is extracted from `org-table-export'."
 =M-x my-replace-punctuation-to-scientific= でカンマ・ピリオドに、 =M-x my-replace-punctuation-to-normal= で点丸になります。
 
 {{< gist takaxp 519139e54ce5ab8034887443a16e63c0 >}}
+** DONE Shadow                                                       :@photo:
+   CLOSED: [2021-04-10 Sat 19:12]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0410-shadow-on-wall
+:EXPORT_HUGO_TAGS: "photo"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: https://pxaka.tokyo/nextcloud/index.php/apps/files_sharing/publicpreview/AJgGq68ATmYM76P?x=1024&y=1024&a=true&file=IMG_0313.jpg
+:ID:       C984B080-2C86-4460-ABE6-81A4E78D4814
+:CREATED:  [2021-04-10 Sat 19:10]
+:END:
+
+{{< photo AJgGq68ATmYM76P >}}
