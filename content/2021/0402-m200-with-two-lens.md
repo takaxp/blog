@@ -2,7 +2,7 @@
 title = "ミラーレスカメラ"
 author = ["Takaaki ISHIKAWA"]
 date = 2021-04-02T17:44:00+09:00
-tags = ["photo", "M200"]
+tags = ["photo", "EOS", "M200"]
 categories = ["photo"]
 draft = false
 +++
