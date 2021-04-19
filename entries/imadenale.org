@@ -3,7 +3,7 @@
 #+macro: latex @@html:<span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>@@
 #+options: ^:{}
 #+macro: srclink (eval (org-hugo-get-link-to-orgfile "https://github.com/takaxp/blog/blame/master/entries/" "see Orgfile"))
-#+link: files https://raw.githubusercontent.com/takaxp/takaxp.github.io/master/files
+#+link: files https://raw.githubusercontent.com/takaxp/takaxp.github.io/master/f0iles
 
 * 2021
 :PROPERTIES:
@@ -490,7 +490,7 @@ Emacs EMPビルドの方は [[https://developer.apple.com/jp/metal/][metal]] に
    CLOSED: [2021-04-02 Fri 17:44]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 0402-m200-with-two-lens
-:EXPORT_HUGO_TAGS: "photo" "M200"
+:EXPORT_HUGO_TAGS: "photo" "EOS" "M200"
 :EXPORT_HUGO_LASTMOD: 
 :EXPORT_HUGO_IMAGES: 
 :ID:       70E2F0E8-932B-435E-9B66-D9832A0F9813
@@ -518,32 +518,6 @@ https://cweb.canon.jp/eos/special/m200/
 軽量コンパクトが特徴ですから、普段からなるべく持ち歩きたい、でもあまり粗雑に扱いたくもない、というところで、交換レンズも含めて簡単に持ち出せて、かつ、丈夫で長持ち使いやすいというわがままを満たしてくれる専用バッグも入手しました。ALPAKA製 [[https://tyomac.com/GoSlingPro/][Go Sling Pro]]です。本体と交換レンズが2本入り（本体に付ける1本を含めてレンズは3本!）、財布と携帯を入れてぴったりな感じです。
 
 {{< vimeo 281961084 >}}
-
-** TODO ミラーレスカメラデビュ
-:PROPERTIES:
-:EXPORT_FILE_NAME: 
-:EXPORT_HUGO_TAGS: 
-:EXPORT_HUGO_LASTMOD: 
-:EXPORT_HUGO_IMAGES: 
-:ID:       58FEEE98-4E65-4E56-89BB-153F48E068C9
-:CREATED:  [2021-04-02 Fri 13:20]
-:END:
-
-何枚か撮影してみた感想は「かなり軽い」です。
-
-ネットワーク接続ができて、 =image.canon= 経由で =Google Photo= に画像を保存できるのはちょっと感動した。（要確認：すでにどれをアップロードしたかがわかりにくい）
-
-紹介記事で、各M200本体のパーツをGRD4で撮る！
-
-若干アンダー気味な仕上がりになるので、微調整が必要かも。主な原因は屋内のシーリングライトが光源になっているからですね。
-
-撮影環境が逆光だったり、炎天下ですと液晶があまりやくに立たないので、そういうシーンでの撮影回数が多い場合は、やっぱりファインダーが欲しいですね。今回購入した M200 は、定点観測や自宅での物撮りに用途が限られますのでまぁ良いかなと。
-
-マクロレンズが欲しい。
-
-少し使い込むと、ダイヤル2個のモデルがいいですな。
-
-色々と比較していると、セミプロラインのR6が気になるんですよね...
 
 ** DONE 画像埋め込み用ショートコードテスト                           :@photo:
    CLOSED: [2021-04-03 Sat 00:50]
@@ -662,3 +636,255 @@ The core part is extracted from `org-table-export'."
 :END:
 
 {{< photo AJgGq68ATmYM76P >}}
+** DONE マッシュルームのパスタ                                     :@cooking:
+   CLOSED: [2021-04-03 Sat 21:09]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0403-pasta-mushroom
+:EXPORT_HUGO_TAGS: "pasta" "tomato"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       6C7B5861-DD6D-47A1-845A-BA14A97265FB
+:CREATED:  [2021-04-12 Mon 21:03]
+:END:
+
+冷蔵庫にあった大量のブラウンマッシュルームを使ってパスタを作りました。プチトマトと少し水分を多めに入れて詰めるような感じで仕上げました。久々に1皿100gのパスタの分量でしたが、味が濃いためから最後まで飽きずに食べられて、一部から好評でした。
+
+{{< tweet 1378186146354618368 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   45 | [cc] |
+| ニンニク       |    4 | 片   |
+| マッシュルーム | 大量 |      |
+| 玉ねぎ         |  1/8 | 個   |
+| XO醤           |  小1 |      |
+| 鷹の爪         |    1 | 本   |
+| ミニトマト     |    4 | 個   |
+| 茹で汁(1.1%)   |   60 | [cc] |
+| パスタ         |  200 | [g]  |
+** TODO EOS M200使用感                                               :@photo:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 
+:EXPORT_HUGO_TAGS: 
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       58FEEE98-4E65-4E56-89BB-153F48E068C9
+:CREATED:  [2021-04-02 Fri 13:20]
+:END:
+
+年明けにEOS M200を購入してから，ここまでの使用感です．結論として「購入して大正解!!」です．
+
+*** 軽くて小さい
+
+昔使っていたアナログ一眼レフとの比較で言うと，まず「本体がかなり軽い」ですね．
+
+そして小さい．これはミラーレスになったのが主要因だと思いますけど，持ち運びに対する抵抗感がほぼ無いので，ちょっとした外出時にも「とりあえず持っていくかかな」と思わせてくれます．
+
+本体が小さいと，グリップ感が失われて逆に手ブレが気になりますが，「デュアルセンシングIS」のおかげか，手ブレに関してはそれほど気にしなくて良いかなと思います．全く気にならないというよりかは，露出やシャッターの選択度が増したと言えますね．
+
+本体のデザインがかなりシンプルなので，グリップ部分が無く，しかも，ファインダーも無いので，撮影のスタイルがアナログ一眼レフと全く異なりますね．むしろ潔くて良いと思います．
+
+*** 画像共有が楽
+
+アナログ一眼と並行していわゆるコンデジも使ってきましたが，最大の面倒は，撮影データの扱いでした．撮影した画像が記録されたメモリカードを毎度本体から取り出し，アダプタを経由して mac に接続してインポート．そしてメモリカードを本体に戻す．面倒でした．
+
+EOS M200に限らず，最近のカメラは外部と通信するために WiFi や Bluetooth に対応していますね．スマホの便利さ（撮影したらすぐに共有）に近づいています．
+
+画像の共有にはいくつかの選択肢がありますが，私はとりあえず次のようなフローにしました．
+
+1. =image.canon= 経由で =Google Photo= に画像を保存できる
+2. Downloader for image.canonn で自動ダウンロード
+3. 
+4. 
+
+ただネットワーク経由での共有は，ファイル転送にそれなりの時間を要します．大量のファイル，しかもRAWファイルも同時に撮影している場合は，やはりメモリカードを本体に接続する方が利便性が高いと言えます．今のところは，撮影したらこまめにアップロードすることで，問題ない感じです．
+
+*** 画質
+
+若干アンダー気味な仕上がりになるので、微調整が必要かも。主な原因は屋内のシーリングライトが光源になっているからですね。
+
+撮影環境が逆光だったり、炎天下ですと液晶があまりやくに立たないので、そういうシーンでの撮影回数が多い場合は、やっぱりファインダーが欲しいですね。今回購入した M200 は、定点観測や自宅での物撮りに用途が限られますのでまぁ良いかなと。
+
+ただどちらかといえば，まだまだ使い始めでわかっていないことが多いだけの気もします．設定項目も色々とあるので，使い込んでいくうちに好みの状態に変えていこうと思います．
+
+*** 今後
+
+紹介記事で、各M200本体のパーツをGRD4で撮る！
+
+マクロレンズが欲しい。
+
+少し使い込むと、ダイヤル2個のモデルがいいですな。
+
+色々と比較していると、セミプロラインのR6が気になるんですよね...
+** DONE ベーコンと生姜のパスタ                                     :@cooking:
+   CLOSED: [2021-04-13 Tue 19:49]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0413-pasta-bacon-ginger
+:EXPORT_HUGO_TAGS: "pasta" "salt"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       15A0DF7E-8707-42D7-B810-FEECB67DE61E
+:CREATED:  [2021-04-13 Tue 19:46]
+:END:
+
+定番になりつつある生姜のパスタです。1枚余っていたベーコンも入れてみました。生姜はすりおろすのが面倒になって、みじん切りにしましたが、シャキシャキ食感が残るので好みが分かれそうです。
+
+{{< tweet 1381915606354518019 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ニンニク       |    2 | 片   |
+| 玉ねぎ         |  1/8 | 個   |
+| 生姜           | 適量 |      |
+| ベーコン       |    1 | 枚   |
+| 茹で汁(1.1%)   |   45 | [cc] |
+| パルメジャーノ | 適量 |      |
+| パスタ         |  180 | [g]  |
+** DONE 生姜のパスタ(3)                                            :@cooking:
+   CLOSED: [2021-04-14 Wed 22:59]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0414-pasta-ginger
+:EXPORT_HUGO_TAGS: "pasta" "wafu"
+:EXPORT_HUGO_LASTMOD: 
+:EXPORT_HUGO_IMAGES: 
+:ID:       24591588-C55A-4AE5-9D79-3D1994002367
+:CREATED:  [2021-04-14 Wed 22:56]
+:END:
+
+生姜のパスタをいつもの和風で仕上げてみました。いい感じに仕上がりましたが、なにかキーとなる食材が必要な感じがしました。野菜かな。
+
+{{< tweet 1382284751323635714 >}}
+
+#+caption: レシピ（材料・二皿分）
+| 材料           | 分量 | 単位 |
+|----------------+------+------|
+| オリーブオイル |   30 | [cc] |
+| ニンニク       |    2 | 片   |
+| 生姜           | 適量 |      |
+| みりん         |   10 | [cc] |
+| 白だし         |   10 | [cc] |
+| 鴨せいろつゆ   |    8 | [cc] |
+| バター         |   15 | [g]  |
+| 茹で汁(1.1%)   |   10 | [cc] |
+| パスタ         |  180 | [g]  |
+** DONE view-modeをorgバッファで違和感なく使う設定                   :@emacs:
+   CLOSED: [2021-04-15 Thu 21:50]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0415-org-and-view-mode
+:EXPORT_HUGO_TAGS: "emacs" "org-mode" "view-mode"
+:EXPORT_HUGO_LASTMOD: [2021-04-17 Sat 23:10]
+:EXPORT_HUGO_IMAGES: 
+:ID:       DD1B857B-F578-4DD9-AE0A-6324173F63D2
+:CREATED:  [2021-04-15 Thu 21:41]
+:END:
+
+~init.el~ を ~org-mode~ で書いている関係から、一般的な設定ファイルと同じように、特定のorgファイルが簡単に書き換わってほしくない状態にあります。そういうファイルは ~view-mode~ で扱うのがよいですね。
+
+ということで、いくつか独自の関数を設定して、 ~n~, ~p~ に割り当てました。こうすることで、書き込み保護を維持したまま、例えば ~n~ 押下で、headingにいる場合は次の headingに移動し、そうでない場合は次の行にカーソルを移動できます。 ~<tab>~, ~S-<tab>~, にも機能を振りましたが、どうやらそうしなくても =org-cycle= は発動するようです。なので、発動しない場合にのみ適用してみてください。
+
+#+begin_src emacs-lisp
+(defun my-org-view-next-heading ()
+  (interactive)
+  (if (and (derived-mode-p 'org-mode)
+           (org-at-heading-p))
+      (org-next-visible-heading 1)
+    (next-line)))
+
+(defun my-org-view-previous-heading ()
+  (interactive)
+  (if (and (derived-mode-p 'org-mode)
+           (org-at-heading-p))
+      (org-previous-visible-heading 1)
+    (previous-line)))
+
+(defun my-view-tab ()
+  (interactive)
+  (when (and (derived-mode-p 'org-mode)
+             (or (org-at-heading-p)
+                 (org-at-property-drawer-p)))
+    (let ((view-mode nil))
+      (org-cycle))))
+
+(defun my-view-shifttab ()
+  (interactive)
+  (when (derived-mode-p 'org-mode)
+    (let ((view-mode nil))
+      (org-shifttab))))
+
+(with-eval-after-load "view"
+  (define-key view-mode-map (kbd "<tab>") 'my-view-tab)
+  (define-key view-mode-map (kbd "S-<tab>") 'my-view-shifttab)
+  (define-key view-mode-map (kbd "<SPC>") 'ignore)
+  (define-key view-mode-map (kbd "i") 'View-exit-and-edit)
+  (define-key view-mode-map (kbd "f") 'forward-char)
+  (define-key view-mode-map (kbd "b") 'backward-char)
+  (define-key view-mode-map (kbd "n") 'my-org-view-next-heading)
+  (define-key view-mode-map (kbd "p") 'my-org-view-previous-heading))
+#+end_src
+
+なお、特定のファイルや特定のディレクトリ以下にあるファイルを自動的に ~view-mode~ で開く設定は、[[https://takaxp.github.io/init.html#org6b6c1c11][5.24 viewモード]]を参照してください。
+
+*** References
+ - [[https://takaxp.github.io/init.html#org6b6c1c11][5.24 viewモード]]
+** DONE all-the-icons から解脱したい                                 :@emacs:
+   CLOSED: [2021-04-17 Sat 15:30]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 0417-emacs-icons-in-terminal
+:EXPORT_HUGO_TAGS: "emacs" "all-the-icons" "icons-in-terminal"
+:EXPORT_HUGO_LASTMOD: [2021-04-17 Sat 17:40]
+:EXPORT_HUGO_IMAGES: 
+:ID:       F9A9B280-7479-4CB6-81FE-C91ADF7086E1
+:CREATED:  [2021-04-17 Sat 15:12]
+:END:
+
+Emacsのモードラインやバッファを賑やかにしてくれる =all-the-icons.el= ですが、環境によっては希望するアイコンがレンダリングされなかったり、しかも直すのが簡単じゃありません。
+
+不要なフォントファイルを削除したり、フォントセットの設定を変えたりと、場当たり的な回避方法がありますが、そろそろ本質的に解決したいところです。
+
+勉強不足のせいで、そもそも =all-the-icons.el= がちゃんと動いている理由がよくわかっていないのですが、少なくともコードポイントが重複しているのが気になります。例えば、 =0xF0C4= が、 ~faicons~ ではハサミに、 ~octicons~ では箱にアサインされています。フォントロックがかかっていると後者が表示されますが、 =describe-char= 的には前者が使われています。なので対象を一度コピペすると二度と後者の表示が得られません。
+
+{{< tweet 1383307489089708037 >}}
+
+で、少なくともコードポイントについては唯一性を担保している(っぽい・mapがある)ものは無いかというところで、 =icons-in-terminal= の出番です。
+
+- https://github.com/sebastiencs/icons-in-terminal
+
+=icons-in-terminal= は本来ターミナル上でフォントアイコンを使うことを意図したものですが、 =all-the-icons= を代替できると考えます。ということで、やってみました。
+
+=icons-in-terminal= 自体が =icons-in-terminal.el= を提供していますが、ここで必要になるのは、 =all-the-icons.el= の代替となるもので、別途パッケージが存在しているのでそちらを導入します。導入手順等は気が向いたらまとめます。
+
+そして私がこれまで依存してきた =all-the-icons= 関連のパッケージには、 =all-the-icons-ivy.el= と =all-the-icons-dired.el= があるのですが、これらは（調べた範囲で） =icons-in-terminal.el= 用のパッケージがありません。ということで、準備しました。自作したというより、 =all-the-icons-ivy.el= と =all-the-icons-dired.el= を =icons-in-terminal= で動かせるように手を加えたという感じです。
+
+また現時点の頒布元の =icons-in-terminal.el= では =icons-in-terminal-dired.el= との接続が悪いので、自分用にカスタマイズしました。そのうち本家にフィードバックします。
+
+ということで準備したのは次の3つ。
+
+- https://github.com/takaxp/icons-in-terminal.el
+- https://github.com/takaxp/icons-in-terminal-ivy
+- https://github.com/takaxp/icons-in-terminal-dired
+
+それぞれをインストールして、これまで =init.el= で =all-the-icons= 用に設定してきたところを、すべて =icons-in-terminal= に置換すればOKです。
+
+最後に、 =fontset= で =icons-in-terminal= のフォントを使うことを指定して完了です。
+
+#+begin_src emacs-lisp
+(set-fontset-font t '(#Xe000 . #Xf8ff) "icons-in-terminal")
+#+end_src
+
+とりあえずこれで =all-the-icons= が壊れた環境で =icons-in-terminal= を利用してうまく動かすことができました。しばらく運用して、問題がないようなら完全に移行しようと思います。
+
+{{< tweet 1383318313904709639 >}}
+
+*** Update (2021-04-17@17:27)
+
+今後の拡張も考慮すると fontset の指定範囲を、Unicodeの私用領域に対応する ='(#Xe000 . #Xf8ff)= にするのが安全かもしれません。 ='unicode= 指定は too much だと思います。
+
+#+begin_src emacs-lisp
+;; (set-fontset-font t '(#Xedff . #Xee6e) "icons-in-terminal") ;; firacode.el
+;; (set-fontset-font t '(#Xe0a0 . #Xeea0) "icons-in-terminal") ;; icons-in-terminal-alist
+;; (set-fontset-font t '(#Xe000 . #Xf8ff) "icons-in-terminal")
+(set-fontset-font t 'unicode "icons-in-terminal")
+#+end_src
