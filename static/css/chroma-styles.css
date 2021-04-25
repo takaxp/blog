@@ -1,6 +1,7 @@
 /* Background */ .chroma {
   color: #f8f8f2;
-  background-color: #282a35;
+  background-color: #282a36;
+  font-size: 80%;
 }
 /* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
 /* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; width: auto; overflow: auto; display: block; }
