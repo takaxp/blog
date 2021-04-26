@@ -2,7 +2,7 @@
 title = "all-the-icons から解脱したい"
 author = ["Takaaki ISHIKAWA"]
 date = 2021-04-17T15:30:00+09:00
-lastmod = 2021-04-17T17:40:00+09:00
+lastmod = 2021-04-25T20:20:00+09:00
 tags = ["emacs", "all-the-icons", "icons-in-terminal"]
 categories = ["emacs"]
 draft = false
@@ -26,7 +26,7 @@ Emacsのモードラインやバッファを賑やかにしてくれる `all-the
 
 そして私がこれまで依存してきた `all-the-icons` 関連のパッケージには、 `all-the-icons-ivy.el` と `all-the-icons-dired.el` があるのですが、これらは（調べた範囲で） `icons-in-terminal.el` 用のパッケージがありません。ということで、準備しました。自作したというより、 `all-the-icons-ivy.el` と `all-the-icons-dired.el` を `icons-in-terminal` で動かせるように手を加えたという感じです。
 
-また現時点の頒布元の `icons-in-terminal.el` では `icons-in-terminal-dired.el` との接続が悪いので、自分用にカスタマイズしました。そのうち本家にフィードバックします。
+また現時点の頒布元の `icons-in-terminal.el` では `icons-in-terminal-dired.el` との接続が悪いので、自分用にカスタマイズしました。 ~~そのうち本家にフィードバックします。~~ 無事マージされました。
 
 ということで準備したのは次の3つ。
 
@@ -57,3 +57,10 @@ Emacsのモードラインやバッファを賑やかにしてくれる `all-the
 ;; (set-fontset-font t '(#Xe000 . #Xf8ff) "icons-in-terminal")
 (set-fontset-font t 'unicode "icons-in-terminal")
 ```
+
+
+## Update (2021-04-25@20:20) {#update--2021-04-25-20-20}
+
+今回の修正が無事にマージされました。
+
+-   <https://github.com/seagle0128/icons-in-terminal.el/pull/3>
