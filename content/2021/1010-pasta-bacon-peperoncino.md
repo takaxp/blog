@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-しばらく作ってなかったパスタを久々に作りました。いつもの食材なので普通に美味しいです。
+しばらく作ってなかったパスタを久々に作りました。いつもの食材なので普通に美味しいです。  
 
-{{< tweet user="takaxp" id="1447143139953676293" >}}
+{{< tweet 1447143139953676293 >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:
