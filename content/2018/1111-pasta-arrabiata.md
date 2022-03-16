@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-市販のトマトパウチに，XO醤を混ぜたパスタ．とても旨かった．XO醤は意外と甘いので，塩分調整が必要になった．
+市販のトマトパウチに、XO醤を混ぜたパスタ。とても旨かった。XO醤は意外と甘いので、塩分調整が必要になった。  
 
-{{< tweet 1061469460786110465 >}}
+{{< tweet user="takaxp" id="1061469460786110465" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:
