@@ -6,7 +6,7 @@ tags = ["apple", "mac"]
 draft = false
 +++
 
-Mac mini (2018) を譲渡します！  
+Mac mini (2018) を譲渡します！.  
 
 有効利用してくださる方、ぜひ[Twitter](https://twitter.com/takaxp)でご連絡ください。価格設定していますが、転売対策です。  
 
