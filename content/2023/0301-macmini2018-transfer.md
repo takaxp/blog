@@ -1,5 +1,5 @@
 +++
-title = "Macmini(2018) の譲渡"
+title = "Mac mini(2018) の譲渡"
 author = ["Takaaki ISHIKAWA"]
 date = 2023-02-26T10:25:00+09:00
 tags = ["apple", "mac"]
@@ -8,7 +8,7 @@ draft = false
 
 Mac mini (2018) を譲渡します！  
 
-有効利用してくださる方、ぜひ[Twitter](https://twitter.com/takaxp)でご連絡ください。価格設定していますが、細かな希望も含めて、応相談です。  
+有効利用してくださる方、ぜひ[Twitter](https://twitter.com/takaxp)でご連絡ください。価格設定していますが、転売対策です。金額も含めて細かな希望などは、応相談です。  
 
 {{< tweet user="takaxp" id="1629413894111510528" >}}  
 
@@ -53,7 +53,8 @@ Mac mini (2018) を譲渡します！
 ## 譲渡条件 {#譲渡条件}
 
 -   有効利用してくださる方に譲渡します  
-    -   通常利用や試験機としては十分なスペックですし、Intelベースのアプリ開発にも使えると思います。
+    -   通常利用や試験機としては十分なスペックです
+    -   Intelベースのアプリ開発にも使えると思います
 -   転売はご遠慮ください
 
 
@@ -76,6 +77,6 @@ Mac mini (2018) を譲渡します！
 
 ## 留意点 {#留意点}
 
--   FileVault が有効の場合、Bluetooth接続のキーボードでログインできません  
-    -   例(HHKB)：[Bluetooth接続で使用していますが、macOSで起動時のログインパスワード入力ができません。](https://faq.pfu.jp/faq/show/3229?category%5Fid=181&site%5Fdomain=hhkb)  
-        -   個体の問題というより、仕様です。
+-   FileVault が有効の場合、Bluetooth接続のキーボードでログインできません（起動初回時のみ）  
+    -   例(HHKB)：[Bluetooth接続で使用していますが、macOSで起動時のログインパスワード入力ができません。](https://faq.pfu.jp/faq/show/3229?category%5Fid=181&site%5Fdomain=hhkb)
+    -   個体の問題というより、仕様です。
