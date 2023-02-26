@@ -85,4 +85,4 @@ Mac mini (2018) を譲渡します！
 -   モニタとの相性があるかもしれません。  
     -   例(EIZO): [macOS Mojave 10.14.5のMac mini 2018とモニターをUSB Type-CやDisplayPort接続した環境で、macOSの起動不具合が発生する問題について](https://www.eizo.co.jp/support/compati/pc/mac/macmini2018%5Fmojave/index.html)
     -   私の場合、HDMI接続で起動時に表示されない場合がありました  
-        -   再起動後に放置して、(数分後に)自動停止してからもう一度電源を入れると、すんなり起動します
+        -   起動後に放置して、(数分後に)自動停止してからもう一度電源を入れると、すんなり起動します
