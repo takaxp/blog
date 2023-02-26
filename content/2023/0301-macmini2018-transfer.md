@@ -9,6 +9,7 @@ draft = false
 Mac mini (2018) を譲渡します！  
 
 有効利用してくださる方、ぜひ[Twitter](https://twitter.com/takaxp)でご連絡ください。価格設定していますが、転売対策です。  
+
 金額も含めて細かな希望などは、応相談です。  
 
 {{< tweet user="takaxp" id="1629413894111510528" >}}  
