@@ -3,6 +3,7 @@ title = "ベーコンとアンチョビのパスタ"
 author = ["Takaaki ISHIKAWA"]
 date = 2023-02-19T16:54:00+09:00
 tags = ["pasta", "tomato"]
+categories = ["cooking"]
 draft = false
 +++
 
