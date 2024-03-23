@@ -7,6 +7,6 @@ categories = ["cooking"]
 draft = false
 +++
 
-いつもの美味しい市販ソースで。
+いつもの美味しい市販ソースで。  
 
-{{< tweet 1085507175143727104 >}}
+{{< tweet user="takaxp" id="1085507175143727104" >}}

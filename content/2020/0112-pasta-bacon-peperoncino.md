@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-さっと作りました。
+さっと作りました。  
 
-{{< tweet 1216246468308135936 >}}
+{{< tweet user="takaxp" id="1216246468308135936" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

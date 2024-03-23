@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-そろそろパンチェッタやベーコンではなくて、グアンチャーレを使ってみたい。
+そろそろパンチェッタやベーコンではなくて、グアンチャーレを使ってみたい。  
 
-{{< tweet 1094811428114984961 >}}
+{{< tweet user="takaxp" id="1094811428114984961" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

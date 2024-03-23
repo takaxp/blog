@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-鶏肉をメインにした和風パスタを作りました。ハズレのない旨さです。
+鶏肉をメインにした和風パスタを作りました。ハズレのない旨さです。  
 
-{{< tweet 1129701594537156608 >}}
+{{< tweet user="takaxp" id="1129701594537156608" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

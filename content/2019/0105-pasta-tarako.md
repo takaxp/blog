@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-たらこのパスタ。明太子じゃなかった。
+たらこのパスタ。明太子じゃなかった。  
 
-{{< tweet 1081423738631905285 >}}
+{{< tweet user="takaxp" id="1081423738631905285" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

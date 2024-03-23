@@ -7,11 +7,11 @@ categories = ["cooking"]
 draft = false
 +++
 
-自家製パンチェッタでカルボナーラを作りました。
+自家製パンチェッタでカルボナーラを作りました。  
 
-{{< tweet 1124894069652480000 >}}
+{{< tweet user="takaxp" id="1124894069652480000" >}}  
 
-{{< tweet 1124883589210853376 >}}
+{{< tweet user="takaxp" id="1124883589210853376" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

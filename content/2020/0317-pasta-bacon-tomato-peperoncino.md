@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-ベーコン主体のペペロンチーノにトマト味にしてみました。仕上げにエキストラバージョンオイルをかけてると、さらに美味しくなりますね。
+ベーコン主体のペペロンチーノにトマト味にしてみました。仕上げにエキストラバージョンオイルをかけてると、さらに美味しくなりますね。  
 
-{{< tweet 1239882219184766978 >}}
+{{< tweet user="takaxp" id="1239882219184766978" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

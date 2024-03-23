@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-ふるさと納税で手に入れた梅干しが残り続けているので消化のためにパスタにしました。
+ふるさと納税で手に入れた梅干しが残り続けているので消化のためにパスタにしました。  
 
-{{< tweet 1223919457573064704 >}}
+{{< tweet user="takaxp" id="1223919457573064704" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

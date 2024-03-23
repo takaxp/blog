@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-台湾で購入した肉そぼろを使ってパスタを作った。XO醤が意外と甘く、ケイパーと合わせるといい感じになった。
+台湾で購入した肉そぼろを使ってパスタを作った。XO醤が意外と甘く、ケイパーと合わせるといい感じになった。  
 
-{{< tweet 1063630878671175680 >}}
+{{< tweet user="takaxp" id="1063630878671175680" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

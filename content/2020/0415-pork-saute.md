@@ -7,11 +7,11 @@ categories = ["cooking"]
 draft = false
 +++
 
-我が家では定番になっているソテーしたポークのタリアータです。
+我が家では定番になっているソテーしたポークのタリアータです。  
 
-{{< tweet 1250380555209719808 >}}
+{{< tweet user="takaxp" id="1250380555209719808" >}}  
 
-ソースは独自の和風です。
+ソースは独自の和風です。  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

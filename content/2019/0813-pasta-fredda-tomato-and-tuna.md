@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-冷製パスタに初挑戦しました。塩味は丁度いいけど、水分コントロールが難しく、継続的な修行が必要です。
+冷製パスタに初挑戦しました。塩味は丁度いいけど、水分コントロールが難しく、継続的な修行が必要です。  
 
-{{< tweet 1161124760283049984 >}}
+{{< tweet user="takaxp" id="1161124760283049984" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-ソーセージからは旨味だけじゃなくオイルも多く出てくるからソースの完成にはちょっと工夫が必要かな。
+ソーセージからは旨味だけじゃなくオイルも多く出てくるからソースの完成にはちょっと工夫が必要かな。  
 
-{{< tweet 1071260817155284994 >}}
+{{< tweet user="takaxp" id="1071260817155284994" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

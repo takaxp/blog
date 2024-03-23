@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-ベーコンを中心にした和風パスタを作りました。和風の良さがベーコンが覆い隠してしまった感じがします。
+ベーコンを中心にした和風パスタを作りました。和風の良さがベーコンが覆い隠してしまった感じがします。  
 
-{{< tweet 1319833483150176256 >}}
+{{< tweet user="takaxp" id="1319833483150176256" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

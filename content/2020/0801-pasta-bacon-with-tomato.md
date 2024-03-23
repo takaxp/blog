@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-冷蔵庫の余り物シリーズです。トマトの酸味がいい感じです。
+冷蔵庫の余り物シリーズです。トマトの酸味がいい感じです。  
 
-{{< tweet 1289405588900732929 >}}
+{{< tweet user="takaxp" id="1289405588900732929" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

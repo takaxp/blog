@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-Vimconf に参加した時にいただいたノベルティに、鮭トバが入っていたのでパスタにしてみた。旨かった。
+Vimconf に参加した時にいただいたノベルティに、鮭トバが入っていたのでパスタにしてみた。旨かった。  
 
-{{< tweet 1066540085917605888 >}}
+{{< tweet user="takaxp" id="1066540085917605888" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

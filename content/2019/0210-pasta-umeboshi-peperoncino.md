@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-バランスの取れた完成度の高い一皿になりました。
+バランスの取れた完成度の高い一皿になりました。  
 
-{{< tweet 1094440012991496193 >}}
+{{< tweet user="takaxp" id="1094440012991496193" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

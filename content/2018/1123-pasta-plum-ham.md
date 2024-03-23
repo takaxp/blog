@@ -1,5 +1,5 @@
 +++
-title = "梅干しと生ハムのパスタ"
+title = "梅干しと生ハムのパスタ(2)"
 author = ["Takaaki ISHIKAWA"]
 date = 2018-11-23T00:46:00+09:00
 tags = ["pasta", "salt"]
@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-梅干しがアクセントになってとても旨い。生ハムが無くても成立しそう。でも生ハムも旨い。
+梅干しがアクセントになってとても旨い。生ハムが無くても成立しそう。でも生ハムも旨い。  
 
-{{< tweet 1065912951318568965 >}}
+{{< tweet user="takaxp" id="1065912951318568965" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

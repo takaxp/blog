@@ -7,7 +7,7 @@ categories = ["tech"]
 draft = false
 +++
 
-`hugo` と `ox-hugo` を利用したブログ執筆の試験です。
+`hugo` と `ox-hugo` を利用したブログ執筆の試験です。  
 
 
 ## Heading1 {#heading1}
@@ -15,7 +15,7 @@ draft = false
 
 ### Heading 2 {#heading-2}
 
-コンテンツ
+コンテンツ  
 
 
 ### Heading 3 {#heading-3}
@@ -26,29 +26,29 @@ draft = false
 
 ### Source blocks {#source-blocks}
 
--   elisp
-
+-   elisp  
+    
     ```emacs-lisp
     (message "Hello! World")
     ```
 
--   Centered
-
+-   Centered  
+    
     <style>.org-center { margin-left: auto; margin-right: auto; text-align: center; }</style>
-
+    
     <div class="org-center">
       <div></div>
-
-    Centered text
-
+    
+    Centered text  
+    
     </div>
 
--   cpp
-
+-   cpp  
+    
     ```cpp
     #include <iostream>
     using namespace std;
-
+    
     int main(){
       cout << "Hello, World!" << endl;
       return 1;
@@ -58,7 +58,7 @@ draft = false
 
 #### Heading 4 {#heading-4}
 
-\\(H(z)\\)
+\\(H(z)\\)  
 
 
 ## 表 {#表}
@@ -75,12 +75,12 @@ draft = false
 
 ## 装飾 {#装飾}
 
-**太字** , <span class="underline">下線</span> , _イタリック_
+**太字** , <span class="org-underline">下線</span> , _イタリック_  
 
 
 ## リンク {#リンク}
 
-<http://google.co.jp>、 [ぐーぐる。こむ](http://google.com/)
+<http://google.co.jp>、 [ぐーぐる。こむ](http://google.com/)  
 
 
 ## タスク {#タスク}

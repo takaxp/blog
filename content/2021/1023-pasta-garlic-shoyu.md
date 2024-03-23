@@ -9,7 +9,7 @@ draft = false
 
 和風っぽいトマトベースのパスタを作りました。トマトと醤油の相性が結構良いですね。  
 
-{{< tweet 1451749405946564608 >}}  
+{{< tweet user="takaxp" id="1451749405946564608" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-定番のほうれん草とベーコンのペペロンチーノを作りました。ほうれん草は別のフライパンで塩とオイルでソテーしています。
+定番のほうれん草とベーコンのペペロンチーノを作りました。ほうれん草は別のフライパンで塩とオイルでソテーしています。  
 
-{{< tweet 1121011380256038913 >}}
+{{< tweet user="takaxp" id="1121011380256038913" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

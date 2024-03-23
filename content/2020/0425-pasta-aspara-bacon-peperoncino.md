@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-アスパラを使ったパスタを作りました。アスパラはパスタの食材として相性がいいですね。
+アスパラを使ったパスタを作りました。アスパラはパスタの食材として相性がいいですね。  
 
-{{< tweet 1253881337095700481 >}}
+{{< tweet user="takaxp" id="1253881337095700481" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

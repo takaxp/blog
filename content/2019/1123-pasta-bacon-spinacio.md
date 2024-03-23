@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-ベーコンを使うとオイリニーになる傾向があるから気をつけないといけません。
+ベーコンを使うとオイリニーになる傾向があるから気をつけないといけません。  
 
-{{< tweet 1198094747140624384 >}}
+{{< tweet user="takaxp" id="1198094747140624384" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

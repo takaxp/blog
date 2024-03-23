@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-もう少しで消化しきれる梅でパスタを作りました。リンギーネも合うことがわかりました。
+もう少しで消化しきれる梅でパスタを作りました。リンギーネも合うことがわかりました。  
 
-{{< tweet 1228624352041562112 >}}
+{{< tweet user="takaxp" id="1228624352041562112" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

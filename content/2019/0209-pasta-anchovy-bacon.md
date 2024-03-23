@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-使い忘れてたアンチョビでソルト系パスタを作りました。
+使い忘れてたアンチョビでソルト系パスタを作りました。  
 
-{{< tweet 1094178364124934145 >}}
+{{< tweet user="takaxp" id="1094178364124934145" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

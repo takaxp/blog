@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-有頭海老を使ったパスタ。旨し。散々悩んで購入した新しいアルミ鍋もいい感じ。
+有頭海老を使ったパスタ。旨し。散々悩んで購入した新しいアルミ鍋もいい感じ。  
 
-{{< tweet 1056374038648389632 >}}
+{{< tweet user="takaxp" id="1056374038648389632" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

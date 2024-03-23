@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-パンチェッタとほうれん草を使ったパスタです。今回のパンチェッタは、塩漬けの濃度を3<code>[%]</code>と薄めにして、塩抜きせずに使っています。
+パンチェッタとほうれん草を使ったパスタです。今回のパンチェッタは、塩漬けの濃度を3<code>[%]</code>と薄めにして、塩抜きせずに使っています。  
 
-{{< tweet 1142277151414087680 >}}
+{{< tweet user="takaxp" id="1142277151414087680" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-XO醤を強めに使ったベビーホタテのパスタ。ランチで食べるパスタとしてはちょっと味が濃い目かな。
+XO醤を強めに使ったベビーホタテのパスタ。ランチで食べるパスタとしてはちょっと味が濃い目かな。  
 
-{{< tweet 1090241150579924992 >}}
+{{< tweet user="takaxp" id="1090241150579924992" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

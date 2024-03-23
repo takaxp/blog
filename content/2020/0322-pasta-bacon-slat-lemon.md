@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-今回は市販の塩レモンを使ったパスタを作りました。ベースはトマトです。酸味が中心になる一皿に仕上がりました。
+今回は市販の塩レモンを使ったパスタを作りました。ベースはトマトです。酸味が中心になる一皿に仕上がりました。  
 
-{{< tweet 1241569740285509633 >}}
+{{< tweet user="takaxp" id="1241569740285509633" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

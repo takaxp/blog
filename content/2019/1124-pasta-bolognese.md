@@ -1,5 +1,5 @@
 +++
-title = "きのこのボロネーゼ1"
+title = "きのこのボロネーゼ(1)"
 author = ["Takaaki ISHIKAWA"]
 date = 2019-11-24T09:37:00+09:00
 tags = ["pasta", "tomato"]
@@ -7,6 +7,6 @@ categories = ["cooking"]
 draft = false
 +++
 
-仕込んだボロネーゼを何度かにわけていただきました。
+仕込んだボロネーゼを何度かにわけていただきました。  
 
-{{< tweet 1198456129648357381 >}}
+{{< tweet user="takaxp" id="1198456129648357381" >}}

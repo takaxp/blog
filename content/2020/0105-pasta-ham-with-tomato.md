@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-ハムを消化するためにトマトパスタにしてみました。ハムの味が強すぎて、ちょっとパスタには合わないです。
+ハムを消化するためにトマトパスタにしてみました。ハムの味が強すぎて、ちょっとパスタには合わないです。  
 
-{{< tweet 1213667714981494784 >}}
+{{< tweet user="takaxp" id="1213667714981494784" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

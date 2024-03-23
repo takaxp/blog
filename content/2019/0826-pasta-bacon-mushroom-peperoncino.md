@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-きのことベーコンで作るペペロンチーノはハズレません。
+きのことベーコンで作るペペロンチーノはハズレません。  
 
-{{< tweet 1157492232217190400 >}}
+{{< tweet user="takaxp" id="1157492232217190400" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

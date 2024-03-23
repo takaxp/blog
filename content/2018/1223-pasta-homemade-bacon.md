@@ -7,7 +7,7 @@ categories = ["cooking"]
 draft = false
 +++
 
-{{< tweet 1076786902156566533 >}}
+{{< tweet user="takaxp" id="1076786902156566533" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

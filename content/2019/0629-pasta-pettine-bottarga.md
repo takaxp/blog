@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-パンチェッタから出るオイルをベースにペペロンチーノを作りました。
+パンチェッタから出るオイルをベースにペペロンチーノを作りました。  
 
-{{< tweet 1144843006123507714 >}}
+{{< tweet user="takaxp" id="1144843006123507714" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

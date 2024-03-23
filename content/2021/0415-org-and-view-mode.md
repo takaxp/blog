@@ -8,9 +8,9 @@ categories = ["emacs"]
 draft = false
 +++
 
-`init.el` を `org-mode` で書いている関係から、一般的な設定ファイルと同じように、特定のorgファイルが簡単に書き換わってほしくない状態にあります。そういうファイルは `view-mode` で扱うのがよいですね。
+`init.el` を `org-mode` で書いている関係から、一般的な設定ファイルと同じように、特定のorgファイルが簡単に書き換わってほしくない状態にあります。そういうファイルは `view-mode` で扱うのがよいですね。  
 
-ということで、いくつか独自の関数を設定して、 `n`, `p` に割り当てました。こうすることで、書き込み保護を維持したまま、例えば `n` 押下で、headingにいる場合は次の headingに移動し、そうでない場合は次の行にカーソルを移動できます。 `<tab>`, `S-<tab>`, にも機能を振りましたが、どうやらそうしなくても `org-cycle` は発動するようです。なので、発動しない場合にのみ適用してみてください。
+ということで、いくつか独自の関数を設定して、 `n`, `p` に割り当てました。こうすることで、書き込み保護を維持したまま、例えば `n` 押下で、headingにいる場合は次の headingに移動し、そうでない場合は次の行にカーソルを移動できます。 `<tab>`, `S-<tab>`, にも機能を振りましたが、どうやらそうしなくても `org-cycle` は発動するようです。なので、発動しない場合にのみ適用してみてください。  
 
 ```emacs-lisp
 (defun my-org-view-next-heading ()
@@ -52,7 +52,7 @@ draft = false
   (define-key view-mode-map (kbd "p") 'my-org-view-previous-heading))
 ```
 
-なお、特定のファイルや特定のディレクトリ以下にあるファイルを自動的に `view-mode` で開く設定は、[5.24 viewモード](https://takaxp.github.io/init.html#org6b6c1c11)を参照してください。
+なお、特定のファイルや特定のディレクトリ以下にあるファイルを自動的に `view-mode` で開く設定は、[5.24 viewモード](https://takaxp.github.io/init.html#org6b6c1c11)を参照してください。  
 
 
 ## References {#references}

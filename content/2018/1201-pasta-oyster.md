@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-生牡蠣を使ったパスタに挑戦。作り方はボンゴレの手順をそのまま応用した。旨い旨い。
+生牡蠣を使ったパスタに挑戦。作り方はボンゴレの手順をそのまま応用した。旨い旨い。  
 
-{{< tweet 1068720908443873286 >}}
+{{< tweet user="takaxp" id="1068720908443873286" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

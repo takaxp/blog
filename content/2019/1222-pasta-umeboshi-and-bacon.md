@@ -1,5 +1,5 @@
 +++
-title = "梅干しとベーコンのパスタ2"
+title = "梅干しとベーコンのパスタ(2)"
 author = ["Takaaki ISHIKAWA"]
 date = 2019-12-22T10:13:00+09:00
 tags = ["pasta", "salt", "best"]
@@ -7,11 +7,11 @@ categories = ["cooking"]
 draft = false
 +++
 
-オリーブと梅干しの酸味、ベーコンの旨味がマッチして、シンプルなのに完成度の高い一皿になりました。
+オリーブと梅干しの酸味、ベーコンの旨味がマッチして、シンプルなのに完成度の高い一皿になりました。  
 
-麺は細めで、グランフィーロ N.5 1.45mm です。
+麺は細めで、グランフィーロ N.5 1.45mm です。  
 
-{{< tweet 1208588811262812161 >}}
+{{< tweet user="takaxp" id="1208588811262812161" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

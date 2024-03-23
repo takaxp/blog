@@ -7,9 +7,9 @@ categories = ["cooking"]
 draft = false
 +++
 
-定番になりつつある、しらすとアンチョビのパスタ。ベビーホタテもいい感じ。
+定番になりつつある、しらすとアンチョビのパスタ。ベビーホタテもいい感じ。  
 
-{{< tweet 1074166496765472768 >}}
+{{< tweet user="takaxp" id="1074166496765472768" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:
