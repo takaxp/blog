@@ -1,7 +1,7 @@
 +++
 title = "食材レポート"
 author = ["Takaaki ISHIKAWA"]
-date = 2016-09-05T12:40:13+09:00
+date = 2016-09-05T21:40:00+09:00
 categories = ["cooking"]
 draft = false
 +++

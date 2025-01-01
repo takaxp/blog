@@ -1,7 +1,7 @@
 +++
 title = "タスクの整理は心の整理"
 author = ["Takaaki ISHIKAWA"]
-date = 2025-01-01T08:59:00+09:00
+date = 2016-08-23T08:59:00+09:00
 tags = ["lifehack"]
 draft = false
 +++
