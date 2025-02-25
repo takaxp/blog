@@ -9,7 +9,7 @@ draft = false
 
 いつもの和風パスタに三種類のきのこを使いました。  
 
-{{< tweet user="takaxp" id="1161473722802290688" >}}  
+{{< x user="takaxp" id="1161473722802290688" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

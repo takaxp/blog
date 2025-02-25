@@ -8,7 +8,7 @@ draft = false
 
 今日の小松菜は、スペースパンにカットした小松菜と塩とオイルを入れて、魚焼きグリルで火を入れてみました。残念ながら、こまめに確認しないといけないし、どうしても葉の端っこが焦げやすく、ソースを不味くするのがわかりました。  
 
-{{< tweet user="takaxp" id="1117279870235504641" >}}  
+{{< x user="takaxp" id="1117279870235504641" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

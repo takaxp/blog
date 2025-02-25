@@ -9,7 +9,7 @@ draft = false
 
 少し前に和風のカルボナーラを食べ、美味しかったのでチャレンジしました。ただ、卵とチーズが強くて、和風の要素はほとんど感じられませんでした。工夫しないとだめですね。  
 
-{{< tweet user="takaxp" id="1162216576994594816" >}}  
+{{< x user="takaxp" id="1162216576994594816" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

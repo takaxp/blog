@@ -11,7 +11,7 @@ draft = false
 
 麺は細めで、グランフィーロ N.5 1.45mm です。  
 
-{{< tweet user="takaxp" id="1208588811262812161" >}}  
+{{< x user="takaxp" id="1208588811262812161" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

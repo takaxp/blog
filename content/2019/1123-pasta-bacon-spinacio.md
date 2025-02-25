@@ -9,7 +9,7 @@ draft = false
 
 ベーコンを使うとオイリニーになる傾向があるから気をつけないといけません。  
 
-{{< tweet user="takaxp" id="1198094747140624384" >}}  
+{{< x user="takaxp" id="1198094747140624384" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

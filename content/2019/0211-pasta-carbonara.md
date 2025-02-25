@@ -9,7 +9,7 @@ draft = false
 
 そろそろパンチェッタやベーコンではなくて、グアンチャーレを使ってみたい。  
 
-{{< tweet user="takaxp" id="1094811428114984961" >}}  
+{{< x user="takaxp" id="1094811428114984961" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

@@ -9,7 +9,7 @@ draft = false
 
 キッタラを使ったパスタを作りました。ちょっと具材がごちゃついてしまったのが反省点ですが、キッタラの歯ごたえがクセになりそうです。  
 
-{{< tweet user="takaxp" id="1292301906690285568" >}}  
+{{< x user="takaxp" id="1292301906690285568" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

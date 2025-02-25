@@ -9,7 +9,7 @@ draft = false
 
 塩味全開のパスタを作りました。プチトマトは少しの間、茹で汁にひたして温度を上げておきました。  
 
-{{< tweet user="takaxp" id="1691644367830921553" >}}  
+{{< x user="takaxp" id="1691644367830921553" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

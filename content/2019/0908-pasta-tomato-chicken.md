@@ -11,7 +11,7 @@ draft = false
 
 あとは、一度沸いたお湯を弱火で置いておき、再加熱してパスタを入れるときには、しっかりと温度が再上昇してからじゃないとダメ（茹で上がりにムラができる）という基礎的なことを学びました。2.2[mm]あるマンチーニだからなおさらです。  
 
-{{< tweet user="takaxp" id="1170560558791155712" >}}  
+{{< x user="takaxp" id="1170560558791155712" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

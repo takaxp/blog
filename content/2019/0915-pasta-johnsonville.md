@@ -10,7 +10,7 @@ draft = false
 
 ジョンソンヴィルをメインにパスタを作りました。薄めにカットしてゆっくりと加熱して、トマトと合わせました。ジョンソンヴィルは、脂たっぷりではなく、肉がしっかりしていて旨味も強いので調理しやすいです。少々お高いですけど。  
 
-{{< tweet user="takaxp" id="1173085871634993152" >}}  
+{{< x user="takaxp" id="1173085871634993152" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

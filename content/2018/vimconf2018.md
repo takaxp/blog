@@ -14,13 +14,13 @@ draft = false
 
 当初は登壇するつもりは全くなく、スパイよろしく潜伏する形で他宗派の会合に参加し、[今半の弁当](https://twitter.com/takaxp/status/1066169131660017664)を美味しくいただき、そして、ノベルティの Emacs 缶バッチを手に入れたらそそくさと退散する予定でした。  
 
-{{< tweet user="takaxp" id="1066134030444195842" >}}  
+{{< x user="takaxp" id="1066134030444195842" >}}  
 
 ところが、 Slack の [vim-jp](https://vim-jp.slack.com/) で戯れているうちに、折角の機会だし何か爪痕を残してくるのも悪くはないだろうと思い直し、ネタ的に LT 募集に応募したらまさかの accept だったというわけです。  
 
 LTの応募をしたときはもう頭がどうかしていて、すべて  [vim-jp](https://vim-jp.slack.com/) のコミュニティ力のせいですね。変な動画も出回っていて..。  
 
-{{< tweet user="takaxp" id="1047669110987837440" >}}  
+{{< x user="takaxp" id="1047669110987837440" >}}  
 
 あ、これを作ったのは[私](https://gist.github.com/takaxp/ba9d33a4fafff6c86f3da26498d05711)です。といっても mattn 氏の[投稿](https://twitter.com/mattn%5Fjp/status/1047071077556465664)に便乗しただけですけどね。  
 
@@ -67,7 +67,7 @@ LTの応募をしたときはもう頭がどうかしていて、すべて  [vim
 
 自分のLTはどうだったかと言えば、エセ Vimmer としてデモでもしようと思ったら、当日になって動かないというよくあるパターンに。  
 
-{{< tweet user="takaxp" id="1066214946214572032" >}}  
+{{< x user="takaxp" id="1066214946214572032" >}}  
 
 それでも、あれだけの沢山の聴講者の方々に、 [vim-orgmode](https://github.com/jceb/vim-orgmode) あるいは [Org Mode](https://orgmode.org/) をデリバーできたのは良かったなと。  
 
@@ -75,7 +75,7 @@ LTの応募をしたときはもう頭がどうかしていて、すべて  [vim
 
 他の登壇者の方から「抽象的でわからん」とのご批判も受けましたが、仮に具体的な話をしたら **3時間いただいても足りません** と言わざるを得ません :p  
 
-{{< tweet user="takaxp" id="1066237668676136960" >}}  
+{{< x user="takaxp" id="1066237668676136960" >}}  
 
 発表資料は、次のリンクからどうぞお持ちください。  
 
@@ -101,14 +101,14 @@ LTの応募をしたときはもう頭がどうかしていて、すべて  [vim
 
 なお、このブログも Org Mode（のエクスポータである [ox-hugo](https://ox-hugo.scripter.co/)）の恩恵です。  
 
-[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/archive.org#L1313)  
+[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/archive.org#L1274)  
 
 
 ## パスタ {#パスタ}
 
 ノベルティの[鮭とば](https://www.atware.co.jp/tobatware/)をパスタで食べたよ。旨々。  
 
-{{< tweet user="takaxp" id="1066540085917605888" >}}  
+{{< x user="takaxp" id="1066540085917605888" >}}  
 
 
 ## References {#references}

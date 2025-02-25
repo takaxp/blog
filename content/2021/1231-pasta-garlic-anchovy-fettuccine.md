@@ -9,7 +9,7 @@ draft = false
 
 ずいぶんと長い間パントリーに放置されていたフェットチーネを使ってトマトパスタを作りました。ホールトマト缶の使い方も随分と慣れたもので、旨みたっぷりトマトソースに仕上がりました。2021年最後の一皿として申し分ないです。  
 
-{{< tweet user="takaxp" id="1476755293648592902" >}}  
+{{< x user="takaxp" id="1476755293648592902" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

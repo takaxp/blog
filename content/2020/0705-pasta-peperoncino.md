@@ -9,9 +9,9 @@ draft = false
 
 コースの二皿目として作りました。ニンニクをブレンダーでソース化して使うという手法をチャレンジしましたが、翌日大変な事になりました。風味は良いですが強烈なので要注意です。  
 
-{{< tweet user="takaxp" id="1279726722045243392" >}}  
+{{< x user="takaxp" id="1279726722045243392" >}}  
 
-{{< tweet user="takaxp" id="1279773711042621440" >}}  
+{{< x user="takaxp" id="1279773711042621440" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

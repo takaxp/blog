@@ -9,7 +9,7 @@ draft = false
 
 今回は色んな具材を使ってパスタを作りました。ベースは和風ですが、ベーコン、トマト、バターとキーとなる食材が盛りだくさんです。まずいはずが無いですね。大葉の緑、しらすの白、トマトの赤でフラッグカラーになりました。  
 
-{{< tweet user="takaxp" id="1302084579805732870" >}}  
+{{< x user="takaxp" id="1302084579805732870" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

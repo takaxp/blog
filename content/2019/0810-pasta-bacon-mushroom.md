@@ -9,7 +9,7 @@ draft = false
 
 玉ねぎのみじん切りをベースにするしめじとベーコンのパスタです。玉ねぎ旨いです。  
 
-{{< tweet user="takaxp" id="1160034335296122880" >}}  
+{{< x user="takaxp" id="1160034335296122880" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

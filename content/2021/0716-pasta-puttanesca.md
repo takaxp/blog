@@ -9,7 +9,7 @@ draft = false
 
 久々にプッタネスカを作りました。トマトソースではなく完熟トマトを使ったので、心地よい酸味のヒトサラになりました。トマトの水分量と追オリーブオイルの量がぴったり合ったので、少しは腕を上げたかなと。  
 
-{{< tweet user="takaxp" id="1415980321133060097" >}}  
+{{< x user="takaxp" id="1415980321133060097" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

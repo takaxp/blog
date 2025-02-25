@@ -13,7 +13,7 @@ draft = false
 
 今回はこの教科書をちゃんと読んでから、自分の中ではハズレのない和風パスタに応用してみた。とても旨かった。  
 
-{{< tweet user="takaxp" id="1036104469098840064" >}}  
+{{< x user="takaxp" id="1036104469098840064" >}}  
 
 先日のトマトクリームパスタがいまいちだったので、シェフの教科書をよく読んでみると、生クリームの使い方にはいくつかのセオリーがあるようだ。教科書の `P.118` にある「生ハムとグリーンピース入りクリーム風味のフェットチーネ」のレシピから引用する。  
 
@@ -62,4 +62,4 @@ draft = false
 
 ごちそうさまでした。  
 
-[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/archive.org#L490)
+[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/archive.org#L468)

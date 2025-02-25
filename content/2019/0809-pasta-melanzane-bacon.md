@@ -8,7 +8,7 @@ draft = false
 
 茄子のパスタを作りました。ベーコンと梅干しも入れましたが、茄子と梅干しはあまり合わないかもしれません。それと、少々ソースが多めだった印象です。  
 
-{{< tweet user="takaxp" id="1159670195532652544" >}}  
+{{< x user="takaxp" id="1159670195532652544" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

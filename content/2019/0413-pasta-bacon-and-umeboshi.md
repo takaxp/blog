@@ -9,7 +9,7 @@ draft = false
 
 今日は唐辛子抜きで。  
 
-{{< tweet user="takaxp" id="1116916061100597249" >}}  
+{{< x user="takaxp" id="1116916061100597249" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

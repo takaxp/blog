@@ -11,7 +11,7 @@ draft = false
 
 ケイパーとカラスミも入れましたが、カラスミは無くて良さそうです。唐辛子も無くて良さそうで、つまり、ベーコン・トマト・ケイパーの組み合わせの相性が良いようです。また作ってみたいです。  
 
-{{< tweet user="takaxp" id="1168023014732001280" >}}  
+{{< x user="takaxp" id="1168023014732001280" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

@@ -15,7 +15,7 @@ draft = false
 
 麺はグランフィーロのリンギーネです。ソースが麺に沿うように口に入ってくるので、濃いめのトマトソースにピッタリです。  
 
-{{< tweet user="takaxp" id="1226342678238879745" >}}  
+{{< x user="takaxp" id="1226342678238879745" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

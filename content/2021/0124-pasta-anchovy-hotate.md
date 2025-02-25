@@ -9,7 +9,7 @@ draft = false
 
 ソースの量を増やす修行中です。弱火でも水分はどんどん飛ぶので、パスタの茹で上がりに合わせて希望の量のソースに仕上げるのは意外と難しいです。  
 
-{{< tweet user="takaxp" id="1353197575214489601" >}}  
+{{< x user="takaxp" id="1353197575214489601" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

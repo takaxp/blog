@@ -9,7 +9,7 @@ draft = false
 
 予定外にパスタを作ることになり冷蔵庫の余り物で対応しました。急いで作ったわりには旨いです。  
 
-{{< tweet user="takaxp" id="1232283765839319052" >}}  
+{{< x user="takaxp" id="1232283765839319052" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

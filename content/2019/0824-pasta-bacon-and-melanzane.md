@@ -9,9 +9,9 @@ draft = false
 
 初めてマンチーニを使いました。硬いのに柔らかいというしっかりした食感のパスタでとても美味しいですね。少々ブロンズダイスのパスタで、今回のは2.2[mm]もあります。私のような素人が使うにはもったいない高級品ですが、購入した1[kg]を楽しみたいと思います。  
 
-{{< tweet user="takaxp" id="1165115841332989952" >}}  
+{{< x user="takaxp" id="1165115841332989952" >}}  
 
-{{< tweet user="takaxp" id="1164860722737586177" >}}  
+{{< x user="takaxp" id="1164860722737586177" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

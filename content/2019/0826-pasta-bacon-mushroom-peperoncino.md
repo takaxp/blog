@@ -9,7 +9,7 @@ draft = false
 
 きのことベーコンで作るペペロンチーノはハズレません。  
 
-{{< tweet user="takaxp" id="1157492232217190400" >}}  
+{{< x user="takaxp" id="1157492232217190400" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

@@ -9,7 +9,7 @@ draft = false
 
 雑誌で紹介されていたパスタをアレンジして挑戦しました。かなりガッツンな味になるので、一人前100gは無理です。コース料理の一つとして少量出すそうで、なるほどです。  
 
-{{< tweet user="takaxp" id="1127422100732399616" >}}  
+{{< x user="takaxp" id="1127422100732399616" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

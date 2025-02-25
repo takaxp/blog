@@ -9,7 +9,7 @@ draft = false
 
 今回はベーコンを細かくカットしてみましたが、生姜の強さに負けてしまいました。このレシピは、生姜とチーズだけで完成している気がします。  
 
-{{< tweet user="takaxp" id="1421411339176538113" >}}  
+{{< x user="takaxp" id="1421411339176538113" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

@@ -9,7 +9,7 @@ draft = false
 
 新調した MacBook Air に Windows を入れて、Emacs を動かしました。Emacs は、MSYS2を使ってインストールしていて、意外と簡単に動かせますね。  
 
-{{< tweet user="takaxp" id="1249132163901075457" >}}  
+{{< x user="takaxp" id="1249132163901075457" >}}  
 
 
 ## References {#references}

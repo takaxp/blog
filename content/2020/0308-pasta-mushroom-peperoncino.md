@@ -13,7 +13,7 @@ draft = false
 
 ペペロンチーノ系で同じことをするにはどうするべきか、ちょっと工夫が必要ですね。茹で汁をうまいこと使えば良いかな。  
 
-{{< tweet user="takaxp" id="1236485507552391168" >}}  
+{{< x user="takaxp" id="1236485507552391168" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

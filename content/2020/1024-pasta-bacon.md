@@ -9,7 +9,7 @@ draft = false
 
 ベーコンを中心にした和風パスタを作りました。和風の良さがベーコンが覆い隠してしまった感じがします。  
 
-{{< tweet user="takaxp" id="1319833483150176256" >}}  
+{{< x user="takaxp" id="1319833483150176256" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

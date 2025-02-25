@@ -9,7 +9,7 @@ draft = false
 
 賞味期限が近づいている梅干しを使ってペペロンチーノを作りました。  
 
-{{< tweet user="takaxp" id="1114403788901629952" >}}  
+{{< x user="takaxp" id="1114403788901629952" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

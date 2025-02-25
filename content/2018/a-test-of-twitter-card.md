@@ -9,7 +9,7 @@ draft = false
 
 Twitter を組み込めるのかを試験します。  
 
-{{< tweet user="takaxp" id="1031404732470898689" >}}  
+{{< x user="takaxp" id="1031404732470898689" >}}  
 
 
 ## References {#references}

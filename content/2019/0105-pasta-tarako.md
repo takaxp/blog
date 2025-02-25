@@ -9,7 +9,7 @@ draft = false
 
 たらこのパスタ。明太子じゃなかった。  
 
-{{< tweet user="takaxp" id="1081423738631905285" >}}  
+{{< x user="takaxp" id="1081423738631905285" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

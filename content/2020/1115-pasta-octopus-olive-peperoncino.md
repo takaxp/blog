@@ -10,7 +10,7 @@ draft = false
 
 タコをメインにしたペペロンチーノを作りました。アクセントで生姜を使っています。ペペロンチーノで生姜を使うと和風と違いパンチが強くなるので、生姜は控えめのが良さそうです。  
 
-{{< tweet user="takaxp" id="1327824777512251392" >}}  
+{{< x user="takaxp" id="1327824777512251392" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

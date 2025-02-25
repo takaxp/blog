@@ -9,7 +9,7 @@ draft = false
 
 パンチェッタから出るオイルをベースにペペロンチーノを作りました。  
 
-{{< tweet user="takaxp" id="1144843006123507714" >}}  
+{{< x user="takaxp" id="1144843006123507714" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

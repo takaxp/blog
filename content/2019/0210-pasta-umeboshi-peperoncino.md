@@ -9,7 +9,7 @@ draft = false
 
 バランスの取れた完成度の高い一皿になりました。  
 
-{{< tweet user="takaxp" id="1094440012991496193" >}}  
+{{< x user="takaxp" id="1094440012991496193" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

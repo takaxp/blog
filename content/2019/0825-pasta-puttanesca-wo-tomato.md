@@ -9,7 +9,7 @@ draft = false
 
 トマト抜きのプッタネスカを作りました。トマトの甘味がないせいか、少々酸味が強すぎな印象ですが、2.2[mm]のマンチーニがとてもうまいです。  
 
-{{< tweet user="takaxp" id="1165481060848635904" >}}  
+{{< x user="takaxp" id="1165481060848635904" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

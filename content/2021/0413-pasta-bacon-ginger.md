@@ -9,7 +9,7 @@ draft = false
 
 定番になりつつある生姜のパスタです。1枚余っていたベーコンも入れてみました。生姜はすりおろすのが面倒になって、みじん切りにしましたが、シャキシャキ食感が残るので好みが分かれそうです。  
 
-{{< tweet user="takaxp" id="1381915606354518019" >}}  
+{{< x user="takaxp" id="1381915606354518019" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

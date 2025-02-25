@@ -9,7 +9,7 @@ draft = false
 
 スーパーで生クリームを探したら、以前は置かれていなかった100[ml]タイプが置かれていたので購入。早速、前回は納得がいかなかったトマトクリームに再挑戦。具材は魚貝が良さそうなので、ベビーホタテを採用。  
 
-{{< tweet user="takaxp" id="1034768304051642368" >}}  
+{{< x user="takaxp" id="1034768304051642368" >}}  
 
 にんにく、玉ねぎ、そして貝柱以外を細かく刻んでまずソテー。アンチョビを入れてオイルに馴染ませたら、トマトソースを入れて加熱、温度が安定したら貝柱を入れて、最後に生クリームを投入。黒胡椒を挽いて完成。  
 
@@ -19,4 +19,4 @@ draft = false
 
 ごちそうさまでした。  
 
-[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/archive.org#L467)
+[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/archive.org#L446)

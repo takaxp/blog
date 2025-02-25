@@ -9,7 +9,7 @@ draft = false
 
 パンチェッタとルーコラと組み合わせてボンゴレビアンコを作りました。なかなかうまくいきません。パンチェッタは塩味調整、ルーコラのカット方法、生姜の量などもっとよく考えないといけません。  
 
-{{< tweet user="takaxp" id="1130075824445509632" >}}  
+{{< x user="takaxp" id="1130075824445509632" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

@@ -9,7 +9,7 @@ draft = false
 
 ようやくバターに頼らず白ワインだけで美味しいボンゴレビアンコを作れるようになってきました。  
 
-{{< tweet user="takaxp" id="1317786064170315776" >}}  
+{{< x user="takaxp" id="1317786064170315776" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

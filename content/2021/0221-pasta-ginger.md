@@ -9,7 +9,7 @@ draft = false
 
 再び生姜のパスタを作ってみました。今回は玉ねぎを入れて旨味をサポート。ところがニンニクに火を入れすぎるミスをしたので、だいぶ香ばしい一皿になりました。  
 
-{{< tweet user="takaxp" id="1363326081726439424" >}}  
+{{< x user="takaxp" id="1363326081726439424" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

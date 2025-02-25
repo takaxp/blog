@@ -9,7 +9,7 @@ draft = false
 
 定番になりつつある、しらすとアンチョビのパスタ。ベビーホタテもいい感じ。  
 
-{{< tweet user="takaxp" id="1074166496765472768" >}}  
+{{< x user="takaxp" id="1074166496765472768" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

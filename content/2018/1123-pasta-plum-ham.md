@@ -9,7 +9,7 @@ draft = false
 
 梅干しがアクセントになってとても旨い。生ハムが無くても成立しそう。でも生ハムも旨い。  
 
-{{< tweet user="takaxp" id="1065912951318568965" >}}  
+{{< x user="takaxp" id="1065912951318568965" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

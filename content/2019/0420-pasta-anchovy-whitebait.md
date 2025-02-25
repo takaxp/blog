@@ -9,7 +9,7 @@ draft = false
 
 なかなか減らない梅干しと、鉄板レシピのアンチョビとしらすの組み合わせでパスタにしてみました。結果は大正解！旨かったです。梅干しが無いときにはケイパーを使うのが良さそうです。  
 
-{{< tweet user="takaxp" id="1119465183393357824" >}}  
+{{< x user="takaxp" id="1119465183393357824" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

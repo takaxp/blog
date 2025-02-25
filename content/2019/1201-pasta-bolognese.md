@@ -9,4 +9,4 @@ draft = false
 
 解凍して食べました。  
 
-{{< tweet user="takaxp" id="1201091759696052224" >}}
+{{< x user="takaxp" id="1201091759696052224" >}}

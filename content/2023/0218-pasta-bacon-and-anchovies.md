@@ -11,7 +11,7 @@ draft = false
 
 今回はベーコンとアンチョビという2つの塩味で味を付けてみました。やっぱり甘み要素が少ないので、玉ねぎの量を増やすとか、食材を工夫してみようと思います。  
 
-{{< tweet user="takaxp" id="1626897256233459712" >}}  
+{{< x user="takaxp" id="1626897256233459712" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

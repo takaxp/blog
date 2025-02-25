@@ -9,7 +9,7 @@ draft = false
 
 和風には何を足しても大丈夫な印象です。  
 
-{{< tweet user="takaxp" id="1454652955999674368" >}}  
+{{< x user="takaxp" id="1454652955999674368" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

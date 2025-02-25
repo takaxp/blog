@@ -9,7 +9,7 @@ draft = false
 
 生姜のパスタをいつもの和風で仕上げてみました。いい感じに仕上がりましたが、なにかキーとなる食材が必要な感じがしました。野菜かな。  
 
-{{< tweet user="takaxp" id="1382284751323635714" >}}  
+{{< x user="takaxp" id="1382284751323635714" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

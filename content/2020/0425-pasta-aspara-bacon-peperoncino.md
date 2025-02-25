@@ -9,7 +9,7 @@ draft = false
 
 アスパラを使ったパスタを作りました。アスパラはパスタの食材として相性がいいですね。  
 
-{{< tweet user="takaxp" id="1253881337095700481" >}}  
+{{< x user="takaxp" id="1253881337095700481" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

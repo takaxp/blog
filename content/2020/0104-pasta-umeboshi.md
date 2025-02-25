@@ -9,7 +9,7 @@ draft = false
 
 梅干しを使うパスタを和風パスタに応用してみました。イマイチでした。  
 
-{{< tweet user="takaxp" id="1213291019921326087" >}}  
+{{< x user="takaxp" id="1213291019921326087" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

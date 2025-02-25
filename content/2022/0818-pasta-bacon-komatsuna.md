@@ -10,7 +10,7 @@ draft = false
 
 だし汁を使ってペペロンチーノをしるしるパスタにしてみました。きっちりしたペペロンチーノも良いですが、これもまた悪くないですね。小松菜はカットを工夫したほうが良さそうです。  
 
-{{< tweet user="takaxp" id="1560227819866955776" >}}  
+{{< x user="takaxp" id="1560227819866955776" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

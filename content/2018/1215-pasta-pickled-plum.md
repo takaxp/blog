@@ -9,9 +9,9 @@ draft = false
 
 梅干しを中心にして冷蔵庫の余り物で一皿作りました。  
 
-{{< tweet user="takaxp" id="1073793373222232064" >}}  
+{{< x user="takaxp" id="1073793373222232064" >}}  
 
-{{< tweet user="takaxp" id="1073794304550699008" >}}  
+{{< x user="takaxp" id="1073794304550699008" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

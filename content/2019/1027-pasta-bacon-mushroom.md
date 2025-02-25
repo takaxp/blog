@@ -11,7 +11,7 @@ draft = false
 
 湯切りが甘くなったのは、右手を火傷したからです...今回は跡が残る気がしますが、勲章ですね。怪我の功名とはこのことか。  
 
-{{< tweet user="takaxp" id="1188297137848602624" >}}  
+{{< x user="takaxp" id="1188297137848602624" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

@@ -9,7 +9,7 @@ draft = false
 
 スーパーでたらこを見かけたのでパスタにしてみました。使用するたらこをケチるとたらこ感が少なくインパクトに欠ける仕上がりになりました。残念です。  
 
-{{< tweet user="takaxp" id="1231072862083010560" >}}  
+{{< x user="takaxp" id="1231072862083010560" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

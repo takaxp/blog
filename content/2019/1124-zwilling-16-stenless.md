@@ -14,8 +14,8 @@ draft = false
 
 {{< asin B07YDHML9W >}}  
 
-{{< tweet user="takaxp" id="1198451400541265920" >}}  
+{{< x user="takaxp" id="1198451400541265920" >}}  
 
 そして、我が家のフライパンコレクションに仲間入りです。  
 
-{{< tweet user="takaxp" id="1198551047804841986" >}}
+{{< x user="takaxp" id="1198551047804841986" >}}

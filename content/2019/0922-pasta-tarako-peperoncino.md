@@ -10,7 +10,7 @@ draft = false
 
 スーパーでたらこをみかけたのでパスタにしてみました。和風な味付けで作っても良さそうです。  
 
-{{< tweet user="takaxp" id="1175657548130578432" >}}  
+{{< x user="takaxp" id="1175657548130578432" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

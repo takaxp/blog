@@ -23,9 +23,9 @@ draft = false
 
 次回は厚切りベーコンを添えてみようと思います。少しでも本家に近づけるかな？  
 
-{{< tweet user="takaxp" id="1104603450224984064" >}}  
+{{< x user="takaxp" id="1104603450224984064" >}}  
 
-[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/archive.org#L2105)  
+[see Orgfile](https://github.com/takaxp/blog/blame/master/entries/archive.org#L2052)  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

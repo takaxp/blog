@@ -9,7 +9,7 @@ draft = false
 
 先日作ったパスタの改良作として、トマトを入れるレシピを試しました。結果的に、塩味の絶対量はしらすに由来しているようなので、調節するならしらすの分量に注目する方が良さそうです。  
 
-{{< tweet user="takaxp" id="1170180232394887168" >}}  
+{{< x user="takaxp" id="1170180232394887168" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

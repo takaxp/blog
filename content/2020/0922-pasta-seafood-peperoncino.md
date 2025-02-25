@@ -9,7 +9,7 @@ draft = false
 
 シーフードミックスは塩水で解凍すると良いという情報を得たので早速実践してみました。確かに旨味が残っていい感じです。ただイカはもう少し小さめにカットしてから使えば良かったと思います。  
 
-{{< tweet user="takaxp" id="1308260706140082178" >}}  
+{{< x user="takaxp" id="1308260706140082178" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

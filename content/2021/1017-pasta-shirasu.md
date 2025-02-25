@@ -9,7 +9,7 @@ draft = false
 
 鉄板の和風パスタを作りました。  
 
-{{< tweet user="takaxp" id="1449585861587206145" >}}  
+{{< x user="takaxp" id="1449585861587206145" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

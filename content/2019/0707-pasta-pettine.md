@@ -9,7 +9,7 @@ draft = false
 
 ホタテがメインのパスタです。1個はみじん切りにしてソースへ、もう1個はソテーしてまるごと乗せました。パスタの茹で始めを見誤り、トマトソースを十分に煮詰められなかったのが失敗です。  
 
-{{< tweet user="takaxp" id="1147720990224343040" >}}  
+{{< x user="takaxp" id="1147720990224343040" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

@@ -9,7 +9,7 @@ draft = false
 
 キノコバターソテーを想像しながらしめじとベーコンのパスタを作りました。ベーコンに頼らずもっとキノコを全面に出した作り方がありそうです。  
 
-{{< tweet user="takaxp" id="1264033269424590848" >}}  
+{{< x user="takaxp" id="1264033269424590848" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

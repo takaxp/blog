@@ -9,7 +9,7 @@ draft = false
 
 冷蔵庫の余りものでパスタを作りました。ベーコンは、前回、香りがきついと感じたものですが、今回は冷蔵庫でしばらく放置したからか香りが落ち着いていて、全体としてバランスの良い一皿になりました。  
 
-{{< tweet user="takaxp" id="1268018406688567296" >}}  
+{{< x user="takaxp" id="1268018406688567296" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

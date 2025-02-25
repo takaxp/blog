@@ -9,7 +9,7 @@ draft = false
 
 パック入りのホタテを使ってパスタを作りました。ちょっと中途半端な仕上がりになりました。旨味が中途半端です。  
 
-{{< tweet user="takaxp" id="1247830215562104833" >}}  
+{{< x user="takaxp" id="1247830215562104833" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

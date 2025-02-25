@@ -11,6 +11,6 @@ draft = false
 
 下処理等は、[シェフごはんの記事](https://chefgohan.gnavi.co.jp/detail/4962)を参考にしました。  
 
-{{< tweet user="takaxp" id="1132127884015915008" >}}  
+{{< x user="takaxp" id="1132127884015915008" >}}  
 
-{{< tweet user="takaxp" id="1132119853148528640" >}}
+{{< x user="takaxp" id="1132119853148528640" >}}

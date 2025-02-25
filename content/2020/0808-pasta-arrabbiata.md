@@ -9,7 +9,7 @@ draft = false
 
 ブカティーニを使ってアラビアータを作りました。前回はブカティーニの中に入る水分を考慮していなくて、モヤッとした仕上がりになりましたが、今回は反省を活かし、バランスの取れた仕上がりになりました。  
 
-{{< tweet user="takaxp" id="1291938323712192512" >}}  
+{{< x user="takaxp" id="1291938323712192512" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

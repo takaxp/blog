@@ -9,7 +9,7 @@ draft = false
 
 出張から帰国して最初のミッションは、冷凍庫にあったタコを美味しくいただくことでした。シンプルなのに旨いペペロンチーノにしました。  
 
-{{< tweet user="takaxp" id="1221384819235381250" >}}  
+{{< x user="takaxp" id="1221384819235381250" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

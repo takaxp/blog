@@ -9,7 +9,7 @@ draft = false
 
 久しぶりにベビーホタテが売られていたのでベーコンと合わせてパスタにしました。ちょっと味のバランスが悪いかなという印象です。  
 
-{{< tweet user="takaxp" id="1253279051113873408" >}}  
+{{< x user="takaxp" id="1253279051113873408" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

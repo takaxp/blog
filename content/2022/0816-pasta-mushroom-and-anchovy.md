@@ -11,7 +11,7 @@ draft = false
 
 アンチョビが運ぶ塩気をすっかり忘れて、比率的に茹で汁を多く使用した結果、かなり塩味が強い一皿になりましたが、食べすすめると悪くない感じでした。マッシュルームもいい感じで主張してくれました。  
 
-{{< tweet user="takaxp" id="1559498717732151298" >}}  
+{{< x user="takaxp" id="1559498717732151298" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

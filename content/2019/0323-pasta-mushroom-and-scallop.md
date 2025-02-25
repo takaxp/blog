@@ -21,7 +21,7 @@ draft = false
 
 梅干しは種を除いて、軽いペースト状になるように包丁で細かく切っておいて、麺の茹で上がり2分前程度のタイミングでアルミパンに入れてソースに混ぜ込みます。  
 
-{{< tweet user="takaxp" id="1109420620620558336" >}}  
+{{< x user="takaxp" id="1109420620620558336" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

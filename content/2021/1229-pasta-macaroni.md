@@ -9,7 +9,7 @@ draft = false
 
 実験用に残していたマカロニとトマト缶を年内消費したいと思い、トマトソースで一皿、作りました。シンプルですが、食べごたえがあって美味しいです。  
 
-{{< tweet user="takaxp" id="1476068741800939521" >}}  
+{{< x user="takaxp" id="1476068741800939521" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

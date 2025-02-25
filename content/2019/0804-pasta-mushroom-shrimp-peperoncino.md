@@ -9,7 +9,7 @@ draft = false
 
 別な料理で余らせた海老を使ってペペロンチーノを作りました。白ワインがなかったのでみりんを使いましたが、やはり白ワインのが合うように思います。あと海老はブロック状ではなく、さらに半分に割るべきだったかもしれません。  
 
-{{< tweet user="takaxp" id="1157857610399281157" >}}  
+{{< x user="takaxp" id="1157857610399281157" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

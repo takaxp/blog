@@ -9,7 +9,7 @@ draft = false
 
 これまた冷蔵庫で眠っていたオリーブとアンチョビを消費するためにペペロンチーノを作ってみました。普通に美味しいです。  
 
-{{< tweet user="takaxp" id="1476400844098912259" >}}  
+{{< x user="takaxp" id="1476400844098912259" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

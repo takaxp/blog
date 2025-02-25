@@ -9,7 +9,7 @@ draft = false
 
 ほうれん草とベーコンの定番パスタを作りました。慣れているので安心して作れます。  
 
-{{< tweet user="takaxp" id="1256423745293443072" >}}  
+{{< x user="takaxp" id="1256423745293443072" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

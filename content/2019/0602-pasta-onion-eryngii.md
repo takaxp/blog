@@ -9,7 +9,7 @@ draft = false
 
 パンチェッタをベースにエリンギと玉ねぎのパスタを作りました。エリンギは薄切りの方が良かったと思います。  
 
-{{< tweet user="takaxp" id="1135025693291454465" >}}  
+{{< x user="takaxp" id="1135025693291454465" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

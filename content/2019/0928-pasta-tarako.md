@@ -10,7 +10,7 @@ draft = false
 
 たらこのパスタを和風で作りました。折角のマンチーニでしたが、今回の場合は茹で汁0.8%では薄すぎたようで、ソースの塩味が勝ちすぎた印象です。  
 
-{{< tweet user="takaxp" id="1177781583937323008" >}}  
+{{< x user="takaxp" id="1177781583937323008" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

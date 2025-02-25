@@ -11,7 +11,7 @@ draft = false
 
 パスタの茹で具合が違うだけで、だいぶ印象かわるもので、今日は少し早めにお湯からだしたので、少し固め。濃厚なカルボナーラのソースと合わさるとお上品な感じになる。面白い。  
 
-{{< tweet user="takaxp" id="1049152528540028928" >}}  
+{{< x user="takaxp" id="1049152528540028928" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

@@ -9,7 +9,7 @@ draft = false
 
 ひさびさにアラビアータを作りました。もっとパンチがあっても良さそうです。  
 
-{{< tweet user="takaxp" id="1493532172527235077" >}}  
+{{< x user="takaxp" id="1493532172527235077" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

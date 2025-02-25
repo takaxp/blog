@@ -11,7 +11,7 @@ draft = false
 
 ショートパスタの方はレシピが固定的で、食材の組み合わせを試すことがあまりないので、新しい味を探して美味い・イマイチで一喜一憂するのはロングパスタですね。  
 
-{{< tweet user="takaxp" id="1814869592948547592" >}}  
+{{< x user="takaxp" id="1814869592948547592" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

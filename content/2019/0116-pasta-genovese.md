@@ -9,4 +9,4 @@ draft = false
 
 いつもの美味しい市販ソースで。  
 
-{{< tweet user="takaxp" id="1085507175143727104" >}}
+{{< x user="takaxp" id="1085507175143727104" >}}

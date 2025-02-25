@@ -9,7 +9,7 @@ draft = false
 
 最近スーパーで万願寺とうがらしをよく見るようになったので、ペペロンチーノにしてみました。もう少し細かく切った方が食べやすいかも。  
 
-{{< tweet user="takaxp" id="1410588426202542085" >}}  
+{{< x user="takaxp" id="1410588426202542085" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:
@@ -31,4 +31,4 @@ draft = false
 
 夜食にペペロンチーノを作りました。シンプルにベーコンをトッピング。これは太る。  
 
-{{< tweet user="takaxp" id="1410627213683089408" >}}
+{{< x user="takaxp" id="1410627213683089408" >}}

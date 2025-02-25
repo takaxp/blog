@@ -8,6 +8,6 @@ draft = false
 
 こんな感じで調理しています。  
 
-{{< tweet user="takaxp" id="1031028246769426433" >}}  
+{{< x user="takaxp" id="1031028246769426433" >}}  
 
-{{< tweet user="takaxp" id="1028952922116173825" >}}
+{{< x user="takaxp" id="1028952922116173825" >}}

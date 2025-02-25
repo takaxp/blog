@@ -9,7 +9,7 @@ draft = false
 
 さっと作りました。  
 
-{{< tweet user="takaxp" id="1216246468308135936" >}}  
+{{< x user="takaxp" id="1216246468308135936" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

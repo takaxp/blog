@@ -11,7 +11,7 @@ draft = false
 
 パスタの残量が中途半端だったので、ボイエロとタンマを半々で使いました。硬さに多少の違いがありましたけど、混ぜたらほぼ気づかない感じになりました。  
 
-{{< tweet user="takaxp" id="1099511166466809856" >}}  
+{{< x user="takaxp" id="1099511166466809856" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

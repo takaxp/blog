@@ -11,7 +11,7 @@ draft = false
 
 生姜は2-3cm程度で、半分を細かくすりおろし、残りはグレーターで繊維が残るようにしています。  
 
-{{< tweet user="takaxp" id="1360795161173762053" >}}  
+{{< x user="takaxp" id="1360795161173762053" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

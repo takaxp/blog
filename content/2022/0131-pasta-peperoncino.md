@@ -11,7 +11,7 @@ draft = false
 
 どうやら記録上、このヒトサラが200皿目だったようです。シンプルなペペロンチーノでも乳化で苦労することがなくなったのは、継続の成果ですね。  
 
-{{< tweet user="takaxp" id="1488000181279006720" >}}  
+{{< x user="takaxp" id="1488000181279006720" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

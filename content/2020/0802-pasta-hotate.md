@@ -9,7 +9,7 @@ draft = false
 
 安定の和風パスタを作りました。少々バターの量が多かったです。あとは、ホタテの厚みを半分くらいにカットする方が良いかもしれません。  
 
-{{< tweet user="takaxp" id="1289776312173727745" >}}  
+{{< x user="takaxp" id="1289776312173727745" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

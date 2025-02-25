@@ -11,7 +11,7 @@ draft = false
 
 いつもよりベーコンにジックリ火を通した結果、両面だけこんがりで中はやわらかい触感に仕上がりました。アルミパンでも焦げ付かずにちゃんと焼けるとわかりました。ポイントはオイルの量と火加減ですね。  
 
-{{< tweet user="takaxp" id="1357181064121176065" >}}  
+{{< x user="takaxp" id="1357181064121176065" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

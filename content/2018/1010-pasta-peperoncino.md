@@ -9,7 +9,7 @@ draft = false
 
 市販の厚切りベーコンを使ったペペロンチーノ。唐辛子は少なめ。旨すぎた。  
 
-{{< tweet user="takaxp" id="1049872913984364544" >}}  
+{{< x user="takaxp" id="1049872913984364544" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

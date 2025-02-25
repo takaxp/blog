@@ -9,7 +9,7 @@ draft = false
 
 ホタテと和風パスタは本当によく合います。  
 
-{{< tweet user="takaxp" id="1294473643062202368" >}}  
+{{< x user="takaxp" id="1294473643062202368" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

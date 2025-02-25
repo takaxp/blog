@@ -9,7 +9,7 @@ draft = false
 
 きのこラグーが続いたので、久々に和風ベースのパスタを作りました。  
 
-{{< tweet user="takaxp" id="1203268708556083201" >}}  
+{{< x user="takaxp" id="1203268708556083201" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

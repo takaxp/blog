@@ -9,7 +9,7 @@ draft = false
 
 卵を使っていないのでカルボナーラとは違うのですが、ベーコンと粉チーズでそれっぽい雰囲気になりました。その一方で生姜のおかげでがあっさりとした一皿になりました。  
 
-{{< tweet user="takaxp" id="1327457725463203840" >}}  
+{{< x user="takaxp" id="1327457725463203840" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

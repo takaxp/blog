@@ -9,11 +9,11 @@ draft = false
 
 久々にボロネーゼを作りました。完成度が高くとても美味しいです。  
 
-{{< tweet user="takaxp" id="1246654632639651840" >}}  
+{{< x user="takaxp" id="1246654632639651840" >}}  
 
 6皿目安で作っているけど、だいたい8皿分という感じです。  
 
-{{< tweet user="takaxp" id="1246658565206491136" >}}  
+{{< x user="takaxp" id="1246658565206491136" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

@@ -9,7 +9,7 @@ draft = false
 
 前回に続いてリンギーネを使って作りました。味はだいぶこなれてきた感じですが、どうもキノコ香りを活かしきれていないような。工夫が必要です。旨味の元にパンチェッタは、5%で塩漬けして2週間経過したものです。  
 
-{{< tweet user="takaxp" id="1230668430929321984" >}}  
+{{< x user="takaxp" id="1230668430929321984" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

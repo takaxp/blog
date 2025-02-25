@@ -9,7 +9,7 @@ draft = false
 
 梅干しとアンチョビを合わせる試み第二弾。今回はタンパク質としてホタテを採用。全体のバランスを調整すればなかなかの一皿になりそうです。  
 
-{{< tweet user="takaxp" id="1225981575168282624" >}}  
+{{< x user="takaxp" id="1225981575168282624" >}}  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:

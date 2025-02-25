@@ -17,7 +17,7 @@ draft = false
 libgccjit is present and functional on the system.  To disable native
 compilation, configure Emacs with the option:
 
-    ./configure --with-native-compilation=no
+./configure --with-native-compilation=no
 ```
 
 macOS用のインラインパッチ付きEmacsはどうしましょう...  
