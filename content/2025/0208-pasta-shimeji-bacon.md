@@ -11,8 +11,6 @@ draft = false
 
 {{< x user="takaxp" id="1888079998319476939" >}}  
 
-{{< tweet user="takaxp" id="1888079998319476939" >}}  
-
 <div class="table-caption">
   <span class="table-number">Table 1</span>:
   レシピ（材料・二皿分）
