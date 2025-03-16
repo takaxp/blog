@@ -2,6 +2,7 @@
 title = "ミラーレスカメラ"
 author = ["Takaaki ISHIKAWA"]
 date = 2021-04-02T17:44:00+09:00
+lastmod = 2025-02-25T20:25:00+09:00
 tags = ["photo", "EOS", "M200"]
 categories = ["photo"]
 draft = false
@@ -18,16 +19,16 @@ draft = false
   M200ダブルレンズキット
 </div>
 
-|       | 製品名                                                                                                      | 色   |
-|-------|----------------------------------------------------------------------------------------------------------|-----|
-| 本体  | [Canon EOS M200](https://cweb.canon.jp/eos/lineup/m200/spec.html)                                           | ホワイト |
-| Lens1 | [Canon EF–M22mm F2 STM](https://cweb.canon.jp/ef/lineup/ef-m/ef-m22-f2stm/spec.html)                        | シルバー |
-| Lens2 | [Canon EF-M15-45mm F3.5-6.3 IS STM](https://cweb.canon.jp/ef/lineup/ef-m/ef-m15-45-f35-63-is-stm/spec.html) | シルバー |
+|       | 製品名                                                                                   | 色   |            |
+|-------|---------------------------------------------------------------------------------------|-----|------------|
+| 本体  | [Canon EOS M200](https://global.canon/ja/c-museum/product/dslr888.html)                  | ホワイト | 2019年10月発売 |
+| Lens1 | [Canon EF–M22mm F2 STM](https://global.canon/ja/c-museum/product/ef423.html)             | シルバー | 2012年9月発売 |
+| Lens2 | [Canon EF-M15-45mm F3.5-6.3 IS STM](https://global.canon/ja/c-museum/product/ef453.html) | シルバー | 2015年10月発売 |
 
 EOS M200は、キヤノンのミラーレスカメラのラインナップの中ではエントリーモデルに位置づけられています。上位機種にはEVF（電子ファインダー）が付いていたりするので、正直なところエントリーよりも少し上のグレードが欲しいところですが、店頭で実機を触ってみた感じでは、今のところEVFがなくてもそれほど違和感は無くて、むしろM200の軽量でシンプルなボディが魅力的に感じました。最終的に「ファインダー経由でちゃんとした画作りを」というよりは「とにかく持ち出してバンバン撮ろう！」と思わせてくれました。  
 
 M200の製品イメージは、スペシャルサイトのコンテンツで簡単につかめると思います。女性向けですね。  
-<https://cweb.canon.jp/eos/special/m200/>  
+[https://cweb.canon.jp/eos/special/m200/](https://web.archive.org/web/20230204111526/https://cweb.canon.jp/eos/special/m200/) (アーカイブなので表示に時間がかかります)  
 
 軽量コンパクトが特徴ですから、普段からなるべく持ち歩きたい、でもあまり粗雑に扱いたくもない、というところで、交換レンズも含めて簡単に持ち出せて、かつ、丈夫で長持ち使いやすいというわがままを満たしてくれる専用バッグも入手しました。ALPAKA製 [Go Sling Pro](https://tyomac.com/GoSlingPro/)です。本体と交換レンズが2本入り（本体に付ける1本を含めてレンズは3本!）、財布と携帯を入れてぴったりな感じです。  
 

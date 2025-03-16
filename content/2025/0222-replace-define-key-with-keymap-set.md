@@ -7,7 +7,7 @@ categories = ["emacs"]
 draft = false
 +++
 
-Emacs 29.1からキーバインドの設定には `define-key` ではなく `keymap-set` を使うように変更(推奨)されています。[自分の設定](https://takaxp.github.io/init.html)も変更してみました。(see [What’s New in Emacs 29.1?](https://www.masteringemacs.org/article/whats-new-in-emacs-29-1))
+Emacs 29.1からキーバインドの設定には `define-key` ではなく `keymap-set` を使うように変更(推奨)されています。[自分の設定](https://takaxp.github.io/init.html)も変更してみました。(see [What’s New in Emacs 29.1?](https://www.masteringemacs.org/article/whats-new-in-emacs-29-1))  
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:
@@ -28,9 +28,9 @@ Emacs 29.1からキーバインドの設定には `define-key` ではなく `key
 | locak-key-binding         | keymap-local-lookup  |
 | global-key-binding        | keymap-global-lookup |
 
-これまで kbd を挟んでいましたが、単純な置き換えではうまく行かないパターンもあったので、 `SPC` などの指定は、 `"SPC"`, `"RET"`, `"<tab>"`, `"S-<tab>"`, `"<delete>"` を kbd を挟まずに指定することでうまくいきました。
+これまで kbd を挟んでいましたが、単純な置き換えではうまく行かないパターンもあったので、 `SPC` などの指定は、 `"SPC"`, `"RET"`, `"<tab>"`, `"S-<tab>"`, `"<delete>"` を kbd を挟まずに指定することでうまくいきました。  
 
-例えばこんな設定になります。
+例えばこんな設定になります。  
 
 ```emacs-lisp
 ;; (global-set-key (kbd "M-v") 'yank)

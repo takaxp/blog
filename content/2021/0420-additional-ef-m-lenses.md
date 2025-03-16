@@ -2,6 +2,7 @@
 title = "レンズを2本追加しました"
 author = ["Takaaki ISHIKAWA"]
 date = 2021-04-20T19:34:00+09:00
+lastmod = 2025-02-25T20:30:00+09:00
 tags = ["photo", "M200"]
 categories = ["photo"]
 draft = false
@@ -13,8 +14,8 @@ draft = false
 
 {{< x user="takaxp" id="1370687471340511232" >}}  
 
--   [EF-M55-200mm F4.5-6.3 IS STM](https://cweb.canon.jp/ef/lineup/ef-m/ef-m55-200-f45-63-is-stm/)
--   [EF-M28mm F3.5 マクロ IS STM](https://cweb.canon.jp/ef/lineup/ef-m/ef-m28-f35-is-stm/)
+-   [Canon EF-M55-200mm F4.5-6.3 IS STM](https://global.canon/ja/c-museum/product/ef433.html) (2014年7月発売)
+-   [Canon EF-M28mm F3.5 マクロ IS STM](https://global.canon/ja/c-museum/product/ef456.html) (2016年6月発売)
 
 オンラインショップで発注した時点では納期が一ヶ月以上かかるという状況でしたが、いざ注文してみたら数日で手元に配達されました（笑  
 

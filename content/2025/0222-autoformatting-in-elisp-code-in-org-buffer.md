@@ -7,26 +7,26 @@ categories = ["emacs"]
 draft = false
 +++
 
-2025年にもなってタブスペースで悩むという貴重な体験をしましたが、無事に好みの設定にできました。
+2025年にもなってタブスペースで悩むという貴重な体験をしましたが、無事に好みの設定にできました。  
 
-まず、普段編集する emacs-lisp-mode のファイルですが、他人様のファイルで特に指定のない状態ではインデントがタブ8で書かれていることも多いです。これは単純に `tab-width` のデフォルト値が `8` だけという理由だと思いますが、emacs-lisp-mode のファイルを編集するだけならなんら問題ないです。
+まず、普段編集する emacs-lisp-mode のファイルですが、他人様のファイルで特に指定のない状態ではインデントがタブ8で書かれていることも多いです。これは単純に `tab-width` のデフォルト値が `8` だけという理由だと思いますが、emacs-lisp-mode のファイルを編集するだけならなんら問題ないです。  
 
-問題なのは、 org バッファ内の emacs lisp コードです。私は普段は、インデントはスペース2で統一しているので、org バッファ内の emacs lisp コードを `org-edit-special (C-c ')` を呼び、専用バッファを emacs-lisp-mode で編集してから org バッファに戻ってくると、レイアウトが壊れることになります。タブで表現された箇所が幅8から幅2に縮むためですね。
+問題なのは、 org バッファ内の emacs lisp コードです。私は普段は、インデントはスペース2で統一しているので、org バッファ内の emacs lisp コードを `org-edit-special (C-c ')` を呼び、専用バッファを emacs-lisp-mode で編集してから org バッファに戻ってくると、レイアウトが壊れることになります。タブで表現された箇所が幅8から幅2に縮むためですね。  
 
-解決策は、org バッファに戻る時に、タブ8をスペース2に変換してしまう、というシンプルなもので、次のようにしてみました。これで普段の見た目も維持され、さらにGitHubに配置するファイルの表示や、エクスポートしたHTMLファイルのレイアウトも崩れなくなりました。
+解決策は、org バッファに戻る時に、タブ8をスペース2に変換してしまう、というシンプルなもので、次のようにしてみました。これで普段の見た目も維持され、さらにGitHubに配置するファイルの表示や、エクスポートしたHTMLファイルのレイアウトも崩れなくなりました。  
 
 ```emacs-lisp
 (with-eval-after-load "org-src"
   ;; tab-width=8, indent-tabs-mode=t
-  (advice-add 'org-edit-special :after #'my-format-emacs-lisp-buffer)
+  (advice-add 'org-edit-special :after #'my--format-emacs-lisp-buffer)
   ;; tab-width=2, indent-tabs-mode=nil
-  (advice-add 'org-edit-src-abort :before #'my-format-emacs-lisp-for-org-buffer)
-  (advice-add 'org-edit-src-exit :before #'my-format-emacs-lisp-for-org-buffer))
+  (advice-add 'org-edit-src-abort :before #'my--format-emacs-lisp-for-org-buffer)
+  (advice-add 'org-edit-src-exit :before #'my--format-emacs-lisp-for-org-buffer))
 ```
 
 ```emacs-lisp
 ;;;###autoload
-(defun my-format-emacs-lisp-buffer ()
+(defun my--format-emacs-lisp-buffer ()
   (interactive)
   (when (eq major-mode 'emacs-lisp-mode)
     (my-emacs-lisp-mode-conf)
@@ -38,7 +38,7 @@ draft = false
         (indent-region (point-min) (point-max))))))
 
 ;;;###autoload
-(defun my-format-emacs-lisp-for-org-buffer ()
+(defun my--format-emacs-lisp-for-org-buffer ()
   (interactive)
   (when (eq major-mode 'emacs-lisp-mode)
     (setq-local indent-tabs-mode nil)

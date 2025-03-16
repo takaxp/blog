@@ -10,6 +10,8 @@ draft = false
 
 5本目となるEF-Mレンズを手に入れました。EF-MシリーズでのLレンズ相当と評判の EF-M32mm F1.4 STM です。  
 
+-   [Canon EF-M32mm F1.4 STM](https://global.canon/ja/c-museum/product/ef470.html) (2018年9月発売)
+
 {{< x user="takaxp" id="1613013188160946177" >}}  
 
 注）この記事を書いているのは購入からほぼ2年経ってからのタイミングですが、この2年の間、主力レンズとして活躍してくれました。  

@@ -76,6 +76,8 @@ Enjoy!
          ":"))
 ```
 
+`13`, `aarch64`, `darwin23` の部分は、環境に合わせて修正が必要な場合があります。  
+
 
 ## reference {#reference}
 
