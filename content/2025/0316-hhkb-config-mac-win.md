@@ -1,5 +1,5 @@
 +++
-title = "macOSとWindowsで操作感を揃えたHHKBの設定"
+title = "macとwinで操作感を揃えたHHKBの設定"
 author = ["Takaaki ISHIKAWA"]
 date = 2025-03-16T12:03:00+09:00
 tags = ["HHKB", "emacs"]
@@ -9,38 +9,38 @@ draft = false
 
 Emacsでの作業効率を維持しつつ、HHKBを macOSと Windowsの両方で使うための自分なりの設定です。  
 
-私は、2022年からHHKBを使い始めた若輩者で、さすがに macOS と Windows の両方で使うのは厳しかったので、macOS 用には [HHKB Professional HYBRID Type-S](https://happyhackingkb.com/jp/products/hybrid%5Ftypes/)を使い、Windows 用には、[ProgresTouch RETRO TINY](https://pxaka.tokyo/blog/2020/1116-progrestouch-retro-tiny/)を使ってきました。macOS用の一つ前は、純正のMagic Keyboardです。当然ながら昔も今も USキーボードです。  
+私は 2022年からHHKBを使い始めた若輩者で、さすがに macOS と Windows の両方でHHKBを使うのは厳しかったので、macOS 用には [HHKB Professional HYBRID Type-S](https://happyhackingkb.com/jp/products/hybrid%5Ftypes/)を使い、Windows 用には、[ProgresTouch RETRO TINY](https://pxaka.tokyo/blog/2020/1116-progrestouch-retro-tiny/)を使ってきました。macOS用の一つ前は、純正のMagic Keyboardです。当然ながら昔も今も USキーボードです。  
 
-それで先日、ProgresTouch RETRO TINY の `↑` キーがお亡くなりになってしまい、これはとうとう HHKB を macOS/Windows で透過的に使う段階に入ったか、と腹を括り、macOS/Windowsで操作感を変えずに透過的に使えるように設定を見直してみました。  
+それで先日、ProgresTouch RETRO TINY の `↑` キーがお亡くなりになってしまい、これはとうとう HHKB を macOS/Windows で透過的に使う段階に入ったか、と腹を括り、macOS/Windowsのどちらでも同じ操作感で使えるように設定を見直してみました。  
 
 納得のいく設定が一度決まればなんのことはない、とても快適です。幸か不幸か、机の上にキーボードが2つ並ぶ生活からおさらばできました。ただ、マウスはまだ2つある...  
 
 
 ## DIPスイッチ {#dipスイッチ}
 
-次のように設定します。  `◇` は、Macではコマンドキーで、WindowsではWindowsキーのことです。  
+次のように設定します。  `◇` は、Macではコマンドキーで、WindowsではWindowsキーに対応します。  
 
-| SW   | Status | note                        |
-|------|--------|-----------------------------|
-| SW 3 | ON     | `delete` 押下で `BackSpace` 入力 |
-| SW 4 | ON     | `左◇` を `Fn` に置換する    |
-| SW 5 | ON     | `Opt/Alt` と `◇` を交換する |
-| SW 6 | ON     | Power Saving しない         |
+| Switch | Status | Note                        |
+|--------|--------|-----------------------------|
+| SW 3   | ON     | `delete` 押下で `BackSpace` 入力 |
+| SW 4   | ON     | `左◇` を `Fn` に置換する    |
+| SW 5   | ON     | `Opt/Alt` と `◇` を交換する |
+| SW 6   | ON     | Power Saving しない         |
 
 -   SW 3 は、macOSだと無効とされるが、もともと `BS` 入力になっている。
--   SW 4 有効で、キーボードの左下に `Fn` が来るので、左手のみで `F1` などを押下可能になる  
-    -   上下左右の矢印は `右Fn` を使い、スピーカのボリューム変更などは、 `左Fn` を使う。
--   SW 5 で `Alt` と `◇` を交換することで、  
+-   SW 4 の有効化でキーボードの左下に `Fn` が来るので、左手のみで `F1` などを押下可能になる  
+    -   矢印(上下左右)は `右Fn` を使い、スピーカのボリューム変更などは、 `左Fn` を使う。それぞれ左手と右手で操作が完結する
+-   SW 5 で `Opt/Alt` と `◇` を交換することで、  
     -   Windowsモードにて、スペースキーの左横キー押下が `Windows` キー押下ではなく、 `Alt` キー押下になる
     -   macOSモードにて、スペースキーの左横キー押下が `Alt` 押下になる（ただし、次の macOSモードのキーマップ設定で、コマンドキーに戻します）
--   SW 6 は、スリープ状態にさせない。HHKBに休みは不要。
+-   SW 6 は、スリープの無効化。HHKBに休みは不要。
 
 
 ## キーマップ変更 {#キーマップ変更}
 
 HHKBをUSBケーブルで接続し、 `Fn+Ctrl+0` 押下後に専用ツールを使うことでキーマップを変更できます。なお、 `Fn+Ctrl+0` 押下は、同時押しではなく、 `Fn`, `Ctrl`, `0` を順番に押し続けることで正しく効力を持ちます。同時押しだと効かないと思ってOKです。  
 
-Mac を使う時には、下記のmacOSモードを、Windowsを使う時には、下記のWindowsモードを適用して使います。各設定は、モードごとに記録されます。  
+Mac を使う時には下記のmacOSモードを、Windowsを使う時には下記のWindowsモードを適用して使います。各設定は、モードごとに本体内に記録されます。  
 
 1.  Mac で HHKB を使う時  
     -   `Fn+Ctrl+1` で Mac に無線接続
@@ -58,14 +58,14 @@ SW 1(OFF), SW 2(ON) の状態で、USBケーブルを接続して HHKBの電源�
 
 キーマップ変更を使って、Mac用にカスタマイズします。  
 
-1.  `Opt/Alt` を、 `右◇` に置換する
-2.  `Opt/Alt(R)` と `右◇` を交換する
+1.  `Opt/Alt(R)` と `右◇` を交換する
+2.  `Opt/Alt` を、 `右◇` に置換する
 3.  `Esc` と `` `/~ `` を交換する
 4.  `POW` (Fn+Esc)を `Esc` に置換する
 
 {{< x user="takaxp" id="1901112826355155014" >}}  
 
-以上の4つの変更で、次のような入力状態になります。  
+以上の4つの変更で、次のような状態になります。  
 
 -   キーボード右下に `Opt/Alt(R)` が配置される
 -   スペースキーの左右に、コマンドキーが配置される。
@@ -89,7 +89,7 @@ SW 1(ON), SW 2(OFF) の状態で、USBケーブルを接続して HHKBの電源�
 
 キーマップ変更を使って、Windwos用にカスタマイズします。  
 
-1.  `Esc` と `~` を交換する
+1.  `Esc` と `` `/~ `` を交換する
 
 Windowsモードでは、上記の設定だけで十分です。  
 

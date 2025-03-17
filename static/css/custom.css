@@ -80,7 +80,8 @@
 
 .post__social .hatena,
 .post__social .twitter,
-.post__social .pockets{
+.post__social .pockets,
+.post__social .bluesky{
 	float: right;
   vertical-align: top;
 	margin: 0px;
