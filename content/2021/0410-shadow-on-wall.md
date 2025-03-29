@@ -8,4 +8,4 @@ categories = ["photo"]
 draft = false
 +++
 
-{{< photo AJgGq68ATmYM76P >}}
+{{< photo oGLP63WCstBwxD7 >}}
