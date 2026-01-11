@@ -19,6 +19,6 @@ draft = false
 
 ページに読み込んでくる画像は、Nextcloud側で public link を生成している画像で、標準で発行されるリンクではなく、解像度を下げたサムネイルを取得可能なリンクを使っています。各画像をクリックすると、Nextcloudの高解像度画像を見られます。  
 
-{{< photo iAFKoxY3TxPzk2dc >}}  
+{{< photo AFKoxY3TxPzk2dc >}}  
 
 一応レスポンシブ対応しています。
